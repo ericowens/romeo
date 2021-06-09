@@ -6,8 +6,37 @@
   src: url("/P22Underground-Light.otf") format("opentype");
 }
 
-h3{
+@font-face {
+  font-family: P22Underground-book;
+  font-weight: light;
+  src: url("/P22Underground-Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: P22Underground-ltp;
+  font-weight: light;
+  src: url("/P22Underground-LtP.otf") format("opentype");
+}
+
+@font-face {
+  font-family: P22Underground-thin;
+  font-weight: light;
+  src: url("/P22Underground-Thin.otf") format("opentype");
+}
+
+@font-face {
+  font-family: P22Underground-thp;
+  font-weight: light;
+  src: url("/P22Underground-ThP.otf") format("opentype");
+}
+
+h3,p{
   font-family: 'P22Underground-light';
+  color:#3D3D3D;
+}
+
+p{
+ 
 }
 
 
@@ -106,7 +135,7 @@ nav ul ul ul li{
   top: -60px;
   left: 150px;
 }
-.show,.icon,input{
+nav .show,nav .icon,nav input{
   display: none;
 }
 .fa-plus{
@@ -114,9 +143,11 @@ nav ul ul ul li{
   margin-left: 40px;
 }
 @media all and (max-width: 968px) {
+  nav{background-color: #042F31;}
   nav ul{
     margin-right: 0px;
     float: left;
+   
   }
   nav .logo{
     padding-left: 30px;
@@ -135,9 +166,9 @@ nav ul ul ul li{
   .show{
     display: block;
     color: white;
-    font-size: 18px;
-    padding: 0 20px;
-    line-height: 70px;
+    font-size: 14px;
+    padding: 0 15px;
+    line-height: 50px;
     cursor: pointer;
   }
   .show:hover{
@@ -186,9 +217,10 @@ nav ul ul ul li{
 
 #hero {
   padding: 50vh 0;
-  background: #123 url(//unsplash.it/900);
+  background-image:url(/HM_Slide1.jpg);
   background-size: cover;
   background-blend-mode: multiply;
   color: white;
   text-align: center;
 }
+
