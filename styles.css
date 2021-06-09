@@ -163,7 +163,7 @@ nav .show,nav .icon,nav input{
   nav ul li a:hover{
     box-shadow: none;
   }
-  .show{
+  nav .show{
     display: block;
     color: white;
     font-size: 14px;
@@ -174,7 +174,7 @@ nav .show,nav .icon,nav input{
   .show:hover{
     color:white;
   }
-  .icon{
+  nav .icon{
     display: block;
     color: white;
     position: absolute;
