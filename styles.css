@@ -35,8 +35,14 @@ h3,p{
   color:#3D3D3D;
 }
 
-p{
- 
+h3{
+  border-bottom: 2px solid #4F7A32;
+}
+
+nav *{
+  font-family: 'P22Underground-thp';
+  
+  font-weight: bold;
 }
 
 
@@ -68,8 +74,9 @@ nav .logo{
   color: white;
   font-size: 27px;
   font-weight: 600;
-  line-height: 50px;
+  line-height: 70px;
   padding-left: 60px;
+  cursor: pointer;
 }
 nav ul{
   float: right;
@@ -85,9 +92,10 @@ nav ul li{
 }
 nav ul li a{
   color: white;
-  line-height: 50px;
+  line-height: 70px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
   padding: 8px 15px;
 }
 nav ul li li a{
@@ -129,6 +137,7 @@ nav ul ul li{
 }
 nav ul ul li a{
   line-height: 30px;
+  font-size: 12px;
 }
 nav ul ul ul li{
   position: relative;
@@ -222,5 +231,14 @@ nav .show,nav .icon,nav input{
   background-blend-mode: multiply;
   color: white;
   text-align: center;
+}
+
+#banner {
+  
+   background: url('/powerBADGE.png') , #EBE4D5;  
+   background-position: right bottom;
+   background-repeat: no-repeat;
+   background-size: contain;
+
 }
 

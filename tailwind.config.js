@@ -4,6 +4,14 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      borderColor: theme => ({
+        ...theme('colors'),
+         DEFAULT: theme('colors.gray.300', 'currentColor'),
+        'accent': '#4F7A32',
+        'light': '#f4f4f4',
+        'medium': '#EBE4D5',
+        'darkcolor': '#3D3D3D'
+       }),
       backgroundColor: theme => ({
         ...theme('colors'),
         'accent': '#4F7A32',

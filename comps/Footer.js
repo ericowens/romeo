@@ -1,29 +1,28 @@
-const Navbar = () => {
+import Link from 'next/link'
+
+const Footer = () => {
     return (
-        <nav>
-             <div className="logo">CodingNepal</div>
-             <label htmlFor="btn" className="icon">
-                Menu
-            </label>
-            <input type="checkbox" id="btn"></input>
-            <ul>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Technology</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Media</a></li>
-            <li>
-          <label htmlFor="btn-1" className="show">Investors</label>
-          <a href="#">Investors</a>
-          <input type="checkbox" id="btn-1"></input>
-          <ul>
-            <li><a href="#">Pages 1</a></li>
-            <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 3</a></li>
-          </ul>
-           </li>
-            </ul>
-        </nav>
+      <section className="flex justify-center bg-accent ">
+      <div className="flex flex-col flex-wrap flex-1 md:flex-row m-3 space-x-4 ">
+      <div className="flex-1 text-white font-P22Underground-light text-sm leading-10  ">
+        <img src="/POWERBUTTONLOGO_WHITERGB.png" width="50"></img>
+      </div> 
+      <div className="flex-1 text-white font-P22Underground-light text-sm leading-10">
+      © 2021 Romeo Power, Inc. All Rights Reserved.
+      </div>
+      <div className="flex-1 text-white font-P22Underground-light text-sm leading-10">
+      <Link href="/privacy_policy">Privacy Policy</Link>
+      </div>
+      <div className="flex-1 text-white font-P22Underground-light text-sm leading-10">
+      <Link href="/terms">Terms of Service</Link>
+      </div>
+      <div className="flex-1 text-white font-P22Underground-light text-sm leading-10">
+      <Link href="/social_media_guidelines">Social Media Community Guidelines</Link>
+      </div>
+     
+      </div>
+      </section>
     );
 }
 
-export default Navbar; 
+export default Footer; 
