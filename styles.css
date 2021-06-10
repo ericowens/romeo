@@ -227,12 +227,44 @@ nav .show,nav .icon,nav input{
 
 
 #hero {
-  padding: 50vh 0;
-  background-image:url(/HM_Slide1.jpg);
+  height: 100vh;
+  width: auto;
+  
   background-size: cover;
   background-blend-mode: multiply;
   color: white;
   text-align: center;
+}
+
+.small-hero {
+  min-height: 70vh;
+  /* width: auto; */
+
+  
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: white;
+  text-align: center;
+}
+
+#hero.hero-home {
+  background-image:url(/HM_Slide1.jpg);
+  
+}
+
+#hero.hero-products {
+  background-image:url(/PRODUCTHeader.jpg);
+  
+}
+
+.small-hero.small-hero-hermes {
+  background-image:url(/PRODUCTHeader.jpg);
+  
+}
+
+.small-hero.small-hero-orion {
+  background-image:url(/Image2.jpg);
+  
 }
 
 #banner {
@@ -241,6 +273,13 @@ nav .show,nav .icon,nav input{
    background-repeat: no-repeat;
    background-size: contain;
 
+}
+
+.bannerul{
+  padding-left: 3rem;
+}
+.bannerul li{
+  padding-bottom: 0.5rem;
 }
 
 #banner *{
@@ -264,4 +303,5 @@ nav .show,nav .icon,nav input{
   line-height: 50px;
   font-size: 0.85rem;
 }
+
 

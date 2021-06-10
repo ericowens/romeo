@@ -15,6 +15,7 @@ module.exports = {
       backgroundColor: theme => ({
         ...theme('colors'),
         'accent': '#4F7A32',
+        'darkaccent': '#002b2d',
         'light': '#f4f4f4',
         'medium': '#EBE4D5',
         'darkcolor': '#3D3D3D'

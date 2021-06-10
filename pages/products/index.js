@@ -23,30 +23,181 @@ export default function Home() {
 
       <Navbar/>
 
-      <section id="hero" >
-      <section className="flex justify-center">
-        <div className="flex max-w-screen-lg  flex-wrap flex-1">
-          <div className="justify-start  ">
-              <h1 className="font-P22Underground-thp text-7xl font-bold">Power Inspired by Nature.</h1>
-              <Link href="/contact">
-              <button className="bg-accent  float-left py-4 px-14 my-14">Contact</button> 
-              </Link>
-                
+      <section id="hero" className="hero-products flex justify-center items-start" >
+      <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
+        <div className=" max-w-screen-lg  ">
+          <div className="">
+              <h1 className="font-P22Underground-thp text-7xl font-bold">Products</h1>
+              
             </div>
         </div>
         </section>
         
       </section>
 
-      <section className="flex justify-center bg-medium py-16">
-        <div className="flex max-w-screen-lg  flex-wrap flex-1">
-          <div className="flex-1">
-            <h2 className="text-left text-darkcolor underline font-P22Underground-thp text-4xl font-bold ">BASE</h2>
+
+      <section className="flex bg-accent justify-center py-16">
+
+        <div className=" flex justify-center align-center content-center  flex-col max-w-screen-lg   ">
+          
+            <h2 className=" text-center   flex-1 text-white  font-P22Underground-thp text-5xl font-bold ">
+              Moving People and Things Emission Free
+              </h2>
+              <p className=" text-center text-white flex-1 font-P22Underground-thin text-lg py-4">Our customers are becoming environmentally responsible and reducing operating costs in a variety of markets.</p>
             
-          </div>
+              <ul className=" table flex-1 py-4 ">
+              <li className="table-cell " ><img className="align-bottom" src="/Group 72.png"></img></li>
+                <li className="table-cell" ><img className="align-bottom" src="/Group 68.png"></img></li>
+                <li className="table-cell" ><img className="align-bottom" src="/Group 71.png"></img></li>
+                <li className="table-cell" ><img className="align-bottom" src="/Group 70.png"></img></li>
+                <li className="table-cell" ><img className="align-bottom" src="/Group 69.png"></img></li>
+               
+                
+               
+                </ul>
+            
+                      
+        </div>
+
+      </section>
+
+
+      <section  className="small-hero small-hero-hermes flex justify-center items-center" >
+      <section className="flex flex-1  max-w-screen-lg justify-center items-center align-center py-40 ">
+        <div className=" max-w-screen-lg  ">
+          <div className="">
+              <h2 className="font-P22Underground-thp text-5xl font-bold">Hermes Module</h2>
+              <p className=" text-center text-white flex-1 font-P22Underground-thin text-lg py-4">
+              The ideal electrification solution for the commercial vehicle industry, Hermes is a modular building block
+consisting of lithium-ion cells in a 21700 format that are connected in series and parallel to achieve the desired
+voltage, energy and power capability. Its high packaging eﬀiciency, high energy density and structurally integrated
+cooling system makes it an ideal ba ery system for many automotive powertrain applications.
+                </p>
+                <Link href="/products/hermes_module">
+              <button className="bg-accent   py-4 px-14 my-14">Learn More</button> 
+              </Link>
+
+              
+            </div>
         </div>
         </section>
+        
+      </section>
 
+
+      <section  className="small-hero small-hero-orion flex justify-center items-center" >
+      <section className="flex flex-1  max-w-screen-lg justify-center  align-center py-40 ">
+        <div className=" max-w-screen-lg  ">
+          <div className="">
+              <h2 className="font-P22Underground-thp text-5xl font-bold">Orion BEV Pack Family</h2>
+              <p className=" text-center text-white flex-1 font-P22Underground-thin text-lg py-4">
+              Romeo Power’s proprietary pack family exhibits application flexibility and is capable of
+powering a range of commercial vehicles spanning from Class 3 delivery vehicles to the
+largest, long-haul Class 8 vehicles.
+                </p>
+                <Link href="/products/hercules_pack">
+              <button className="bg-accent   py-4 px-14 my-14">Learn More</button> 
+              </Link>
+
+              
+            </div>
+        </div>
+        </section>
+        
+      </section>
+
+
+
+      
+
+
+
+        <section className="flex justify-center bg-medium py-16">
+          <div className="flex max-w-screen-lg  flex-wrap flex-1">
+            <div className="flex-1">
+              <h2 className="text-left text-darkcolor  font-P22Underground-thp text-4xl font-bold py-4 ">Product Safety</h2>
+              <div className="flex space-x-20">
+                <div className="w-1/2">
+                <p className="text-lg leading-normal my-4">Romeo Power Battery Management System detect
+                faults, and react quickly to maintain safe operating
+                conditions for ba ery, system and users.</p>
+                <p className="text-lg leading-normal my-4">
+                  <span className="font-P22Underground-book  text-bold block ">Sensing</span>
+                Accurate sensing of cell parameters to constantly
+                gauge the state of cells:</p>
+                <p className="text-lg leading-normal my-4">
+                  <span className="font-P22Underground-book block  text-bold" >Cell Voltage</span>
+                Cell Temperature<br></br>
+                Current in/out of the battery<br></br>
+                Cell Balancing<br></br>
+                Fast and accurate cell balancing during charge and
+                discharge to maximize cell life.</p>
+                <p className="text-lg leading-normal my-4">
+                  <span className="font-P22Underground-book block  text-bold">Safety</span>
+                Constant monitoring of safety critical parameters and
+                fast acting protection circuits ensure safe and reliable
+                operation:</p>
+                </div>
+                <div className="w-1/2">
+                <p className="text-lg leading-normal my-4">
+                <span className="font-P22Underground-book block  text-bold">Communication</span>
+High speed and robust communication lines carry
+information to and from user/system and the BMS.
+These communication lines help optimize system
+performance and simplify diagnostics.</p>
+<p className="text-lg leading-normal my-4">
+<span className="font-P22Underground-book block  text-bold">Designed for Safety</span>
+Romeo Power ba ery modules and packs are single
+cell fault tolerant. This means, that in the outlying
+case, where for some reason a certain ba ery exhibits
+a thermal incident, the thermal incident will not
+propagate to the neighboring cells. Based on system
+requirements, the BMS can be programmed to shut
+oﬀ the system completely after a cell related
+incident, or keep operating safely under actively
+derated fashion until servicing is conducted.</p>
+                </div>
+                
+
+              </div>
+             
+            </div>
+          </div>
+          </section>
+
+
+
+
+          <section  className="text-center bg-darkaccent flex justify-center items-center" >
+      <section className="flex flex-1  max-w-screen-lg justify-center items-center align-center py-16 ">
+        <div className=" max-w-screen-lg  ">
+          <div className="">
+              <h2 className="font-P22Underground-thp text-5xl font-bold text-white">Romeo Power’s Packs Are Accelerating Change</h2>
+              <p className=" text-center text-white flex-1 font-P22Underground-thin text-lg py-8">
+              Please tell us about your system needs below.
+                </p>
+                <div className="flex space-x-20">
+                  <div className="w-1/2">
+                    <input className="sm:w-full my-4 p-4 "   type="text" placeholder="Value"></input>
+                    <input className="sm:w-full my-4 p-4"   type="text" placeholder="Value"></input>
+                    <input className="sm:w-full my-4 p-4"   type="text" placeholder="Value"></input>
+                    </div>
+                    <div className="w-1/2">
+                    <input className="sm:w-full my-4 p-4"   type="text" placeholder="Value"></input>
+                    <input className="sm:w-full my-4 p-4"   type="text" placeholder="Value"></input>
+                    <input className="sm:w-full my-4 p-4"   type="text" placeholder="Value"></input>
+                    </div>
+                </div>
+                <Link href="/products/hermes_module">
+              <button className="bg-accent   py-4 px-14 my-14 text-white">Submit</button> 
+              </Link>
+
+              
+            </div>
+        </div>
+        </section>
+        
+      </section>
 
 
 
