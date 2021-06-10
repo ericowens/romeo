@@ -4,8 +4,14 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Footer from '../../comps/Footer'
 import Banner from '../../comps/Banner'
+import observe_nav from '../../comps/observe_nav'
+import React, { useState, useEffect } from 'react'
 
 export default function Home() {
+  useEffect(() => {
+    observe_nav()
+  })
+
   return (
     <div>
       <Head>

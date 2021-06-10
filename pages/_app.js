@@ -1,6 +1,6 @@
 import 'tailwindcss/tailwind.css'
 import '../styles.css'
-import '../nav.js'
+
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

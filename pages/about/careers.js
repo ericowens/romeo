@@ -3,9 +3,15 @@ import Navbar from '../../comps/Navbar'
 import Image from 'next/image'
 import Link from 'next/link'
 import Footer from '../../comps/Footer'
+import observe_nav from '../../comps/observe_nav'
 import Banner from '../../comps/Banner'
+import React, { useState, useEffect } from 'react'
 
 export default function Home() {
+  useEffect(() => {
+    observe_nav()
+  })
+
   return (
     <div>
       <Head>
