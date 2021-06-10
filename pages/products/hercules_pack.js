@@ -22,7 +22,7 @@ export default function Home() {
         <div className="flex max-w-screen-lg  flex-wrap flex-1">
           <div className="justify-start  ">
               <h1 className="font-P22Underground-thp text-7xl font-bold">Power Inspired by Nature.</h1>
-              <Link href="/test">
+              <Link href="/contact">
               <button className="bg-accent  float-left py-4 px-14 my-14">Contact</button> 
               </Link>
                 

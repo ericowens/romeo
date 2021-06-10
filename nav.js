@@ -1,5 +1,5 @@
 if (typeof window !== 'undefined') {
-// if (false) {
+  console.log('Nav')
   const header = document.querySelector("nav");
   const sectionOne = document.querySelector("#hero");
 

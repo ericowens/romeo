@@ -46,6 +46,8 @@ nav *{
 }
 
 
+
+
 body{
   background: #fff;
 }
@@ -234,11 +236,32 @@ nav .show,nav .icon,nav input{
 }
 
 #banner {
-  
    background: url('/powerBADGE.png') , #EBE4D5;  
    background-position: right bottom;
    background-repeat: no-repeat;
    background-size: contain;
 
+}
+
+#banner *{
+  font-family: 'P22Underground-book';
+}
+.font-P22Underground-thin{
+  font-family: 'P22Underground-thin' !important;
+  font-weight: bold
+  ;
+  
+}
+
+#banner input{
+  border:1px solid #3D3D3D;
+  padding:0.25rem 0.25rem;
+  margin:0.25rem 0;
+}
+
+#footer * {
+  font-family: 'P22Underground-light';
+  line-height: 50px;
+  font-size: 0.85rem;
 }
 
