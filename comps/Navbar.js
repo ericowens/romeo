@@ -15,7 +15,7 @@ const Navbar = () => {
           <input type="checkbox" id="btn-1"></input>
           <ul>
             <li><Link href="/products/hermes_module"><a >Hermes Module</a></Link></li>
-            <li><Link href="/products/hercules_pack"><a >Hercules Pack</a></Link></li>
+            <li><Link href="/products/orion_pack"><a >Orion Pack</a></Link></li>
            
           </ul>
            </li>

@@ -95,7 +95,7 @@ cooling system makes it an ideal ba ery system for many automotive powertrain ap
 powering a range of commercial vehicles spanning from Class 3 delivery vehicles to the
 largest, long-haul Class 8 vehicles.
                 </p>
-                <Link href="/products/hercules_pack">
+                <Link href="/products/orion_pack">
               <button className="bg-accent   py-4 px-14 my-14">Learn More</button> 
               </Link>
 
