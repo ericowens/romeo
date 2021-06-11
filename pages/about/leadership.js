@@ -76,7 +76,7 @@ qui oﬀicia deserunt mollit anim id est laborum.</p>
           <section  className="small-leader-1 flex justify-center  " >  
             <div className="flex max-w-screen-lg justify-evenly  flex-wrap flex-1">  
 
-                <div className=" w-2/5">
+                <div className=" flex items-end justify-end w-2/5">
                 <img src="/thumbnail_LINEAL-path@2x.png"></img>
                 </div>
 
@@ -118,20 +118,20 @@ qui oﬀicia deserunt mollit anim id est laborum.</p>
 
                   <div className="flex flex-col w-3/5">
                     <h2 className="text-left text-darkcolor   font-P22Underground-thp text-2xl font-bold pt-16 ">
-                    Lionel Selwood, Jr.</h2>
+                    AK Srouji, PhD</h2>
                     <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
-                    Chief Executive Oﬀicer</h4>
-                      <p className="text-left text-sm pt-8">Lionel is an accomplished Product Management Leader with expertise in
-                      Operations Management, Financial Management (Profit & Loss, Balance Sheet,
-                      Cash Flow), Lean Six Sigma, Supplier Development, Strategic Sourcing and Product
-                      Quality Management. His experience spans General Electric where he graduated
-                      from the highly regarded Operations Management Leadership Program (OMLP)
-                      and owned Profit & Loss Responsibility as Manufacturing Shop Operations
-                      Manager of a High Volume Production Facility and three Fast Moving Innovative
-                      Start Ups (SpaceX, Faraday Future & Romeo Power) where he has held various
-                      Roles including Director of Procurement, Vice President of Engineering and Chief
-                      Operating Oﬀicer. Lionel holds a B.Sc. in Mechanical Engineering from Syracuse
-                      University and MPS in Supply Chain Management from The Penn State University.</p>
+                    Chief Technology Oﬀicer</h4>
+                      <p className="text-left text-sm pt-8">Dr. Srouji directs all technical and technological developments, including IP
+strategy, roadmaps, and future products, internally and in collaboration with
+strategic partners. Before being promoted to CTO, he was responsible for R&D
+and Cell Technology at Romeo. Prior to joining Romeo, he was developing
+advanced physico-chemical ba ery models at Robert Bosch’s Research &
+Technology Center in Silicon Valley. He also worked on novel ba ery component
+development, spanning from next-gen lithium ion to all solid-state ba eries.
+Throughout his energy storage technology career he has successfully brought to
+market multiple programs funded by the US Department of Energy. He holds an
+MS degree in Mechanical Engineering, and a PhD in Energy & Mineral Engineering
+with a focus on electrochemistry from The Pennsylvania State University.</p>
 
                       <ul className="flex-1 flex justify-start content-start items-end social gap-4 pt-6">
                                 <li className=""><img src="/Facebook.png"></img></li>
@@ -142,8 +142,8 @@ qui oﬀicia deserunt mollit anim id est laborum.</p>
                 
                 </div>
 
-                <div className=" w-2/5">
-                  <img src="/croptemp.jpg"></img>
+                <div className=" flex items-end justify-end w-2/5">
+                <img src="/thumbnail_LINEAL-path@2x.png"></img>
                 </div>
                 
              </div>
@@ -154,26 +154,20 @@ qui oﬀicia deserunt mollit anim id est laborum.</p>
             <section  className="small-leader-3 flex justify-center  " >  
             <div className="flex max-w-screen-lg justify-evenly  flex-wrap flex-1">  
 
-                <div className=" w-2/5">
-                  <img src="/croptemp.jpg"></img>
+            <div className=" flex items-end justify-end w-2/5">
+                <img src="/thumbnail_LINEAL-path@2x.png"></img>
                 </div>
 
                   <div className="flex flex-col w-3/5">
                     <h2 className="text-left text-darkcolor   font-P22Underground-thp text-2xl font-bold pt-16 ">
-                    Lionel Selwood, Jr.</h2>
+                    Lauren Webb</h2>
                     <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
-                    Chief Executive Oﬀicer</h4>
-                      <p className="text-left text-sm pt-8">Lionel is an accomplished Product Management Leader with expertise in
-                      Operations Management, Financial Management (Profit & Loss, Balance Sheet,
-                      Cash Flow), Lean Six Sigma, Supplier Development, Strategic Sourcing and Product
-                      Quality Management. His experience spans General Electric where he graduated
-                      from the highly regarded Operations Management Leadership Program (OMLP)
-                      and owned Profit & Loss Responsibility as Manufacturing Shop Operations
-                      Manager of a High Volume Production Facility and three Fast Moving Innovative
-                      Start Ups (SpaceX, Faraday Future & Romeo Power) where he has held various
-                      Roles including Director of Procurement, Vice President of Engineering and Chief
-                      Operating Oﬀicer. Lionel holds a B.Sc. in Mechanical Engineering from Syracuse
-                      University and MPS in Supply Chain Management from The Penn State University.</p>
+                    Chief Financial Oﬀicer</h4>
+                      <p className="text-left text-sm pt-8">Lauren Webb has over a dozen years of experience in finance and operations for
+early stage companies, including InAuth, Inc. Prior to joining Romeo she was Vice
+President of business services company Apollo Services, LLC. She started her
+career at the U.S. Department of Justice and spent ten years with The Ashcroft
+Group, a venture investment and consulting firm based in Washington, DC.</p>
 
                       <ul className="flex-1 flex justify-end content-end items-end social gap-4 pt-6">
                                 <li className=""><img src="/Facebook.png"></img></li>
@@ -196,20 +190,14 @@ qui oﬀicia deserunt mollit anim id est laborum.</p>
 
                   <div className="flex flex-col w-3/5">
                     <h2 className="text-left text-darkcolor   font-P22Underground-thp text-2xl font-bold pt-16 ">
-                    Lionel Selwood, Jr.</h2>
+                    Criswell Choi</h2>
                     <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
-                    Chief Executive Oﬀicer</h4>
-                      <p className="text-left text-sm pt-8">Lionel is an accomplished Product Management Leader with expertise in
-                      Operations Management, Financial Management (Profit & Loss, Balance Sheet,
-                      Cash Flow), Lean Six Sigma, Supplier Development, Strategic Sourcing and Product
-                      Quality Management. His experience spans General Electric where he graduated
-                      from the highly regarded Operations Management Leadership Program (OMLP)
-                      and owned Profit & Loss Responsibility as Manufacturing Shop Operations
-                      Manager of a High Volume Production Facility and three Fast Moving Innovative
-                      Start Ups (SpaceX, Faraday Future & Romeo Power) where he has held various
-                      Roles including Director of Procurement, Vice President of Engineering and Chief
-                      Operating Oﬀicer. Lionel holds a B.Sc. in Mechanical Engineering from Syracuse
-                      University and MPS in Supply Chain Management from The Penn State University.</p>
+                    Chief Operations Oﬀicer</h4>
+                      <p className="text-left text-sm pt-8">Criswell Choi has over 17 years of experience in operations, engineering, and
+business management within the electronics and semiconductor sectors. Prior to
+Romeo his experience includes managing operations at both early stage startups
+as well as large scale companies such as Apple and SanDisk. He holds a B.S. in
+Electrical Engineering from MIT and 12 patents.</p>
 
                       <ul className="flex-1 flex justify-start content-start items-end social gap-4 pt-6">
                                 <li className=""><img src="/Facebook.png"></img></li>
@@ -220,8 +208,8 @@ qui oﬀicia deserunt mollit anim id est laborum.</p>
                 
                 </div>
 
-                <div className=" w-2/5">
-                  <img src="/thumbnail_LINEAL-path@2x.png"></img>
+                <div className=" flex items-end justify-end w-2/5">
+                <img src="/thumbnail_LINEAL-path@2x.png"></img>
                 </div>
                 
              </div>
@@ -235,26 +223,23 @@ qui oﬀicia deserunt mollit anim id est laborum.</p>
             <section  className="small-leader-5 flex justify-center  " >  
             <div className="flex max-w-screen-lg justify-evenly  flex-wrap flex-1">  
 
-                <div className=" w-2/5">
-                  <img src="/croptemp.jpg"></img>
+            <div className=" flex items-end justify-end w-2/5">
+                <img src="/thumbnail_LINEAL-path@2x.png"></img>
                 </div>
 
                   <div className="flex flex-col w-3/5">
                     <h2 className="text-left text-darkcolor   font-P22Underground-thp text-2xl font-bold pt-16 ">
-                    Lionel Selwood, Jr.</h2>
+                    NAME</h2>
                     <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
-                    Chief Executive Oﬀicer</h4>
-                      <p className="text-left text-sm pt-8">Lionel is an accomplished Product Management Leader with expertise in
-                      Operations Management, Financial Management (Profit & Loss, Balance Sheet,
-                      Cash Flow), Lean Six Sigma, Supplier Development, Strategic Sourcing and Product
-                      Quality Management. His experience spans General Electric where he graduated
-                      from the highly regarded Operations Management Leadership Program (OMLP)
-                      and owned Profit & Loss Responsibility as Manufacturing Shop Operations
-                      Manager of a High Volume Production Facility and three Fast Moving Innovative
-                      Start Ups (SpaceX, Faraday Future & Romeo Power) where he has held various
-                      Roles including Director of Procurement, Vice President of Engineering and Chief
-                      Operating Oﬀicer. Lionel holds a B.Sc. in Mechanical Engineering from Syracuse
-                      University and MPS in Supply Chain Management from The Penn State University.</p>
+                    TITLE</h4>
+                      <p className="text-left text-sm pt-8">adipiscing elit, sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua. Ut enim ad
+minim veniam, quis nostrud exercitation ullamco
+laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum dolore eu fugiat nulla
+pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui oﬀicia deserunt mollit</p>
 
                       <ul className="flex-1 flex justify-end content-end items-end social gap-4 pt-6">
                                 <li className=""><img src="/Facebook.png"></img></li>
