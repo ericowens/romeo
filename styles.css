@@ -247,6 +247,30 @@ nav .show,nav .icon,nav input{
   text-align: center;
 }
 
+.us-hero {
+  min-height: 50vh;
+  /* width: auto; */
+  background-size: cover;
+ 
+}
+
+.us-hero-1 {
+  
+  background-image:url(/2.jpg);
+}
+
+.us-hero-2 {
+  
+  background-image:url(/5.jpg);
+}
+
+.us-hero-3 {
+  
+  background-image:url(/7.jpg);
+}
+
+
+
 #hero.hero-home {
   background-image:url(/thumbnail_HM_Slide1-gradient.png);
   
@@ -279,6 +303,11 @@ nav .show,nav .icon,nav input{
 
 #hero.hero-products-orion {
   background-image:url(/Header.jpg);
+  
+}
+
+#hero.hero-about-manu {
+  background-image:url(/HEADER.jpg);
   
 }
 
