@@ -306,6 +306,8 @@ nav .show,nav .icon,nav input{
 
 }
 
+
+
 #banner .address{
   line-height: 2rem;
 }
@@ -336,6 +338,11 @@ nav .show,nav .icon,nav input{
   font-family: 'P22Underground-light';
   line-height: 70px;
   font-size: 0.85rem;
+  background-color: #042F31;
+}
+
+#footer {
+  
   background-color: #042F31;
 }
 

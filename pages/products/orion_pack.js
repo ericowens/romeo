@@ -44,9 +44,9 @@ export default function Home() {
       
 
 
-      <section className="flex justify-evenly bg-white py-4">
-          <div><img src="/Image1.jpg"></img></div>
-          <div><img src="/Image22.jpg"></img></div>
+      <section className="flex justify-evenly bg-white  gap-4 py-8">
+          <div><img src="/2-ORIONV1A-SAMPLE_2.jpg"></img></div>
+          {/* <div><img src="/Image22.jpg"></img></div> */}
           </section>
 
 
@@ -159,23 +159,21 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
                   <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">Battery Management System</h4>
                   <p>Functional safety algorithms rapidly
                   detect faults to maintain safe
-                  operating conditions for the ba ery,
+                  operating conditions for the battery,
                   overall system and most importantly,
                   end users. Redundant hardware and
                   software measurements and
                   protection mechanisms constantly
                   monitor critical parameters of the
-                  ba ery pack and ensure that all cells
+                  battery pack and ensure that all cells
                   are at their safe operating conditions.</p>          
                 </div>
 
                 <div className="w-1/3 flex gap-4 flex-col items-start">
                   <div><img src="/1battery.png"></img> </div> 
                   <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">Sensing</h4>
-                  <p>Accurate monitoring devices at cell-
-                  level, module -level and pack-level
-                  constantly measure voltages,
-                  temperatures, and current to ensure
+                  <p>Accurate monitoring devices at cell-level, module-level and pack-level
+                  constantly measure voltages, temperatures, and current to ensure
                   safe operation.</p>          
                 </div>
                                

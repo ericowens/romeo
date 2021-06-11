@@ -73,7 +73,7 @@ provide both, resulting in eﬀicient packs without sacrificing space.
               </div>
 
 
-              <div className="flex gap-8">
+              <div className="flex gap-8 py-12">
 
                 <div className="w-1/2">
                     <p className=" text-left  font-P22Underground-thin text-lg">
@@ -116,7 +116,7 @@ provide both, resulting in eﬀicient packs without sacrificing space.
 
 
 
-              <div className="flex gap-8">
+              <div className="flex gap-8 py-12">
 
               <div className="w-1/2">
                   <img src="/image2.jpg"></img>
@@ -155,7 +155,7 @@ provide both, resulting in eﬀicient packs without sacrificing space.
 
 
 
-              <div className="flex gap-8">
+              <div className="flex gap-8 py-12">
 
               
 

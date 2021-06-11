@@ -34,7 +34,7 @@ const Navbar = () => {
           </ul>
            </li>
            <li><Link href="/media"><a >Media</a></Link></li>
-           <li><Link href="/investors"><a >Investors</a></Link></li>
+           <li><Link target="_blank" href="https://investors.romeopower.com/overview/default.aspx"><a >Investors</a></Link></li>
             </ul>
         </nav>
     );

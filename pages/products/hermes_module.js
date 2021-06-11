@@ -40,36 +40,61 @@ export default function Home() {
    
 
 
-      
+      <section className="flex justify-between  bg-white  py-16">
+         
+          <div className="w-2/5">
+              <img src="/HermesModule2.jpg" ></img>           
+            </div>
+
+            <div className="w-1/5">
+              <div className=" pb-8 ">
+              <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold py-4 ">
+              Hermes Module</h2>
+              </div>
+              <p>The ideal electrification solution for the commercial vehicle industry,
+              Hermes is a modular building block consisting of lithium-ion cells in a
+              21700 format that are connected in series and parallel to achieve the
+              desired voltage, energy and power capability. Its high packaging
+              eﬀiciency, high energy density and structurally integrated cooling
+              system makes it an ideal battery system for many automotive
+              powertrain applications.</p>
+            </div>
+
+            <div className="w-2/5">
+              <img className="text-right float-right " src="/HermesModule1.jpg"  ></img>  
+              </div>         
+            
+         
+          </section>
 
 
+{/* 
 
-
-      <section className="flex justify-center bg-white py-16">
-          <div className="flex max-w-screen-lg  flex-wrap flex-1">
+      <section className="flex justify-center  bg-white pl-4 py-16">
+          <div className="flex   flex-wrap flex-1">
             <div className="flex-1">
               <div className=" pb-8 ">
               <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold py-4 ">
               Hermes Module</h2>
               </div>
-              <p><img className="float-right" src="/Hermes_uncropped.png" width="500"></img>The ideal electrification solution for the commercial vehicle industry,
+              <p><img className="float-right" src="/HermesModule1.jpg" width="500"></img>The ideal electrification solution for the commercial vehicle industry,
 Hermes is a modular building block consisting of lithium-ion cells in a
 21700 format that are connected in series and parallel to achieve the
 desired voltage, energy and power capability. Its high packaging
 eﬀiciency, high energy density and structurally integrated cooling
-system makes it an ideal ba ery system for many automotive
+system makes it an ideal battery system for many automotive
 powertrain applications.</p>
               
               <p className="text-center"><img src="/HermesModule2.jpg"></img></p>
              
             </div>
           </div>
-          </section>
+          </section> */}
       
 
 
 
-        <section className="flex justify-center bg-medium py-16">
+        <section className="flex justify-center bg-medium px-4 py-16">
           <div className="flex max-w-screen-lg  flex-wrap flex-1">
             <div className="flex-1">
               <div className=" pb-8 ">
