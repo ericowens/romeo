@@ -139,37 +139,49 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
               <h2 className=" text-center block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold pt-4 ">
               Designed for Safety</h2>
               </div>
-              <ul className="list-disc list-inside ">
-                <li className="font-P22Underground-thin">Modular design with a 21700 cell format</li>
-                <li className="font-P22Underground-thin">High packaging eﬀiciency</li>
-                <li className="font-P22Underground-thin">Designed according to SAE J2380, SAE J2464, and UN 38.3 requirements</li>
-                <li className="font-P22Underground-thin">Scalable and configurable design</li>
-                <li className="font-P22Underground-thin">Cell voltage and temperature monitoring through an in-built ba ery monitoring device</li>
-                <li className="font-P22Underground-thin">Automated cell balancing to maximize the usable capacity</li>
-                <li className="font-P22Underground-thin">Isolated communication between stack of modules and the central control device</li>
-                <li className="font-P22Underground-thin">Structurally integrated cooling system with superior thermal performance</li>
-              </ul>
-              <div className="flex justify-around py-8">
-                <div className=" flex gap-4 flex-col items-center">
-                  <div><img src="/batteryicon.png"></img> </div> 
-                  <h2 className="text-4xl font-P22Underground-book">10kWh</h2>
-                  <p>Total Energy Capacity</p>          
+
+              
+              
+              <div className="flex gap-8 justify-around py-8">
+                <div className="w-1/3 flex gap-4 flex-col items-start">
+                  <div><img src="/1battery.png"></img> </div> 
+                  <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">Single Cell Fault Tolerance</h4>
+                  <p>Through robust cell validation and
+                  safety testing, Romeo Power selects
+                  optimal cells and incorporates design
+                  features to mitigate thermal
+                  propagation.</p>          
                 </div>
-                <div className="flex gap-4 flex-col items-center">
-                <div><img src="/batteryicon.png"></img> </div> 
-                  <h2 className="text-4xl font-P22Underground-book">208 Wh/kg</h2>
-                  <p>Energy Density</p>           
+
+
+                <div className="w-1/3 flex gap-4 flex-col items-start">
+                  <div className=""><img src="/2battery.png"></img> </div> 
+                  <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">Battery Management System</h4>
+                  <p>Functional safety algorithms rapidly
+                  detect faults to maintain safe
+                  operating conditions for the ba ery,
+                  overall system and most importantly,
+                  end users. Redundant hardware and
+                  software measurements and
+                  protection mechanisms constantly
+                  monitor critical parameters of the
+                  ba ery pack and ensure that all cells
+                  are at their safe operating conditions.</p>          
                 </div>
-                <div className="flex gap-4 flex-col items-center">
-                <div><img src="/batteryicon.png"></img> </div> 
-                  <h2 className="text-4xl font-P22Underground-book">60%</h2>
-                  <p className="text-center">Charge capacity in less<br></br>
-than 30 minutes</p>             
+
+                <div className="w-1/3 flex gap-4 flex-col items-start">
+                  <div><img src="/1battery.png"></img> </div> 
+                  <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">Sensing</h4>
+                  <p>Accurate monitoring devices at cell-
+                  level, module -level and pack-level
+                  constantly measure voltages,
+                  temperatures, and current to ensure
+                  safe operation.</p>          
                 </div>
                                
 
               </div>
-              <p className="text-center">[Download Hermes Data Sheet]</p>
+              
              
             </div>
           </div>
