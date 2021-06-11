@@ -85,7 +85,7 @@ qui oﬀicia deserunt mollit anim id est laborum.</p>
                     Lionel Selwood, Jr.</h2>
                     <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
                     Chief Executive Oﬀicer</h4>
-                      <p className="text-left text-sm pt-8">Lionel is an accomplished Product Management Leader with expertise in
+                      <p className="text-left text-sm pt-8 leading-normal">Lionel is an accomplished Product Management Leader with expertise in
                       Operations Management, Financial Management (Profit & Loss, Balance Sheet,
                       Cash Flow), Lean Six Sigma, Supplier Development, Strategic Sourcing and Product
                       Quality Management. His experience spans General Electric where he graduated
@@ -121,7 +121,7 @@ qui oﬀicia deserunt mollit anim id est laborum.</p>
                     AK Srouji, PhD</h2>
                     <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
                     Chief Technology Oﬀicer</h4>
-                      <p className="text-left text-sm pt-8">Dr. Srouji directs all technical and technological developments, including IP
+                      <p className="text-left text-sm pt-8 leading-normal">Dr. Srouji directs all technical and technological developments, including IP
 strategy, roadmaps, and future products, internally and in collaboration with
 strategic partners. Before being promoted to CTO, he was responsible for R&D
 and Cell Technology at Romeo. Prior to joining Romeo, he was developing
@@ -163,7 +163,7 @@ with a focus on electrochemistry from The Pennsylvania State University.</p>
                     Lauren Webb</h2>
                     <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
                     Chief Financial Oﬀicer</h4>
-                      <p className="text-left text-sm pt-8">Lauren Webb has over a dozen years of experience in finance and operations for
+                      <p className="text-left text-sm pt-8 leading-normal">Lauren Webb has over a dozen years of experience in finance and operations for
 early stage companies, including InAuth, Inc. Prior to joining Romeo she was Vice
 President of business services company Apollo Services, LLC. She started her
 career at the U.S. Department of Justice and spent ten years with The Ashcroft
@@ -193,7 +193,7 @@ Group, a venture investment and consulting firm based in Washington, DC.</p>
                     Criswell Choi</h2>
                     <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
                     Chief Operations Oﬀicer</h4>
-                      <p className="text-left text-sm pt-8">Criswell Choi has over 17 years of experience in operations, engineering, and
+                      <p className="text-left text-sm pt-8 leading-normal">Criswell Choi has over 17 years of experience in operations, engineering, and
 business management within the electronics and semiconductor sectors. Prior to
 Romeo his experience includes managing operations at both early stage startups
 as well as large scale companies such as Apple and SanDisk. He holds a B.S. in
@@ -232,7 +232,7 @@ Electrical Engineering from MIT and 12 patents.</p>
                     NAME</h2>
                     <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
                     TITLE</h4>
-                      <p className="text-left text-sm pt-8">adipiscing elit, sed do eiusmod tempor incididunt
+                      <p className="text-left text-sm pt-8 leading-normal">adipiscing elit, sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua. Ut enim ad
 minim veniam, quis nostrud exercitation ullamco
 laboris nisi ut aliquip ex ea commodo consequat.
