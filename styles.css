@@ -257,6 +257,11 @@ nav .show,nav .icon,nav input{
   
 }
 
+#hero.hero-products-hermes {
+  background-image:url(/HermesModule_header.jpg);
+  
+}
+
 .small-hero.small-hero-hermes {
   background-image:url(/PRODUCTHeader.jpg);
   
