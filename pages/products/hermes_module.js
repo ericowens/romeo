@@ -28,7 +28,7 @@ export default function Home() {
       <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
-              <h1 className="font-P22Underground-thp text-7xl font-bold">Hermes Module</h1>
+              <h1 className=" border-accent border-b-2 font-P22Underground-thp text-7xl font-bold">Hermes Module</h1>
               
             </div>
         </div>
@@ -40,27 +40,7 @@ export default function Home() {
    
 
 
-      <section  className="small-hero small-hero-hermes flex justify-center items-center" >
-      <section className="flex flex-1  max-w-screen-lg justify-center items-center align-center py-40 ">
-        <div className=" max-w-screen-lg  ">
-          <div className="">
-              <h2 className="font-P22Underground-thp text-5xl font-bold">Hermes Module</h2>
-              <p className=" text-center text-white flex-1 font-P22Underground-thin text-lg py-4">
-              The ideal electrification solution for the commercial vehicle industry, Hermes is a modular building block
-consisting of lithium-ion cells in a 21700 format that are connected in series and parallel to achieve the desired
-voltage, energy and power capability. Its high packaging eﬀiciency, high energy density and structurally integrated
-cooling system makes it an ideal ba ery system for many automotive powertrain applications.
-                </p>
-                <Link href="/products/hermes_module">
-              <button className="bg-accent   py-4 px-14 my-14">Learn More</button> 
-              </Link>
-
-              
-            </div>
-        </div>
-        </section>
-        
-      </section>
+      
 
 
 
