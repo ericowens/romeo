@@ -316,6 +316,12 @@ nav .show,nav .icon,nav input{
   
 }
 
+
+#hero.hero-about-careers {
+  background-image:url(/CAREERSHEADER.jpg);
+  
+}
+
 .small-hero.small-hero-hermes {
   background-image:url(/HermesModule_header.jpg);
   
