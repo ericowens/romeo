@@ -42,11 +42,11 @@ export default function Home() {
 
       <section className="flex justify-between  bg-white  py-16">
          
-          <div className="w-2/5 flex align-center content-center">
+          <div className="w-1/3 flex align-center content-center">
               <img src="/HermesModule2.jpg" ></img>           
             </div>
 
-            <div className="w-1/5">
+            <div className="w-1/3">
               <div className=" pb-8 ">
               <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold py-4 ">
               Hermes Module</h2>
@@ -60,7 +60,7 @@ export default function Home() {
               powertrain applications.</p>
             </div>
 
-            <div className="w-2/5">
+            <div className="w-1/3">
               <img className="text-right float-right " src="/HermesModule1.jpg"  ></img>  
               </div>         
             
