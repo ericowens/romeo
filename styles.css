@@ -62,7 +62,7 @@ nav{
 }
 
 nav.nav-scrolled{
-  background: #042F31;
+  background: #4F7A32;
 }
 
 
@@ -154,7 +154,7 @@ nav .show,nav .icon,nav input{
   margin-left: 40px;
 }
 @media all and (max-width: 968px) {
-  nav{background-color: #042F31;}
+  nav{background-color: #4F7A32;}
   nav ul{
     margin-right: 0px;
     float: left;
@@ -262,6 +262,11 @@ nav .show,nav .icon,nav input{
   
 }
 
+#hero.hero-products-orion {
+  background-image:url(/Header.jpg);
+  
+}
+
 .small-hero.small-hero-hermes {
   background-image:url(/PRODUCTHeader.jpg);
   
@@ -269,6 +274,21 @@ nav .show,nav .icon,nav input{
 
 .small-hero.small-hero-orion {
   background-image:url(/Image2.jpg);
+  
+}
+
+.small-hero-orion-1 {
+  background-image:url(/class34.jpg);
+  
+}
+
+.small-hero-orion-2 {
+  background-image:url(/class56.jpg);
+  
+}
+
+.small-hero-orion-3 {
+  background-image:url(/class78.jpg);
   
 }
 
@@ -281,7 +301,7 @@ nav .show,nav .icon,nav input{
 }
 
 .bannerul{
-  padding-left: 3rem;
+  padding-left: 5rem;
 }
 .bannerul li{
   padding-bottom: 0.5rem;
@@ -305,7 +325,7 @@ nav .show,nav .icon,nav input{
 
 #footer * {
   font-family: 'P22Underground-light';
-  line-height: 50px;
+  line-height: 70px;
   font-size: 0.85rem;
 }
 

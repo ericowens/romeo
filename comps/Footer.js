@@ -2,10 +2,10 @@ import Link from 'next/link'
 
 const Footer = () => {
     return (
-      <section id="footer" className="flex justify-center bg-accent ">
-      <div className="flex flex-col flex-wrap flex-1 md:flex-row m-3 space-x-4 ">
+      <section id="footer" className=" flex justify-center bg-darkaccent ">
+      <div className="flex flex-col flex-wrap flex-1 md:flex-row m-5 space-x-4 ">
       <div className="flex-1 text-white  text-sm leading-10  ">
-        <img src="/POWERBUTTONLOGO_WHITERGB.png" width="50"></img>
+        <img src="/POWERBUTTONLOGO_WHITERGB.png" height="70"></img>
       </div> 
       <div className="flex-1 text-white  text-sm leading-10">
       © 2021 Romeo Power, Inc. All Rights Reserved.

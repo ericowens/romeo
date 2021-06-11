@@ -72,7 +72,7 @@ cooling system makes it an ideal ba ery system for many automotive powertrain ap
               <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold py-4 ">
               Hermes Module</h2>
               </div>
-              <p><img className="float-right" src="/HermesModule1.jpg" width="500"></img>The ideal electrification solution for the commercial vehicle industry,
+              <p><img className="float-right" src="/Hermes_uncropped.png" width="500"></img>The ideal electrification solution for the commercial vehicle industry,
 Hermes is a modular building block consisting of lithium-ion cells in a
 21700 format that are connected in series and parallel to achieve the
 desired voltage, energy and power capability. Its high packaging
@@ -93,7 +93,8 @@ powertrain applications.</p>
           <div className="flex max-w-screen-lg  flex-wrap flex-1">
             <div className="flex-1">
               <div className=" pb-8 ">
-              <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold pt-4 ">Features</h2>
+              <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold pt-4 ">
+                Features</h2>
               </div>
               <ul className="list-disc list-inside ">
                 <li className="font-P22Underground-thin">Modular design with a 21700 cell format</li>
