@@ -25,17 +25,16 @@ export default function Home() {
 
 
 
-      <section id="hero" className="hero-home flex justify-center items-start" >
-      <section className="flex flex-1  justify-start items-start align-start py-40 pl-28">
-        <div className="   ">
+      <section id="hero" className="hero-home flex " >
+      <section className="flex flex-1  justify-start align-center content-center items-center    pl-28">
+        
           <div className="">
               <h1 className="font-P22Underground-thp text-6xl font-bold">Power Inspired by Nature.</h1>
               <Link href="/contact">
               <button className="bg-accent  float-left py-4 px-10 my-10">Contact</button> 
-              </Link>
-              
+              </Link>              
             </div>
-        </div>
+      
         </section>
         
       </section>
