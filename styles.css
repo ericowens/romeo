@@ -322,6 +322,11 @@ nav .show,nav .icon,nav input{
   
 }
 
+#hero.hero-about-resources {
+  background-image:url(/ResHeader.jpg);
+  
+}
+
 .small-hero.small-hero-hermes {
   background-image:url(/HermesModule_header.jpg);
   
