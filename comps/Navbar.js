@@ -22,7 +22,7 @@ const Navbar = () => {
            <li><Link href="/technology"><a >Technology</a></Link></li>
            <li>
           <label htmlFor="btn-1" className="show">About</label>
-          <Link href="/about"><a >About</a></Link>
+          <Link href="/about/our_story"><a >About</a></Link>
           <input type="checkbox" id="btn-1"></input>
           <ul>
             <li><Link href="/about/our_story"><a >Our Story</a></Link></li>

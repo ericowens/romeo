@@ -58,7 +58,7 @@ have a bold vision to create a world where energy poverty no longer exists.</p>
 ways to approach seemingly unyielding challenges. We embrace the tough questions
 because they’re necessary to drive transformation. We have an opportunity to make
 universal energy a thing of the future.</p>
-<p className="text-lg leading-normal my-4"> And the future is now.</p>
+<p className="text-lg leading-normal my-4 font-bold"> And the future is now.</p>
           </div>
         </div>
         </section>

@@ -9,7 +9,7 @@ const Banner = () => {
         <p className="address text-darkcolor font-P22Underground-thin text-base  " >4380 Ayers Ave, Vernon, CA 90058<br></br>
         sales@romeopower.com<br></br>
         +1 833.467.2237</p>
-        <ul className="flex my-4">
+        <ul className="flex social">
           <li className="flex-1"><img src="/Facebook.png"></img></li>
           <li className="flex-1"><img src="/twitter.png"></img></li>
           <li className="flex-1"><img src="/linkedin.png"></img></li>

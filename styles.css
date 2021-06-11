@@ -252,6 +252,11 @@ nav .show,nav .icon,nav input{
   
 }
 
+#hero.hero-about-story{ 
+  background-image:url(/OURSTORYHeader.jpg);
+  
+}
+
 #hero.hero-technology {
   background-image:url(/Technologyheader.jpg);
   
@@ -309,7 +314,11 @@ nav .show,nav .icon,nav input{
 
 
 #banner .address{
-  line-height: 2rem;
+  line-height: 2.5rem;
+}
+
+#banner .social{
+  padding-top: 3rem;
 }
 
 .bannerul{
