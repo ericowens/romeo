@@ -27,9 +27,9 @@ export default function Home() {
       <section className="flex flex-1 justify-center items-center">
         <div className=" max-w-screen-lg  ">
           <div className="">
-              <h1 className="font-P22Underground-thp text-7xl font-bold">Power Inspired by Nature.</h1>
+              <h1 className="font-P22Underground-thp text-6xl font-bold">Power Inspired by Nature.</h1>
               <Link href="/contact">
-              <button className="bg-accent  float-left py-4 px-14 my-14">Contact</button> 
+              <button className="bg-accent  float-left py-4 px-10 my-10">Contact</button> 
               </Link>
                 
             </div>
@@ -55,7 +55,7 @@ universal energy a thing of the future. And the future is now.</p>
         </div>
         </section>
 
-        <section className="flex justify-center bg-light">
+        <section className="flex justify-center bg-light pt-16 pb-4">
         <div className="flex max-w-screen-lg flex-col flex-wrap flex-1 md:flex-row m-3 space-x-4 ">
           <div className="flex-1 flex justify-center align-center flex-col">
           <h3 className="text-left text-darkcolor  font-P22Underground-thp text-4xl font-bold my-4 ">Products</h3>
@@ -72,9 +72,9 @@ tolerate thermal event faults at a single cell level.</p>
  
           </div>
           <div className="flex-1">
-          <img
+          <img className="float-right "
             src="/hermes-hero01.jpg"
-            width='500'
+            width='450'
             alt=""        
           />   
           </div>
@@ -83,12 +83,12 @@ tolerate thermal event faults at a single cell level.</p>
 
 
 
-        <section className="flex justify-center bg-light">
-        <div className="flex max-w-screen-lg flex-col flex-wrap flex-1 md:flex-row m-3 space-x-4 ">
+        <section className="flex justify-center bg-light  pb-4">
+        <div className="flex max-w-screen-lg flex-col flex-wrap flex-1 md:flex-row m-3 space-x-8 ">
         <div className="flex-1">
-          <img
+          <img className="float-left "
            src="/Image.jpg"
-           width='500'
+           width='450'
             alt=""        
           />   
           </div>
@@ -101,7 +101,7 @@ packaging eﬀiciency, high energy density and a structurally
 integrated cooling system, Romeo Power’s modular ba ery
 systems have multiple safety features and are designed to
 tolerate thermal event faults at a single cell level.</p>
-<div className="flex"><Link href="/technoilogy"><button className="bg-accent  float-left py-4 px-14 my-10 text-white">Learn More</button></Link> </div>
+<div className="flex"><Link href="/technology"><button className="bg-accent  float-left py-4 px-14 my-10 text-white">Learn More</button></Link> </div>
  
           </div>
           
@@ -109,7 +109,7 @@ tolerate thermal event faults at a single cell level.</p>
         </section>
 
 
-        <section className="flex justify-center bg-light">
+        <section className="flex justify-center bg-light pb-16">
         <div className="flex max-w-screen-lg flex-col flex-wrap flex-1 md:flex-row m-3 space-x-4 ">
           <div className="flex-1 flex justify-center align-center flex-col">
           <h3 className="text-left text-darkcolor  font-P22Underground-thp text-4xl font-bold my-4">U.S. Manufacturing</h3>
@@ -124,9 +124,9 @@ tolerate thermal event faults at a single cell level.</p>
  
           </div>
           <div className="flex-1">
-          <img
+          <img className="float-right "
             src="/USManufacturing.jpg"
-            width='500'
+            width='450'
             alt=""        
           />   
           </div>

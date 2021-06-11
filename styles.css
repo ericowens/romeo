@@ -297,7 +297,12 @@ nav .show,nav .icon,nav input{
    background-position: right bottom;
    background-repeat: no-repeat;
    background-size: contain;
+   padding: 2rem 0 ;
 
+}
+
+#banner .address{
+  line-height: 2rem;
 }
 
 .bannerul{
@@ -312,8 +317,7 @@ nav .show,nav .icon,nav input{
 }
 .font-P22Underground-thin{
   font-family: 'P22Underground-thin' !important;
-  font-weight: bold
-  ;
+  font-weight: bold  ;
   
 }
 

@@ -6,7 +6,7 @@ const Banner = () => {
         <div className="flex max-w-screen-lg flex-col flex-wrap flex-1 md:flex-row m-3 space-x-4 ">
         <div className="flex-1  flex-grow">
           <p className="text-darkcolor  text-base leading-7 text-bold " >ROMEO POWER, INC. Media</p>
-        <p className="text-darkcolor font-P22Underground-thin text-base leading-7 " >4380 Ayers Ave, Vernon, CA 90058<br></br>
+        <p className="address text-darkcolor font-P22Underground-thin text-base  " >4380 Ayers Ave, Vernon, CA 90058<br></br>
         sales@romeopower.com<br></br>
         +1 833.467.2237</p>
         <ul className="flex my-4">
