@@ -327,6 +327,16 @@ nav .show,nav .icon,nav input{
   font-family: 'P22Underground-light';
   line-height: 70px;
   font-size: 0.85rem;
+  background-color: #042F31;
+}
+
+.formarea{
+  background-color: #042F31;
+}
+
+.formarea input{
+  padding: 1rem;
+  width: 100%;
 }
 
 

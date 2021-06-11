@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Formarea = () => {
     return (
-      <section  className="text-center bg-darkaccent flex justify-center items-center" >
+      <section  className="formarea text-center bg-darkaccent flex justify-center items-center" >
       <section className="flex flex-1  max-w-screen-lg justify-center items-center align-center py-16 ">
         <div className=" max-w-screen-lg  ">
           <div className="">

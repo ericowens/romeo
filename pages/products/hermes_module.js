@@ -132,17 +132,17 @@ than 30 minutes</p>
           </div>
           </section>
 
-        <Formarea/>
+        <Formarea />
 
 
           
 
 
-        <Banner/>
+        <Banner />
 
 
 
-        <Footer/>
+        <Footer />
         
 
 
