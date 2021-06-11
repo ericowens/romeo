@@ -23,20 +23,24 @@ export default function Home() {
 
       <Navbar/>
 
-      <section id="hero" className="flex hero-home" >
-      <section className="flex flex-1 justify-center items-center">
-        <div className=" max-w-screen-lg  ">
+
+
+      <section id="hero" className="hero-home flex justify-center items-start" >
+      <section className="flex flex-1  justify-start items-start align-start py-40 pl-28">
+        <div className="   ">
           <div className="">
               <h1 className="font-P22Underground-thp text-6xl font-bold">Power Inspired by Nature.</h1>
               <Link href="/contact">
               <button className="bg-accent  float-left py-4 px-10 my-10">Contact</button> 
               </Link>
-                
+              
             </div>
         </div>
         </section>
         
       </section>
+
+      
 
       <section className="flex justify-center bg-medium py-16">
         <div className="flex max-w-screen-lg  flex-wrap flex-1">
