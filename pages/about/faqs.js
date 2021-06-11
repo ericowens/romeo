@@ -7,6 +7,7 @@ import Banner from '../../comps/Banner'
 import observe_nav from '../../comps/observe_nav'
 import React, { useState, useEffect } from 'react'
 
+
 export default function Home() {
   useEffect(() => {
     observe_nav()
@@ -23,38 +24,60 @@ export default function Home() {
 
       <Navbar/>
 
-      <section id="hero" >
-      <section className="flex justify-center">
-        <div className="flex max-w-screen-lg  flex-wrap flex-1">
-          <div className="justify-start  ">
-              <h1 className="font-P22Underground-thp text-7xl font-bold">Power Inspired by Nature.</h1>
-              <Link href="/contact">
-              <button className="bg-accent  float-left py-4 px-14 my-14">Contact</button> 
-              </Link>
-                
+      <section id="hero" className="hero-about-faq flex justify-center items-end" >
+      <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
+        <div className=" max-w-screen-lg  ">
+          <div className="">
+              <h1 className="  font-P22Underground-thp text-7xl font-bold">Frequently Asked Questions</h1>
+              
             </div>
         </div>
         </section>
         
       </section>
 
-      <section className="flex justify-center bg-medium py-16">
-        <div className="flex max-w-screen-lg  flex-wrap flex-1">
-          <div className="flex-1">
-            <h2 className="text-left text-darkcolor underline font-P22Underground-thp text-4xl font-bold ">BASE</h2>
-            
+
+   
+
+
+        <section className="flex justify-center bg-white px-4 py-16">
+          <div className="flex max-w-screen-lg  gap-8 flex-1">
+          <div className="w-1/3"> 
+          <p className="text-left">Lorem ipsum dolor sit amet,
+consectetur adipiscing elit, sed
+do eiusmod tempor incididunt
+ut labore et dolore magna
+aliqua. Ut enim ad minim</p>
+</div>
+            <div className="w-2/3">
+
+                 
+              
+                        <p className="text-left">Romeo Power’s trained technicians provide
+          optimized drop-in solutions for your vehicle
+          application by assembling our modules into
+          custom, high-capacity ba ery pack
+          configurations. ISO 9001 certification guarantees
+          that our packs are built to meet your specific
+          power needs with strict quality assurance to
+          ensure long-term reliability.</p>
+             
+            </div>
           </div>
-        </div>
-        </section>
+          </section>
 
 
 
 
-        <Banner/>
 
 
 
-        <Footer/>
+        <Banner />
+
+
+
+        <Footer />
+        
 
 
     </div>

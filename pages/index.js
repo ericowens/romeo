@@ -45,7 +45,7 @@ export default function Home() {
         <div className="flex max-w-screen-lg  flex-wrap flex-1">
           <div className="flex-1">
             <div className="text-left text-darkcolor inline-block border-darkcolor border-b-2">
-            <h2 className="border-darkcolor border-b-2 text-left inline-block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold py-4 ">
+            <h2 className="border-darkcolor border-b text-left inline-block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold py-4 ">
             
               The Future is Now</h2>
                 </div>

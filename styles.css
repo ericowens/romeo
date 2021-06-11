@@ -311,6 +311,11 @@ nav .show,nav .icon,nav input{
   
 }
 
+#hero.hero-about-faq {
+  background-image:url(/faqHeader.jpg);
+  
+}
+
 .small-hero.small-hero-hermes {
   background-image:url(/HermesModule_header.jpg);
   
