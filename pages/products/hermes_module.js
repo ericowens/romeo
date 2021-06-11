@@ -42,7 +42,7 @@ export default function Home() {
 
       <section className="flex justify-between  bg-white  py-16">
          
-          <div className="w-2/5">
+          <div className="w-2/5 flex align-center content-center">
               <img src="/HermesModule2.jpg" ></img>           
             </div>
 
