@@ -7,6 +7,7 @@ import Banner from '../../comps/Banner'
 import observe_nav from '../../comps/observe_nav'
 import React, { useState, useEffect } from 'react'
 
+
 export default function Home() {
   useEffect(() => {
     observe_nav()
@@ -23,38 +24,271 @@ export default function Home() {
 
       <Navbar/>
 
-      <section id="hero" >
-      <section className="flex justify-center">
-        <div className="flex max-w-screen-lg  flex-wrap flex-1">
-          <div className="justify-start  ">
-              <h1 className="font-P22Underground-thp text-7xl font-bold">Power Inspired by Nature.</h1>
-              <Link href="/contact">
-              <button className="bg-accent  float-left py-4 px-14 my-14">Contact</button> 
-              </Link>
-                
+      <section id="hero" className="hero-about-leadership flex justify-center items-end" >
+      <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
+        <div className=" max-w-screen-lg  ">
+          <div className="">
+              <h1 className="  font-P22Underground-thp text-7xl font-bold">Leadership</h1>
+              
             </div>
         </div>
         </section>
         
       </section>
 
-      <section className="flex justify-center bg-medium py-16">
-        <div className="flex max-w-screen-lg  flex-wrap flex-1">
-          <div className="flex-1">
-            <h2 className="text-left text-darkcolor underline font-P22Underground-thp text-4xl font-bold ">BASE</h2>
-            
+
+   
+
+
+      
+      
+
+
+
+        <section className="flex justify-center bg-medium px-4 py-16">
+          <div className="flex max-w-screen-lg  flex-wrap flex-1">
+            <div className="flex-1">
+              
+              
+              <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui oﬀicia deserunt
+mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+qui oﬀicia deserunt mollit anim id est laborum.</p>
+             
+            </div>
           </div>
-        </div>
-        </section>
+          </section>
 
 
 
 
-        <Banner/>
+
+          
+
+
+          <section  className="small-leader-1 flex justify-center  " >  
+            <div className="flex max-w-screen-lg justify-evenly  flex-wrap flex-1">  
+
+                <div className=" w-2/5">
+                <img src="/thumbnail_LINEAL-path@2x.png"></img>
+                </div>
+
+                  <div className="flex flex-col w-3/5">
+                    <h2 className="text-left text-darkcolor   font-P22Underground-thp text-2xl font-bold pt-16 ">
+                    Lionel Selwood, Jr.</h2>
+                    <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
+                    Chief Executive Oﬀicer</h4>
+                      <p className="text-left text-sm pt-8">Lionel is an accomplished Product Management Leader with expertise in
+                      Operations Management, Financial Management (Profit & Loss, Balance Sheet,
+                      Cash Flow), Lean Six Sigma, Supplier Development, Strategic Sourcing and Product
+                      Quality Management. His experience spans General Electric where he graduated
+                      from the highly regarded Operations Management Leadership Program (OMLP)
+                      and owned Profit & Loss Responsibility as Manufacturing Shop Operations
+                      Manager of a High Volume Production Facility and three Fast Moving Innovative
+                      Start Ups (SpaceX, Faraday Future & Romeo Power) where he has held various
+                      Roles including Director of Procurement, Vice President of Engineering and Chief
+                      Operating Oﬀicer. Lionel holds a B.Sc. in Mechanical Engineering from Syracuse
+                      University and MPS in Supply Chain Management from The Penn State University.</p>
+
+                      <ul className="flex-1 flex justify-end content-end items-end social gap-4 pt-6">
+                                <li className=""><img src="/Facebook.png"></img></li>
+                                <li className=""><img src="/twitter.png"></img></li>
+                                <li className=""><img src="/linkedin.png"></img></li>
+                                
+                              </ul>
+                
+                </div>
+
+             </div>
+               
+            </section>
+
+
+            <section  className="small-leader-2 flex justify-center  " >  
+            <div className="flex max-w-screen-lg justify-evenly  flex-wrap flex-1">  
+
+                
+
+                  <div className="flex flex-col w-3/5">
+                    <h2 className="text-left text-darkcolor   font-P22Underground-thp text-2xl font-bold pt-16 ">
+                    Lionel Selwood, Jr.</h2>
+                    <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
+                    Chief Executive Oﬀicer</h4>
+                      <p className="text-left text-sm pt-8">Lionel is an accomplished Product Management Leader with expertise in
+                      Operations Management, Financial Management (Profit & Loss, Balance Sheet,
+                      Cash Flow), Lean Six Sigma, Supplier Development, Strategic Sourcing and Product
+                      Quality Management. His experience spans General Electric where he graduated
+                      from the highly regarded Operations Management Leadership Program (OMLP)
+                      and owned Profit & Loss Responsibility as Manufacturing Shop Operations
+                      Manager of a High Volume Production Facility and three Fast Moving Innovative
+                      Start Ups (SpaceX, Faraday Future & Romeo Power) where he has held various
+                      Roles including Director of Procurement, Vice President of Engineering and Chief
+                      Operating Oﬀicer. Lionel holds a B.Sc. in Mechanical Engineering from Syracuse
+                      University and MPS in Supply Chain Management from The Penn State University.</p>
+
+                      <ul className="flex-1 flex justify-start content-start items-end social gap-4 pt-6">
+                                <li className=""><img src="/Facebook.png"></img></li>
+                                <li className=""><img src="/twitter.png"></img></li>
+                                <li className=""><img src="/linkedin.png"></img></li>
+                                
+                              </ul>
+                
+                </div>
+
+                <div className=" w-2/5">
+                  <img src="/croptemp.jpg"></img>
+                </div>
+                
+             </div>
+               
+            </section>
+
+
+            <section  className="small-leader-3 flex justify-center  " >  
+            <div className="flex max-w-screen-lg justify-evenly  flex-wrap flex-1">  
+
+                <div className=" w-2/5">
+                  <img src="/croptemp.jpg"></img>
+                </div>
+
+                  <div className="flex flex-col w-3/5">
+                    <h2 className="text-left text-darkcolor   font-P22Underground-thp text-2xl font-bold pt-16 ">
+                    Lionel Selwood, Jr.</h2>
+                    <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
+                    Chief Executive Oﬀicer</h4>
+                      <p className="text-left text-sm pt-8">Lionel is an accomplished Product Management Leader with expertise in
+                      Operations Management, Financial Management (Profit & Loss, Balance Sheet,
+                      Cash Flow), Lean Six Sigma, Supplier Development, Strategic Sourcing and Product
+                      Quality Management. His experience spans General Electric where he graduated
+                      from the highly regarded Operations Management Leadership Program (OMLP)
+                      and owned Profit & Loss Responsibility as Manufacturing Shop Operations
+                      Manager of a High Volume Production Facility and three Fast Moving Innovative
+                      Start Ups (SpaceX, Faraday Future & Romeo Power) where he has held various
+                      Roles including Director of Procurement, Vice President of Engineering and Chief
+                      Operating Oﬀicer. Lionel holds a B.Sc. in Mechanical Engineering from Syracuse
+                      University and MPS in Supply Chain Management from The Penn State University.</p>
+
+                      <ul className="flex-1 flex justify-end content-end items-end social gap-4 pt-6">
+                                <li className=""><img src="/Facebook.png"></img></li>
+                                <li className=""><img src="/twitter.png"></img></li>
+                                <li className=""><img src="/linkedin.png"></img></li>
+                                
+                              </ul>
+                
+                </div>
+
+             </div>
+               
+            </section>
+
+
+            <section  className="small-leader-4 flex justify-center  " >  
+            <div className="flex max-w-screen-lg justify-evenly  flex-wrap flex-1">  
+
+                
+
+                  <div className="flex flex-col w-3/5">
+                    <h2 className="text-left text-darkcolor   font-P22Underground-thp text-2xl font-bold pt-16 ">
+                    Lionel Selwood, Jr.</h2>
+                    <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
+                    Chief Executive Oﬀicer</h4>
+                      <p className="text-left text-sm pt-8">Lionel is an accomplished Product Management Leader with expertise in
+                      Operations Management, Financial Management (Profit & Loss, Balance Sheet,
+                      Cash Flow), Lean Six Sigma, Supplier Development, Strategic Sourcing and Product
+                      Quality Management. His experience spans General Electric where he graduated
+                      from the highly regarded Operations Management Leadership Program (OMLP)
+                      and owned Profit & Loss Responsibility as Manufacturing Shop Operations
+                      Manager of a High Volume Production Facility and three Fast Moving Innovative
+                      Start Ups (SpaceX, Faraday Future & Romeo Power) where he has held various
+                      Roles including Director of Procurement, Vice President of Engineering and Chief
+                      Operating Oﬀicer. Lionel holds a B.Sc. in Mechanical Engineering from Syracuse
+                      University and MPS in Supply Chain Management from The Penn State University.</p>
+
+                      <ul className="flex-1 flex justify-start content-start items-end social gap-4 pt-6">
+                                <li className=""><img src="/Facebook.png"></img></li>
+                                <li className=""><img src="/twitter.png"></img></li>
+                                <li className=""><img src="/linkedin.png"></img></li>
+                                
+                              </ul>
+                
+                </div>
+
+                <div className=" w-2/5">
+                  <img src="/thumbnail_LINEAL-path@2x.png"></img>
+                </div>
+                
+             </div>
+               
+            </section>
 
 
 
-        <Footer/>
+           
+
+            <section  className="small-leader-5 flex justify-center  " >  
+            <div className="flex max-w-screen-lg justify-evenly  flex-wrap flex-1">  
+
+                <div className=" w-2/5">
+                  <img src="/croptemp.jpg"></img>
+                </div>
+
+                  <div className="flex flex-col w-3/5">
+                    <h2 className="text-left text-darkcolor   font-P22Underground-thp text-2xl font-bold pt-16 ">
+                    Lionel Selwood, Jr.</h2>
+                    <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
+                    Chief Executive Oﬀicer</h4>
+                      <p className="text-left text-sm pt-8">Lionel is an accomplished Product Management Leader with expertise in
+                      Operations Management, Financial Management (Profit & Loss, Balance Sheet,
+                      Cash Flow), Lean Six Sigma, Supplier Development, Strategic Sourcing and Product
+                      Quality Management. His experience spans General Electric where he graduated
+                      from the highly regarded Operations Management Leadership Program (OMLP)
+                      and owned Profit & Loss Responsibility as Manufacturing Shop Operations
+                      Manager of a High Volume Production Facility and three Fast Moving Innovative
+                      Start Ups (SpaceX, Faraday Future & Romeo Power) where he has held various
+                      Roles including Director of Procurement, Vice President of Engineering and Chief
+                      Operating Oﬀicer. Lionel holds a B.Sc. in Mechanical Engineering from Syracuse
+                      University and MPS in Supply Chain Management from The Penn State University.</p>
+
+                      <ul className="flex-1 flex justify-end content-end items-end social gap-4 pt-6">
+                                <li className=""><img src="/Facebook.png"></img></li>
+                                <li className=""><img src="/twitter.png"></img></li>
+                                <li className=""><img src="/linkedin.png"></img></li>
+                                
+                              </ul>
+                
+                </div>
+
+             </div>
+               
+            </section>
+
+
+            
+
+
+         
+
+
+       
+
+
+
+          
+
+
+        <Banner />
+
+
+
+        <Footer />
+        
 
 
     </div>

@@ -248,12 +248,17 @@ nav .show,nav .icon,nav input{
 }
 
 #hero.hero-home {
-  background-image:url(/HM_Slide1.jpg);
+  background-image:url(/thumbnail_HM_Slide1-gradient.png);
   
 }
 
 #hero.hero-about-story{ 
   background-image:url(/OURSTORYHeader.jpg);
+  
+}
+
+#hero.hero-about-leadership{ 
+  background-image:url(/LEADERSHIP_Header.jpg);
   
 }
 
@@ -284,6 +289,39 @@ nav .show,nav .icon,nav input{
 
 .small-hero.small-hero-orion {
   background-image:url(/Image2darker.jpg);
+  
+}
+
+.small-leader-1{
+  
+   background-color: #e2ddd9; 
+  
+}
+
+.small-leader-2{
+  
+   background-color: #fff; 
+  
+  
+}
+.small-leader-3{
+  
+   background-color: #e4e4e4;  
+  
+  
+}
+
+.small-leader-4{
+  
+   background-color: #e4e4e4;  
+  
+  
+}
+
+.small-leader-5{
+  
+   background-color: #e4e4e4;  
+  
   
 }
 
