@@ -252,6 +252,11 @@ nav .show,nav .icon,nav input{
   
 }
 
+#hero.hero-technology {
+  background-image:url(/Technologyheader.jpg);
+  
+}
+
 #hero.hero-products {
   background-image:url(/PRODUCTHeader.jpg);
   

@@ -19,7 +19,8 @@ module.exports = {
         'darkgreen': '#042F31', 
         'light': '#f4f4f4',
         'medium': '#EBE4D5',
-        'darkcolor': '#3D3D3D'
+        'darkcolor': '#3D3D3D',
+        'romeogray': '#8a8b8e'
        }),
        textColor: theme => ({
         ...theme('colors'),
