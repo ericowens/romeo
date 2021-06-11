@@ -41,7 +41,7 @@ export default function Home() {
       <section className="flex justify-center bg-medium py-16">
         <div className="flex max-w-screen-lg  flex-wrap flex-1">
           <div className="flex-1">
-            <h2 className="text-left text-darkcolor underline font-P22Underground-thp text-4xl font-bold ">The Future is Now</h2>
+            <h2 className="text-left text-darkcolor inline-block border-darkcolor border-b-2 font-P22Underground-thp text-4xl font-bold ">The Future is Now</h2>
             <p className="text-lg leading-normal my-4">For far too long, we’ve taken from nature without replenishing. Now, here we are. We see
 and feel the eﬀects and it’s time for real change.</p>
 <p className="text-lg leading-normal my-4">At Romeo Power, we’re not just in the business of delivering electrification solutions for
