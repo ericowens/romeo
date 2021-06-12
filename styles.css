@@ -334,6 +334,12 @@ nav .show,nav .icon,nav input{
   
 }
 
+#hero.hero-media-gallery {
+  background-image:url(/GALLERY_HEADER.jpg
+  );
+  
+}
+
 #hero.hero-contact {
   background-image:url(/CONTACT_HEADER.jpg);
   
