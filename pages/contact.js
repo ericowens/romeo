@@ -71,7 +71,7 @@ Vernon, CA 90058
             
 
             <div className="w-1/2 ">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.7478672747925!2d-118.1863346845222!3d33.999009427980475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2a4d2cfed148d%3A0xf5ac45541220129e!2sRomeo%20Power%2C%20Inc.!5e0!3m2!1sen!2sus!4v1623458417896!5m2!1sen!2sus" width="100%" height="300"  allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.7478672747925!2d-118.1863346845222!3d33.999009427980475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2a4d2cfed148d%3A0xf5ac45541220129e!2sRomeo%20Power%2C%20Inc.!5e0!3m2!1sen!2sus!4v1623458417896!5m2!1sen!2sus" width="100%" height="300"   loading="lazy"></iframe>
             </div>
            
           </div>
