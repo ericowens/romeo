@@ -328,6 +328,12 @@ nav .show,nav .icon,nav input{
   
 }
 
+#hero.hero-media {
+  background-image:url(/MEDIA_Header.jpg
+  );
+  
+}
+
 #hero.hero-contact {
   background-image:url(/CONTACT_HEADER.jpg);
   

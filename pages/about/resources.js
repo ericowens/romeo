@@ -47,7 +47,7 @@ export default function Home() {
 
           <div className="flex-1 flex justify-center align-center content-center  flex-col max-w-screen-lg   ">
   
-            <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Getting new Header Soon<br/>
+            <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
