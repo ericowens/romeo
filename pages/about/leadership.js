@@ -143,7 +143,7 @@ with a focus on electrochemistry from The Pennsylvania State University.</p>
                 </div>
 
                 <div className=" flex items-end justify-end w-2/5">
-                <img src="/thumbnail_LINEAL-path@2x.png"></img>
+                <img src="/AK.jpg"></img>
                 </div>
                 
              </div>
@@ -155,7 +155,7 @@ with a focus on electrochemistry from The Pennsylvania State University.</p>
             <div className="flex max-w-screen-lg justify-evenly  flex-wrap flex-1">  
 
             <div className=" flex items-end justify-end w-2/5">
-                <img src="/thumbnail_LINEAL-path@2x.png"></img>
+                <img src="/leadershipLAUREN-e3e3e3.png"></img>
                 </div>
 
                   <div className="flex flex-col w-3/5">
@@ -209,7 +209,7 @@ Electrical Engineering from MIT and 12 patents.</p>
                 </div>
 
                 <div className=" flex items-end justify-end w-2/5">
-                <img src="/thumbnail_LINEAL-path@2x.png"></img>
+                <img src="/CRISWELL.jpg"></img>
                 </div>
                 
              </div>
@@ -224,15 +224,15 @@ Electrical Engineering from MIT and 12 patents.</p>
             <div className="flex max-w-screen-lg justify-evenly  flex-wrap flex-1">  
 
             <div className=" flex items-end justify-end w-2/5">
-                <img src="/thumbnail_LINEAL-path@2x.png"></img>
+                <img src="/leadershipCHRIS.png"></img>
                 </div>
 
                   <div className="flex flex-col w-3/5">
-                    <h2 className="text-left text-darkcolor   font-P22Underground-thp text-2xl font-bold pt-16 ">
+                    <h2 className="text-left text-white   font-P22Underground-thp text-2xl font-bold pt-16 ">
                     NAME</h2>
-                    <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
+                    <h4 className="text-left text-white  font-P22Underground-thp text-l font-bold py-2 ">
                     TITLE</h4>
-                      <p className="text-left text-sm pt-8 leading-normal">adipiscing elit, sed do eiusmod tempor incididunt
+                      <p className="text-left text-white text-sm pt-8 leading-normal">adipiscing elit, sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua. Ut enim ad
 minim veniam, quis nostrud exercitation ullamco
 laboris nisi ut aliquip ex ea commodo consequat.

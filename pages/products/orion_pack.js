@@ -45,8 +45,9 @@ export default function Home() {
 
 
       <section className="flex justify-evenly bg-white  gap-4 py-8">
+      <div><img src="/Image1.jpg"></img></div>
           <div><img src="/2-ORIONV1A-SAMPLE_2.jpg"></img></div>
-          {/* <div><img src="/Image22.jpg"></img></div> */}
+          
           </section>
 
 
@@ -144,7 +145,7 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
               
               <div className="flex gap-8 justify-around py-8">
                 <div className="w-1/3 flex gap-4 flex-col items-start">
-                  <div><img src="/1battery.png"></img> </div> 
+                  <div><img src="/icon-battery-100.png"></img> </div> 
                   <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">Single Cell Fault Tolerance</h4>
                   <p>Through robust cell validation and
                   safety testing, Romeo Power selects
@@ -155,7 +156,7 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
 
 
                 <div className="w-1/3 flex gap-4 flex-col items-start">
-                  <div className=""><img src="/2battery.png"></img> </div> 
+                  <div className=""><img src="/icon-bms-100.png"></img> </div> 
                   <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">Battery Management System</h4>
                   <p>Functional safety algorithms rapidly
                   detect faults to maintain safe
@@ -170,7 +171,7 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
                 </div>
 
                 <div className="w-1/3 flex gap-4 flex-col items-start">
-                  <div><img src="/1battery.png"></img> </div> 
+                  <div><img src="/icon-sensor-100.png"></img> </div> 
                   <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">Sensing</h4>
                   <p>Accurate monitoring devices at cell-level, module-level and pack-level
                   constantly measure voltages, temperatures, and current to ensure
