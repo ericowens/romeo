@@ -12,14 +12,14 @@ const Formarea = () => {
                 </p>
                 <div className="flex space-x-20">
                   <div className="w-1/2">
-                    <input className="sm:w-full my-4 p-4 "   type="text" placeholder="Value"></input>
-                    <input className="sm:w-full my-4 p-4"   type="text" placeholder="Value"></input>
-                    <input className="sm:w-full my-4 p-4"   type="text" placeholder="Value"></input>
+                    <input className="sm:w-full my-4 p-4 "   type="text" placeholder="First Name"></input>
+                    <input className="sm:w-full my-4 p-4"   type="text" placeholder="Email"></input>
+                    <input className="sm:w-full my-4 p-4"   type="text" placeholder="Company"></input>
                     </div>
                     <div className="w-1/2">
-                    <input className="sm:w-full my-4 p-4"   type="text" placeholder="Value"></input>
-                    <input className="sm:w-full my-4 p-4"   type="text" placeholder="Value"></input>
-                    <input className="sm:w-full my-4 p-4"   type="text" placeholder="Value"></input>
+                    <input className="sm:w-full my-4 p-4"   type="text" placeholder="Last Name"></input>
+                    <input className="sm:w-full my-4 p-4"   type="text" placeholder="Phone"></input>
+                    <input className="sm:w-full my-4 p-4"   type="text" placeholder="Title"></input>
                     </div>
                 </div>
                 <Link href="/products/hermes_module">
