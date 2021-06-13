@@ -28,7 +28,7 @@ export default function Home() {
       <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
-              <h1 className="  font-P22Underground-thp text-7xl font-bold">Our Culture</h1>
+              <h1 className="  font-P22Underground-thp text-7xl font-bold">Careers</h1>
               <Link href="/contact">
               <button className="bg-accent  float-left py-4 px-10 my-10">Join our team</button> 
               </Link> 
@@ -44,18 +44,15 @@ export default function Home() {
           <div className="flex max-w-screen-lg  flex-wrap flex-1">
             <div className="flex-1">             
 
-                <p className=" text-center flex-1 font-P22Underground-thin text-xl py-4">
-                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-consectetur, adipisci velit, sed quia non numquam eius modi
-tempora incidunt ut. labore et dolore magnam aliquam quaerat
-voluptatem. Excepteur sint occaecat cupidatat non proident.
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-consectetur, adipisci velit, sed quia non numquam eius modi
+                <p className=" text-center flex-1 font-P22Underground-thin text-2xl py-4">
+                Romeo Power’s goal is to ensure that green energy is accessible to all eight billion people across the globe. It’s our True North; the multi-generational endeavor that drives us on a daily basis and we are unwavering in our commitment to achieving it, together.
+
 
                 </p>   
 
                 <p className=" text-right flex-1 font-P22Underground-thin text-xl py-4">
-               - CEO
+               - Lionel Selwood, Jr.  <br/>CEO
+
 
                 </p>           
               

@@ -45,7 +45,7 @@ export default function Home() {
 
 
       <section className="flex justify-evenly bg-white  gap-4 py-8">
-      <div><img src="/Image1.jpg"></img></div>
+      {/* <div><img src="/Image1.jpg"></img></div> */}
           <div><img src="/2-ORIONV1A-SAMPLE_2.jpg"></img></div>
           
           </section>
@@ -63,12 +63,12 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
 
 <p className="text-left font-P22Underground-thin py-4">What Sets the Orion BEV Pack Family Apart?</p>
 
-            <ul className="list-disc list-inside py-4 ">
+            <ul className="list-disc list-outside py-4 ">
                 <li className="font-P22Underground-thin p-1.5">Modular design with a 21700 cell format</li>
                 <li className="font-P22Underground-thin p-1.5">High packaging eﬀiciency</li>
                 <li className="font-P22Underground-thin p-1.5">Designed according to SAE J2380, SAE J2464, and UN 38.3 requirements</li>
                 <li className="font-P22Underground-thin p-1.5">Scalable and configurable design</li>
-                <li className="font-P22Underground-thin p-1.5">Cell voltage and temperature monitoring through an in-built ba ery monitoring device</li>
+                <li className="font-P22Underground-thin p-1.5">Cell voltage and temperature monitoring through an in-built battery monitoring device</li>
                 <li className="font-P22Underground-thin p-1.5">Automated cell balancing to maximize the usable capacity</li>
                 <li className="font-P22Underground-thin p-1.5">Isolated communication between stack of modules and the central control device</li>
                 <li className="font-P22Underground-thin p-1.5">Structurally integrated cooling system with superior thermal performance</li>
@@ -133,7 +133,7 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
 
 
 
-        <section className="flex justify-center bg-medium py-16">
+        {/* <section className="flex justify-center bg-medium py-16">
           <div className="flex max-w-screen-lg  flex-wrap flex-1">
             <div className="flex-1">
               <div className=" pb-8 ">
@@ -145,7 +145,9 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
               
               <div className="flex gap-8 justify-around py-8">
                 <div className="w-1/3 flex gap-4 flex-col items-start">
-                  <div><img src="/icon-battery-100.png"></img> </div> 
+                  <div className="w-full flex items-center justify-center content-center">
+                    <img src="/icon-battery-100.png"></img>
+                    </div> 
                   <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">Single Cell Fault Tolerance</h4>
                   <p>Through robust cell validation and
                   safety testing, Romeo Power selects
@@ -156,7 +158,8 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
 
 
                 <div className="w-1/3 flex gap-4 flex-col items-start">
-                  <div className=""><img src="/icon-bms-100.png"></img> </div> 
+                <div className="w-full flex items-center justify-center content-center">
+                  <img src="/icon-bms-100.png"></img> </div> 
                   <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">Battery Management System</h4>
                   <p>Functional safety algorithms rapidly
                   detect faults to maintain safe
@@ -171,7 +174,8 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
                 </div>
 
                 <div className="w-1/3 flex gap-4 flex-col items-start">
-                  <div><img src="/icon-sensor-100.png"></img> </div> 
+                <div className="w-full flex items-center justify-center content-center">
+                  <img src="/icon-sensor-100.png"></img> </div> 
                   <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">Sensing</h4>
                   <p>Accurate monitoring devices at cell-level, module-level and pack-level
                   constantly measure voltages, temperatures, and current to ensure
@@ -184,7 +188,7 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
              
             </div>
           </div>
-          </section>
+          </section> */}
 
         <Formarea/>
 

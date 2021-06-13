@@ -52,38 +52,38 @@ aliqua. Ut enim ad minim</p>
             <div className="w-2/3">
 
             <details className=" pb-4" >
-              <summary className="font-P22Underground-book mb-8 py-2 border-darkcolor border-b border-t">
-              What is Romeo Power’s mission and how does it influence the business on a day-to-day basis?
+              <summary className="font-P22Underground-book mb-8 py-2 border-darkcolor border-b border-t flex flex-col align-center  justify-center text-lg ">
+              <p className="font-bold">What is Romeo Power’s mission and how does it influence the business on a day-to-day basis?</p>
                 </summary>
               <div >
                 <p className="font-P22Underground-book">We are a Southern California energy technology
 company dedicated to enabling large-scale, sustainable
-transportation with our suite of energy-dense ba ery
+transportation with our suite of energy-dense battery
 packs and modules. We are motivated by a bold vision to
 create a world where energy poverty no longer exists –
 where all eight billion global citizens have access to
 sustainable and aﬀordable clean energy.
 We believe that to secure a livable, sustainable future for
 our world, we must transition from polluting combustion
-engines to clean ba ery-electric energy fast and at scale.
+engines to clean battery-electric energy fast and at scale.
 At Romeo Power, we are developing the world’s highest
 energy dense ba eries, with a focus on safety, extended
 range and durability, for heavy-duty commercial vehicles.
 Our team of elite engineers has made crucial
 breakthroughs in safety standards, energy density,
-ba ery management and cost-eﬀective manufacturing,
+battery management and cost-eﬀective manufacturing,
 and we aren’t slowing down anytime soon. We are laser-
 focused on addressing our customers’ specific pain
 points to enable more commercial fleet managers to
-switch to ba ery-electric solutions.</p>
+switch to battery-electric solutions.</p>
               </div>
             </details>
 
             <details className=" pb-4">
-              <summary className="font-P22Underground-book mb-8 py-2 border-darkcolor border-b border-t">
-              What do we mean when we talk about energy
+            <summary className="font-P22Underground-book mb-8 py-2 border-darkcolor border-b border-t flex flex-col align-center justify-center text-lg ">
+              <p className="font-bold">What do we mean when we talk about energy
 poverty? How does Romeo Power address
-energy poverty today?
+energy poverty today?</p>
                 </summary>
               <div >
                 <p className="font-P22Underground-book">When we talk about creating a world where energy
@@ -95,7 +95,7 @@ switch to electric alternatives, innovators like Romeo
 Power are laser-focused on overcoming these barriers at
 scale.</p>
 <p className="font-P22Underground-book">Today, Romeo Power is building the world’s highest
-energy dense ba ery systems, with a focus on safety,
+energy dense battery systems, with a focus on safety,
 extended range and durability, for heavy-duty
 commercial vehicles.</p>
               </div>
@@ -106,11 +106,11 @@ commercial vehicles.</p>
 
 
             <details className=" pb-4">
-              <summary className="font-P22Underground-book mb-8 py-2 border-darkcolor border-b border-t">
-              What does Romeo Power manufacture?
+            <summary className="font-P22Underground-book mb-8 py-2 border-darkcolor border-b border-t flex flex-col align-center justify-center text-lg ">
+              <p className="font-bold ">What does Romeo Power manufacture?</p>
                 </summary>
               <div >
-                <p className="font-P22Underground-book">We manufacture ba ery modules, packs and ba ery
+                <p className="font-P22Underground-book">We manufacture battery modules, packs and battery
 management systems (BMS) for the commercial EV
 market and other high-performance EVs that require the
 highest energy dense solutions. Our end-to-end
@@ -118,9 +118,9 @@ engineering capabilities include cell science, mechanical,
 thermal, electrical, firmware systems and stress.
 Our balanced, modular and integrated design provides
 superior range and power, at an eﬀective cost. When it
-comes to ba ery technology, the greater the energy
+comes to battery technology, the greater the energy
 density and power density, the longer the range and the
-be er the acceleration. Our ba ery systems provide
+be er the acceleration. Our battery systems provide
 both, resulting in eﬀicient packs without sacrificing
 space.</p>
               </div>
@@ -132,19 +132,19 @@ space.</p>
 
 
             <details className=" pb-4">
-              <summary className="font-P22Underground-book mb-8 py-2 border-darkcolor border-b border-t">
-              Where does Romeo Power fit within the
-ba ery market and commercial EV value
-chain overall?
+            <summary className="font-P22Underground-book mb-8 py-2 border-darkcolor border-b border-t flex flex-col align-center  justify-center text-lg ">
+              <p className="font-bold">Where does Romeo Power fit within the
+battery market and commercial EV value
+chain overall?</p>
                 </summary>
               <div >
-                <p className="font-P22Underground-book">Romeo Power is at the heart of the EV ba ery market.
+                <p className="font-P22Underground-book">Romeo Power is at the heart of the EV battery market.
 Our industry-leading energy density and cell agnostic
 approach enable us to collaborate with the other leading
 industry players and vehicle manufacturers to drive
 innovation at a rapid pace. After our technology
 undergoes rigorous safety and reliability testing, we
-manufacture the ba ery packs and ba ery management
+manufacture the battery packs and battery management
 systems that directly power vehicles for OEMs in North
 America and Europe.</p>
               </div>
@@ -156,11 +156,11 @@ America and Europe.</p>
 
 
             <details className=" pb-4">
-              <summary className="font-P22Underground-book mb-8 py-2 border-darkcolor border-b border-t">
-              What types of companies does Romeo Power
+            <summary className="font-P22Underground-book mb-8 py-2 border-darkcolor border-b border-t flex flex-col align-center  justify-center text-lg ">
+              <p className="font-bold">What types of companies does Romeo Power
 look to partner and work with? Does Romeo
 Power look to partner with companies outside
-of the EV industry?
+of the EV industry?</p>
                 </summary>
               <div >
                 <p className="font-P22Underground-book">Romeo Power focuses on two key markets in mobility
@@ -189,8 +189,8 @@ marine and aerospace industries.</p>
 
 
             <details className=" pb-4">
-              <summary className="font-P22Underground-book mb-8 py-2 border-darkcolor border-b border-t">
-              What does Romeo Power’s logo represent?
+            <summary className="font-P22Underground-book mb-8 py-2 border-darkcolor border-b border-t flex flex-col align-center  justify-center text-lg ">
+              <p className="font-bold">What does Romeo Power’s logo represent?</p>
                 </summary>
               <div >
                 <p className="font-P22Underground-book">Romeo Power’s logo is a celebration of a current as it
@@ -209,7 +209,7 @@ decays or loses strength. In many ways, it’s as strong as
 steel and this feat of nature aligns perfectly with Romeo
 Power’s internal values. Not only does the Romeo Power
 logo visually represent the natural pa ern of Heartwood,
-itself akin to the design of a ba ery cell, but it represents
+itself akin to the design of a battery cell, but it represents
 Romeo Power’s positioning as the core of electrification.</p>
               </div>
             </details>

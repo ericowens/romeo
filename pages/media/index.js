@@ -70,6 +70,12 @@ of the intended use and reach out to media@romeopower.com.
 Headline
               </h2>
               <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4"></p>
+              <Link  href="/media/leadership">
+                <div className="flex gap-2   justify-end align-center content-center items-center">
+                  <span className="">Read More</span>
+                  <span><img className="flex-grow-0" src="/arrow.png" ></img></span>
+              </div>
+              </Link>
             </div>
 
             <div className="w-1/2 bg-medium p-10">
@@ -79,6 +85,12 @@ Headline
 Headline
               </h2>
               <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4"></p>
+              <Link  href="/media/leadership">
+                <div className="flex gap-2   justify-end align-center content-center items-center">
+                  <span className="">Read More</span>
+                  <span><img className="flex-grow-0" src="/arrow.png" ></img></span>
+              </div>
+              </Link>
             </div>
            
           </div>
@@ -96,6 +108,12 @@ Headline
 Headline
               </h2>
               <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4"></p>
+              <Link  href="/media/leadership">
+                <div className="flex gap-2   justify-end align-center content-center items-center">
+                  <span className="">Read More</span>
+                  <span><img className="flex-grow-0" src="/arrow.png" ></img></span>
+              </div>
+              </Link>
             </div>
 
             <div className="w-1/2 bg-medium p-10">
@@ -104,7 +122,14 @@ Headline
               Press Release
 Headline
               </h2>
-              <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4"></p>
+              <p className="   flex-1 font-P22Underground-thin text-lg py-4"></p>
+
+              <Link  href="/media/leadership">
+                <div className="flex gap-2   justify-end align-center content-center items-center">
+                  <span className="">Read More</span>
+                  <span><img className="flex-grow-0" src="/arrow.png" ></img></span>
+              </div>
+              </Link>
             </div>
  
 </div>
@@ -137,8 +162,13 @@ partnership, endorsement or
 sponsorship, unless agreed
 upon by the company.
       </p>
-      <p className=" text-left  flex-1 font-P22Underground-book text-sm py-4 uppercase">
-      <Link  href="/media/logos">View All</Link></p>
+      <p className=" text-left  flex-1 font-P22Underground-book text-lg py-4 uppercase">
+      <Link  href="/media/logos">
+          <div className="flex w-3/5 gap-8 justify-between align-center content-center">
+            <span className="flex-1">View All</span>
+            <span><img className="flex-grow-0" src="/arrow.jpg" ></img></span>
+        </div>
+        </Link></p>
     </div>
 
     <div className="w-1/3 bg-white p-10"> 
@@ -158,7 +188,13 @@ articles, speaking
 opportunities or for general
 inspiration.
       </p>
-      <p className=" text-left  flex-1 font-P22Underground-book text-sm py-4 uppercase"><Link  href="/media/leadership">View All</Link></p>
+      <p className=" text-left  flex-1 font-P22Underground-book text-lg py-4 uppercase">
+        <Link  href="/media/leadership">
+          <div className="flex w-3/5 gap-8 justify-between align-center content-center">
+            <span className="flex-1">View All</span>
+            <span><img className="flex-grow-0" src="/arrow.jpg" ></img></span>
+        </div>
+        </Link></p>
     </div>
 
     <div className="w-1/3 bg-white p-10"> 
@@ -177,7 +213,12 @@ and brand images that align
 with our corporate identity
 and vision for the future.
       </p>
-      <p className=" text-left  flex-1 font-P22Underground-book text-sm py-4 uppercase"><Link  href="/media/gallery">View All</Link></p>
+      <p className=" text-left  flex-1 font-P22Underground-book text-lg py-4 uppercase"><Link  href="/media/gallery">
+          <div className="flex w-3/5 gap-8 justify-between align-center content-center">
+            <span className="flex-1">View All</span>
+            <span><img className="flex-grow-0" src="/arrow.jpg" ></img></span>
+        </div>
+        </Link></p>
     </div>
   
   </div>

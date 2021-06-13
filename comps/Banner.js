@@ -5,16 +5,16 @@ const Banner = () => {
       <section id="banner" className="flex justify-center py-10">
         <div className="flex max-w-screen-lg flex-col flex-wrap flex-1 md:flex-row m-3 space-x-4 ">
         <div className="flex-1  flex-grow">
-          <p className="text-darkcolor  text-base leading-7 text-bold " >ROMEO POWER, INC. Media</p>
+          <p className="text-darkcolor  text-base leading-7 text-bold " >ROMEO POWER, INC.</p>
         <p className="address text-darkcolor font-P22Underground-thin text-base  " >4380 Ayers Ave, Vernon, CA 90058<br></br>
         sales@romeopower.com<br></br>
         +1 833.467.2237</p>
         <ul className="flex social">
-          <li className="flex-1"><img src="/Facebook.png"></img></li>
-          <li className="flex-1"><img src="/twitter.png"></img></li>
-          <li className="flex-1"><img src="/linkedin.png"></img></li>
-          <li className="flex-1"><img src="/youtube.png"></img></li>
-          <li className="flex-1"><img src="/instagram.png"></img></li>
+          <li className="flex-1"><Link  href="https://www.facebook.com/RomeoPowerInc"><img src="/Facebook.png"></img></Link></li>
+          <li className="flex-1"><Link  href="https://twitter.com/romeopowerinc"><img src="/twitter.png"></img></Link></li>
+          <li className="flex-1"><Link  href="https://www.linkedin.com/company/romeopowerinc/"><img src="/linkedin.png"></img></Link></li>
+          <li className="flex-1"><Link  href="https://www.youtube.com/channel/UCBLrQ658VqC1XQTGajV3xlQ"><img src="/youtube.png"></img></Link></li>
+          <li className="flex-1"><Link  href="https://www.instagram.com/romeopowerinc/"><img src="/instagram.png"></img></Link></li>
         </ul>
         </div> 
         <div className="flex-1 ">

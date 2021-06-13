@@ -46,6 +46,10 @@ nav *{
 }
 
 
+ul.list-outside{
+  margin-left: 1rem;
+}
+
 
 
 body{
@@ -318,7 +322,7 @@ nav .show,nav .icon,nav input{
 
 
 #hero.hero-about-careers {
-  background-image:url(/CAREERSHEADER.jpg);
+  background-image:url(/LEADERSHIP_Header.jpg);
   
 }
 
@@ -466,10 +470,21 @@ nav .show,nav .icon,nav input{
 }
 
 summary {
-  
+  min-height: 100px;
   text-align: left;
   cursor: pointer;
   position: relative;
+  padding-right: 100px;
+  background: url('/faq-closed.png') ;  
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+details[open] summary  {
+  background: url('/faq-opened.png') ;  
+  background-position: right center;
+  background-repeat: no-repeat;
+  
 }
 
 /* details > summary::after {
@@ -485,6 +500,8 @@ details[open] > summary::after {
 details summary::-webkit-details-marker {
   display:none;
 }
+
+::marker { content: ""; }
 
 details[open] summary ~ * {
   animation: sweep .5s ease-in-out;

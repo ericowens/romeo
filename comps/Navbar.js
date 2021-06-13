@@ -27,10 +27,10 @@ const Navbar = () => {
           <ul>
             <li><Link href="/about/our_story"><a >Our Story</a></Link></li>
             <li><Link href="/about/leadership"><a >Leadership</a></Link></li>
-            <li><Link href="/about/us_manufacturing"><a >US Manufacturing</a></Link></li>
+            <li><Link href="/about/us_manufacturing"><a >U.S. Manufacturing</a></Link></li>
             <li><Link href="/about/faqs"><a >FAQs</a></Link></li>
             <li><Link href="/about/careers"><a >Careers</a></Link></li>
-            <li><Link href="/about/resources"><a >Resources</a></Link></li>
+            {/* <li><Link href="/about/resources"><a >Resources</a></Link></li> */}
           </ul>
            </li>
            <li><Link href="/media"><a >Media</a></Link></li>

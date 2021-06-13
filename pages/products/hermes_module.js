@@ -109,12 +109,12 @@ export default function Home() {
               <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold pt-4 ">
                 Features</h2>
               </div>
-              <ul className="list-disc list-inside ">
+              <ul className="list-disc list-outside ">
                 <li className="font-P22Underground-thin">Modular design with a 21700 cell format</li>
                 <li className="font-P22Underground-thin">High packaging eﬀiciency</li>
                 <li className="font-P22Underground-thin">Designed according to SAE J2380, SAE J2464, and UN 38.3 requirements</li>
                 <li className="font-P22Underground-thin">Scalable and configurable design</li>
-                <li className="font-P22Underground-thin">Cell voltage and temperature monitoring through an in-built ba ery monitoring device</li>
+                <li className="font-P22Underground-thin">Cell voltage and temperature monitoring through an in-built battery monitoring device</li>
                 <li className="font-P22Underground-thin">Automated cell balancing to maximize the usable capacity</li>
                 <li className="font-P22Underground-thin">Isolated communication between stack of modules and the central control device</li>
                 <li className="font-P22Underground-thin">Structurally integrated cooling system with superior thermal performance</li>

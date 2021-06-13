@@ -29,7 +29,7 @@ export default function Home() {
       <section className="flex flex-1  justify-start align-center content-center items-center    pl-28">
         
           <div className="">
-              <h1 className="font-P22Underground-thp text-6xl font-bold">Power Inspired by Nature.</h1>
+              <h1 className="font-P22Underground-thp text-6xl font-bold">Powering the world’s transition to electrification</h1>
               <Link href="/contact">
               <button className="bg-accent  float-left py-4 px-10 my-10">Contact</button> 
               </Link>              
@@ -47,7 +47,7 @@ export default function Home() {
             <div className="text-left text-darkcolor inline-block border-darkcolor border-b-2">
             <h2 className="border-darkcolor border-b text-left inline-block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold py-4 ">
             
-              The Future is Now</h2>
+            Power inspired by nature</h2>
                 </div>
             <p className="text-lg leading-normal my-4">For far too long, we’ve taken from nature without replenishing. Now, here we are. We see
 and feel the eﬀects and it’s time for real change.</p>
@@ -71,7 +71,7 @@ universal energy a thing of the future.</p>
 commercial vehicle industry spanning from Class 3 delivery
 vehicles to the largest, long-haul Class 8 vehicles. With high
 packaging eﬀiciency, high energy density and a structurally
-integrated cooling system, Romeo Power’s modular ba ery
+integrated cooling system, Romeo Power’s modular battery
 systems have multiple safety features and are designed to
 tolerate thermal event faults at a single cell level.</p>
 <div className="flex"><Link href="/products">
@@ -106,7 +106,7 @@ tolerate thermal event faults at a single cell level.</p>
 commercial vehicle industry spanning from Class 3 delivery
 vehicles to the largest, long-haul Class 8 vehicles. With high
 packaging eﬀiciency, high energy density and a structurally
-integrated cooling system, Romeo Power’s modular ba ery
+integrated cooling system, Romeo Power’s modular battery
 systems have multiple safety features and are designed to
 tolerate thermal event faults at a single cell level.</p>
 <div className="flex"><Link href="/technology"><button className="bg-accent  float-left py-4 px-14 my-10 text-white">Learn More</button></Link> </div>
@@ -125,7 +125,7 @@ tolerate thermal event faults at a single cell level.</p>
 commercial vehicle industry spanning from Class 3 delivery
 vehicles to the largest, long-haul Class 8 vehicles. With high
 packaging eﬀiciency, high energy density and a structurally
-integrated cooling system, Romeo Power’s modular ba ery
+integrated cooling system, Romeo Power’s modular battery
 systems have multiple safety features and are designed to
 tolerate thermal event faults at a single cell level.</p>
 <div className="flex"><Link href="/about/us_manufacturing"><button className="bg-accent  float-left py-4 px-14 my-10 text-white">Learn More</button></Link>  </div>

@@ -72,7 +72,7 @@ all modules and packs are tested according to stringent Romeo Power standards.</
               <p className="text-left">Romeo Power’s trained technicians provide
 optimized drop-in solutions for your vehicle
 application by assembling our modules into
-custom, high-capacity ba ery pack
+custom, high-capacity battery pack
 configurations. ISO 9001 certification guarantees
 that our packs are built to meet your specific
 power needs with strict quality assurance to
@@ -99,7 +99,7 @@ Multiple shift capacity easily scales to meet
 the quality and delivery requirements our
 customers’ demand. Designing safe,
 reliable and robust systems with in-depth
-ba ery research results in ensuring our
+battery research results in ensuring our
 customers’ standards are met or exceeded
 throughout the entire product maturity,
 development and production process.</p>
@@ -117,14 +117,14 @@ development and production process.</p>
             <div className="w-1/2">
 
             <h4 className="text-left text-darkcolor  font-P22Underground-thp text-xl font-bold py-2 ">
-            COST EFFECTIVE, US BASED PRODUCTION</h4>           
+            COST EFFECTIVE, U.S. BASED PRODUCTION</h4>           
               
               <p className="text-left">Automation of critical assembly steps, coupled
 with patented component designs enables our
 module production process to be economical,
 reliable and timely. Robotic work cells can run
 24/7 with the utmost speed and accuracy,
-allowing Romeo Power to manufacture ba ery
+allowing Romeo Power to manufacture battery
 modules with low cost and predictable
 consistency.</p>
              
@@ -142,13 +142,13 @@ consistency.</p>
             HIGH THROUGHPUT MICRO
 LASER WELDING</h4>           
               
-              <p className="text-left text-white">Speed is critical to our ba ery module
+              <p className="text-left text-white">Speed is critical to our battery module
 manufacturing process, though it could
 not be achieved without a focus on
 accuracy. Our state-of-the-art laser
 welder combines vision-based guidance
 and precision fixturing to pinpoint an
-exact weld location on each ba ery cell.
+exact weld location on each battery cell.
 The welds connecting the cells are
 made at light speed, creating a
 repeatable, reliable and vibration-
@@ -173,10 +173,10 @@ resistant interconnection.</p>
 Our proprietary test plans, developed from industry-wide research in automotive and
 aerospace, set us apart.</p>
 <p className="text-left py-4">Romeo Power’s full range of test capabilities includes:</p>
-<ul className="list-disc list-inside ">
+<ul className="list-disc list-outside ">
                 <li className="font-P22Underground-thin">Mechanical, environmental and electrical testing</li>
                 <li className="font-P22Underground-thin">Engineering, qualification, and production testing for single cell, module and pack level
-ba ery systems</li>
+battery systems</li>
                 <li className="font-P22Underground-thin">Comprehensive failure analysis solutions, analytical methods, cross section imaging, cell
 teardowns, and failure analysis reports</li>
               </ul>
@@ -189,27 +189,25 @@ teardowns, and failure analysis reports</li>
 
           <section className="us-hero us-hero-3 flex justify-center bg-white px-4 ">
           <div className="flex max-w-screen-lg  gap-8 flex-1 items-center">
-          <div className=" flex flex-col items-center justify-center w-1/2"></div>
+         
           
             <div className=" flex flex-col items-center justify-center w-1/2">
 
             <h4 className="text-left text-white  font-P22Underground-thp text-xl font-bold pb-8 ">
-            HIGH THROUGHPUT MICRO
-LASER WELDING</h4>           
+            FUNCTIONAL TESTING</h4>           
               
-              <p className="text-left text-white">Speed is critical to our ba ery module
-manufacturing process, though it could
-not be achieved without a focus on
-accuracy. Our state-of-the-art laser
-welder combines vision-based guidance
-and precision fixturing to pinpoint an
-exact weld location on each ba ery cell.
-The welds connecting the cells are
-made at light speed, creating a
-repeatable, reliable and vibration-
-resistant interconnection.</p>
+              <p className="text-left text-white">Modules and packs are not
+considered complete until their
+functional and electrical
+characteristics are verified. Romeo
+Power’s state-of-the-art testing
+systems verify all critical
+specifications to assure everything
+is functioning as intended before
+our products are integrated into</p>
              
             </div>
+            <div className=" flex flex-col items-center justify-center w-1/2"></div>
           </div>
           </section>
 

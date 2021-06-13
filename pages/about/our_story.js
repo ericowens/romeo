@@ -50,17 +50,18 @@ export default function Home() {
             <div className="flex-1">
               
               
-              <p className="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui oﬀicia deserunt
-mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-qui oﬀicia deserunt mollit anim id est laborum.</p>
+              
+
+<p className="text-left pb-4">Romeo Power is on a mission to power the world’s transition to electrification.
+</p>
+<p className="text-left pb-4">Romeo Power was founded in 2016 by a team of former Tesla and SpaceX engineers with a vision to create an electrified world where all have access to clean energy. Since then, we’ve laser-focused our collective engineering, entrepreneurial and networking skills to push high-density battery technology to its peak, to serve a market with a need for cleaner energy solutions now, and at scale: heavy-duty commercial vehicle fleets.
+</p>
+<p className="text-left pb-4">We’ve come a long way in understanding our customers’ exact pain points and identifying the best approach to solve them.
+</p>
+<p className="text-left pb-4">As a pioneer in battery-powered energy, we’re delivering advanced electrification solutions to some of the most complex commercial vehicle applications. Our suite of advanced hardware, combined with our innovative battery management systems, delivers the safety, performance, reliability and configurability our customers demand for success. We’re determined to create real change in energy sourcing and electrification, enabling access to clean energy for all.
+</p>
+<p className="text-left pb-4">Together, we are Romeo Power. This is our bold vision to create an electrically powered world.
+</p>
              
             </div>
           </div>
@@ -78,7 +79,7 @@ qui oﬀicia deserunt mollit anim id est laborum.</p>
 
             
 
-                <div className="grid grid-cols-2 gap-4 w-2/4">
+                <div className="grid grid-cols-2 gap-4 w-3/4">
                   <div className="flex flex-col items-center align-center content-center justify-center">
                     <div className="flex-1 py-4" >
                       <div className=" rounded-full border border-black text-white bg-black font-bold leading-none text-md p-2">20<br></br>16</div>
@@ -92,7 +93,7 @@ qui oﬀicia deserunt mollit anim id est laborum.</p>
                 </div>
 
 
-                <div className="grid grid-cols-2 gap-4 w-2/4">
+                <div className="grid grid-cols-2 gap-4 w-3/4">
                   <div className="flex flex-col items-center align-center content-center justify-center">
                     <div className="flex-1 py-4" >
                       <div className=" rounded-full border border-black text-white bg-black font-bold leading-none text-md p-2">20<br></br>17</div>
@@ -106,12 +107,12 @@ facility in Southern California</p>
 
                     <h2 className=" text-left font-P22Underground-thp text-4xl font-bold pt-8 ">August 2017</h2>
                     <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Romeo Power Closes $30M seed round to ramp
-up ba ery pack production for commercial EVs
+up battery pack production for commercial EVs
 and stationary storage</p>
 
                   <h2 className=" text-left font-P22Underground-thp text-4xl font-bold pt-8 ">November 2017</h2>
                     <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Romeo Power inaugurates the first
-manufacturing facility dedicated to EV ba ery
+manufacturing facility dedicated to EV battery
 packs on the West Coast</p>
                   </div>
                 </div>
@@ -119,7 +120,7 @@ packs on the West Coast</p>
 
 
 
-                <div className="grid grid-cols-2 gap-4 w-2/4">
+                <div className="grid grid-cols-2 gap-4 w-3/4">
                   <div className="flex flex-col items-center align-center content-center justify-center">
                     <div className="flex-1 py-4" >
                       <div className=" rounded-full border border-black text-white bg-black font-bold leading-none text-md p-2">20<br></br>19</div>
@@ -141,7 +142,7 @@ partnership for responsible environmental controls</p>
                 </div>
 
 
-                <div className="grid grid-cols-2 gap-4 w-2/4">
+                <div className="grid grid-cols-2 gap-4 w-3/4">
                   <div className="flex flex-col items-center align-center content-center justify-center">
                     <div className="flex-1 py-4" >
                       <div className=" rounded-full border border-black text-white bg-black font-bold leading-none text-md p-2">20<br></br>20</div>
@@ -166,7 +167,7 @@ RMG Acquisition Corp.</p>
 
 
 
-                <div className="grid grid-cols-2 gap-4 w-2/4">
+                <div className="grid grid-cols-2 gap-4 w-3/4">
                   <div className="flex flex-col items-center align-center content-center justify-center">
                     <div className="flex-1 py-4" >
                       <div className=" rounded-full border border-black text-white bg-black font-bold leading-none text-md p-2">20<br></br>21</div>
