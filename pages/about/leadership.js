@@ -85,17 +85,13 @@ qui oﬀicia deserunt mollit anim id est laborum.</p>
                     Lionel Selwood, Jr.</h2>
                     <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
                     Chief Executive Oﬀicer</h4>
-                      <p className="text-left text-sm pt-8 leading-normal">Lionel is an accomplished Product Management Leader with expertise in
-                      Operations Management, Financial Management (Profit & Loss, Balance Sheet,
-                      Cash Flow), Lean Six Sigma, Supplier Development, Strategic Sourcing and Product
-                      Quality Management. His experience spans General Electric where he graduated
-                      from the highly regarded Operations Management Leadership Program (OMLP)
-                      and owned Profit & Loss Responsibility as Manufacturing Shop Operations
-                      Manager of a High Volume Production Facility and three Fast Moving Innovative
-                      Start Ups (SpaceX, Faraday Future & Romeo Power) where he has held various
-                      Roles including Director of Procurement, Vice President of Engineering and Chief
-                      Operating Oﬀicer. Lionel holds a B.Sc. in Mechanical Engineering from Syracuse
-                      University and MPS in Supply Chain Management from The Penn State University.</p>
+                      <p className="text-left text-sm pt-8 leading-normal">Lionel Selwood, Jr. serves as Romeo Power’s Chief Executive Officer. As a recognized leader in battery-powered technology and electrification, Lionel Selwood, Jr. joined Romeo Power in 2016 with an innate passion for accelerating access to green energy.
+</p><p className="text-left text-sm pt-8 leading-normal">Prior to joining Romeo Power, Lionel held key positions at fast-growing companies on the cutting edge of innovation, including SpaceX and Faraday Future. He also led teams at General Electric, where he graduated from the highly regarded Operations Management Leadership Program (OMLP).
+ 
+</p><p className="text-left text-sm pt-8 leading-normal">Lionel’s vision for Romeo Power is rooted in his experience growing up in the U.S. Virgin Islands, where access to clean energy is scarce. Seeing this inequity sparked a deep commitment to broadening global access to life-changing, innovative green energy solutions. Lionel is the go-to source for energy across numerous industries and is frequently called upon as a thought leader among nationally recognized media outlets.
+ 
+</p><p className="text-left text-sm pt-8 leading-normal">Lionel is also an engineer and holds a master’s degree in Supply Chain Management from The Pennsylvania State University and a bachelor’s degree in Mechanical Engineering from Syracuse University.
+</p>
 
                       <ul className="flex-1 flex justify-end content-end items-end social gap-4 pt-6">
                                 <li className=""><Link href="https://www.linkedin.com/in/lionel-selwood-jr-ab031b34/">
@@ -123,17 +119,13 @@ qui oﬀicia deserunt mollit anim id est laborum.</p>
                     AK Srouji, PhD</h2>
                     <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
                     Chief Technology Oﬀicer</h4>
-                      <p className="text-left text-sm pt-8 leading-normal">Dr. Srouji directs all technical and technological developments, including IP
-strategy, roadmaps, and future products, internally and in collaboration with
-strategic partners. Before being promoted to CTO, he was responsible for R&D
-and Cell Technology at Romeo. Prior to joining Romeo, he was developing
-advanced physico-chemical battery models at Robert Bosch’s Research &
-Technology Center in Silicon Valley. He also worked on novel battery component
-development, spanning from next-gen lithium ion to all solid-state ba eries.
-Throughout his energy storage technology career he has successfully brought to
-market multiple programs funded by the US Department of Energy. He holds an
-MS degree in Mechanical Engineering, and a PhD in Energy & Mineral Engineering
-with a focus on electrochemistry from The Pennsylvania State University.</p>
+                      <p className="text-left text-sm pt-8 leading-normal">Dr. AK Srouji is an expert in electrochemical energy storage and conversion devices. He serves as Romeo Power’s Chief Technology Officer, directing all technical activities, including product development, technology roadmap and IP strategy. 
+                      </p><p className="text-left text-sm pt-8 leading-normal">He is highly dedicated to developing electrochemical systems in order to replace incumbent combustion technology, one after the other.
+ 
+                      </p><p className="text-left text-sm pt-8 leading-normal">Prior to joining Romeo Power, AK was developing advanced battery models, battery cells and systems at Robert Bosch’s Research & Technology Center in Silicon Valley. Throughout his energy technology career, he has successfully brought to market multiple lithium-ion and fuel cell programs funded by the U.S. Department of Energy.
+ 
+                      </p><p className="text-left text-sm pt-8 leading-normal">AK holds a master’s degree in Mechanical Engineering, and a PhD in Energy & Mineral Engineering with a focus on electrochemistry from The Pennsylvania State University.
+</p>
 
                       <ul className="flex-1 flex justify-start content-start items-end social gap-4 pt-6">
                       <li className=""><Link href="https://www.linkedin.com/in/ak-srouji-27191013/">
@@ -168,11 +160,11 @@ with a focus on electrochemistry from The Pennsylvania State University.</p>
                     <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
                     Chief Financial Oﬀicer And Chief Strategy Officer
 </h4>
-                      <p className="text-left text-sm pt-8 leading-normal">Lauren Webb has over a dozen years of experience in finance and operations for
-early stage companies, including InAuth, Inc. Prior to joining Romeo she was Vice
-President of business services company Apollo Services, LLC. She started her
-career at the U.S. Department of Justice and spent ten years with The Ashcroft
-Group, a venture investment and consulting firm based in Washington, DC.</p>
+                      <p className="text-left text-sm pt-8 leading-normal">Lauren Webb serves as Romeo Power’s Chief Financial Officer and Chief Strategy Officer with 15 years of experience in finance, strategy and operations for early-stage companies. Lauren started her career at the U.S. Department of Justice and spent ten years with the Ashcroft Group, a venture investment and consulting firm based in Washington D.C.
+                      </p><p className="text-left text-sm pt-8 leading-normal">Before joining Romeo Power in 2017, Lauren was also a founder and Vice President at Apollo Services, LLC, a business services company specializing in operations for legal and audit firms.
+ 
+                      </p><p className="text-left text-sm pt-8 leading-normal">Lauren holds two bachelor’s degrees from Texas A&M University.
+</p>
 
                       <ul className="flex-1 flex justify-end content-end items-end social gap-4 pt-6">
                       <li className=""><Link href="https://www.linkedin.com/in/lauren-webb-9b65a95/">
@@ -200,11 +192,8 @@ Group, a venture investment and consulting firm based in Washington, DC.</p>
                     Criswell Choi</h2>
                     <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
                     Chief Operations Oﬀicer</h4>
-                      <p className="text-left text-sm pt-8 leading-normal">Criswell Choi has over 17 years of experience in operations, engineering, and
-business management within the electronics and semiconductor sectors. Prior to
-Romeo his experience includes managing operations at both early stage startups
-as well as large scale companies such as Apple and SanDisk. He holds a B.S. in
-Electrical Engineering from MIT and 12 patents.</p>
+                      <p className="text-left text-sm pt-8 leading-normal">Criswell Choi serves as Romeo Power’s Chief Operating Officer and directs all operations, manufacturing, supply chain and program management activities. Criswell has over 19 years of experience in operations, engineering and business management within the electronics and semiconductor sectors. Prior to Romeo Power, Criswell has managed operations at both early-stage startups, as well as large scale companies, such as Apple and SanDisk. He holds a bachelor’s degree in Electrical Engineering from MIT and 12 patents.
+</p>
 
                       <ul className="flex-1 flex justify-start content-start items-end social gap-4 pt-6">
                       <li className=""><Link href="https://www.linkedin.com/in/criswell-choi-82221046/">
