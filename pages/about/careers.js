@@ -44,7 +44,7 @@ export default function Home() {
           <div className="flex max-w-screen-lg  flex-wrap flex-1">
             <div className="flex-1">             
 
-                <p className=" text-center flex-1 font-P22Underground-thin text-2xl py-4">
+                <p className=" text-center flex-1 font-P22Underground-thin text-2xl uppercase leading-loose py-4">
                 Romeo Power’s goal is to ensure that green energy is accessible to all eight billion people across the globe. It’s our True North; the multi-generational endeavor that drives us on a daily basis and we are unwavering in our commitment to achieving it, together.
 
 

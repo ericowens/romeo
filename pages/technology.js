@@ -29,20 +29,30 @@ export default function Home() {
         <div className=" max-w-screen-lg  ">
           <div className="">
               <h1 className="font-P22Underground-thp text-7xl font-bold text-left p-4">Technology</h1>
-              <p className="font-P22Underground-thp text-2xl font-bold text-white text-left p-4">
-              Our end-to-end engineering capabilities include cell science, mechanical,
-thermal, electrical, firmware systems, and stress.
-                </p>
-                <p className="font-P22Underground-thp text-2xl font-bold text-white text-left p-4">
-                The results speak for themselves – packs for every application that go further
-on a single charge, and last longer charge after charge.
-                </p>
+              
               
             </div>
         </div>
         </section>
         
       </section>
+
+      <section className="flex justify-center bg-white px-4 py-16">
+          <div className="flex max-w-screen-lg  flex-wrap flex-1">
+            <div className="flex-1">
+              
+            <p className="font-P22Underground-thp text-2xl font-bold  text-left p-4">
+              Our end-to-end engineering capabilities include cell science, mechanical,
+thermal, electrical, firmware systems, and stress.
+                </p>
+                <p className="font-P22Underground-thp text-2xl font-bold  text-left p-4">
+                The results speak for themselves – packs for every application that go further
+on a single charge, and last longer charge after charge.
+                </p>
+             
+            </div>
+          </div>
+          </section>
 
 
       <section className="flex bg-romeogray justify-center py-16">
@@ -263,12 +273,7 @@ intelligent venting strategies and a single cell fault tolerant system design.
 
 
 
-      <section  className="small-hero small-hero-technology flex justify-center items-center" >
-      
-        <img src="/image42x.jpg"></img>
-       
-        
-      </section>
+     
 
 
      

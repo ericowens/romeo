@@ -66,7 +66,7 @@ all modules and packs are tested according to stringent Romeo Power standards.</
           <div className="w-1/2"><img src="/1.jpg"></img></div>
             <div className="w-1/2">
 
-            <h4 className="text-left text-darkcolor  font-P22Underground-thp text-xl font-bold py-2 ">
+            <h4 className="text-left text-darkcolor  font-P22Underground-book text-xl font-bold py-2 ">
             ISO 9001 CERTIFIED BATTERY PACK ASSEMBLY</h4>           
               
               <p className="text-left">Romeo Power’s trained technicians provide
@@ -88,7 +88,7 @@ ensure long-term reliability.</p>
           
             <div className=" flex flex-col items-center justify-center w-1/2">
 
-            <h4 className="text-left text-white  font-P22Underground-thp text-xl font-bold pb-8 ">
+            <h4 className="text-left text-white  font-P22Underground-book text-xl font-bold pb-8 ">
             DESIGNED FOR MANUFACTURING WITH
 THE HIGHEST SAFETY STANDARDS</h4>           
               
@@ -116,7 +116,7 @@ development and production process.</p>
           <div className="w-1/2"><img src="/3.jpg"></img></div>
             <div className="w-1/2">
 
-            <h4 className="text-left text-darkcolor  font-P22Underground-thp text-xl font-bold py-2 ">
+            <h4 className="text-left text-darkcolor  font-P22Underground-book text-xl font-bold py-2 ">
             COST EFFECTIVE, U.S. BASED PRODUCTION</h4>           
               
               <p className="text-left">Automation of critical assembly steps, coupled
@@ -138,7 +138,7 @@ consistency.</p>
           
             <div className=" flex flex-col  justify-center w-1/2">
 
-            <h4 className="text-left text-white  font-P22Underground-thp text-xl font-bold pb-8 ">
+            <h4 className="text-left text-white  font-P22Underground-book text-xl font-bold pb-8 ">
             HIGH THROUGHPUT MICRO
 LASER WELDING</h4>           
               
@@ -166,13 +166,13 @@ resistant interconnection.</p>
           
             <div className="flex-1">
 
-            <h4 className="text-left text-darkcolor  font-P22Underground-thp text-xl font-bold py-2 ">
+            <h4 className="text-left text-darkcolor  font-P22Underground-book text-xl font-bold py-2 ">
             RELIABILITY TESTING + VALIDATION</h4>           
               
               <p className="text-left py-4">With a robust test plan strategy, we characterize module performance and product lifecycle.
 Our proprietary test plans, developed from industry-wide research in automotive and
 aerospace, set us apart.</p>
-<p className="text-left py-4">Romeo Power’s full range of test capabilities includes:</p>
+<p className="text-left py-4 font-bold">Romeo Power’s full range of test capabilities includes:</p>
 <ul className="list-disc list-outside ">
                 <li className="font-P22Underground-thin">Mechanical, environmental and electrical testing</li>
                 <li className="font-P22Underground-thin">Engineering, qualification, and production testing for single cell, module and pack level
@@ -191,9 +191,9 @@ teardowns, and failure analysis reports</li>
           <div className="flex max-w-screen-lg  gap-8 flex-1 items-center">
          
           
-            <div className=" flex flex-col items-center justify-center w-1/2">
+            <div className=" flex flex-col items-start justify-center w-1/2">
 
-            <h4 className="text-left text-white  font-P22Underground-thp text-xl font-bold pb-8 ">
+            <h4 className="text-left text-white flex-1  font-P22Underground-book text-xl font-bold pb-8 ">
             FUNCTIONAL TESTING</h4>           
               
               <p className="text-left text-white">Modules and packs are not

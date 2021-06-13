@@ -501,7 +501,7 @@ details summary::-webkit-details-marker {
   display:none;
 }
 
-::marker { content: ""; }
+details ::marker { content: ""; }
 
 details[open] summary ~ * {
   animation: sweep .5s ease-in-out;

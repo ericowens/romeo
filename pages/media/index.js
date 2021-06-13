@@ -47,7 +47,7 @@ export default function Home() {
 
           <div className="flex-1 flex justify-center align-center content-center  flex-col max-w-screen-lg   ">
   
-            <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">We’ve curated some of Romeo Power’s key brand assets and we invite you to use them in
+            <p className=" text-left  flex-1 font-P22Underground-thin leading-loose text-lg py-4">We’ve curated some of Romeo Power’s key brand assets and we invite you to use them in
 accordance with our brand guidelines. To request a copy of our brand guidelines, or for
 more information on using the Romeo Power name or brand assets, please include a mockup
 of the intended use and reach out to media@romeopower.com.

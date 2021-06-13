@@ -42,14 +42,10 @@ export default function Home() {
 
         <section className="flex justify-center bg-white px-4 py-16">
           <div className="flex max-w-screen-lg  gap-8 flex-1">
-          <div className="w-1/3"> 
-          <p className="text-left">Lorem ipsum dolor sit amet,
-consectetur adipiscing elit, sed
-do eiusmod tempor incididunt
-ut labore et dolore magna
-aliqua. Ut enim ad minim</p>
-</div>
-            <div className="w-2/3">
+          <div className="w-1/5"> 
+          <p className="text-left"></p>
+          </div>
+            <div className="w-3/5">
 
             <details className=" pb-4" >
               <summary className="font-P22Underground-book mb-8 py-2 border-darkcolor border-b border-t flex flex-col align-center  justify-center text-lg ">
@@ -219,6 +215,9 @@ Romeo Power’s positioning as the core of electrification.</p>
               
                         
             </div>
+            <div className="w-1/5"> 
+          <p className="text-left"></p>
+          </div>
           </div>
           </section>
 
