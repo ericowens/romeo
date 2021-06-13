@@ -23,6 +23,12 @@ const observe_nav = () => {
     sectionOneOptions);
   
     sectionOneObserver.observe(sectionOne);
+
+
+    // window.addEventListener("scroll", function(e){
+    //   console.log('scrolling')
+    //   console.table(e)
+    // });
   }
 }
 
