@@ -60,39 +60,54 @@ all modules and packs are tested according to stringent Romeo Power standards.</
 
 
 
-
-        <section className="flex justify-center bg-white px-4 py-16">
-          <div className="flex max-w-screen-lg  gap-8 flex-1">
-          <div className="w-1/2"><img src="/1.jpg"></img></div>
-            <div className="w-1/2">
-
-            <h4 className="text-left text-darkcolor  font-P22Underground-book text-xl font-bold py-2 ">
-            ISO 9001 CERTIFIED BATTERY PACK ASSEMBLY</h4>           
+          <section className="flex justify-center bg-white py-16">
+          <div className="flex max-w-screen-lg  flex-wrap flex-1">
+            <div className="flex-1">
+              <div className=" pb-8 ">
               
-              <p className="text-left">Romeo Power’s trained technicians provide
+              <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold py-4 ">
+              ISO 9001 CERTIFIED BATTERY PACK ASSEMBLY</h2>
+              </div>
+
+
+              <div className="flex gap-8 py-12">
+
+                <div className="w-1/2">
+                    <p className=" text-left  font-P22Underground-thin text-lg">
+                    Romeo Power’s trained technicians provide
 optimized drop-in solutions for your vehicle
 application by assembling our modules into
 custom, high-capacity battery pack
 configurations. ISO 9001 certification guarantees
 that our packs are built to meet your specific
 power needs with strict quality assurance to
-ensure long-term reliability.</p>
-             
-            </div>
-          </div>
-          </section>
+ensure long-term reliability.
+                    </p>
+                    
+                </div>
+
+                <div className="w-1/2">
+                  <img src="/Image11.jpg"></img>
+                </div>
+
+              </div>
 
 
-          <section className="us-hero us-hero-1 flex justify-center bg-white px-4 ">
-          <div className="flex max-w-screen-lg  gap-8 flex-1">
-          
-            <div className=" flex flex-col items-center justify-center w-1/2">
 
-            <h4 className="text-left text-white  font-P22Underground-book text-xl font-bold pb-8 ">
-            DESIGNED FOR MANUFACTURING WITH
-THE HIGHEST SAFETY STANDARDS</h4>           
+
+              <div className="flex gap-8 py-12">
+
+              <div className="w-1/2">
+                  <img src="/image2.jpg"></img>
+                </div>
+
+                <div className="w-1/2">
+                <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
+                DESIGNED FOR MANUFACTURING WITH
+THE HIGHEST SAFETY STANDARDS</h2>
               
-              <p className="text-left text-white">Romeo Power designs are inherently
+                    <p className=" text-left  font-P22Underground-thin text-lg">
+                    Romeo Power designs are inherently
 configurable for high-rate manufacturing
 on the same automated production lines.
 Multiple shift capacity easily scales to meet
@@ -102,47 +117,64 @@ reliable and robust systems with in-depth
 battery research results in ensuring our
 customers’ standards are met or exceeded
 throughout the entire product maturity,
-development and production process.</p>
-             
-            </div>
-          </div>
-          </section>
+development and production process.
+                    </p>
+                    
+                      
+                </div>
+
+                
+
+              </div>
 
 
 
+              <div className="flex gap-8 py-12">
 
-          <section className="flex justify-center bg-white px-4 py-16">
-          <div className="flex max-w-screen-lg  gap-8 flex-1">
-          <div className="w-1/2"><img src="/3.jpg"></img></div>
-            <div className="w-1/2">
-
-            <h4 className="text-left text-darkcolor  font-P22Underground-book text-xl font-bold py-2 ">
-            COST EFFECTIVE, U.S. BASED PRODUCTION</h4>           
               
-              <p className="text-left">Automation of critical assembly steps, coupled
+
+                <div className="w-1/2">
+                  
+                <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8 mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
+                COST EFFECTIVE, U.S. BASED PRODUCTION</h2>
+                    <p className=" text-left  font-P22Underground-thin text-lg">
+                    Automation of critical assembly steps, coupled
 with patented component designs enables our
 module production process to be economical,
 reliable and timely. Robotic work cells can run
 24/7 with the utmost speed and accuracy,
 allowing Romeo Power to manufacture battery
 modules with low cost and predictable
-consistency.</p>
-             
-            </div>
-          </div>
-          </section>
+consistency.
+                    </p>
+                    
+                      
+                </div>
 
 
-          <section className="us-hero us-hero-2 flex justify-center bg-white px-4 ">
-          <div className="flex max-w-screen-lg  gap-8 flex-1">
-          
-            <div className=" flex flex-col  justify-center w-1/2">
+                <div className="w-1/2">
+                  <img src="/Image33.jpg"></img>
+                </div>
 
-            <h4 className="text-left text-white  font-P22Underground-book text-xl font-bold pb-8 ">
-            HIGH THROUGHPUT MICRO
-LASER WELDING</h4>           
-              
-              <p className="text-left text-white">Speed is critical to our battery module
+                
+
+              </div>
+
+
+
+              <div className="flex gap-8 py-12">
+
+<div className="w-1/2">
+    <img src="/image2.jpg"></img>
+  </div>
+
+  <div className="w-1/2">
+  <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
+  HIGH THROUGHPUT MICRO
+LASER WELDING</h2>
+
+      <p className=" text-left  font-P22Underground-thin text-lg">
+      Speed is critical to our battery module
 manufacturing process, though it could
 not be achieved without a focus on
 accuracy. Our state-of-the-art laser
@@ -152,27 +184,32 @@ exact weld location on each battery cell.
 The welds connecting the cells are
 made at light speed, creating a
 repeatable, reliable and vibration-
-resistant interconnection.</p>
-             
-            </div>
-          </div>
-          </section>
+resistant interconnection.
+      </p>
+      
+        
+  </div>
 
+  
 
+</div>
 
-
-          <section className="flex justify-center bg-white px-4 py-16">
-          <div className="flex max-w-screen-lg  gap-8 flex-1">
-          
-            <div className="flex-1">
-
-            <h4 className="text-left text-darkcolor  font-P22Underground-book text-xl font-bold py-2 ">
-            RELIABILITY TESTING + VALIDATION</h4>           
               
-              <p className="text-left py-4">With a robust test plan strategy, we characterize module performance and product lifecycle.
+
+
+
+<div className="flex gap-8 py-12">
+
+              
+
+<div className="w-1/2">
+  
+<h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8 mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
+RELIABILITY TESTING + VALIDATION</h2>
+<p className="text-left font-P22Underground-thin text-lg">With a robust test plan strategy, we characterize module performance and product lifecycle.
 Our proprietary test plans, developed from industry-wide research in automotive and
 aerospace, set us apart.</p>
-<p className="text-left py-4 font-bold">Romeo Power’s full range of test capabilities includes:</p>
+<p className="text-left font-P22Underground-thin text-lg">Romeo Power’s full range of test capabilities includes:</p>
 <ul className="list-disc list-outside ">
                 <li className="font-P22Underground-thin">Mechanical, environmental and electrical testing</li>
                 <li className="font-P22Underground-thin">Engineering, qualification, and production testing for single cell, module and pack level
@@ -180,23 +217,33 @@ battery systems</li>
                 <li className="font-P22Underground-thin">Comprehensive failure analysis solutions, analytical methods, cross section imaging, cell
 teardowns, and failure analysis reports</li>
               </ul>
-             
-            </div>
-          </div>
-          </section>
+    
+      
+</div>
+
+
+<div className="w-1/2">
+  <img src="/Image33.jpg"></img>
+</div>
 
 
 
-          <section className="us-hero us-hero-3 flex justify-center bg-white px-4 ">
-          <div className="flex max-w-screen-lg  gap-8 flex-1 items-center">
-         
-          
-            <div className=" flex flex-col items-start justify-center w-1/2">
+</div>
 
-            <h4 className="text-left text-white flex-1  font-P22Underground-book text-xl font-bold pb-8 ">
-            FUNCTIONAL TESTING</h4>           
-              
-              <p className="text-left text-white">Modules and packs are not
+
+
+<div className="flex gap-8 py-12">
+
+<div className="w-1/2">
+<img src="/image2.jpg"></img>
+</div>
+
+<div className="w-1/2">
+<h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
+FUNCTIONAL TESTING</h2>
+
+<p className=" text-left  font-P22Underground-thin text-lg">
+Modules and packs are not
 considered complete until their
 functional and electrical
 characteristics are verified. Romeo
@@ -204,30 +251,22 @@ Power’s state-of-the-art testing
 systems verify all critical
 specifications to assure everything
 is functioning as intended before
-our products are integrated into</p>
+our products are integrated into
+</p>
+
+
+</div>
+
+
+
+</div>
+              
+              
+              
              
             </div>
-            <div className=" flex flex-col items-center justify-center w-1/2"></div>
           </div>
           </section>
-
-
-
-
-
-
-          
-
-
-
-            
-
-
-         
-
-
-       
-
 
 
           

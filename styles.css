@@ -511,3 +511,26 @@ details[open] summary ~ * {
   100%  {opacity: 1; margin-top: 0px}
 }
 
+.careers summary{
+  background: url('/faq-opened.png') ;  
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.careers details summary {
+  min-height: 100px;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  padding-right: 100px;
+  background: url('/faq-closed.png'), url(/class34.jpg) ;  
+  background-position: right center, center center;
+  background-repeat: no-repeat;
+}
+
+ .careers details[open] summary {
+  background: url('/faq-opened.png') , url(/class34.jpg) ;  
+  background-position: right center, center center;
+  background-repeat: no-repeat;
+}
+

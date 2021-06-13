@@ -66,7 +66,7 @@ export default function Home() {
 
 
 
-      <section className="flex bg-white justify-center py-16">
+      <section className="flex bg-white justify-center ">
 
           <div className="flex-1 flex justify-center align-center content-center  flex-col max-w-screen-lg   ">
   
@@ -111,63 +111,138 @@ invite you to explore current opportunities.</p>
 
 
 
-      <section className="flex bg-white justify-center py-16">
+      <section className="careers flex justify-center bg-white px-4 py-16">
+          <div className="flex max-w-screen-lg  gap-8 flex-1">
+          
+            <div className="w-full">
 
-      <div className="flex-1 flex justify-center align-center content-center  gap-8 max-w-screen-lg   ">
+            <details className=" pb-4" >
+              <summary className="font-P22Underground-book  py-2  flex flex-col align-center  justify-center text-lg ">
+              <p className="font-bold text-white pl-4">Featured Role</p>
+                </summary>
+              <div >
+                <p className="font-P22Underground-book">We are a Southern California energy technology
+company dedicated to enabling large-scale, sustainable
+transportation with our suite of energy-dense battery
+packs and modules. We are motivated by a bold vision to
+create a world where energy poverty no longer exists –
+where all eight billion global citizens have access to
+sustainable and aﬀordable clean energy.
+We believe that to secure a livable, sustainable future for
+our world, we must transition from polluting combustion
+engines to clean battery-electric energy fast and at scale.
+At Romeo Power, we are developing the world’s highest
+energy dense ba eries, with a focus on safety, extended
+range and durability, for heavy-duty commercial vehicles.
+Our team of elite engineers has made crucial
+breakthroughs in safety standards, energy density,
+battery management and cost-eﬀective manufacturing,
+and we aren’t slowing down anytime soon. We are laser-
+focused on addressing our customers’ specific pain
+points to enable more commercial fleet managers to
+switch to battery-electric solutions.</p>
+              </div>
+            </details>
 
-        <div className="w-1/2">
-          <img src="/car1.jpg"></img>
-          <img src="/car2.jpg"></img>
-        <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">
-        Our Benefits<br/>
-Medical, Dental and Vision
-Romeo Power oﬀers rich benefits packages,
-many of which we cover at 100% for you and
-your eligible dependents.</p>
-<p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Work-life Balance<br/>
-Romeo Power provides a generous amount
-of vacation time with Unlimited
-Discretionary Time Oﬀ (DTO) for exempt
-employees and 120 hours of annual Paid Time
-Oﬀ (PTO) for non-exempt employees. We
-also have paid holidays and oﬀer 40 hours of
-sick time at the beginning of each year.</p>
-<p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Competitive Salary<br/>
-The high technology space is a competitive
-market. To be the best, we need the
-brightest. We value our team members and
-our compensation packages reflect
-accordingly.</p>
-<p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Preparing for the Future<br/>
-Employees are eligible to enroll in Romeo
-Power’s 401(k) plan after three months of
-employment. We also cover $20,000 per
-employee in basic life and AD&D insurance at
-no cost to you.
-
-        </p>
-        </div>
+            <details className=" pb-4">
+            <summary className="font-P22Underground-book  py-2  flex flex-col align-center justify-center text-lg ">
+            <p className="font-bold text-white pl-4">Open Positions</p>
+                </summary>
+              <div >
+                <p className="font-P22Underground-book">When we talk about creating a world where energy
+poverty no longer exists, we are referring to the global
+imperative to transition to cleaner, more sustainable
+energy sources in a way that is safe and aﬀordable for all.
+Where it was once prohibitively expensive to make the
+switch to electric alternatives, innovators like Romeo
+Power are laser-focused on overcoming these barriers at
+scale.</p>
+<p className="font-P22Underground-book">Today, Romeo Power is building the world’s highest
+energy dense battery systems, with a focus on safety,
+extended range and durability, for heavy-duty
+commercial vehicles.</p>
+              </div>
+            </details>
 
 
 
-        <div className="w-1/2">
-        <img src="/car3.jpg"></img>
-          <img src="/car4.jpg"></img>
-        <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">The fun stuﬀ<br/>
-Know quality candidates that you’d love to
-have join us on our mission? Romeo Power
-has a referral program.<br/>
-Romeo Power’s kitchen is stocked with
-unlimited snacks.<br/>
-Eligible employees can participate in our
-Patent Reward Program that seeks to support
-creativity and inspire continual innovation.</p>
-        </div>
 
-      
-      </div>
 
-      </section>
+            <details className=" pb-4">
+            <summary className="font-P22Underground-book  py-2  flex flex-col align-center justify-center text-lg ">
+            <p className="font-bold text-white pl-4">Our Benefits</p>
+                </summary>
+              <div >
+                <p className="font-P22Underground-book">Medical, Dental and Vision Romeo Power oﬀers rich benefits packages, many of which we cover at 100% for you and your eligible dependents.</p>
+              </div>
+            </details>
+
+
+
+
+
+
+            <details className=" pb-4">
+            <summary className="font-P22Underground-book  py-2  flex flex-col align-center  justify-center text-lg ">
+            <p className="font-bold text-white pl-4">Fun Stuff</p>
+                </summary>
+              <div >
+                <p className="font-P22Underground-book">Know quality candidates that you’d love to have join us on our mission? Romeo Power has a referral program.
+Romeo Power’s kitchen is stocked with unlimited snacks.
+Eligible employees can participate in our Patent Reward Program that seeks to support creativity and inspire continual innovation.</p>
+              </div>
+            </details>
+
+
+
+
+
+
+            <details className=" pb-4">
+            <summary className="font-P22Underground-book  py-2  flex flex-col align-center  justify-center text-lg ">
+            <p className="font-bold text-white pl-4">Work-life Balance</p>
+                </summary>
+              <div >
+                <p className="font-P22Underground-book">Romeo Power provides a generous amount of vacation time with Unlimited Discretionary Time Oﬀ (DTO) for exempt employees and 120 hours of annual Paid Time Oﬀ (PTO) for non-exempt employees. We also have paid holidays and oﬀer 40 hours of sick time at the beginning of each year.</p>
+
+              </div>
+            </details>
+
+
+
+
+
+
+            <details className=" pb-4">
+            <summary className="font-P22Underground-book  py-2  flex flex-col align-center  justify-center text-lg ">
+            <p className="font-bold text-white pl-4">Competitive Salary</p>
+                </summary>
+              <div >
+                <p className="font-P22Underground-book">The high technology space is a competitive market. To be the best, we need the brightest. We value our team members and our compensation packages reflect accordingly.</p>
+              </div>
+            </details>
+
+
+            <details className=" pb-4">
+            <summary className="font-P22Underground-book  py-2  flex flex-col align-center  justify-center text-lg ">
+            <p className="font-bold text-white pl-4">Preparing for the Future</p>
+                </summary>
+              <div >
+                <p className="font-P22Underground-book">Employees are eligible to enroll in Romeo Power’s 401(k) plan after three months of employment. We also cover $20,000 per employee in basic life and AD&D insurance at no cost to you.</p>
+              </div>
+            </details>
+            
+
+                 
+              
+                        
+            </div>
+            
+          </div>
+          </section>
+
+
+
 
 
 

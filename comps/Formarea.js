@@ -22,6 +22,11 @@ const Formarea = () => {
                     <input className="sm:w-full my-4 p-4"   type="text" placeholder="Title"></input>
                     </div>
                 </div>
+                <div className="flex space-x-20">
+                  <div className="flex-1 w-full">
+                  <textarea class="my-4 p-4 form-textarea mt-1 block w-full" rows="3" placeholder="Comments"></textarea>
+                    </div>
+                </div>
                 <Link href="/products/hermes_module">
               <button className="bg-accent   py-4 px-14 my-14 text-white">Submit</button> 
               </Link>

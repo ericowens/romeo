@@ -41,6 +41,8 @@ export default function Home() {
 
       
 
+      
+
       <section className="flex justify-center bg-medium py-16">
         <div className="flex max-w-screen-lg  flex-wrap flex-1">
           <div className="flex-1">
