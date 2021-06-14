@@ -123,26 +123,7 @@ invite you to explore current opportunities.</p>
                 <p className="font-bold text-white pl-4">Featured Role</p>
               </summary>
               <div >
-                <p className="font-P22Underground-book text-lg p-4">We are a Southern California energy technology
-                company dedicated to enabling large-scale, sustainable
-                transportation with our suite of energy-dense battery
-                packs and modules. We are motivated by a bold vision to
-                create a world where energy poverty no longer exists –
-                where all eight billion global citizens have access to
-                sustainable and aﬀordable clean energy.</p>
-                <p className="font-P22Underground-book text-lg p-4">We believe that to secure a livable, sustainable future for
-                our world, we must transition from polluting combustion
-                engines to clean battery-electric energy fast and at scale.
-                At Romeo Power, we are developing the world’s highest
-                energy dense ba eries, with a focus on safety, extended
-                range and durability, for heavy-duty commercial vehicles.</p>
-                <p className="font-P22Underground-book text-lg p-4">Our team of elite engineers has made crucial
-                breakthroughs in safety standards, energy density,
-                battery management and cost-eﬀective manufacturing,
-                and we aren’t slowing down anytime soon. We are laser-
-                focused on addressing our customers’ specific pain
-                points to enable more commercial fleet managers to
-switch to battery-electric solutions.</p>
+                <p className="font-P22Underground-book text-lg p-4"></p>
               </div>
             </details>
 
@@ -151,18 +132,7 @@ switch to battery-electric solutions.</p>
                 <p className="font-bold text-white pl-4">Open Positions</p>
               </summary>
               <div >
-                <p className="font-P22Underground-book text-lg p-4">When we talk about creating a world where energy
-                poverty no longer exists, we are referring to the global
-                imperative to transition to cleaner, more sustainable
-                energy sources in a way that is safe and aﬀordable for all.
-                Where it was once prohibitively expensive to make the
-                switch to electric alternatives, innovators like Romeo
-                Power are laser-focused on overcoming these barriers at
-scale.</p>
-                <p className="font-P22Underground-book">Today, Romeo Power is building the world’s highest
-                energy dense battery systems, with a focus on safety,
-                extended range and durability, for heavy-duty
-commercial vehicles.</p>
+                <p className="font-P22Underground-book text-lg p-4">Link to Greenhouse</p>
               </div>
             </details>
 

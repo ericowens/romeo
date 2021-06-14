@@ -26,9 +26,9 @@ export default function Home() {
 
 
       <section id="hero" className="hero-home flex " >
-      <section className="flex flex-1  justify-center align-center content-center items-center    pl-28">
+      <section className="flex flex-1  justify-start align-center content-center items-center    pl-28">
         
-          <div className="flex flex-col justify-center align-center content-center items-center">
+          <div className="">
               <h1 className="font-P22Underground-thp text-6xl font-bold">Powering the world’s transition to electrification</h1>
               <Link href="/contact">
               <button className="bg-accent  float-left py-4 px-10 my-10">Contact</button> 

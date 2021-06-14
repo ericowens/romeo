@@ -136,7 +136,7 @@ development and production process.
                 <div className="w-1/2">
                   
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8 mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
-                COST EFFECTIVE, U.S. BASED PRODUCTION</h2>
+                COST EFFECTIVE, <br/>U.S. BASED PRODUCTION</h2>
                     <p className=" text-left  font-P22Underground-thin text-lg">
                     Automation of critical assembly steps, coupled
 with patented component designs enables our
