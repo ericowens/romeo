@@ -106,8 +106,8 @@ from The Pennsylvania State University and a bachelor’s degree in Mechanical E
 </p>
 
             <ul className="flex-1 flex justify-end content-end items-end social gap-4 pt-6">
-              <li className=""><Link href="https://www.linkedin.com/in/lionel-selwood-jr-ab031b34/">
-                <img src="/linkedin.png"></img></Link></li>
+              <li className=""><a target="_blank" href="https://www.linkedin.com/in/lionel-selwood-jr-ab031b34/">
+                <img src="/linkedin.png"></img></a></li>
 
               <li className="hidden"><img src="/twitter.png"></img></li>
               <li className="hidden"><img src="/Facebook.png"></img></li>
@@ -148,8 +148,8 @@ from The Pennsylvania State University and a bachelor’s degree in Mechanical E
                       The Pennsylvania State University.</p>
 
             <ul className="flex-1 flex justify-start content-start items-end social gap-4 pt-6">
-              <li className=""><Link href="https://www.linkedin.com/in/ak-srouji-27191013/">
-                <img src="/linkedin.png"></img></Link></li>
+              <li className=""><a target="_blank" href="https://www.linkedin.com/in/ak-srouji-27191013/">
+                <img src="/linkedin.png"></img></a></li>
 
               <li className="hidden"><img src="/twitter.png"></img></li>
               <li className="hidden"><img src="/Facebook.png"></img></li>
@@ -192,8 +192,8 @@ from The Pennsylvania State University and a bachelor’s degree in Mechanical E
               <p className="text-left text-sm pt-8 leading-normal">Lauren holds two bachelor’s degrees from Texas A&M University.</p>
 
             <ul className="flex-1 flex justify-end content-end items-end social gap-4 pt-6">
-              <li className=""><Link href="https://www.linkedin.com/in/lauren-webb-9b65a95/">
-                <img src="/linkedin.png"></img></Link></li>
+              <li className=""><a target="_blank" href="https://www.linkedin.com/in/lauren-webb-9b65a95/">
+                <img src="/linkedin.png"></img></a></li>
 
               <li className="hidden"><img src="/twitter.png"></img></li>
               <li className="hidden"><img src="/Facebook.png"></img></li>
@@ -225,8 +225,8 @@ from The Pennsylvania State University and a bachelor’s degree in Mechanical E
             degree in Electrical Engineering from MIT and 12 patents.</p>
 
             <ul className="flex-1 flex justify-start content-start items-end social gap-4 pt-6">
-              <li className=""><Link href="https://www.linkedin.com/in/criswell-choi-82221046/">
-                <img src="/linkedin.png"></img></Link></li>
+              <li className=""><a target="_blank" href="https://www.linkedin.com/in/criswell-choi-82221046/">
+                <img src="/linkedin.png"></img></a></li>
 
               <li className="hidden"><img src="/twitter.png"></img></li>
               <li className="hidden"><img src="/Facebook.png"></img></li>
