@@ -28,7 +28,7 @@ export default function Home() {
       <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
-              <h1 className=" border-accent border-b-2 font-P22Underground-thp text-7xl font-bold">Hermes Module</h1>
+              <h1 className="  font-P22Underground-thp text-7xl font-bold">Hermes Module</h1>
               
             </div>
         </div>

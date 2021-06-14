@@ -24,18 +24,21 @@ export default function Home() {
 
       <Navbar/>
 
-      <section id="hero" className="hero-technology flex justify-center items-center" >
-      <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start  ">
-        <div className=" max-w-screen-lg  ">
-          <div className="">
-              <h1 className="font-P22Underground-thp text-7xl font-bold text-left p-4">Technology</h1>
-              
-              
-            </div>
-        </div>
-        </section>
+      <section id="hero" className="hero-technology  flex justify-center items-end" >
         
+        <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
+          <div className=" max-w-screen-lg  ">
+            <div className="">
+              <h1 className="  font-P22Underground-thp text-7xl font-bold">Technology</h1>
+              
+
+            </div>
+          </div>
+        </section>
+
       </section>
+
+     
 
       <section className="flex justify-center bg-white px-4 py-16">
           <div className="flex max-w-screen-lg  flex-wrap flex-1">
