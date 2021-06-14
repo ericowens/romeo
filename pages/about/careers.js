@@ -30,9 +30,9 @@ export default function Home() {
           <div className=" max-w-screen-lg  ">
             <div className="">
               <h1 className="  font-P22Underground-thp text-7xl font-bold">Careers</h1>
-              <Link href="/contact">
+              <a target="_blank" href="https://boards.greenhouse.io/romeopower">
                 <button className="bg-accent  float-left py-4 px-10 my-10">Join our team</button>
-              </Link>
+              </a>
 
             </div>
           </div>
@@ -133,7 +133,9 @@ invite you to explore current opportunities.</p>
                 <p className="font-bold text-white pl-4">Open Positions</p>
               </summary>
               <div >
-                <p className="font-P22Underground-book text-lg p-4">Link to Greenhouse</p>
+                <p className="font-P22Underground-book text-lg p-4"><a target="_blank" href="https://boards.greenhouse.io/romeopower">
+                Join our team
+              </a></p>
               </div>
             </details>
 
