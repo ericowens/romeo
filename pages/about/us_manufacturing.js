@@ -165,7 +165,7 @@ consistency.
               <div className="flex gap-8 py-12">
 
 <div className="w-1/2">
-    <img src="/image2.jpg"></img>
+    <img src="/Images/Manufacturing images/micro laser.jpg"></img>
   </div>
 
   <div className="w-1/2">
@@ -235,7 +235,7 @@ teardowns, and failure analysis reports</li>
 <div className="flex gap-8 py-12">
 
 <div className="w-1/2">
-<img src="/image2.jpg"></img>
+<img src="/Images/Manufacturing images/functional-testing.jpg"></img>
 </div>
 
 <div className="w-1/2">

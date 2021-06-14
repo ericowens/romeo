@@ -45,8 +45,7 @@ export default function Home() {
 
 
       <section className="flex justify-evenly bg-white  gap-4 py-8">
-      {/* <div><img src="/Image1.jpg"></img></div> */}
-          <div><img src="/2-ORIONV1A-SAMPLE_2.jpg"></img></div>
+          <div><img src="/Images/Orion-pack_family_Group.png"></img></div>
           
           </section>
 

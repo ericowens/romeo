@@ -146,7 +146,7 @@ Headline
   <div className=" border-t-2 flex-1 flex justify-center align-center content-center gap-8 max-w-screen-lg   ">
 
     <div className="w-1/3 bg-white p-10">
-    <img src="/ROMEO LOGO.jpg"></img>
+    <img src="/ROMEO POWER VERT LOGO_GREEN-GREYRGB.svg"></img>
         <h2 className="  text-left  inline-block     font-P22Underground-thp text-2xl font-bold pt-4 ">
         LOGOS</h2> 
     
