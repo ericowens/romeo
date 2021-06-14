@@ -42,10 +42,9 @@ export default function Home() {
 
       <section className="flex justify-between  bg-white  py-16">
          
-          <div className="w-1/5">        
-            </div>
+          
 
-            <div className="flex-1">
+            <div className="flex-1 pl-16 pr-16">
               <div className=" pb-8 ">
               <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold py-4 ">
               Hermes Module</h2>

@@ -74,7 +74,7 @@ export default function Home() {
               </section>
             </div>
             <div>
-              <img src="/galImage2.jpg"></img>
+              <img src="/hermesgal/Image2.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
                   <img src="/DOWNLOAD ICON.png"></img>
@@ -99,7 +99,7 @@ export default function Home() {
               </section>
             </div>
             <div>
-              <img src="/galImage3.jpg"></img>
+            <img src="/hermesgal/Image3.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
                   <img src="/DOWNLOAD ICON.png"></img>
@@ -124,7 +124,7 @@ export default function Home() {
               </section>
             </div>
             <div>
-              <img src="/Image4.jpg"></img>
+            <img src="/hermesgal/Image4.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
                   <img src="/DOWNLOAD ICON.png"></img>
@@ -149,7 +149,7 @@ export default function Home() {
               </section>
             </div>
             <div>
-              <img src="/Image5.jpg"></img>
+            <img src="/hermesgal/Image5.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
                   <img src="/DOWNLOAD ICON.png"></img>
@@ -174,7 +174,7 @@ export default function Home() {
               </section>
             </div>
             <div>
-              <img src="/Image6.jpg"></img>
+            <img src="/hermesgal/Image6.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
                   <img src="/DOWNLOAD ICON.png"></img>
@@ -323,6 +323,12 @@ export default function Home() {
                 </div>
               </section>
             </div>
+
+
+
+
+
+
             <div>
               <img src="/Image12.jpg"></img>
               <section className="flex gap-4 py-4">
@@ -348,6 +354,579 @@ export default function Home() {
                 </div>
               </section>
             </div>
+
+
+
+
+
+            <div>
+              <img src="/oriongal/1.jpg"></img>
+              <section className="flex gap-4 py-4">
+                <div className="w-1/3">
+                  <img src="/DOWNLOAD ICON.png"></img>
+                </div>
+                <div className="w-2/3">
+                  <p className="uppercase">Photo title</p>
+                  <div className="grid gap-4 grid-cols-2 justify-center">
+                    <div className="border-r">
+                      <p className="text-center">RGB</p>
+                    </div>
+                    <div>
+                      <p className="text-center">JPG</p>
+                      </div>
+                    <div className="border-r">
+                      <p className="text-center">CMYK</p>
+                      </div>
+                    <div>
+                      <p className="text-center">TIFF</p>
+                      </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div>
+              <img src="/oriongal/2.jpg"></img>
+              <section className="flex gap-4 py-4">
+                <div className="w-1/3">
+                  <img src="/DOWNLOAD ICON.png"></img>
+                </div>
+                <div className="w-2/3">
+                  <p className="uppercase">Photo title</p>
+                  <div className="grid gap-4 grid-cols-2 justify-center">
+                    <div className="border-r">
+                      <p className="text-center">RGB</p>
+                    </div>
+                    <div>
+                      <p className="text-center">JPG</p>
+                      </div>
+                    <div className="border-r">
+                      <p className="text-center">CMYK</p>
+                      </div>
+                    <div>
+                      <p className="text-center">TIFF</p>
+                      </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div>
+              <img src="/oriongal/3.jpg"></img>
+              <section className="flex gap-4 py-4">
+                <div className="w-1/3">
+                  <img src="/DOWNLOAD ICON.png"></img>
+                </div>
+                <div className="w-2/3">
+                  <p className="uppercase">Photo title</p>
+                  <div className="grid gap-4 grid-cols-2 justify-center">
+                    <div className="border-r">
+                      <p className="text-center">RGB</p>
+                    </div>
+                    <div>
+                      <p className="text-center">JPG</p>
+                      </div>
+                    <div className="border-r">
+                      <p className="text-center">CMYK</p>
+                      </div>
+                    <div>
+                      <p className="text-center">TIFF</p>
+                      </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div>
+              <img src="/oriongal/4.jpg"></img>
+              <section className="flex gap-4 py-4">
+                <div className="w-1/3">
+                  <img src="/DOWNLOAD ICON.png"></img>
+                </div>
+                <div className="w-2/3">
+                  <p className="uppercase">Photo title</p>
+                  <div className="grid gap-4 grid-cols-2 justify-center">
+                    <div className="border-r">
+                      <p className="text-center">RGB</p>
+                    </div>
+                    <div>
+                      <p className="text-center">JPG</p>
+                      </div>
+                    <div className="border-r">
+                      <p className="text-center">CMYK</p>
+                      </div>
+                    <div>
+                      <p className="text-center">TIFF</p>
+                      </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div>
+              <img src="/oriongal/5.jpg"></img>
+              <section className="flex gap-4 py-4">
+                <div className="w-1/3">
+                  <img src="/DOWNLOAD ICON.png"></img>
+                </div>
+                <div className="w-2/3">
+                  <p className="uppercase">Photo title</p>
+                  <div className="grid gap-4 grid-cols-2 justify-center">
+                    <div className="border-r">
+                      <p className="text-center">RGB</p>
+                    </div>
+                    <div>
+                      <p className="text-center">JPG</p>
+                      </div>
+                    <div className="border-r">
+                      <p className="text-center">CMYK</p>
+                      </div>
+                    <div>
+                      <p className="text-center">TIFF</p>
+                      </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div>
+              <img src="/oriongal/6.jpg"></img>
+              <section className="flex gap-4 py-4">
+                <div className="w-1/3">
+                  <img src="/DOWNLOAD ICON.png"></img>
+                </div>
+                <div className="w-2/3">
+                  <p className="uppercase">Photo title</p>
+                  <div className="grid gap-4 grid-cols-2 justify-center">
+                    <div className="border-r">
+                      <p className="text-center">RGB</p>
+                    </div>
+                    <div>
+                      <p className="text-center">JPG</p>
+                      </div>
+                    <div className="border-r">
+                      <p className="text-center">CMYK</p>
+                      </div>
+                    <div>
+                      <p className="text-center">TIFF</p>
+                      </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div>
+              <img src="/oriongal/7.jpg"></img>
+              <section className="flex gap-4 py-4">
+                <div className="w-1/3">
+                  <img src="/DOWNLOAD ICON.png"></img>
+                </div>
+                <div className="w-2/3">
+                  <p className="uppercase">Photo title</p>
+                  <div className="grid gap-4 grid-cols-2 justify-center">
+                    <div className="border-r">
+                      <p className="text-center">RGB</p>
+                    </div>
+                    <div>
+                      <p className="text-center">JPG</p>
+                      </div>
+                    <div className="border-r">
+                      <p className="text-center">CMYK</p>
+                      </div>
+                    <div>
+                      <p className="text-center">TIFF</p>
+                      </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div>
+              <img src="/oriongal/8.jpg"></img>
+              <section className="flex gap-4 py-4">
+                <div className="w-1/3">
+                  <img src="/DOWNLOAD ICON.png"></img>
+                </div>
+                <div className="w-2/3">
+                  <p className="uppercase">Photo title</p>
+                  <div className="grid gap-4 grid-cols-2 justify-center">
+                    <div className="border-r">
+                      <p className="text-center">RGB</p>
+                    </div>
+                    <div>
+                      <p className="text-center">JPG</p>
+                      </div>
+                    <div className="border-r">
+                      <p className="text-center">CMYK</p>
+                      </div>
+                    <div>
+                      <p className="text-center">TIFF</p>
+                      </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div>
+              <img src="/oriongal/9.jpg"></img>
+              <section className="flex gap-4 py-4">
+                <div className="w-1/3">
+                  <img src="/DOWNLOAD ICON.png"></img>
+                </div>
+                <div className="w-2/3">
+                  <p className="uppercase">Photo title</p>
+                  <div className="grid gap-4 grid-cols-2 justify-center">
+                    <div className="border-r">
+                      <p className="text-center">RGB</p>
+                    </div>
+                    <div>
+                      <p className="text-center">JPG</p>
+                      </div>
+                    <div className="border-r">
+                      <p className="text-center">CMYK</p>
+                      </div>
+                    <div>
+                      <p className="text-center">TIFF</p>
+                      </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div>
+              <img src="/oriongal/10.jpg"></img>
+              <section className="flex gap-4 py-4">
+                <div className="w-1/3">
+                  <img src="/DOWNLOAD ICON.png"></img>
+                </div>
+                <div className="w-2/3">
+                  <p className="uppercase">Photo title</p>
+                  <div className="grid gap-4 grid-cols-2 justify-center">
+                    <div className="border-r">
+                      <p className="text-center">RGB</p>
+                    </div>
+                    <div>
+                      <p className="text-center">JPG</p>
+                      </div>
+                    <div className="border-r">
+                      <p className="text-center">CMYK</p>
+                      </div>
+                    <div>
+                      <p className="text-center">TIFF</p>
+                      </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div>
+              <img src="/oriongal/11.jpg"></img>
+              <section className="flex gap-4 py-4">
+                <div className="w-1/3">
+                  <img src="/DOWNLOAD ICON.png"></img>
+                </div>
+                <div className="w-2/3">
+                  <p className="uppercase">Photo title</p>
+                  <div className="grid gap-4 grid-cols-2 justify-center">
+                    <div className="border-r">
+                      <p className="text-center">RGB</p>
+                    </div>
+                    <div>
+                      <p className="text-center">JPG</p>
+                      </div>
+                    <div className="border-r">
+                      <p className="text-center">CMYK</p>
+                      </div>
+                    <div>
+                      <p className="text-center">TIFF</p>
+                      </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div>
+              <img src="/oriongal/12.jpg"></img>
+              <section className="flex gap-4 py-4">
+                <div className="w-1/3">
+                  <img src="/DOWNLOAD ICON.png"></img>
+                </div>
+                <div className="w-2/3">
+                  <p className="uppercase">Photo title</p>
+                  <div className="grid gap-4 grid-cols-2 justify-center">
+                    <div className="border-r">
+                      <p className="text-center">RGB</p>
+                    </div>
+                    <div>
+                      <p className="text-center">JPG</p>
+                      </div>
+                    <div className="border-r">
+                      <p className="text-center">CMYK</p>
+                      </div>
+                    <div>
+                      <p className="text-center">TIFF</p>
+                      </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div>
+              <img src="/oriongal/13.jpg"></img>
+              <section className="flex gap-4 py-4">
+                <div className="w-1/3">
+                  <img src="/DOWNLOAD ICON.png"></img>
+                </div>
+                <div className="w-2/3">
+                  <p className="uppercase">Photo title</p>
+                  <div className="grid gap-4 grid-cols-2 justify-center">
+                    <div className="border-r">
+                      <p className="text-center">RGB</p>
+                    </div>
+                    <div>
+                      <p className="text-center">JPG</p>
+                      </div>
+                    <div className="border-r">
+                      <p className="text-center">CMYK</p>
+                      </div>
+                    <div>
+                      <p className="text-center">TIFF</p>
+                      </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div>
+              <img src="/oriongal/14.jpg"></img>
+              <section className="flex gap-4 py-4">
+                <div className="w-1/3">
+                  <img src="/DOWNLOAD ICON.png"></img>
+                </div>
+                <div className="w-2/3">
+                  <p className="uppercase">Photo title</p>
+                  <div className="grid gap-4 grid-cols-2 justify-center">
+                    <div className="border-r">
+                      <p className="text-center">RGB</p>
+                    </div>
+                    <div>
+                      <p className="text-center">JPG</p>
+                      </div>
+                    <div className="border-r">
+                      <p className="text-center">CMYK</p>
+                      </div>
+                    <div>
+                      <p className="text-center">TIFF</p>
+                      </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div>
+              <img src="/oriongal/15.jpg"></img>
+              <section className="flex gap-4 py-4">
+                <div className="w-1/3">
+                  <img src="/DOWNLOAD ICON.png"></img>
+                </div>
+                <div className="w-2/3">
+                  <p className="uppercase">Photo title</p>
+                  <div className="grid gap-4 grid-cols-2 justify-center">
+                    <div className="border-r">
+                      <p className="text-center">RGB</p>
+                    </div>
+                    <div>
+                      <p className="text-center">JPG</p>
+                      </div>
+                    <div className="border-r">
+                      <p className="text-center">CMYK</p>
+                      </div>
+                    <div>
+                      <p className="text-center">TIFF</p>
+                      </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div>
+              <img src="/oriongal/16.jpg"></img>
+              <section className="flex gap-4 py-4">
+                <div className="w-1/3">
+                  <img src="/DOWNLOAD ICON.png"></img>
+                </div>
+                <div className="w-2/3">
+                  <p className="uppercase">Photo title</p>
+                  <div className="grid gap-4 grid-cols-2 justify-center">
+                    <div className="border-r">
+                      <p className="text-center">RGB</p>
+                    </div>
+                    <div>
+                      <p className="text-center">JPG</p>
+                      </div>
+                    <div className="border-r">
+                      <p className="text-center">CMYK</p>
+                      </div>
+                    <div>
+                      <p className="text-center">TIFF</p>
+                      </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
           </div>
            
           </div>
