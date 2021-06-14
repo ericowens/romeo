@@ -19,7 +19,7 @@ const Footer = () => {
         <Link href="/terms">Terms of Service</Link>
         </div>
         <div className=" text-white  text-sm leading-10">
-        <Link href="/social_media_guidelines">Social Media Community Guidelines</Link>
+        <a target="_blank" href="/Romeo Power_Social Media Community Standards 2021.pdf">Social Media Community Guidelines</a>
         </div>
      
       </div>

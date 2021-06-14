@@ -139,7 +139,10 @@ than 30 minutes</p>
                                
 
               </div>
-              <p className="text-center">[Download Hermes Data Sheet]</p>
+              <p className="text-center"><a target="_blank" href="/HERMES MODULE DATA SHEET.pdf">
+                [Download Hermes Data Sheet]
+                </a>
+                </p>
              
             </div>
           </div>
