@@ -27,6 +27,26 @@ export default function Home() {
 
       <section id="hero" className="hero-home flex " >
       <section className="flex flex-1  justify-start align-center content-center items-center    pl-28">
+
+      {/* <video
+        
+        preload={'auto'}
+        
+        
+        autoPlay={'true'}
+        
+        src="/vid/FINAL ROMEO POWER BF MASTER 360.mp4"
+        
+        tabIndex="-1"
+      >
+      
+      </video> */}
+
+      {/* <video className="video-container video-container-overlay" autoPlay="autoplay" loop>
+                    <source src="/vid/FINAL ROMEO POWER BF MASTER 360.mp4" type="video/mp4" />
+                </video> */}
+
+     
         
           <div className="">
               <h1 className=" text-left font-P22Underground-thp text-7xl font-bold">Powering The World’s<br/>
