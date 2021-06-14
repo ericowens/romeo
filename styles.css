@@ -167,7 +167,7 @@ nav .show,nav .icon,nav input{
   }
   nav .logo{
     padding-left: 30px;
-    width: 100%;
+    width: 50%;
   }
   .show + a, ul{
     display: none;
