@@ -29,7 +29,8 @@ export default function Home() {
       <section className="flex flex-1  justify-start align-center content-center items-center    pl-28">
         
           <div className="">
-              <h1 className="font-P22Underground-thp text-6xl font-bold">Powering the world’s transition to electrification</h1>
+              <h1 className=" text-left font-P22Underground-thp text-7xl font-bold">Powering The World’s<br/>
+              Transition To Electrification</h1>
               <Link href="/contact">
               <button className="bg-accent  float-left py-4 px-10 my-10">Contact</button> 
               </Link>              
