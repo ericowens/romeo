@@ -1,10 +1,10 @@
 import Head from 'next/head'
-import Navbar from '../../comps/Navbar'
+import Navbar from '../comps/Navbar'
 import Image from 'next/image'
 import Link from 'next/link'
-import Footer from '../../comps/Footer'
-import Banner from '../../comps/Banner'
-import observe_nav from '../../comps/observe_nav'
+import Footer from '../comps/Footer'
+import Banner from '../comps/Banner'
+import observe_nav from '../comps/observe_nav'
 import React, { useState, useEffect } from 'react'
 
 
