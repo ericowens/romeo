@@ -79,17 +79,26 @@ provide both, resulting in eﬀicient packs without sacrificing space.
       <section className="flex justify-center bg-white py-16">
           <div className="flex max-w-screen-lg  flex-wrap flex-1">
             <div className="flex-1">
-              <div className=" pb-8 ">
+             
               
-              <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold py-4 ">
-              BUILT-IN BATTERY MANAGEMENT SYSTEM</h2>
-              </div>
+
+
+             
+
+
+
+
 
 
               <div className="flex gap-8 py-12">
 
-                <div className="w-1/2">
-                    <p className=" text-left  font-P22Underground-thin text-lg">
+              
+
+<div className="w-1/2">
+  
+<h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8 mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
+BUILT-IN BATTERY MANAGEMENT SYSTEM</h2>
+<p className=" text-left  font-P22Underground-thin text-lg">
                         Charge fast and go further. At Romeo Power, we customize our
                       intelligent battery management system (BMS) in the Hermes
                       module to suit specific applications with proprietary algorithms
@@ -118,13 +127,20 @@ provide both, resulting in eﬀicient packs without sacrificing space.
                         <li className="font-P22Underground-thin py-1">Parameterized for each individual cell design and chemistry</li>
                         <li className="font-P22Underground-thin py-1">Enhanced State of Charge (SOC), and State of Health (SOH)</li>
                       </ul>
-                </div>
+</div>
 
-                <div className="w-1/2">
-                  <img src="/Image11.jpg"></img>
-                </div>
 
-              </div>
+<div className="w-1/2">
+  <img src="/Image11.jpg"></img>
+</div>
+
+
+
+</div>
+
+
+
+
 
 
 

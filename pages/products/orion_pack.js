@@ -72,6 +72,10 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
                 <li className="font-P22Underground-thin p-1.5">Isolated communication between stack of modules and the central control device</li>
                 <li className="font-P22Underground-thin p-1.5">Structurally integrated cooling system with superior thermal performance</li>
               </ul>
+
+              <p className=" text-left  font-P22Underground-thin text-lg pt-8">
+              [Download Orion Data Sheet]
+                </p>
               
              
             </div>
@@ -87,9 +91,9 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
         <div className=" max-w-screen-lg  ">
           <div className="">
               <h2 className="font-P22Underground-thp text-5xl font-bold">Class 3/4 Vehicles</h2>
-              <p className=" text-left text-white flex-1 font-P22Underground-thin text-lg pt-32">
+              {/* <p className=" text-left text-white flex-1 font-P22Underground-thin text-lg pt-32">
               [Download Orion Data Sheet]
-                </p>
+                </p> */}
                              
             </div>
         </div>
@@ -104,9 +108,9 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
         <div className=" max-w-screen-lg  ">
           <div className="">
               <h2 className="font-P22Underground-thp text-5xl font-bold">Class 5/6 Vehicles</h2>
-              <p className=" text-left text-white flex-1 font-P22Underground-thin text-lg pt-32">
+              {/* <p className=" text-left text-white flex-1 font-P22Underground-thin text-lg pt-32">
               [Download Orion Data Sheet]
-                </p>
+                </p> */}
                              
             </div>
         </div>
@@ -119,9 +123,9 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
         <div className=" max-w-screen-lg  ">
           <div className="">
               <h2 className="font-P22Underground-thp text-5xl font-bold">Class 7/8 Vehicles</h2>
-              <p className=" text-left text-white flex-1 font-P22Underground-thin text-lg pt-32">
+              {/* <p className=" text-left text-white flex-1 font-P22Underground-thin text-lg pt-32">
               [Download Orion Data Sheet]
-                </p>
+                </p> */}
                              
             </div>
         </div>
