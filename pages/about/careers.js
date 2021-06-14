@@ -32,6 +32,7 @@ export default function Home() {
               <h1 className="  font-P22Underground-thp text-7xl font-bold">Careers</h1>
               <a target="_blank" href="https://boards.greenhouse.io/romeopower">
                 <button className="bg-accent  float-left py-4 px-10 my-10">Join our team</button>
+                {/* get request jsonp https://boards-api.greenhouse.io/v1/boards/romeopower/jobs */}
               </a>
 
             </div>
