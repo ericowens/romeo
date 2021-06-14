@@ -1,11 +1,37 @@
 import Link from 'next/link'
 
 const Formarea = () => {
+  const registerUser = async event => {
+    event.preventDefault()
+    console.log('here', event.target.name.value)
+
+    const res = await fetch(
+      '/api/form',
+      {
+        body: JSON.stringify({
+          name: event.target.name.value
+        }),
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        method: 'POST'
+      }
+    )
+
+    const result = await res.json()
+    console.log('here', result)
+    // result.user => 'Ada Lovelace'
+  }
     return (
       <section  className="formarea text-center bg-darkaccent flex justify-center items-center" >
       <section className="flex flex-1  max-w-screen-lg justify-center items-center align-center py-16 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
+                {/* <form onSubmit={registerUser}>
+            <label htmlFor="name">Name</label>
+            <input id="name" name="name" type="text" autoComplete="name" required />
+            <button type="submit">Register</button>
+          </form> */}
               <h2 className="font-P22Underground-thp text-5xl font-bold text-white">Romeo Power’s Packs Are Accelerating Change</h2>
               <p className=" text-center text-white flex-1 font-P22Underground-thin text-lg py-8">
               Please tell us about your system needs below.
@@ -24,7 +50,7 @@ const Formarea = () => {
                 </div>
                 <div className="flex space-x-20">
                   <div className="flex-1 w-full">
-                  <textarea class="my-4 p-4 form-textarea mt-1 block w-full" rows="3" placeholder="Comments"></textarea>
+                  <textarea className="my-4 p-4 form-textarea mt-1 block w-full" rows="3" placeholder="Comments"></textarea>
                     </div>
                 </div>
                 <Link href="/products/hermes_module">

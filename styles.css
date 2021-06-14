@@ -63,6 +63,7 @@ nav{
   left: 0;
   right: 0;
   z-index: 999;
+  transition: all 0.25s ease-in;
 }
 
 nav.nav-scrolled{
@@ -533,4 +534,6 @@ details[open] summary ~ * {
   background-position: right center, center center;
   background-repeat: no-repeat;
 }
+
+
 
