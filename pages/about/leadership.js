@@ -85,12 +85,24 @@ qui oﬀicia deserunt mollit anim id est laborum.</p>
               Lionel Selwood, Jr.</h2>
             <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
               Chief Executive Oﬀicer</h4>
-            <p className="text-left text-sm pt-8 leading-normal">Lionel Selwood, Jr. serves as Romeo Power’s Chief Executive Officer. As a recognized leader in battery-powered technology and electrification, Lionel Selwood, Jr. joined Romeo Power in 2016 with an innate passion for accelerating access to green energy.
-</p><p className="text-left text-sm pt-8 leading-normal">Prior to joining Romeo Power, Lionel held key positions at fast-growing companies on the cutting edge of innovation, including SpaceX and Faraday Future. He also led teams at General Electric, where he graduated from the highly regarded Operations Management Leadership Program (OMLP).
-            
-</p><p className="text-left text-sm pt-8 leading-normal">Lionel’s vision for Romeo Power is rooted in his experience growing up in the U.S. Virgin Islands, where access to clean energy is scarce. Seeing this inequity sparked a deep commitment to broadening global access to life-changing, innovative green energy solutions. Lionel is the go-to source for energy across numerous industries and is frequently called upon as a thought leader among nationally recognized media outlets.
-            
-</p><p className="text-left text-sm pt-8 leading-normal">Lionel is also an engineer and holds a master’s degree in Supply Chain Management from The Pennsylvania State University and a bachelor’s degree in Mechanical Engineering from Syracuse University.
+              <p className="text-left text-sm pt-8 leading-normal">Lionel Selwood, Jr. serves as Romeo Power’s Chief Executive Officer. As a 
+recognized leader in battery-powered technology and electrification, he joined Romeo Power 
+in 2016 with an innate passion for accelerating access to green energy.</p>
+
+
+<p className="text-left text-sm pt-8 leading-normal">Prior to joining Romeo Power, Lionel held key positions at fast-growing 
+companies on the cutting edge of innovation, including SpaceX and Faraday 
+Future. He also led teams at General Electric, where he graduated from the 
+highly regarded Operations Management Leadership Program (OMLP). Lionel’s 
+vision for Romeo Power is rooted in his experience growing up in the U.S. Virgin Islands, 
+where access to clean energy is scarce. Seeing this inequity sparked a deep commitment 
+to broadening global access to life-changing, innovative green energy solutions. Lionel 
+is the go-to source for energy across numerous industries and is frequently called upon 
+as a thought leader among nationally recognized media outlets.</p>
+
+
+<p className="text-left text-sm pt-8 leading-normal">Lionel is also an engineer and holds a master’s degree in Supply Chain Management 
+from The Pennsylvania State University and a bachelor’s degree in Mechanical Engineering from Syracuse University.
 </p>
 
             <ul className="flex-1 flex justify-end content-end items-end social gap-4 pt-6">
