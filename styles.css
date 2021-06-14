@@ -535,5 +535,89 @@ details[open] summary ~ * {
   background-repeat: no-repeat;
 }
 
+.careers details summary.c1 {
+  background: url('/faq-closed.png') , url('/Images/Career images/career1.jpg') ;  
+  background-position: right center, center center;
+  background-repeat: no-repeat;
+}
+
+.careers details[open] summary.c1 {
+  background: url('/faq-opened.png') , url('/Images/Career images/career1.jpg') ;  
+  background-position: right center, center center;
+  background-repeat: no-repeat;
+}
+
+.careers details summary.c2 {
+  background: url('/faq-closed.png') , url('/Images/Career images/career2.jpg') ;  
+  background-position: right center, center center;
+  background-repeat: no-repeat;
+}
+
+.careers details[open] summary.c2 {
+  background: url('/faq-opened.png') , url('/Images/Career images/career2.jpg') ;  
+  background-position: right center, center center;
+  background-repeat: no-repeat;
+}
+
+.careers details summary.c3 {
+  background: url('/faq-closed.png') , url('/Images/Career images/career3.jpg') ;  
+  background-position: right center, center center;
+  background-repeat: no-repeat;
+}
+
+.careers details[open] summary.c3 {
+  background: url('/faq-opened.png') , url('/Images/Career images/career3.jpg') ;  
+  background-position: right center, center center;
+  background-repeat: no-repeat;
+}
+
+.careers details summary.c4 {
+  background: url('/faq-closed.png') , url('/Images/Career images/career4.jpg') ;  
+  background-position: right center, center center;
+  background-repeat: no-repeat;
+}
+
+.careers details[open] summary.c4 {
+  background: url('/faq-opened.png') , url('/Images/Career images/career4.jpg') ;  
+  background-position: right center, center center;
+  background-repeat: no-repeat;
+}
+
+.careers details summary.c5 {
+  background: url('/faq-closed.png') , url('/Images/Career images/career5.jpg') ;  
+  background-position: right center, center center;
+  background-repeat: no-repeat;
+}
+
+.careers details[open] summary.c5 {
+  background: url('/faq-opened.png') , url('/Images/Career images/career5.jpg') ;  
+  background-position: right center, center center;
+  background-repeat: no-repeat;
+}
+
+.careers details summary.c6 {
+  background: url('/faq-closed.png') , url('/Images/Career images/career6.jpg') ;  
+  background-position: right center, center center;
+  background-repeat: no-repeat;
+}
+
+.careers details[open] summary.c6 {
+  background: url('/faq-opened.png') , url('/Images/Career images/career6.jpg') ;  
+  background-position: right center, center center;
+  background-repeat: no-repeat;
+}
+
+.careers details summary.c7 {
+  background: url('/faq-closed.png') , url('/Images/Career images/career7.jpg') ;  
+  background-position: right center, center center;
+  background-repeat: no-repeat;
+}
+
+.careers details[open] summary.c7 {
+  background: url('/faq-opened.png') , url('/Images/Career images/career7.jpg') ;  
+  background-position: right center, center center;
+  background-repeat: no-repeat;
+}
+
 
 

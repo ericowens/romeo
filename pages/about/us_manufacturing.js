@@ -87,7 +87,7 @@ ensure long-term reliability.
                 </div>
 
                 <div className="w-1/2">
-                  <img src="/Image11.jpg"></img>
+                  <img src="/Images/Manufacturing images/IS0_9001.jpg"></img>
                 </div>
 
               </div>
@@ -98,7 +98,7 @@ ensure long-term reliability.
               <div className="flex gap-8 py-12">
 
               <div className="w-1/2">
-                  <img src="/image2.jpg"></img>
+                  <img src="/Images/Manufacturing images/safety-standards.jpg"></img>
                 </div>
 
                 <div className="w-1/2">
