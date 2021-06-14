@@ -28,7 +28,7 @@ export default function Home() {
       <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
-              <h1 className="font-P22Underground-thp text-7xl font-bold text-left">Orion 3/4 BEV Pack Family</h1>
+              <h1 className="font-P22Underground-thp text-7xl font-bold text-left">Orion BEV Pack Family</h1>
               <p className="font-P22Underground-thp text-2xl font-bold text-white text-left">Powering the world’s largest commercial vehicles with the first BEV pack family.</p>
               
             </div>
