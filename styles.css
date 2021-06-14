@@ -579,13 +579,13 @@ details[open] summary ~ * {
 }
 
 .careers details summary.c4 {
-  background: url('/Plus_75pix.png') , url('/Images/Career images/career4.jpg') ;  
+  background: url('/Plus_75pix.png') , url('/Images/Career images/career7.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
 }
 
 .careers details[open] summary.c4 {
-  background: url('/Minus_75pix.png') , url('/Images/Career images/career4.jpg') ;  
+  background: url('/Minus_75pix.png') , url('/Images/Career images/career7.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
 }
@@ -615,13 +615,13 @@ details[open] summary ~ * {
 }
 
 .careers details summary.c7 {
-  background: url('/Plus_75pix.png') , url('/Images/Career images/career7.jpg') ;  
+  background: url('/Plus_75pix.png') , url('/Images/Career images/career4.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
 }
 
 .careers details[open] summary.c7 {
-  background: url('/Minus_75pix.png') , url('/Images/Career images/career7.jpg') ;  
+  background: url('/Minus_75pix.png') , url('/Images/Career images/career4.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
 }

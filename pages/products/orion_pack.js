@@ -29,8 +29,7 @@ export default function Home() {
         <div className=" max-w-screen-lg  ">
           <div className="">
               <h1 className="font-P22Underground-thp text-7xl font-bold text-left">Orion BEV Pack Family</h1>
-              <p className="font-P22Underground-thp text-2xl font-bold text-white text-left">Powering the world’s largest commercial vehicles with the first BEV pack family.</p>
-              
+             
             </div>
         </div>
         </section>
@@ -45,7 +44,12 @@ export default function Home() {
 
 
       <section className="flex justify-evenly bg-white  gap-4 py-8">
-          <div><img src="/Images/Orion-pack_family_Group.png"></img></div>
+          <div>
+          <h2 className=" block text-center  text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold pt-4 pb-16 ">
+            Powering the world’s largest commercial vehicles with the first BEV pack family.</h2>
+              
+            <img src="/Images/Orion-pack_family_Group.png"></img>
+            </div>
           
           </section>
 
@@ -74,7 +78,7 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
               </ul>
 
               <p className=" text-left  font-P22Underground-thin text-lg pt-8">
-              [Download Orion Data Sheet]
+              <a href="/ORION BEV PACK FAMILY DATA SHEET.pdf" target="_blank">[Download Orion Data Sheet]</a>
                 </p>
               
              

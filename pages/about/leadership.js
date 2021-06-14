@@ -50,17 +50,14 @@ export default function Home() {
           <div className="flex-1">
 
 
-            <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui oﬀicia deserunt
-            mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-qui oﬀicia deserunt mollit anim id est laborum.</p>
+            <p className="text-center">We are driven by something bigger than ourselves. It is through our diverse, 
+            experienced executive leadership team that we are able to deliver on the 
+            commitment to power the world’s transition to electrification. Romeo Power's 
+            executive leadership team sets the strategic direction of our organization, 
+            supports our passion for continual innovation, and our drive to meet the electrification 
+            needs of our customers, team and shareholders. Our leadership team continually cultivates 
+            an environment that fosters improvement – not just of our products, but of the people that create them.
+</p>
 
           </div>
         </div>

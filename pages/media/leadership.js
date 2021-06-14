@@ -156,60 +156,7 @@ export default function Home() {
                 </div>
               </section>
             </div>
-            <div>
-              <div className="flex justify-center items-center ">
-                <img   src="/leadership/Michael Patterson .jpg"></img>
-                </div>
-              <section className="flex gap-4 py-4">
-                <div className=" w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Michael Patterson</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-            <div>
-            <div className="flex justify-center items-center">
-              <img src="/leadership/Image.jpg"></img>
-              </div>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Name</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
+         
             
             
             

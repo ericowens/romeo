@@ -46,7 +46,7 @@ export default function Home() {
               
             <p className="font-P22Underground-thp text-2xl font-bold  text-left p-4">
               Our end-to-end engineering capabilities include cell science, mechanical,
-thermal, electrical, firmware systems, and stress.
+thermal, electrical, firmware systems and stress.
                 </p>
                 <p className="font-P22Underground-thp text-2xl font-bold  text-left p-4">
                 The results speak for themselves – packs for every application that go further
@@ -222,6 +222,76 @@ lithium plating aging mechanisms as indicated by test data</li>
 
 
 
+              <div className="flex gap-8 py-12">
+
+<div className="w-1/2">
+<img src="/Images/Manufacturing images/functional-testing.jpg"></img>
+</div>
+
+<div className="w-1/2">
+<h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
+Functional Testing</h2>
+
+<p className=" text-left  font-P22Underground-thin text-lg">
+Modules and packs are not
+considered complete until their
+functional and electrical
+characteristics are verified. Romeo
+Power’s state-of-the-art testing
+systems verify all critical
+specifications to assure everything
+is functioning as intended before
+our products are integrated into
+</p>
+
+
+</div>
+
+
+
+</div>
+
+
+
+<div className="flex gap-8 py-12">
+
+              
+
+<div className="w-1/2">
+  
+<h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8 mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
+Reliability Testing + Validation</h2>
+<p className="text-left font-P22Underground-thin text-lg">With a robust test plan strategy, we characterize module performance and product lifecycle.
+Our proprietary test plans, developed from industry-wide research in automotive and
+aerospace, set us apart.</p>
+<p className="text-left font-P22Underground-thin text-lg">Romeo Power’s full range of test capabilities includes:</p>
+<ul className="list-disc list-outside ">
+                <li className="font-P22Underground-thin">Mechanical, environmental and electrical testing</li>
+                <li className="font-P22Underground-thin">Engineering, qualification, and production testing for single cell, module and pack level
+battery systems</li>
+                <li className="font-P22Underground-thin">Comprehensive failure analysis solutions, analytical methods, cross section imaging, cell
+teardowns, and failure analysis reports</li>
+              </ul>
+    
+      
+</div>
+
+
+<div className="w-1/2">
+  <img src="/Images/Manufacturing images/Reliability.jpg"></img>
+</div>
+
+
+
+</div>
+
+
+
+
+              
+
+
+
 
               
               
@@ -279,7 +349,8 @@ material selection and joining technologies</li>
 
               <p className=" text-left flex-1 font-P22Underground-thin text-lg py-4">
               Romeo Power’s battery safety design is rooted in extensive research. Through rigorous testing, we gain valuable data and an in-depth
-understanding of critical battery safety designs.<br></br>
+understanding of critical battery safety designs.</p>
+<p className=" text-left flex-1 font-P22Underground-thin text-lg py-4">
 The result is a focused approach to management and mitigation of critical battery system failures, including thermal event mitigation through
 intelligent venting strategies and a single cell fault tolerant system design.
                 </p>

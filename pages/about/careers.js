@@ -46,8 +46,10 @@ export default function Home() {
         <div className="flex max-w-screen-lg  flex-wrap flex-1">
           <div className="flex-1">
 
-            <p className=" text-center flex-1 font-P22Underground-thin text-2xl uppercase leading-loose py-4">
-              Romeo Power’s goal is to ensure that green energy is accessible to all eight billion people across the globe. It’s our True North; the multi-generational endeavor that drives us on a daily basis and we are unwavering in our commitment to achieving it, together.
+            <p className=" text-center flex-1 font-P22Underground-book text-2xl uppercase leading-loose py-4">
+              "Romeo Power’s goal is to ensure that green energy is accessible to all eight billion people across 
+              the globe. It’s our True North; the multi-generational endeavor that drives us on a daily basis 
+              and we are unwavering in our commitment to achieving it, together."
 
 
                 </p>
@@ -120,7 +122,7 @@ invite you to explore current opportunities.</p>
 
           <div className="w-full">
 
-            <details className=" pb-8" >
+            <details className="hidden pb-8" >
               <summary className="c1 font-P22Underground-book  py-2  flex flex-col align-center  justify-center text-lg ">
                 <p className="font-bold text-white pl-4">Featured Role</p>
               </summary>

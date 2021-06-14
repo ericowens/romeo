@@ -66,16 +66,15 @@ of the intended use and reach out to media@romeopower.com.
             <div className="w-1/2 bg-medium p-10">
             <p className=" border-b text-left inline-block font-bold font-P22Underground-thp text-lg">Press Release</p>
               <h2 className="  text-left  inline-block     font-P22Underground-thp text-4xl font-bold pt-8 ">
-              Press Release
-Headline
+              Nuvve and Romeo Power Announce Collaboration
               </h2>
               <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4"></p>
-              <Link  href="/media/leadership">
+              <a target="_blank" href="/NR1.pdf">
                 <div className="flex gap-2   justify-end align-center content-center items-center">
                   <span className="font-P22Underground-thp font-bold">Read More</span>
                   <span><img className="flex-grow-0" src="/arrow.png" ></img></span>
               </div>
-              </Link>
+              </a>
             </div>
 
             <div className="w-1/2 bg-medium p-10">
@@ -163,6 +162,7 @@ sponsorship, unless agreed
 upon by the company.
       </p>
       <p className=" text-left  flex-1 font-P22Underground-book text-lg py-4 uppercase">
+        
       <Link  href="/media/logos">
           <div className="flex w-3/5 gap-8 justify-between align-center content-center">
             <span className="flex-1">View All</span>

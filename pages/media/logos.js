@@ -76,7 +76,7 @@ GREEN/GREY</p>
                 </div>
               </section>
             </div>
-            <div>
+            <div className="hidden">
             <div className="flex justify-center items-center bg-logobg">
               <img src="/logos/ROMEO POWER HORZ LOGO_GREEN-WHITE.png"></img>
               </div>
@@ -104,7 +104,7 @@ GREEN/WHITE</p>
                 </div>
               </section>
             </div>
-            <div>
+            <div className="hidden">
             <div className="flex justify-center items-center bg-logobg">
               <img src="/logos/ROMEO POWER HORZ LOGO_WHITE.png"></img>
               </div>
@@ -132,7 +132,7 @@ WHITE</p>
                 </div>
               </section>
             </div>
-            <div>
+            <div className="hidden">
             <div className="flex justify-center items-center bg-logobg">
               <img src="/logos/ROMEO POWER HORZ LOGO_BLACK.png"></img>
               </div>
@@ -160,7 +160,7 @@ BLACK</p>
                 </div>
               </section>
             </div>
-            <div>
+            <div className="hidden">
               <div className="flex justify-center items-center bg-logobg">
                 <img   src="/Image5.jpg"></img>
                 </div>
@@ -188,7 +188,7 @@ GREEN/GREY</p>
                 </div>
               </section>
             </div>
-            <div>
+            <div className="hidden">
             <div className="flex justify-center items-center bg-logobg">
               <img src="/logos/ROMEO POWER VERT_GREEN-WHITE.png"></img>
               </div>
@@ -216,7 +216,7 @@ GREEN/WHITE</p>
                 </div>
               </section>
             </div>
-            <div>
+            <div className="hidden">
             <div className="flex justify-center items-center bg-logobg">
               <img src="/logos/ROMEO POWER VERT LOGO_WHITE.png"></img>
               </div>
@@ -300,7 +300,7 @@ GREEN/GREY</p>
                 </div>
               </section>
             </div>
-            <div>
+            <div className="hidden">
             <div className="flex justify-center items-center bg-logobg">
               <img src="/logos/ROMEO POWER HORZ LOGOTYPE_GREEN-WHITE_RGB.png"></img>
               </div>
@@ -328,7 +328,7 @@ GREEN/WHITE</p>
                 </div>
               </section>
             </div>
-            <div>
+            <div className="hidden">
             <div className="flex justify-center items-center bg-logobg">
               <img src="/logos/ROMEO POWER HORZ LOGOTYPE_WHITE_RGB.png"></img>
               </div>
@@ -356,7 +356,7 @@ WHITE</p>
                 </div>
               </section>
             </div>
-            <div>
+            <div className="hidden">
             <div className="flex justify-center items-center bg-logobg">
               <img src="/logos/ROMEO POWER HORZ LOGOTYPE_BLACK_RGB.png"></img>
               </div>
@@ -387,7 +387,7 @@ BLACK</p>
 
 
 
-            <div>
+            <div className="hidden">
             <div className="flex justify-center items-center bg-logobg">
               <img src="/logos/ROMEO POWER VERT LOGOTYPE_GREEN-GREY_RGB.png"></img>
               </div>
@@ -419,7 +419,7 @@ GREEN/GREY</p>
 
 
 
-            <div>
+            <div className="hidden">
             <div className="flex justify-center items-center bg-logobg">
               <img src="/logos/ROMEO POWER VERT_LOGOTYPE_GREEN-WHITE_RGB.png"></img>
               </div>
@@ -451,7 +451,7 @@ GREEN/WHITE</p>
 
 
 
-            <div>
+            <div className="hidden">
             <div className="flex justify-center items-center bg-logobg">
               <img src="/logos/ROMEO POWER VERT LOGOTYPE_WHITE_RGB.png"></img>
               </div>
@@ -483,7 +483,7 @@ WHITE</p>
 
 
 
-            <div>
+            <div className="hidden">
             <div className="flex justify-center items-center bg-logobg">
               <img src="/logos/ROMEO POWER VERT LOGOTYPE_BLACK_RGB.png"></img>
               </div>
@@ -549,7 +549,7 @@ GREEN</p>
 
 
 
-            <div>
+            <div className="hidden">
             <div className="flex justify-center items-center bg-logobg">
               <img src="/logos/ROMEO POWER BUTTON LOGO_GREYRGB.png"></img>
               </div>
@@ -582,7 +582,7 @@ GREY</p>
 
 
 
-            <div>
+            <div className="hidden">
             <div className="flex justify-center items-center bg-logobg">
               <img src="/logos/ROMEO POWER BUTTON LOGO_WHITERGB.png"></img>
               </div>
@@ -613,7 +613,7 @@ WHITE</p>
 
 
 
-            <div>
+            <div className="hidden">
             <div className="flex justify-center items-center bg-logobg">
               <img src="/logos/ROMEO POWER BUTTON LOGO_BLACKRGB.png"></img>
               </div>

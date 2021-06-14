@@ -39,7 +39,7 @@ export default function Home() {
 
 
       
-
+      
 
 
 
@@ -48,7 +48,7 @@ export default function Home() {
           <div className=" flex-1  max-w-screen-lg ">
   
           <div className="grid grid-cols-3 gap-16">
-            <div>
+            <div className="hidden">
               <img src="/galImage1.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
@@ -98,7 +98,7 @@ export default function Home() {
                 </div>
               </section>
             </div>
-            <div>
+            <div className="hidden">
             <img src="/hermesgal/Image3.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
@@ -123,7 +123,7 @@ export default function Home() {
                 </div>
               </section>
             </div>
-            <div>
+            <div className="hidden">
             <img src="/hermesgal/Image4.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
@@ -148,7 +148,7 @@ export default function Home() {
                 </div>
               </section>
             </div>
-            <div>
+            <div className="hidden">
             <img src="/hermesgal/Image5.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
@@ -173,6 +173,10 @@ export default function Home() {
                 </div>
               </section>
             </div>
+
+
+
+
             <div>
             <img src="/hermesgal/Image6.jpg"></img>
               <section className="flex gap-4 py-4">
@@ -198,7 +202,7 @@ export default function Home() {
                 </div>
               </section>
             </div>
-            <div>
+            <div className="hidden">
               <img src="/Image7.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
@@ -248,7 +252,7 @@ export default function Home() {
                 </div>
               </section>
             </div>
-            <div>
+            <div className="hidden">
               <img src="/Image9.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
@@ -273,7 +277,7 @@ export default function Home() {
                 </div>
               </section>
             </div>
-            <div>
+            <div className="hidden">
               <img src="/Image10.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
@@ -298,7 +302,7 @@ export default function Home() {
                 </div>
               </section>
             </div>
-            <div>
+            <div className="hidden">
               <img src="/galImage11.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
@@ -329,7 +333,7 @@ export default function Home() {
 
 
 
-            <div>
+            <div className="hidden">
               <img src="/Image12.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
@@ -359,7 +363,7 @@ export default function Home() {
 
 
 
-            <div>
+            <div className="hidden">
               <img src="/oriongal/1.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
@@ -463,7 +467,7 @@ export default function Home() {
 
 
 
-            <div>
+            <div className="hidden">
               <img src="/oriongal/4.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
@@ -498,7 +502,7 @@ export default function Home() {
 
 
 
-            <div>
+            <div className="hidden">
               <img src="/oriongal/5.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
@@ -533,7 +537,7 @@ export default function Home() {
 
 
 
-            <div>
+            <div className="hidden">
               <img src="/oriongal/6.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
@@ -568,7 +572,7 @@ export default function Home() {
 
 
 
-            <div>
+            <div className="hidden">
               <img src="/oriongal/7.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
@@ -603,7 +607,7 @@ export default function Home() {
 
 
 
-            <div>
+            <div className="hidden">
               <img src="/oriongal/8.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
@@ -638,7 +642,7 @@ export default function Home() {
 
 
 
-            <div>
+            <div className="hidden">
               <img src="/oriongal/9.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
@@ -673,7 +677,7 @@ export default function Home() {
 
 
 
-            <div>
+            <div className="hidden">
               <img src="/oriongal/10.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
@@ -743,7 +747,7 @@ export default function Home() {
 
 
 
-            <div>
+            <div className="hidden">
               <img src="/oriongal/12.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
@@ -778,7 +782,7 @@ export default function Home() {
 
 
 
-            <div>
+            <div className="hidden">
               <img src="/oriongal/13.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
@@ -813,7 +817,7 @@ export default function Home() {
 
 
 
-            <div>
+            <div className="hidden">
               <img src="/oriongal/14.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
@@ -848,7 +852,7 @@ export default function Home() {
 
 
 
-            <div>
+            <div className="hidden">
               <img src="/oriongal/15.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
@@ -883,7 +887,7 @@ export default function Home() {
 
 
 
-            <div>
+            <div className="hidden">
               <img src="/oriongal/16.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
