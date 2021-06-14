@@ -57,7 +57,7 @@ export default function Home() {
               eﬀiciency, high energy density and structurally integrated cooling
               system makes it an ideal battery system for many automotive
               powertrain applications.</p>
-              <img src="/Images/HermesModule2.jpg" ></img>  
+              <img src="/Images/HermesModual2.jpg" ></img>  
             </div>
 
             <div className="w-1/3">

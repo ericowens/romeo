@@ -153,7 +153,7 @@ consistency.
 
 
                 <div className="w-1/2">
-                  <img src="/Image33.jpg"></img>
+                  <img src="/Images/Manufacturing images/cost-effective.jpg"></img>
                 </div>
 
                 
@@ -223,7 +223,7 @@ teardowns, and failure analysis reports</li>
 
 
 <div className="w-1/2">
-  <img src="/Image33.jpg"></img>
+  <img src="/Images/Manufacturing images/Reliability.jpg"></img>
 </div>
 
 
