@@ -55,7 +55,7 @@ export default function Home() {
                   <img src="/DOWNLOAD ICON.png"></img>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Phototile</p>
+                  <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -80,7 +80,7 @@ export default function Home() {
                   <img src="/DOWNLOAD ICON.png"></img>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Phototile</p>
+                  <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -105,7 +105,7 @@ export default function Home() {
                   <img src="/DOWNLOAD ICON.png"></img>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Phototile</p>
+                  <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -130,7 +130,7 @@ export default function Home() {
                   <img src="/DOWNLOAD ICON.png"></img>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Phototile</p>
+                  <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -155,7 +155,7 @@ export default function Home() {
                   <img src="/DOWNLOAD ICON.png"></img>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Phototile</p>
+                  <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -180,7 +180,7 @@ export default function Home() {
                   <img src="/DOWNLOAD ICON.png"></img>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Phototile</p>
+                  <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -205,7 +205,7 @@ export default function Home() {
                   <img src="/DOWNLOAD ICON.png"></img>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Phototile</p>
+                  <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -230,7 +230,7 @@ export default function Home() {
                   <img src="/DOWNLOAD ICON.png"></img>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Phototile</p>
+                  <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -255,7 +255,7 @@ export default function Home() {
                   <img src="/DOWNLOAD ICON.png"></img>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Phototile</p>
+                  <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -280,7 +280,7 @@ export default function Home() {
                   <img src="/DOWNLOAD ICON.png"></img>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Phototile</p>
+                  <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -305,7 +305,7 @@ export default function Home() {
                   <img src="/DOWNLOAD ICON.png"></img>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Phototile</p>
+                  <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -330,7 +330,7 @@ export default function Home() {
                   <img src="/DOWNLOAD ICON.png"></img>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Phototile</p>
+                  <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>

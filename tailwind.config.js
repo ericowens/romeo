@@ -20,7 +20,8 @@ module.exports = {
         'light': '#f4f4f4',
         'medium': '#EBE4D5',
         'darkcolor': '#3D3D3D',
-        'romeogray': '#8a8b8e'
+        'romeogray': '#8a8b8e',
+        'logobg': '#f0f0f0'
        }),
        textColor: theme => ({
         ...theme('colors'),
