@@ -104,7 +104,7 @@ tolerate thermal event faults at a single cell level.</p>
           </div>
           <div className="flex-1">
           <img className="float-right "
-            src="/HermesModule_header.jpg"
+            src="/hermes-hero01.jpg"
             width='450'
             alt=""        
           />   
