@@ -28,7 +28,7 @@ export default function Home() {
       <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
-              <h1 className="font-P22Underground-thp text-7xl font-bold text-left">Orion BEV Pack Family</h1>
+              <h1 className="font-P22Underground-thp text-7xl font-bold text-left">Orion 3/4 BEV Pack Family</h1>
               <p className="font-P22Underground-thp text-2xl font-bold text-white text-left">Powering the world’s largest commercial vehicles with the first BEV pack family.</p>
               
             </div>
@@ -86,7 +86,7 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
       <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
-              <h2 className="font-P22Underground-thp text-5xl font-bold">CLASS 3/4 VEHICLES</h2>
+              <h2 className="font-P22Underground-thp text-5xl font-bold">Class 3/4 Vehicles</h2>
               <p className=" text-left text-white flex-1 font-P22Underground-thin text-lg pt-32">
               [Download Orion Data Sheet]
                 </p>
@@ -103,7 +103,7 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
       <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
-              <h2 className="font-P22Underground-thp text-5xl font-bold">CLASS 5/6 VEHICLES</h2>
+              <h2 className="font-P22Underground-thp text-5xl font-bold">Class 5/6 Vehicles</h2>
               <p className=" text-left text-white flex-1 font-P22Underground-thin text-lg pt-32">
               [Download Orion Data Sheet]
                 </p>
@@ -118,7 +118,7 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
       <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
-              <h2 className="font-P22Underground-thp text-5xl font-bold">CLASS 7/8 VEHICLES</h2>
+              <h2 className="font-P22Underground-thp text-5xl font-bold">Class 7/8 Vehicles</h2>
               <p className=" text-left text-white flex-1 font-P22Underground-thin text-lg pt-32">
               [Download Orion Data Sheet]
                 </p>

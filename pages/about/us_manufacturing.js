@@ -63,16 +63,15 @@ all modules and packs are tested according to stringent Romeo Power standards.</
           <section className="flex justify-center bg-white py-16">
           <div className="flex max-w-screen-lg  flex-wrap flex-1">
             <div className="flex-1">
-              <div className=" pb-8 ">
-              
-              <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold py-4 ">
-              ISO 9001 CERTIFIED BATTERY PACK ASSEMBLY</h2>
-              </div>
-
-
+             
               <div className="flex gap-8 py-12">
 
+              
+
                 <div className="w-1/2">
+                  
+                <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8 mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
+                ISO 9001 Certified Battery Pack Assembly</h2>
                     <p className=" text-left  font-P22Underground-thin text-lg">
                     Romeo Power’s trained technicians provide
 optimized drop-in solutions for your vehicle
@@ -84,13 +83,20 @@ power needs with strict quality assurance to
 ensure long-term reliability.
                     </p>
                     
+                      
                 </div>
+
 
                 <div className="w-1/2">
-                  <img src="/Images/Manufacturing images/IS0_9001.jpg"></img>
+                <img src="/Images/Manufacturing images/IS0_9001.jpg"></img>
                 </div>
 
+                
+
               </div>
+
+
+              
 
 
 
@@ -103,8 +109,7 @@ ensure long-term reliability.
 
                 <div className="w-1/2">
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
-                DESIGNED FOR MANUFACTURING WITH
-THE HIGHEST SAFETY STANDARDS</h2>
+                Designed For Manufacturing With The Highest Safety Standards</h2>
               
                     <p className=" text-left  font-P22Underground-thin text-lg">
                     Romeo Power designs are inherently
@@ -136,7 +141,7 @@ development and production process.
                 <div className="w-1/2">
                   
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8 mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
-                COST EFFECTIVE, <br/>U.S. BASED PRODUCTION</h2>
+                Cost Effective,  <br/>U.S. Based Production</h2>
                     <p className=" text-left  font-P22Underground-thin text-lg">
                     Automation of critical assembly steps, coupled
 with patented component designs enables our
@@ -170,8 +175,8 @@ consistency.
 
   <div className="w-1/2">
   <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
-  HIGH THROUGHPUT MICRO
-LASER WELDING</h2>
+  High Throughput Micro
+Laser Welding</h2>
 
       <p className=" text-left  font-P22Underground-thin text-lg">
       Speed is critical to our battery module
@@ -205,7 +210,7 @@ resistant interconnection.
 <div className="w-1/2">
   
 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8 mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
-RELIABILITY TESTING + VALIDATION</h2>
+Reliability Testing + Validation</h2>
 <p className="text-left font-P22Underground-thin text-lg">With a robust test plan strategy, we characterize module performance and product lifecycle.
 Our proprietary test plans, developed from industry-wide research in automotive and
 aerospace, set us apart.</p>
@@ -240,7 +245,7 @@ teardowns, and failure analysis reports</li>
 
 <div className="w-1/2">
 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
-FUNCTIONAL TESTING</h2>
+Functional Testing</h2>
 
 <p className=" text-left  font-P22Underground-thin text-lg">
 Modules and packs are not
