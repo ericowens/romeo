@@ -339,6 +339,13 @@ nav .show,nav .icon,nav input{
   
 }
 
+#hero.hero-media-leadership {
+  background-image:url('/leadership/LEADERSHIP MEDIA Header.jpg'
+  );
+  
+}
+
+
 #hero.hero-media-gallery {
   background-image:url(/GALLERY_HEADER.jpg
   );
