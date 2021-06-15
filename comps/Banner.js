@@ -1,6 +1,34 @@
 import Link from 'next/link'
 
 const Banner = () => {
+  const formsubmit = async event => {
+    const thanks = document.querySelector("#thankssub");
+    const form = document.querySelector("#subscribe");
+    event.preventDefault()
+    // console.log('here', event.target.name.value)
+
+    const res = await fetch(
+      '/api/subscribe',
+      {
+        body: JSON.stringify({
+          fname: event.target.fname.value ?? '-',
+          lname: event.target.lname.value ?? '-',
+          email: event.target.email.value ?? '-',
+        }),
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        method: 'POST'
+      }
+    )
+
+    thanks.classList.remove("hidden");
+    form.classList.add("hidden");
+
+    const result = await res.json()
+    console.log('here', result)
+    // result.user => 'Ada Lovelace'
+  }
     return (
       <section id="banner" className="flex justify-center py-10">
         <div className="flex max-w-screen-lg flex-col flex-wrap flex-1 md:flex-row m-3 space-x-4 ">
@@ -26,15 +54,20 @@ const Banner = () => {
           </ul>
         </div> 
         <div className="flex-1  flex-grow flex flex-col">
-          <p className="text-darkcolor  text-base  ">Subscribe</p>
-          <input 
+        
+        <p className="text-darkcolor  text-base  ">Subscribe</p>
+        <p id="thankssub" className="hidden text-darkcolor  text-base  ">Thank You</p>
+        <form className="flex-1  flex-grow flex flex-col" id="subscribe" onSubmit={formsubmit}>
+          
+          <input  name="fname" required
           className=" "   type="text" placeholder="First Name"></input>
-           <input 
+           <input  name="lname" required
           className=" "   type="text" placeholder="Last Name"></input>
-          <input 
-          className=" "   type="text" placeholder="Email"></input>
+          <input  name="email" required
+          className=" "   type="email" placeholder="Email"></input>
 
-        <div className="flex"><button className="bg-accent  float-left py-4 px-14 my-2 text-white">Submit</button>  </div>
+        <div className="flex"><button type="submit" className="bg-accent  float-left py-4 px-14 my-2 text-white">Submit</button>  </div>
+        </form>
         </div> 
         </div>
         </section>
