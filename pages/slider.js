@@ -26,35 +26,34 @@ export default function Home() {
 
 
       <section id="hero" className="hero-home flex " >
-        <section className="flex flex-1  justify-start align-center content-center items-center    md:pl-28">
-
-          {/* <video
-        
-        preload={'auto'}
-        
-        
-        autoPlay={'true'}
-        
-        src="/vid/FINAL ROMEO POWER BF MASTER 360.mp4"
-        
-        tabIndex="-1"
-      >
-      
-      </video> */}
-
-          {/* <video className="video-container video-container-overlay" autoPlay="autoplay" loop>
-                    <source src="/vid/FINAL ROMEO POWER BF MASTER 360.mp4" type="video/mp4" />
-                </video> */}
+        <section className="flex flex-1  justify-start align-center content-center items-center    ">
 
 
+          <div className="img-slider flex-1 flex">
 
-          <div className="">
-            <h1 className=" text-left font-P22Underground-thp text-4xl md:text-6xl font-bold">Powering The World’s<br />
+            <div id="slide0" className="slide active flex-1 flex flex-col justify-center align-center content-center items-start pl-16">
+              <h1 className=" text-left font-P22Underground-thp text-4xl md:text-6xl font-bold">Powering The World’s<br />
               Transition To Electrification</h1>
-            <Link href="/contact">
-              <button className="bg-accent  float-left py-4 px-10 my-10">Contact</button>
-            </Link>
+              <Link href="/contact">
+                <button className="bg-accent  float-left py-4 px-10 my-10">Contact</button>
+              </Link>
+            </div>
+
+
+            <div className="slide flex-1 flex bg-accent ">
+              <video id="myVid" className="video-container video-container-overlay w-full"  >
+                  <source src="/vid/FINAL ROMEO POWER BF MASTER 360.mp4" type="video/mp4" />
+                </video>
+            </div>
+
+
+
+            <div className="navigation">
+              <div className="btn active"></div>
+              <div className="btn"></div>
+            </div>
           </div>
+
 
         </section>
 
@@ -63,38 +62,6 @@ export default function Home() {
 
 
 
-      <section>
-
-        <div className="img-slider">
-
-
-          <div className="slide active">
-            <img src="2.jpg" alt=""></img>
-            <div className="info">
-              <h2>Slide 02</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-          </div>
-
-
-          <div className="slide ">
-            <div className="info">
-              <video id="myVid" className="video-container video-container-overlay" >
-                <source src="/vid/FINAL ROMEO POWER BF MASTER 360.mp4" type="video/mp4" />
-              </video>
-            </div>
-          </div>
-
-
-
-
-          <div className="navigation">
-            <div className="btn active"></div>
-            <div className="btn"></div>
-          </div>
-        </div>
-
-      </section>
 
 
 
