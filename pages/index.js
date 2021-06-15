@@ -25,11 +25,31 @@ export default function Home() {
 
 
 
-      <section id="hero" className="hero-home flex hidden lg:block " >
+      <section id="hero" className="hero-home flex " >
         <section className="flex flex-1  justify-start align-center content-center items-center    pl-28">
-          
+
+          {/* <video
+        
+        preload={'auto'}
+        
+        
+        autoPlay={'true'}
+        
+        src="/vid/FINAL ROMEO POWER BF MASTER 360.mp4"
+        
+        tabIndex="-1"
+      >
+      
+      </video> */}
+
+          {/* <video className="video-container video-container-overlay" autoPlay="autoplay" loop>
+                    <source src="/vid/FINAL ROMEO POWER BF MASTER 360.mp4" type="video/mp4" />
+                </video> */}
+
+
+
           <div className="">
-            <h1 className=" text-left font-P22Underground-thp text-6xl font-bold">Powering The World’s<br />
+            <h1 className=" text-left font-P22Underground-thp text-4xl md:text-6xl font-bold">Powering The World’s<br />
               Transition To Electrification</h1>
             <Link href="/contact">
               <button className="bg-accent  float-left py-4 px-10 my-10">Contact</button>
@@ -38,23 +58,6 @@ export default function Home() {
 
         </section>
 
-      </section>
-
-      <section id="hero" className="hero-home  flex justify-center items-end block lg:hidden" >
-      <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
-        <div className=" max-w-screen-lg  ">
-          <div className="">
-          <h1 className=" text-left font-P22Underground-thp text-4xl font-bold">Powering The World’s<br />
-              Transition To Electrification</h1>
-            <Link href="/contact">
-              <button className="bg-accent  float-left py-4 px-10 my-10">Contact</button>
-            </Link>
-              
-              
-            </div>
-        </div>
-        </section>
-        
       </section>
 
 
