@@ -5,7 +5,7 @@ const Navbar = () => {
         <nav>
              <div className="logo"><Link href="/"><img className="" src="/logo.png" width="50%"></img></Link></div>
              <label htmlFor="btn" className="icon">
-                Menu
+                <p className="text-white text-lg">Menu</p>
             </label>
             <input type="checkbox" id="btn"></input>
             <ul>

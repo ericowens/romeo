@@ -59,7 +59,7 @@ export default function Home() {
               <img src="/Images/HermesModual2.jpg" ></img>  
             </div>
 
-            <div className="w-1/3">
+            <div className="w-1/3 hidden md:block">
               <img className="text-right float-right " src="/Images/HermesModule1.jpg"  ></img>  
               </div>         
             
@@ -118,7 +118,7 @@ export default function Home() {
                 <li className="font-P22Underground-thin">Isolated communication between stack of modules and the central control device</li>
                 <li className="font-P22Underground-thin">Structurally integrated cooling system with superior thermal performance</li>
               </ul>
-              <div className="flex justify-around py-8">
+              <div className="flex flex-col md:flex-row gap-2 justify-around py-8">
                 <div className=" flex gap-4 flex-col items-center">
                   <div><img src="/batteryicon.png"></img> </div> 
                   <h2 className="text-4xl font-P22Underground-book">10kWh</h2>
