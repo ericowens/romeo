@@ -47,7 +47,7 @@ export default function Home() {
 
           <div className=" flex-1  max-w-screen-lg px-4 ">
   
-          <div className="grid grid-cols-3 gap-16">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-16">
             <div className="hidden">
               <img src="/galImage1.jpg"></img>
               <section className="flex gap-4 py-4">
