@@ -119,14 +119,14 @@ universal energy a thing of the future.</p>
 
       <section className="flex justify-center bg-light  pb-4">
         <div className="flex max-w-screen-lg flex-col flex-wrap flex-1 lg:flex-row m-3 space-x-4 ">
-          <div className="flex justify-center flex-1 sm:order-last lg:order-first">
+          <div className="flex justify-center flex-1 order-last lg:order-first">
             <img className="text-center md:float-left "
               src="/TechnologyHome.jpg"
               
               alt=""
             />
           </div>
-          <div className="flex-1 flex justify-center align-center flex-col sm:order-first lg:order-last">
+          <div className="flex-1 flex justify-center align-center flex-col ">
             <h3 className="text-left text-darkcolor  font-P22Underground-thp text-4xl font-bold my-4 py-4">Technology</h3>
             <p>Romeo Power oﬀers custom electrification solutions for the
             commercial vehicle industry spanning from Class 3 delivery
