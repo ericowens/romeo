@@ -26,7 +26,7 @@ export default function Home() {
           fname: event.target.fname.value ?? '-',
           lname: event.target.lname.value ?? '-',
           email: event.target.email.value ?? '-',
-          type: event.target.type.value ?? '-',
+         
         }),
         headers: {
           'Content-Type': 'application/json'
@@ -111,13 +111,7 @@ Vernon, CA 90058
             <div className="flex space-x-20">
               <div className="flex-1 w-full">
                 <input  name="email" className="sm:w-full my-2 p-4"   type="text" placeholder="Email" required></input>
-                <select name="type" className="sm:w-full my-2 p-4"  required >
-                <option value="" disabled selected>Enquiry Type</option>
-                  <option value="volvo">Volvo</option>
-                  <option value="saab">Saab</option>
-                  <option value="mercedes">Mercedes</option>
-                  <option value="audi">Audi</option>
-                </select>
+                
                 <button type="submit" className="bg-accent sm:w-full   py-4 px-14  text-white">Submit</button>
               </div>
             </div>

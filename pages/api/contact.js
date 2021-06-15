@@ -13,7 +13,7 @@ export default function handler(req, res) {
       // text: `Name:${req.body.fname} ${req.body.lname}`,
       html: `Name:${req.body.fname} ${req.body.lname}
       <br/>Email:${req.body.email}
-      <br/>Type:${req.body.type}`,
+      `,
     }
     sgMail
     .send(msg)
