@@ -59,13 +59,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase text-center">ROMEO POWER LOGO HORIZONTAL</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -87,13 +87,13 @@ export default function Home() {
                   <p className="uppercase">ROMEO POWER HORIZONTAL
 GREEN/WHITE</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -115,13 +115,13 @@ GREEN/WHITE</p>
                   <p className="uppercase">ROMEO POWER HORIZONTAL
 WHITE</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -143,13 +143,13 @@ WHITE</p>
                   <p className="uppercase">ROMEO POWER HORIZONTAL
 BLACK</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -171,13 +171,13 @@ BLACK</p>
                   <p className="uppercase">ROMEO POWER VERTICAL
 GREEN/GREY</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -199,13 +199,13 @@ GREEN/GREY</p>
                   <p className="uppercase">ROMEO POWER VERTICAL
 GREEN/WHITE</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -227,13 +227,13 @@ GREEN/WHITE</p>
                   <p className="uppercase">ROMEO POWER VERTICAL
 WHITE</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -254,13 +254,13 @@ WHITE</p>
                 <div className="w-2/3">
                   <p className="uppercase text-center">ROMEO POWER LOGO VERTICAL</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -281,13 +281,13 @@ WHITE</p>
                 <div className="w-2/3">
                   <p className="uppercase text-center">LOGO TYPE</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -309,13 +309,13 @@ WHITE</p>
                   <p className="uppercase">LOGO TYPE HORIZONTAL
 GREEN/WHITE</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -337,13 +337,13 @@ GREEN/WHITE</p>
                   <p className="uppercase">LOGO TYPE HORIZONTAL
 WHITE</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -365,13 +365,13 @@ WHITE</p>
                   <p className="uppercase">LOGO TYPE HORIZONTAL
 BLACK</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -396,13 +396,13 @@ BLACK</p>
                   <p className="uppercase">LOGO TYPE VERTICAL
 GREEN/GREY</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -428,13 +428,13 @@ GREEN/GREY</p>
                   <p className="uppercase">LOGO TYPE VERTICAL
 GREEN/WHITE</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -460,13 +460,13 @@ GREEN/WHITE</p>
                   <p className="uppercase">LOGO TYPE VERTICAL
 WHITE</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -492,13 +492,13 @@ WHITE</p>
                   <p className="uppercase">LOGO TYPE VERTICAL
 BLACK</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -524,13 +524,13 @@ BLACK</p>
                 <div className="w-2/3">
                   <p className="uppercase text-center">BADGE</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -557,13 +557,13 @@ BLACK</p>
                   <p className="uppercase">BADGE
 GREY</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -590,13 +590,13 @@ GREY</p>
                   <p className="uppercase">BADGE
 WHITE</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -621,13 +621,13 @@ WHITE</p>
                   <p className="uppercase">BADGE
 BLACK</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>

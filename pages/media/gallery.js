@@ -57,13 +57,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -82,13 +82,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase text-center">Romeo Power Hermes Module View 1</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -107,13 +107,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -132,13 +132,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -157,13 +157,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -186,13 +186,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase text-center">Romeo Power Hermes Module View 2</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -211,13 +211,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -236,13 +236,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase text-center">Romeo Power Hermes Module View 3</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -261,13 +261,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -286,13 +286,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -311,13 +311,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -342,13 +342,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -372,13 +372,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -406,13 +406,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase text-center">Romeo Power Orion BEV Pack Family</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -441,13 +441,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase text-center">Romeo Power Orion Pack - 5 modules</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -476,13 +476,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -511,13 +511,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -546,13 +546,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -581,13 +581,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -616,13 +616,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -651,13 +651,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -686,13 +686,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -721,13 +721,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase text-center">Romeo Power Orion Pack - 3 modules</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -756,13 +756,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -791,13 +791,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -826,13 +826,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -861,13 +861,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -896,13 +896,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>

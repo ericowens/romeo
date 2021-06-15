@@ -59,13 +59,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase text-center">Lionel Selwood, Jr.</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -86,13 +86,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase text-center">AK Srouji, PhD</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -113,13 +113,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase text-center">Lauren Webb</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
@@ -140,13 +140,13 @@ export default function Home() {
                 <div className="w-2/3">
                   <p className="uppercase text-center">Criswell Choi</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">RGB</p>
                     </div>
                     <div>
                       <p className="text-center">JPG</p>
                       </div>
-                    <div className="border-r">
+                    <div className="md:border-r">
                       <p className="text-center">CMYK</p>
                       </div>
                     <div>
