@@ -50,15 +50,14 @@ export default function Home() {
           <div className="grid grid-cols-2 gap-16">
             <div>
             <div className="flex justify-center items-center bg-logobg">
-              <img src="/logos/ROMEO POWER HORZ LOGO_GREEN-GREY.png"></img>
+              <img src="/logos/ROMEO POWER HORZ LOGO_GREEN-GREYRGB.svg"></img>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
                    <a target="_blank" href="/zips/ROMEO_POWER_LOGO_1.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">ROMEO POWER HORIZONTAL
-GREEN/GREY</p>
+                  <p className="uppercase text-center">ROMEO POWER LOGO HORIZONTAL</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -246,15 +245,14 @@ WHITE</p>
             </div>
             <div>
             <div className="flex justify-center items-center bg-logobg">
-              <img src="/logos/ROMEO POWER VERT LOGO_BLACK.png"></img>
+              <img src="/logos/ROMEO POWER VERT LOGO_GREEN-GREYRGB.svg"></img>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
                    <a target="_blank" href="/zips/ROMEO_POWER_LOGO_Vert_2.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">ROMEO POWER VERTICAL
-BLACK</p>
+                  <p className="uppercase text-center">ROMEO POWER LOGO VERTICAL</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -274,15 +272,14 @@ BLACK</p>
             </div>
             <div>
             <div className="flex justify-center items-center bg-logobg">
-              <img src="/logos/ROMEO POWER HORZ LOGOTYPE_GREEN-GREY_RGB.png"></img>
+              <img src="/logos/ROMEO POWER HORZ LOGOTYPE_GREEN-GREY_RGB.svg"></img>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
                    <a target="_blank" href="/zips/ROMEO_POWER_LOGOTYPE_3.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">LOGO TYPE HORIZONTAL
-GREEN/GREY</p>
+                  <p className="uppercase text-center">LOGO TYPE</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -518,15 +515,14 @@ BLACK</p>
 
             <div>
             <div className="flex justify-center items-center bg-logobg">
-              <img src="/logos/ROMEO POWER BUTTON LOGO_GREENRGB.png"></img>
+              <img src="/logos/ROMEO POWER BUTTON LOGO_GREENRGB.svg"></img>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
                    <a target="_blank" href="/zips/ROMEO POWER  BADGE LOGO_4.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">BADGE
-GREEN</p>
+                  <p className="uppercase text-center">BADGE</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>

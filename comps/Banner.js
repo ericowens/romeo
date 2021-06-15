@@ -42,7 +42,7 @@ const Banner = () => {
               <li className="flex-1"><a target="_blank"   href="https://twitter.com/romeopowerinc"><img src="/social/Twitter.svg"></img></a></li>
               <li className="flex-1"><a target="_blank"   href="https://www.linkedin.com/company/romeopowerinc/"><img src="/social/Linkedin.svg"></img></a></li>
               <li className="flex-1"><a target="_blank"   href="https://www.youtube.com/channel/UCBLrQ658VqC1XQTGajV3xlQ"><img src="/social/Youtube.svg"></img></a></li>
-              <li className="flex-1"><a target="_blank"   href="https://www.instagram.com/romeopowerinc/"><img src="/instagram.png"></img></a></li>
+              <li className="flex-1"><a target="_blank"   href="https://www.instagram.com/romeopowerinc/"><img src="/social/instagram.svg"></img></a></li>
             </ul>
         </div> 
         <div className="flex-1 ">
