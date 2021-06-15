@@ -63,7 +63,7 @@ export default function Home() {
                 our world, we must transition from polluting combustion
                 engines to clean battery-electric energy fast and at scale.
                 At Romeo Power, we are developing the world’s highest
-                energy dense ba eries, with a focus on safety, extended
+                energy dense batteries, with a focus on safety, extended
                 range and durability, for heavy-duty commercial vehicles.
                 Our team of elite engineers has made crucial
                 breakthroughs in safety standards, energy density,
@@ -116,7 +116,7 @@ commercial vehicles.</p>
                 superior range and power, at an eﬀective cost. When it
                 comes to battery technology, the greater the energy
                 density and power density, the longer the range and the
-                be er the acceleration. Our battery systems provide
+                better the acceleration. Our battery systems provide
                 both, resulting in eﬀicient packs without sacrificing
 space.</p>
               </div>
@@ -165,7 +165,7 @@ of the EV industry?</p>
                 vehicles in addition to light-, medium- and heavy-duty
 commercial vehicles.</p>
                 <p className="font-P22Underground-book">As we continue to collaborate and expand our ability to
-                serve our customers, we are commi ed to partnering
+                serve our customers, we are committed to partnering
                 with organizations that share our vision and goal of an
                 electrified future and an end to energy poverty. We will
                 also look to work with organizations that prioritize safety,
@@ -204,7 +204,7 @@ marine and aerospace industries.</p>
                 decays or loses strength. In many ways, it’s as strong as
                 steel and this feat of nature aligns perfectly with Romeo
                 Power’s internal values. Not only does the Romeo Power
-                logo visually represent the natural pa ern of Heartwood,
+                logo visually represent the natural pattern of Heartwood,
                 itself akin to the design of a battery cell, but it represents
 Romeo Power’s positioning as the core of electrification.</p>
               </div>

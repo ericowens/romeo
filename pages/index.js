@@ -158,7 +158,7 @@ tolerate thermal event faults at a single cell level.</p>
             <div className="flex"><Link href="/about/us_manufacturing"><button className="bg-accent  float-left py-4 px-14 my-10 text-white">Learn More</button></Link>  </div>
 
           </div>
-          <div className=" flex justify-center">
+          <div className=" flex justify-center flex-1">
             <img className="md:float-right "
               src="/USManufacturing.jpg"
 

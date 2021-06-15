@@ -76,7 +76,7 @@ nav{
   right: 0;
   z-index: 999;
   transition: all 0.25s ease-in;
-  padding: 1rem 0;
+  
 }
 
 nav.nav-scrolled{
@@ -185,7 +185,11 @@ nav .show,nav .icon,nav input{
 
   
 
-  nav{background-color: #4F7A32;}
+  nav{
+    background-color: #4F7A32;
+    padding: 1rem 0;
+  }
+
   nav ul{
     margin-right: 0px;
     float: left;
