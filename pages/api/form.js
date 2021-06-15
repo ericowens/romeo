@@ -19,18 +19,20 @@ export default function handler(req, res) {
       <br/>Comment:${req.body.comment}`,
     }
     sgMail
-      .send(msg)
-      .then(() => {
-        console.log('Email sent')
-      })
-      .catch((error) => {
-        console.error(error)
-      })
+    .send(msg)
+    .then(() => {
+      // console.log('Email sent')
+      res.status(200).json({ msg: 'Sent' })
+    })
+    .catch((error) => {
+      res.status(200).json({ error })
+      // console.error(error)
+    })
       
       
   } else {
     // Handle any other HTTP method
   }
-  res.status(200).json({ msg: 'sent' })
+  // res.status(200).json({ msg: 'sent' })
 }
 
