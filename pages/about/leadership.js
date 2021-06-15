@@ -119,7 +119,7 @@ from The Pennsylvania State University and a bachelor’s degree in Mechanical E
 
 
       <section className="small-leader-2 flex justify-center  " >
-        <div className="flex max-w-screen-lg justify-evenly  px-4 flex-wrap flex-1 md:flex-row sm:flex-col">
+        <div className="flex max-w-screen-xl justify-evenly  px-4 flex-wrap flex-1 md:flex-row sm:flex-col">
 
 
 
