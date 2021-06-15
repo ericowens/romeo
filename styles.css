@@ -426,18 +426,24 @@ nav .show,nav .icon,nav input{
   
 }
 
+
+
 .small-hero-orion-1 {
   background-image:url(/class34.jpg);
+  background-position:center;
+  
   
 }
 
 .small-hero-orion-2 {
   background-image:url(/class56.jpg);
+  background-position:center;
   
 }
 
 .small-hero-orion-3 {
-  background-image:url('/class-7-8.jpg');
+  background-image:url('/class-7-8.jpg'); 
+  background-position:center;
   
 }
 
