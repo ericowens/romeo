@@ -31,7 +31,7 @@ export default function handler(req, res) {
       
       
   } else {
-    // Handle any other HTTP method
+    res.status(200).json({ msg: 'sent' })
   }
   // res.status(200).json({ msg: 'sent' })
 }

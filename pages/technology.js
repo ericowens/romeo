@@ -241,7 +241,7 @@ lithium plating aging mechanisms as indicated by test data</li>
                   systems verify all critical
                   specifications to assure everything
                   is functioning as intended before
-                  our products are integrated into
+                  our products are integrated into your electric vehicle aplication.
 </p>
 
 
