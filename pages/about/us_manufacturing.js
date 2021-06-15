@@ -64,7 +64,7 @@ all modules and packs are tested according to stringent Romeo Power standards.</
           <div className="flex max-w-screen-lg px-4  flex-wrap flex-1">
             <div className="flex-1">
              
-              <div className="flex gap-8 py-12 md:flex-row sm:flex-col">
+              <div className="flex gap-8 py-12 md:flex-row flex-col">
 
               
 
@@ -101,9 +101,9 @@ ensure long-term reliability.
 
 
 
-              <div className="flex gap-8 py-12 md:flex-row sm:flex-col">
+              <div className="flex gap-8 py-12 md:flex-row flex-col">
 
-              <div className="w-full md:w-1/2 sm:order-last md:order-first">
+              <div className="w-full md:w-1/2 order-last md:order-first">
                   <img src="/Images/Manufacturing images/safety-standards.jpg"></img>
                 </div>
 
@@ -134,7 +134,7 @@ development and production process.
 
 
 
-              <div className="flex gap-8 py-12 md:flex-row sm:flex-col">
+              <div className="flex gap-8 py-12 md:flex-row flex-col">
 
               
 
@@ -167,9 +167,9 @@ consistency.
 
 
 
-              <div className="flex gap-8 py-12 md:flex-row sm:flex-col">
+              <div className="flex gap-8 py-12 md:flex-row flex-col">
 
-<div className="w-full md:w-1/2 sm:order-last md:order-first">
+<div className="w-full md:w-1/2 order-last md:order-first">
     <img src="/Images/Manufacturing images/micro laser.jpg"></img>
   </div>
 

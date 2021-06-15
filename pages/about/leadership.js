@@ -73,7 +73,7 @@ export default function Home() {
       <section className="small-leader-1 flex justify-center  " >
         <div className="flex md:flex-row sm:flex-col max-w-screen-lg justify-evenly  px-4 flex-wrap flex-1">
 
-          <div className=" flex items-end justify-end md:w-2/5 w-full sm:order-last md:order-first">
+          <div className=" flex items-end justify-end md:w-2/5 w-full order-last md:order-first">
             <img src="/thumbnail_LINEAL-path@2x.png"></img>
           </div>
 
@@ -167,7 +167,7 @@ from The Pennsylvania State University and a bachelor’s degree in Mechanical E
       <section className="small-leader-3 flex justify-center  " >
         <div className="flex max-w-screen-lg justify-evenly   px-4 flex-wrap flex-1 md:flex-row sm:flex-col">
 
-          <div className=" flex items-end justify-end md:w-2/5 w-full sm:order-last md:order-first">
+          <div className=" flex items-end justify-end md:w-2/5 w-full order-last md:order-first">
             <img src="/leadershipLAUREN-e3e3e3.png"></img>
           </div>
 
