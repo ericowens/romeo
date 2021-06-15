@@ -12,6 +12,36 @@ export default function Home() {
   useEffect(() => {
     observe_nav()
   })
+  
+  const formsubmit = async event => {
+    const thanks = document.querySelector("#thankscontact");
+    const form = document.querySelector("#contact");
+    event.preventDefault()
+    // console.log('here', event.target.name.value)
+
+    const res = await fetch(
+      '/api/contact',
+      {
+        body: JSON.stringify({
+          fname: event.target.fname.value ?? '-',
+          lname: event.target.lname.value ?? '-',
+          email: event.target.email.value ?? '-',
+          type: event.target.type.value ?? '-',
+        }),
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        method: 'POST'
+      }
+    )
+
+    thanks.classList.remove("hidden");
+    form.classList.add("hidden");
+
+    const result = await res.json()
+    console.log('here', result)
+    // result.user => 'Ada Lovelace'
+  }
 
   return (
     <div>
@@ -45,10 +75,10 @@ export default function Home() {
 
       <section className="flex bg-white justify-center py-16">
 
-          <div className="flex-1  border-2 border-black p-8 flex justify-center align-center content-center  max-w-screen-lg   ">
+          <div className="flex-1 gap-8  border-2 border-black p-8 flex justify-center align-center content-center  max-w-screen-lg   ">
   
             <div className="w-1/2 flex flex-col ">
-              <div className="  flex-1 w-full">
+              <div className=" gap-4 flex-1 w-full">
                 <h2 className=" text-left inline-block text-darkcolor   font-P22Underground-thp text-xl font-bold  ">
                 Get In Touch</h2>
               
@@ -64,8 +94,46 @@ Vernon, CA 90058
                 </p>
               </div>
               <div className=" flex-1 w-full">
-                <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Form
-                </p>
+                
+              <p id="thankscontact" className="hidden text-darkcolor  text-base  ">Thank You</p>
+
+
+              <form id="contact" onSubmit={formsubmit}>
+            
+            <div className="flex space-x-20">
+              <div className="w-1/2">
+                <input  name="fname" className="sm:w-full my-2 p-4 "   type="text" placeholder="First Name"  required></input>
+              </div>
+              <div className="w-1/2">
+                <input  name="lname" className="sm:w-full my-2 p-4"   type="text" placeholder="Last Name" required></input>
+               </div>
+            </div>
+            <div className="flex space-x-20">
+              <div className="flex-1 w-full">
+                <input  name="email" className="sm:w-full my-2 p-4"   type="text" placeholder="Email" required></input>
+                <select name="type" className="sm:w-full my-2 p-4"  required >
+                <option value="" disabled selected>Enquiry Type</option>
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="mercedes">Mercedes</option>
+                  <option value="audi">Audi</option>
+                </select>
+                <button type="submit" className="bg-accent sm:w-full   py-4 px-14  text-white">Submit</button>
+              </div>
+            </div>
+          
+                         
+       
+     
+      </form>
+
+
+
+
+
+
+
+
               </div>
             </div>
             

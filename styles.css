@@ -456,6 +456,12 @@ nav .show,nav .icon,nav input{
   margin:0.25rem 0;
 }
 
+#contact input{
+  border:1px solid #3D3D3D;
+  padding:0.25rem 0.25rem;
+  margin:0.25rem 0;
+}
+
 #footer * {
   font-family: 'P22Underground-light';
   line-height: 70px;
@@ -472,7 +478,7 @@ nav .show,nav .icon,nav input{
   background-color: #042F31;
 }
 
-.formarea input{
+.formarea input, #contact input{
   padding: 1rem;
   width: 100%;
 }

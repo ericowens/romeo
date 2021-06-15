@@ -118,7 +118,7 @@ tolerate thermal event faults at a single cell level.</p>
         <div className="flex max-w-screen-lg flex-col flex-wrap flex-1 md:flex-row m-3 space-x-8 ">
         <div className="flex-1">
           <img className="float-left "
-           src="/Image.jpg"
+           src="/TechnologyHome.jpg"
            width='450'
             alt=""        
           />   
