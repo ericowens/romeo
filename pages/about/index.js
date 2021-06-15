@@ -25,7 +25,7 @@ export default function Home() {
 
       <section id="hero" >
       <section className="flex justify-center">
-        <div className="flex max-w-screen-lg  flex-wrap flex-1">
+        <div className="flex max-w-screen-lg pl-4 flex-wrap flex-1">
           <div className="justify-start  ">
               <h1 className="font-P22Underground-thp text-7xl font-bold">Power Inspired by Nature.</h1>
               <Link href="/contact">

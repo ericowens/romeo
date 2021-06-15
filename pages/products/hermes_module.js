@@ -26,7 +26,7 @@ export default function Home() {
 
       <section id="hero" className="hero-products-hermes flex justify-center items-end" >
       <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
-        <div className=" max-w-screen-lg  ">
+        <div className=" max-w-screen-lg pl-4 ">
           <div className="">
               <h1 className="  font-P22Underground-thp text-7xl font-bold">Hermes Module</h1>
               
@@ -56,7 +56,7 @@ export default function Home() {
               eﬀiciency, high energy density and structurally integrated cooling
               system makes it an ideal battery system for many automotive
               powertrain applications.</p>
-              <img src="/Images/HermesModual2.jpg" ></img>  
+              <img className="pt-8 md:pt-2" src="/Images/HermesModual2.jpg" ></img>  
             </div>
 
             <div className="w-1/3 hidden md:block">
@@ -118,7 +118,7 @@ export default function Home() {
                 <li className="font-P22Underground-thin">Isolated communication between stack of modules and the central control device</li>
                 <li className="font-P22Underground-thin">Structurally integrated cooling system with superior thermal performance</li>
               </ul>
-              <div className="flex flex-col md:flex-row gap-2 justify-around py-8">
+              <div className="flex flex-col md:flex-row gap-16 md:gap-2 justify-around py-8">
                 <div className=" flex gap-4 flex-col items-center">
                   <div><img src="/batteryicon.png"></img> </div> 
                   <h2 className="text-4xl font-P22Underground-book">10kWh</h2>

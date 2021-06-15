@@ -26,7 +26,7 @@ export default function Home() {
 
       <section id="hero" className="bg-accent flex justify-center items-end" >
       <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
-        <div className=" max-w-screen-lg  ">
+        <div className=" max-w-screen-lg pl-4 ">
           <div className="">
               <h1 className="  font-P22Underground-thp text-7xl font-bold">Privacy Policy
 </h1>
