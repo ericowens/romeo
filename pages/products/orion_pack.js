@@ -142,8 +142,8 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
 
 
 
-        {/* <section className="flex justify-center bg-medium py-16">
-          <div className="flex max-w-screen-lg  flex-wrap flex-1">
+        <section className="flex justify-center bg-medium py-16">
+          <div className="flex max-w-screen-lg px-4 flex-wrap flex-1">
             <div className="flex-1">
               <div className=" pb-8 ">
               <h2 className=" text-center block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold pt-4 ">
@@ -152,8 +152,8 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
 
               
               
-              <div className="flex gap-8 justify-around py-8">
-                <div className="w-1/3 flex gap-4 flex-col items-start">
+              <div className="flex gap-8 justify-around py-8 flex-col md:flex-row">
+                <div className="w-full md:w-1/3 flex gap-4 flex-col items-start">
                   <div className="w-full flex items-center justify-center content-center">
                     <img src="/icon-battery-100.png"></img>
                     </div> 
@@ -166,7 +166,7 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
                 </div>
 
 
-                <div className="w-1/3 flex gap-4 flex-col items-start">
+                <div className="w-full md:w-1/3 flex gap-4 flex-col items-start">
                 <div className="w-full flex items-center justify-center content-center">
                   <img src="/icon-bms-100.png"></img> </div> 
                   <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">Battery Management System</h4>
@@ -182,7 +182,7 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
                   are at their safe operating conditions.</p>          
                 </div>
 
-                <div className="w-1/3 flex gap-4 flex-col items-start">
+                <div className="w-full md:w-1/3 flex gap-4 flex-col items-start">
                 <div className="w-full flex items-center justify-center content-center">
                   <img src="/icon-sensor-100.png"></img> </div> 
                   <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">Sensing</h4>
@@ -197,7 +197,7 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
              
             </div>
           </div>
-          </section> */}
+          </section>
 
         <Formarea/>
 
