@@ -3,9 +3,9 @@ import Link from 'next/link'
 const Navbar = () => {
     return (
         <nav>
-             <div className="logo"><Link href="/"><img className="" src="/logo.png" width="50%"></img></Link></div>
+             <div className="logo"><Link href="/"><img className="sm:w-full md:w-1/2" src="/logo.png" ></img></Link></div>
              <label htmlFor="btn" className="icon">
-                <p className="text-white text-lg">Menu</p>
+                <p className="text-white text-lg leading-loose pt-6">Menu</p>
             </label>
             <input type="checkbox" id="btn"></input>
             <ul>

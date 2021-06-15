@@ -76,6 +76,7 @@ nav{
   right: 0;
   z-index: 999;
   transition: all 0.25s ease-in;
+  padding: 1rem 0;
 }
 
 nav.nav-scrolled{
@@ -209,7 +210,7 @@ nav .show,nav .icon,nav input{
     color: white;
     font-size: 14px;
     padding: 0 15px;
-    line-height: 90px;
+    line-height: 50px;
     cursor: pointer;
   }
   .show:hover{
@@ -221,7 +222,7 @@ nav .show,nav .icon,nav input{
     position: absolute;
     top: 0;
     right: 40px;
-    line-height: 90px;
+    line-height: 50px;
     cursor: pointer;
     font-size: 18px;
   }
