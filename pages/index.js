@@ -26,7 +26,7 @@ export default function Home() {
 
 
       <section id="hero" className="hero-home flex " >
-        <section className="flex flex-1  justify-start align-center content-center items-center    pl-28">
+        <section className="flex flex-1  justify-start align-center content-center items-center    md:pl-28">
 
           {/* <video
         
