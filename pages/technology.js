@@ -24,7 +24,7 @@ export default function Home() {
 
       <Navbar />
 
-      <section id="hero" className="hero-technology  flex justify-center items-end" >
+      <section id="hero" className="hero-technology  flex justify-center items-center md:items-end" >
 
         <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
           <div className=" max-w-screen-lg  ">
