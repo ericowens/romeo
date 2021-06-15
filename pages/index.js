@@ -41,7 +41,7 @@ export default function Home() {
 
 
             <div className="slide flex-1 flex bg-accent ">
-              <video id="myVid" className="video-container video-container-overlay w-full"  >
+              <video id="myVid" className="video-container video-container-overlay w-full" controls >
                   <source src="/vid/FINAL ROMEO POWER BF MASTER 360.mp4" type="video/mp4" />
                 </video>
             </div>

@@ -183,7 +183,9 @@ nav .show,nav .icon,nav input{
 }
 @media all and (max-width: 968px) {
 
-  
+  .mobilelink{
+    display: inline-block;
+  }
 
   nav{
     background-color: #4F7A32;

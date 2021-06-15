@@ -14,6 +14,7 @@ const Navbar = () => {
           <Link href="/products"><a >Products</a></Link>
           <input type="checkbox" id="btn-1"></input>
           <ul>
+            <li className="mobilelink hidden"><Link href="/products"><a >Products</a></Link></li>
             <li><Link href="/products/hermes_module"><a >Hermes Module</a></Link></li>
             <li><Link href="/products/orion_pack"><a >Orion Pack</a></Link></li>
            

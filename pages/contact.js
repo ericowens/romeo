@@ -77,19 +77,19 @@ export default function Home() {
 
           <div className="flex-1 gap-8  border-2 border-black p-8 flex justify-center align-center content-center  max-w-screen-lg flex-col md:flex-row  ">
   
-            <div className="w-full md:w-1/2 flex flex-col ">
+            <div className="w-full md:w-1/2 flex flex-col  ">
               <div className=" gap-4 flex-1 w-full">
-                <h2 className=" text-left inline-block text-darkcolor   font-P22Underground-thp text-xl font-bold  ">
+                <h2 className=" text-left inline-block text-darkcolor   font-P22Underground-thp text-xl font-bold pt-8  ">
                 Get In Touch</h2>
               
               </div>
               <div className=" flex-1 w-full">
-                <p className=" text-left  flex-1 font-P22Underground-thin text-xs py-2">
+                <p className=" text-left  flex-1 font-P22Underground-thin text-md py-2">
                   <img className="float-left" src="map.jpg" width="25"></img>
                   4380 Ayers Ave.<br/>
 Vernon, CA 90058
                 </p>
-                <p className=" text-left  flex-1 font-P22Underground-thin text-xs py-2">
+                <p className=" text-left  flex-1 font-P22Underground-thin text-md py-2">
                 <img className="float-left" src="phone.jpg" width="25"></img>+1.833.467.2237
                 </p>
               </div>
@@ -100,7 +100,7 @@ Vernon, CA 90058
 
               <form id="contact" onSubmit={formsubmit}>
             
-            <div className="flex md:space-x-20">
+            <div className="flex md:space-x-5">
               <div className="w-1/2">
                 <input  name="fname" className="sm:w-full my-2 p-4 "   type="text" placeholder="First Name"  required></input>
               </div>
