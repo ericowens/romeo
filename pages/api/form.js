@@ -7,7 +7,7 @@ export default function handler(req, res) {
     const sgMail = require('@sendgrid/mail')
     sgMail.setApiKey(process.env.SENDGRID_API_KEY)
     const msg = {
-      to: 'eric@owens.fyi', // Change to your recipient
+      to: process.env.EMAIL_TO, // Change to your recipient
       from: 'eric@owens.fyi', // Change to your verified sender
       subject: 'Please tell us about your system needs below.',
       // text: `Name:${req.body.fname} ${req.body.lname}`,
