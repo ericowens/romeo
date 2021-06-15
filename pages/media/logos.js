@@ -54,7 +54,7 @@ export default function Home() {
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                   <a target="_blank" href="/zips/ROMEO_POWER_LOGO_1.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">ROMEO POWER HORIZONTAL
@@ -82,7 +82,7 @@ GREEN/GREY</p>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                   <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">ROMEO POWER HORIZONTAL
@@ -110,7 +110,7 @@ GREEN/WHITE</p>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                   <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">ROMEO POWER HORIZONTAL
@@ -138,7 +138,7 @@ WHITE</p>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                   <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">ROMEO POWER HORIZONTAL
@@ -166,7 +166,7 @@ BLACK</p>
                 </div>
               <section className="flex gap-4 py-4">
                 <div className=" w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                   <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">ROMEO POWER VERTICAL
@@ -194,7 +194,7 @@ GREEN/GREY</p>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                   <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">ROMEO POWER VERTICAL
@@ -222,7 +222,7 @@ GREEN/WHITE</p>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                   <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">ROMEO POWER VERTICAL
@@ -250,7 +250,7 @@ WHITE</p>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                   <a target="_blank" href="/zips/ROMEO_POWER_LOGO_Vert_2.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">ROMEO POWER VERTICAL
@@ -278,7 +278,7 @@ BLACK</p>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                   <a target="_blank" href="/zips/ROMEO_POWER_LOGOTYPE_3.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">LOGO TYPE HORIZONTAL
@@ -306,7 +306,7 @@ GREEN/GREY</p>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                   <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">LOGO TYPE HORIZONTAL
@@ -334,7 +334,7 @@ GREEN/WHITE</p>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                   <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">LOGO TYPE HORIZONTAL
@@ -362,7 +362,7 @@ WHITE</p>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                   <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">LOGO TYPE HORIZONTAL
@@ -393,7 +393,7 @@ BLACK</p>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                   <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">LOGO TYPE VERTICAL
@@ -425,7 +425,7 @@ GREEN/GREY</p>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                   <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">LOGO TYPE VERTICAL
@@ -457,7 +457,7 @@ GREEN/WHITE</p>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                   <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">LOGO TYPE VERTICAL
@@ -489,7 +489,7 @@ WHITE</p>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                   <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">LOGO TYPE VERTICAL
@@ -522,7 +522,7 @@ BLACK</p>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                   <a target="_blank" href="/zips/ROMEO POWER  BADGE LOGO_4.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">BADGE
@@ -555,7 +555,7 @@ GREEN</p>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                   <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">BADGE
@@ -588,7 +588,7 @@ GREY</p>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                   <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">BADGE
@@ -619,7 +619,7 @@ WHITE</p>
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                   <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">BADGE

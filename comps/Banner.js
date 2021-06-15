@@ -10,10 +10,10 @@ const Banner = () => {
         sales@romeopower.com<br></br>
         +1 833.467.2237</p>
         <ul className="flex social">
-          <li className="flex-1"><a target="_blank"  href="https://www.facebook.com/RomeoPowerInc"><img src="/Facebook.png"></img></a></li>
-          <li className="flex-1"><a target="_blank"   href="https://twitter.com/romeopowerinc"><img src="/twitter.png"></img></a></li>
-          <li className="flex-1"><a target="_blank"   href="https://www.linkedin.com/company/romeopowerinc/"><img src="/linkedin.png"></img></a></li>
-          <li className="flex-1"><a target="_blank"   href="https://www.youtube.com/channel/UCBLrQ658VqC1XQTGajV3xlQ"><img src="/youtube.png"></img></a></li>
+          <li className="flex-1"><a target="_blank"  href="https://www.facebook.com/RomeoPowerInc"><img src="/social/facebook.svg"></img></a></li>
+          <li className="flex-1"><a target="_blank"   href="https://twitter.com/romeopowerinc"><img src="/social/Twitter.svg"></img></a></li>
+          <li className="flex-1"><a target="_blank"   href="https://www.linkedin.com/company/romeopowerinc/"><img src="/social/Linkedin.svg"></img></a></li>
+          <li className="flex-1"><a target="_blank"   href="https://www.youtube.com/channel/UCBLrQ658VqC1XQTGajV3xlQ"><img src="/social/Youtube.svg"></img></a></li>
           <li className="flex-1"><a target="_blank"   href="https://www.instagram.com/romeopowerinc/"><img src="/instagram.png"></img></a></li>
         </ul>
         </div> 

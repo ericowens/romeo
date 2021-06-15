@@ -104,7 +104,7 @@ from The Pennsylvania State University and a bachelor’s degree in Mechanical E
 
             <ul className="flex-1 flex justify-end content-end items-end social gap-4 pt-6">
               <li className=""><a target="_blank" href="https://www.linkedin.com/in/lionel-selwood-jr-ab031b34/">
-                <img src="/linkedin.png"></img></a></li>
+                <img src="/social/Linkedin.svg"></img></a></li>
 
               <li className="hidden"><img src="/twitter.png"></img></li>
               <li className="hidden"><img src="/Facebook.png"></img></li>
@@ -146,7 +146,7 @@ from The Pennsylvania State University and a bachelor’s degree in Mechanical E
 
             <ul className="flex-1 flex justify-start content-start items-end social gap-4 pt-6">
               <li className=""><a target="_blank" href="https://www.linkedin.com/in/ak-srouji-27191013/">
-                <img src="/linkedin.png"></img></a></li>
+                <img src="/social/Linkedin.svg"></img></a></li>
 
               <li className="hidden"><img src="/twitter.png"></img></li>
               <li className="hidden"><img src="/Facebook.png"></img></li>
@@ -190,7 +190,7 @@ from The Pennsylvania State University and a bachelor’s degree in Mechanical E
 
             <ul className="flex-1 flex justify-end content-end items-end social gap-4 pt-6">
               <li className=""><a target="_blank" href="https://www.linkedin.com/in/lauren-webb-9b65a95/">
-                <img src="/linkedin.png"></img></a></li>
+                <img src="/social/Linkedin.svg"></img></a></li>
 
               <li className="hidden"><img src="/twitter.png"></img></li>
               <li className="hidden"><img src="/Facebook.png"></img></li>
@@ -223,7 +223,7 @@ from The Pennsylvania State University and a bachelor’s degree in Mechanical E
 
             <ul className="flex-1 flex justify-start content-start items-end social gap-4 pt-6">
               <li className=""><a target="_blank" href="https://www.linkedin.com/in/criswell-choi-82221046/">
-                <img src="/linkedin.png"></img></a></li>
+                <img src="/social/Linkedin.svg"></img></a></li>
 
               <li className="hidden"><img src="/twitter.png"></img></li>
               <li className="hidden"><img src="/Facebook.png"></img></li>

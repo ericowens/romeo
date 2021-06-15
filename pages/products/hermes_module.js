@@ -138,8 +138,9 @@ than 30 minutes</p>
                                
 
               </div>
-              <p className="text-center"><a target="_blank" href="/HERMES MODULE DATA SHEET.pdf">
-                [Download Hermes Data Sheet]
+              <p className="text-left  font-P22Underground-thin text-lg pt-8"><a target="_blank" href="/HERMES MODULE DATA SHEET.pdf">
+               
+                <button className="bg-accent text-white font-P22Underground-book float-left py-4 px-10 my-10">Download Hermes Data Sheet</button>
                 </a>
                 </p>
              

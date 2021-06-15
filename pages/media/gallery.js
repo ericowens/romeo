@@ -52,7 +52,7 @@ export default function Home() {
               <img src="/galImage1.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -77,7 +77,7 @@ export default function Home() {
               <img src="/hermesgal/Image2.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href="/zips/Hermes 1.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -102,7 +102,7 @@ export default function Home() {
             <img src="/hermesgal/Image3.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -127,7 +127,7 @@ export default function Home() {
             <img src="/hermesgal/Image4.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -152,7 +152,7 @@ export default function Home() {
             <img src="/hermesgal/Image5.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -181,7 +181,7 @@ export default function Home() {
             <img src="/hermesgal/Image6.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href="/zips/Hermes 2.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -206,7 +206,7 @@ export default function Home() {
               <img src="/Image7.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -231,7 +231,7 @@ export default function Home() {
               <img src="/Image8.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href="/zips/Hermes 3.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -256,7 +256,7 @@ export default function Home() {
               <img src="/Image9.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -281,7 +281,7 @@ export default function Home() {
               <img src="/Image10.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -306,7 +306,7 @@ export default function Home() {
               <img src="/galImage11.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -337,7 +337,7 @@ export default function Home() {
               <img src="/Image12.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -367,7 +367,7 @@ export default function Home() {
               <img src="/oriongal/1.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -401,7 +401,7 @@ export default function Home() {
               <img src="/oriongal/2.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href="/zips/Orion Pac 1.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -436,7 +436,7 @@ export default function Home() {
               <img src="/oriongal/3.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href="/zips/Orion Pac 2.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -471,7 +471,7 @@ export default function Home() {
               <img src="/oriongal/4.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -506,7 +506,7 @@ export default function Home() {
               <img src="/oriongal/5.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -541,7 +541,7 @@ export default function Home() {
               <img src="/oriongal/6.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -576,7 +576,7 @@ export default function Home() {
               <img src="/oriongal/7.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -611,7 +611,7 @@ export default function Home() {
               <img src="/oriongal/8.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -646,7 +646,7 @@ export default function Home() {
               <img src="/oriongal/9.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -681,7 +681,7 @@ export default function Home() {
               <img src="/oriongal/10.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -716,7 +716,7 @@ export default function Home() {
               <img src="/oriongal/11.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href="/zips/Orion Pac 3.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -751,7 +751,7 @@ export default function Home() {
               <img src="/oriongal/12.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -786,7 +786,7 @@ export default function Home() {
               <img src="/oriongal/13.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -821,7 +821,7 @@ export default function Home() {
               <img src="/oriongal/14.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -856,7 +856,7 @@ export default function Home() {
               <img src="/oriongal/15.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>
@@ -891,7 +891,7 @@ export default function Home() {
               <img src="/oriongal/16.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Photo title</p>

@@ -54,7 +54,7 @@ export default function Home() {
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                  <a target="_blank" href="/zips/LEADERSHIP 1.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Lionel Selwood, Jr.</p>
@@ -81,7 +81,7 @@ export default function Home() {
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                <a target="_blank" href="/zips/LEADERSHIP 2.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">AK Srouji, PhD</p>
@@ -108,7 +108,7 @@ export default function Home() {
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                <a target="_blank" href="/zips/LEADERSHIP 3.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Lauren Webb</p>
@@ -135,7 +135,7 @@ export default function Home() {
               </div>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <img src="/DOWNLOAD ICON.png"></img>
+                <a target="_blank" href="/zips/LEADERSHIP 4.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
                   <p className="uppercase">Criswell Choi</p>

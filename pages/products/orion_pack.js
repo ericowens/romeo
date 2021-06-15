@@ -78,7 +78,9 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
               </ul>
 
               <p className=" text-left  font-P22Underground-thin text-lg pt-8">
-              <a href="/ORION BEV PACK FAMILY DATA SHEET.pdf" target="_blank">[Download Orion Data Sheet]</a>
+              <a href="/ORION BEV PACK FAMILY DATA SHEET.pdf" target="_blank">
+                <button className="bg-accent text-white font-P22Underground-book  float-left py-4 px-10 my-10">Download Orion Data Sheet</button>
+                </a>
                 </p>
               
              
