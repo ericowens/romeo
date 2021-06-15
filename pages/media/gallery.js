@@ -80,7 +80,7 @@ export default function Home() {
                   <a target="_blank" href="/zips/Hermes 1.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Romeo Power Hermes Module View 1</p>
+                  <p className="uppercase text-center">Romeo Power Hermes Module View 1</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -184,7 +184,7 @@ export default function Home() {
                   <a target="_blank" href="/zips/Hermes 2.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Romeo Power Hermes Module View 2</p>
+                  <p className="uppercase text-center">Romeo Power Hermes Module View 2</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -234,7 +234,7 @@ export default function Home() {
                   <a target="_blank" href="/zips/Hermes 3.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Romeo Power Hermes Module View 3</p>
+                  <p className="uppercase text-center">Romeo Power Hermes Module View 3</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -404,7 +404,7 @@ export default function Home() {
                   <a target="_blank" href="/zips/Orion Pac 1.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Romeo Power Orion BEV Pack Family</p>
+                  <p className="uppercase text-center">Romeo Power Orion BEV Pack Family</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -439,7 +439,7 @@ export default function Home() {
                   <a target="_blank" href="/zips/Orion Pac 2.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Romeo Power Orion Pack - 5 modules</p>
+                  <p className="uppercase text-center">Romeo Power Orion Pack - 5 modules</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -719,7 +719,7 @@ export default function Home() {
                   <a target="_blank" href="/zips/Orion Pac 3.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Romeo Power Orion Pack - 3 modules</p>
+                  <p className="uppercase text-center">Romeo Power Orion Pack - 3 modules</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>

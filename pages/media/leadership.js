@@ -57,7 +57,7 @@ export default function Home() {
                   <a target="_blank" href="/zips/LEADERSHIP 1.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Lionel Selwood, Jr.</p>
+                  <p className="uppercase text-center">Lionel Selwood, Jr.</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -84,7 +84,7 @@ export default function Home() {
                 <a target="_blank" href="/zips/LEADERSHIP 2.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">AK Srouji, PhD</p>
+                  <p className="uppercase text-center">AK Srouji, PhD</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -111,7 +111,7 @@ export default function Home() {
                 <a target="_blank" href="/zips/LEADERSHIP 3.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Lauren Webb</p>
+                  <p className="uppercase text-center">Lauren Webb</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
@@ -138,7 +138,7 @@ export default function Home() {
                 <a target="_blank" href="/zips/LEADERSHIP 4.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Criswell Choi</p>
+                  <p className="uppercase text-center">Criswell Choi</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="border-r">
                       <p className="text-center">RGB</p>
