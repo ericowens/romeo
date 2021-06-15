@@ -14,12 +14,14 @@ export default function helloAPI(req, res) {
   sgMail
     .send(msg)
     .then(() => {
-      console.log('Email sent')
+      // console.log('Email sent')
+      res.status(200).json({ msg: 'Sent' })
     })
     .catch((error) => {
-      console.error(error)
+      res.status(200).json({ error })
+      // console.error(error)
     })
     
-    res.status(200).json({ name: process.env.SENDGRID_API_KEY })
+    // res.status(200).json({ name: process.env.SENDGRID_API_KEY })
 
 }
