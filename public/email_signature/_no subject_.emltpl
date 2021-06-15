@@ -1058,7 +1058,7 @@ table.MsoNormalTable
   <tbody><tr>
     <td align="center" bgcolor="#ebe4d5">
 <!--[if (gte mso 9)|(IE)]><v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:800px;">
-<v:fill origin="0.5, 0.5" position="0.5, 0.5" src="https://5tco.com/img/header-romeo.jpg" type="tile" size="1,1" aspect="atleast" opacity="100%"></v:fill>
+<v:fill origin="0.5, 0.5" position="0.5, 0.5" src="https://www.romeopower.com/email_signature/temp/header-romeo.jpg" type="tile" size="1,1" aspect="atleast" opacity="100%"></v:fill>
 <v:textbox style="mso-fit-shape-to-text:true;" inset="0,0,0,0"><![endif]-->
 <div>
 
@@ -1066,7 +1066,7 @@ table.MsoNormalTable
 
 <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width:100%;max-width:100%;">
   <tbody><tr>
-    <td align="center" background="https://5tco.com/img/header-romeo4.jpg" style="background-size:cover;background-position:center top;">
+    <td align="center" background="https://www.romeopower.com/email_signature/temp/header-romeo4.jpg" style="background-size:cover;background-position:center top;">
       <a href="https://romeopower.com/">
 <!-- phone-number+social-icons -->
 
@@ -1295,7 +1295,7 @@ table.MsoNormalTable
 <br><br>
             <tr style="">
     <td align="center">
-      <img class="auto-width" style="display:block;width:100%;max-width:100%;border:0px;" width="1200" src="https://5tco.com/img/3pictures2.png" border="0" alt="picture"><br>
+      <img class="auto-width" style="display:block;width:100%;max-width:100%;border:0px;" width="1200" src="https://www.romeopower.com/email_signature/temp/3pictures2.png" border="0" alt="picture"><br>
     </td>
   </tr>
   <tr>
@@ -1485,14 +1485,14 @@ table.MsoNormalTable
   <tbody><tr>
     <td align="center" bgcolor="#4f7939">
 <!--[if (gte mso 9)|(IE)]><v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:800px;">
-<v:fill origin="0.5, 0.5" position="0.5, 0.5" src="https://5tco.com/img/footer-image.jpg" type="tile" size="1,1" aspect="atleast" opacity="100%"></v:fill>
+<v:fill origin="0.5, 0.5" position="0.5, 0.5" src="https://www.romeopower.com/email_signature/temp/footer-image.jpg" type="tile" size="1,1" aspect="atleast" opacity="100%"></v:fill>
 <v:textbox style="mso-fit-shape-to-text:true;" inset="0,0,0,0"><![endif]-->
 <div>
 
 <!-- miscellaneous-bg-image -->
 <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width:100%;max-width:100%;">
   <tbody><tr>
-    <td align="center" background="https://5tco.com/img/footer-image.jpg" style="background-size:cover;background-position:center top;">
+    <td align="center" background="https://www.romeopower.com/email_signature/temp/footer-image.jpg" style="background-size:cover;background-position:center top;">
 <!-- Content -->
 <table data-inner-table="" border="0" align="center" cellpadding="0" cellspacing="0" role="presentation" class="inner-table row" width="600" style="width:600px;max-width:600px;">
   <tbody><tr>
@@ -1551,7 +1551,7 @@ table.MsoNormalTable
 <!-- footer-bg-image -->
 <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width:100%;max-width:100%;">
   <tbody><tr>
-    <td align="center" class="container-padding" background="" style="background-size:cover;background-position:center top;">
+    <td align="center" class="container-padding">
 <!-- Content -->
 <table data-inner-table="" border="0" align="center" cellpadding="0" cellspacing="0" class="inner-table row" role="presentation" width="600" style="width:600px;max-width:600px;">
   <tbody><tr>
@@ -1568,8 +1568,7 @@ table.MsoNormalTable
       <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="width:100%;max-width:100%;">
         <tbody><tr>
           <td align="left" class="center-text">
-            <a href="https://romeopower.com/" target="_blank"><img style="width:130px;border:0px;display:inline!important;" src="https://5tco.com/img/rp-logo-footer.png" width="130" border="0" alt="logo"></a>
-          </td>
+eric          </td>
         </tr>        
       </tbody>
     </table>
