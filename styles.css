@@ -258,7 +258,7 @@ nav .show,nav .icon,nav input{
 
 #hero {
   height: 100vh;
-  width: auto;
+  width: 100vw;
   
   background-size: cover;
   background-blend-mode: multiply;
