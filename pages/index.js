@@ -118,7 +118,7 @@ universal energy a thing of the future.</p>
 
 
       <section className="flex justify-center bg-light  pb-4">
-        <div className="flex max-w-screen-lg flex-col flex-wrap flex-1 lg:flex-row m-3 space-x-8 ">
+        <div className="flex max-w-screen-lg flex-col flex-wrap flex-1 lg:flex-row m-3 space-x-4 ">
           <div className="flex justify-center flex-1 sm:order-last lg:order-first">
             <img className="text-center md:float-left "
               src="/TechnologyHome.jpg"
