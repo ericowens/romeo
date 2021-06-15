@@ -71,7 +71,7 @@ export default function Home() {
 
 
       <section className="small-leader-1 flex justify-center  " >
-        <div className="flex md:flex-row sm:flex-col max-w-screen-lg justify-evenly  px-4 flex-wrap flex-1">
+        <div className="flex md:flex-row sm:flex-col max-w-screen-xl justify-evenly  px-4 flex-wrap flex-1">
 
           <div className=" flex items-end justify-end md:w-2/5 w-full order-last md:order-first">
             <img src="/thumbnail_LINEAL-path@2x.png"></img>
