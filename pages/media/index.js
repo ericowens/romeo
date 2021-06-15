@@ -80,16 +80,15 @@ of the intended use and reach out to media@romeopower.com.
             <div className="w-1/2 bg-medium p-10">
             <p className=" border-b text-left inline-block font-bold font-P22Underground-thp text-lg">Press Release</p>
               <h2 className="  text-left  inline-block     font-P22Underground-thp text-4xl font-bold pt-8 ">
-              Press Release
-Headline
+              Romeo Power Announces First Quarter 2021 Financial Results
               </h2>
               <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4"></p>
-              <Link  href="/media/leadership">
+              <a target="_blank"   href="https://investors.romeopower.com/news/news-details/2021/Romeo-Power-Announces-First-Quarter-2021-Financial-Results/default.aspx">
                 <div className="flex gap-2   justify-end align-center content-center items-center">
                   <span className="font-P22Underground-thp font-bold">Read More</span>
                   <span><img className="flex-grow-0" src="/arrow.png" ></img></span>
               </div>
-              </Link>
+              </a>
             </div>
            
           </div>
@@ -103,32 +102,30 @@ Headline
 <div className="w-1/2 bg-medium p-10">
             <p className=" border-b text-left inline-block font-bold font-P22Underground-thp text-lg">Press Release</p>
               <h2 className="  text-left  inline-block     font-P22Underground-thp text-4xl font-bold pt-8 ">
-              Press Release
-Headline
+              Romeo Power Appoints New VP of Cell Engineering
               </h2>
               <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4"></p>
-              <Link  href="/media/leadership">
+              <a target="_blank" href="https://investors.romeopower.com/news/news-details/2021/Romeo-Power-Appoints-New-VP-of-Cell-Engineering/default.aspx">
                 <div className="flex gap-2   justify-end align-center content-center items-center">
                   <span className="font-P22Underground-thp font-bold">Read More</span>
                   <span><img className="flex-grow-0" src="/arrow.png" ></img></span>
               </div>
-              </Link>
+              </a>
             </div>
 
             <div className="w-1/2 bg-medium p-10">
             <p className=" border-b text-left inline-block font-bold font-P22Underground-thp text-lg">Press Release</p>
               <h2 className="  text-left  inline-block     font-P22Underground-thp text-4xl font-bold pt-8 ">
-              Press Release
-Headline
+              Romeo Power Announces Timing of First Quarter 2021 Financial Results and Webcast
               </h2>
               <p className="   flex-1 font-P22Underground-thin text-lg py-4"></p>
 
-              <Link  href="/media/leadership">
+              <a target="_blank"  href="https://investors.romeopower.com/news/news-details/2021/Romeo-Power-Announces-Timing-of-First-Quarter-2021-Financial-Results-and-Webcast/default.aspx">
                 <div className="flex gap-2   justify-end align-center content-center items-center">
                   <span className="font-P22Underground-thp font-bold">Read More</span>
                   <span><img className="flex-grow-0" src="/arrow.png" ></img></span>
               </div>
-              </Link>
+              </a>
             </div>
  
 </div>
