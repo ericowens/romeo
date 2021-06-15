@@ -161,7 +161,7 @@ upon by the company.
       <p className=" text-left  flex-1 font-P22Underground-book text-lg py-4 uppercase">
         
       <Link  href="/media/logos">
-          <div className="flex w-3/5 gap-8 justify-between align-center content-center">
+          <div className="flex w-3/5 gap-8 justify-between align-center content-center cursor-pointer">
             <span className="flex-1">View All</span>
             <span><img className="flex-grow-0" src="/arrow.jpg" ></img></span>
         </div>
@@ -187,7 +187,7 @@ inspiration.
       </p>
       <p className=" text-left  flex-1 font-P22Underground-book text-lg py-4 uppercase">
         <Link  href="/media/leadership">
-          <div className="flex w-3/5 gap-8 justify-between align-center content-center">
+          <div className="flex w-3/5 gap-8 justify-between align-center content-center cursor-pointer">
             <span className="flex-1">View All</span>
             <span><img className="flex-grow-0" src="/arrow.jpg" ></img></span>
         </div>
@@ -211,7 +211,7 @@ with our corporate identity
 and vision for the future.
       </p>
       <p className=" text-left  flex-1 font-P22Underground-book text-lg py-4 uppercase"><Link  href="/media/gallery">
-          <div className="flex w-3/5 gap-8 justify-between align-center content-center">
+          <div className="flex w-3/5 gap-8 justify-between align-center content-center cursor-pointer">
             <span className="flex-1">View All</span>
             <span><img className="flex-grow-0" src="/arrow.jpg" ></img></span>
         </div>

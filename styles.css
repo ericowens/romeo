@@ -652,3 +652,7 @@ details[open] summary ~ * {
   width:4rem
 }
 
+.cursor-pointer{
+  cursor: pointer;
+}
+
