@@ -208,7 +208,7 @@ nav .show,nav .icon,nav input{
   nav .show{
     display: block;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     padding: 0 15px;
     line-height: 50px;
     cursor: pointer;
