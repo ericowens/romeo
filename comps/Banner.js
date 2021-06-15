@@ -31,19 +31,19 @@ const Banner = () => {
   }
     return (
       <section id="banner" className="flex justify-center py-10">
-        <div className="flex max-w-screen-lg flex-col flex-wrap flex-1 md:flex-row m-3 space-x-4 ">
+        <div className="flex max-w-screen-lg  flex-wrap flex-1 md:flex-row m-3 space-x-4 ">
         <div className="flex-1  flex-grow">
-          <p className="text-darkcolor  text-base leading-7 text-bold " >ROMEO POWER, INC.</p>
-        <p className="address text-darkcolor font-P22Underground-thin text-base  " >4380 Ayers Ave, Vernon, CA 90058<br></br>
-        sales@romeopower.com<br></br>
-        +1 833.467.2237</p>
-        <ul className="flex social">
-          <li className="flex-1"><a target="_blank"  href="https://www.facebook.com/RomeoPowerInc"><img src="/social/facebook.svg"></img></a></li>
-          <li className="flex-1"><a target="_blank"   href="https://twitter.com/romeopowerinc"><img src="/social/Twitter.svg"></img></a></li>
-          <li className="flex-1"><a target="_blank"   href="https://www.linkedin.com/company/romeopowerinc/"><img src="/social/Linkedin.svg"></img></a></li>
-          <li className="flex-1"><a target="_blank"   href="https://www.youtube.com/channel/UCBLrQ658VqC1XQTGajV3xlQ"><img src="/social/Youtube.svg"></img></a></li>
-          <li className="flex-1"><a target="_blank"   href="https://www.instagram.com/romeopowerinc/"><img src="/instagram.png"></img></a></li>
-        </ul>
+              <p className="text-darkcolor  text-base leading-7 text-bold " >ROMEO POWER, INC.</p>
+            <p className="address text-darkcolor font-P22Underground-thin text-base  " >4380 Ayers Ave, Vernon, CA 90058<br></br>
+            sales@romeopower.com<br></br>
+            +1 833.467.2237</p>
+            <ul className="flex social pb-8">
+              <li className="flex-1"><a target="_blank"  href="https://www.facebook.com/RomeoPowerInc"><img src="/social/facebook.svg"></img></a></li>
+              <li className="flex-1"><a target="_blank"   href="https://twitter.com/romeopowerinc"><img src="/social/Twitter.svg"></img></a></li>
+              <li className="flex-1"><a target="_blank"   href="https://www.linkedin.com/company/romeopowerinc/"><img src="/social/Linkedin.svg"></img></a></li>
+              <li className="flex-1"><a target="_blank"   href="https://www.youtube.com/channel/UCBLrQ658VqC1XQTGajV3xlQ"><img src="/social/Youtube.svg"></img></a></li>
+              <li className="flex-1"><a target="_blank"   href="https://www.instagram.com/romeopowerinc/"><img src="/instagram.png"></img></a></li>
+            </ul>
         </div> 
         <div className="flex-1 ">
           <ul  className="bannerul flex flex-col  ">

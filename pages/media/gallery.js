@@ -45,7 +45,7 @@ export default function Home() {
 
       <section className="flex bg-white justify-center py-16">
 
-          <div className=" flex-1  max-w-screen-lg ">
+          <div className=" flex-1  max-w-screen-lg px-4 ">
   
           <div className="grid grid-cols-3 gap-16">
             <div className="hidden">

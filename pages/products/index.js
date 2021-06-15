@@ -64,7 +64,7 @@ export default function Home() {
 
 
       <section  className="small-hero small-hero-hermes flex justify-center items-center" >
-      <section className="flex flex-1  max-w-screen-lg justify-center items-center align-center py-40 ">
+      <section className="flex flex-1  max-w-screen-lg justify-center items-center align-center px-4 py-40 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
               <h2 className="font-P22Underground-thp text-5xl font-bold">Hermes Module</h2>
@@ -109,7 +109,7 @@ largest, long-haul Class 8 vehicles.
 
 
       <section className="flex justify-center bg-medium py-16">
-          <div className="flex max-w-screen-lg  flex-wrap flex-1">
+          <div className="flex max-w-screen-lg  flex-wrap flex-1 px-4">
             <div className="flex-1">
               <div className=" pb-8 ">
               <h2 className=" text-center block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold pt-4 ">

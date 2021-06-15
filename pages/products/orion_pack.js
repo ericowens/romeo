@@ -55,7 +55,7 @@ export default function Home() {
 
 
       <section className="flex justify-center bg-white py-16">
-          <div className="flex max-w-screen-lg  flex-wrap flex-1">
+          <div className="flex max-w-screen-lg px-4 flex-wrap flex-1">
             <div className="flex-1">
               <div className=" pb-8 ">
               <h2 className=" block text-center  text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold py-4 ">
@@ -93,7 +93,7 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
 
 
           <section  className="small-hero small-hero-orion-1 flex justify-center items-center mt-4" >
-      <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
+      <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start px-4 py-40 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
               <h2 className="font-P22Underground-thp text-5xl font-bold">Class 3/4 Vehicles</h2>
@@ -110,7 +110,7 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
 
 
       <section  className="small-hero small-hero-orion-2 flex justify-center items-center mt-4" >
-      <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
+      <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start px-4 py-40 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
               <h2 className="font-P22Underground-thp text-5xl font-bold">Class 5/6 Vehicles</h2>
@@ -125,7 +125,7 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
       </section>
 
       <section  className="small-hero small-hero-orion-3 flex justify-center items-center mt-4" >
-      <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
+      <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start px-4 py-40 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
               <h2 className="font-P22Underground-thp text-5xl font-bold">Class 7/8 Vehicles</h2>

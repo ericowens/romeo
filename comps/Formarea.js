@@ -35,7 +35,7 @@ const Formarea = () => {
   }
     return (
       <section  className="formarea text-center bg-darkaccent flex justify-center items-center" >
-      <section className="flex flex-1  max-w-screen-lg justify-center items-center align-center py-16 ">
+      <section className="flex flex-1  max-w-screen-lg justify-center items-center px-4 align-center py-16 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
                 

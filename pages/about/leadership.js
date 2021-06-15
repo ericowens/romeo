@@ -71,13 +71,13 @@ export default function Home() {
 
 
       <section className="small-leader-1 flex justify-center  " >
-        <div className="flex max-w-screen-lg justify-evenly  flex-wrap flex-1">
+        <div className="flex md:flex-row sm:flex-col max-w-screen-lg justify-evenly  px-4 flex-wrap flex-1">
 
-          <div className=" flex items-end justify-end w-2/5">
+          <div className=" flex items-end justify-end md:w-2/5 w-full sm:order-last md:order-first">
             <img src="/thumbnail_LINEAL-path@2x.png"></img>
           </div>
 
-          <div className="flex flex-col w-3/5 pb-8">
+          <div className="flex flex-col w-full md:w-3/5 pb-8">
             <h2 className="text-left text-darkcolor   font-P22Underground-thp text-2xl font-bold pt-16 ">
               Lionel Selwood, Jr.</h2>
             <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
@@ -119,11 +119,11 @@ from The Pennsylvania State University and a bachelor’s degree in Mechanical E
 
 
       <section className="small-leader-2 flex justify-center  " >
-        <div className="flex max-w-screen-lg justify-evenly  flex-wrap flex-1">
+        <div className="flex max-w-screen-lg justify-evenly  px-4 flex-wrap flex-1 md:flex-row sm:flex-col">
 
 
 
-          <div className="flex flex-col w-3/5 pb-8">
+          <div className="flex flex-col w-full md:w-3/5 pb-8">
             <h2 className="text-left text-darkcolor   font-P22Underground-thp text-2xl font-bold pt-16 ">
               AK Srouji, PhD</h2>
             <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
@@ -155,7 +155,7 @@ from The Pennsylvania State University and a bachelor’s degree in Mechanical E
 
           </div>
 
-          <div className=" flex items-end justify-end w-2/5">
+          <div className=" flex items-end justify-end md:w-2/5 w-full">
             <img src="/AK.jpg"></img>
           </div>
 
@@ -165,13 +165,13 @@ from The Pennsylvania State University and a bachelor’s degree in Mechanical E
 
 
       <section className="small-leader-3 flex justify-center  " >
-        <div className="flex max-w-screen-lg justify-evenly  flex-wrap flex-1">
+        <div className="flex max-w-screen-lg justify-evenly   px-4 flex-wrap flex-1 md:flex-row sm:flex-col">
 
-          <div className=" flex items-end justify-end w-2/5">
+          <div className=" flex items-end justify-end md:w-2/5 w-full sm:order-last md:order-first">
             <img src="/leadershipLAUREN-e3e3e3.png"></img>
           </div>
 
-          <div className="flex flex-col w-3/5 pb-8">
+          <div className="flex flex-col w-full md:w-3/5 pb-8">
             <h2 className="text-left text-darkcolor   font-P22Underground-thp text-2xl font-bold pt-16 ">
               Lauren Webb</h2>
             <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
@@ -205,11 +205,11 @@ from The Pennsylvania State University and a bachelor’s degree in Mechanical E
 
 
       <section className="small-leader-4 flex justify-center  " >
-        <div className="flex max-w-screen-lg justify-evenly  flex-wrap flex-1">
+        <div className="flex max-w-screen-lg justify-evenly  px-4 flex-wrap flex-1 md:flex-row sm:flex-col">
 
 
 
-          <div className="flex flex-col w-3/5 pb-8">
+          <div className="flex flex-col w-full md:w-3/5 pb-8">
             <h2 className="text-left text-darkcolor   font-P22Underground-thp text-2xl font-bold pt-16 ">
               Criswell Choi</h2>
             <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
@@ -232,7 +232,7 @@ from The Pennsylvania State University and a bachelor’s degree in Mechanical E
 
           </div>
 
-          <div className=" flex items-end justify-end w-2/5">
+          <div className=" flex items-end justify-end md:w-2/5 w-full">
             <img src="/CRISWELL.jpg"></img>
           </div>
 

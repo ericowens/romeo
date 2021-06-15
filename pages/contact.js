@@ -100,7 +100,7 @@ Vernon, CA 90058
 
               <form id="contact" onSubmit={formsubmit}>
             
-            <div className="flex space-x-20">
+            <div className="flex md:space-x-20">
               <div className="w-1/2">
                 <input  name="fname" className="sm:w-full my-2 p-4 "   type="text" placeholder="First Name"  required></input>
               </div>

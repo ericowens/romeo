@@ -72,7 +72,7 @@ export default function Home() {
 
       <section className="flex bg-white justify-center ">
 
-        <div className="flex-1 flex justify-center align-center content-center  flex-col max-w-screen-lg   ">
+        <div className="flex-1 flex justify-center align-center content-center px-4 flex-col max-w-screen-lg   ">
 
           <h2 className=" text-left   flex-1   font-P22Underground-thp text-4xl font-bold pt-8 ">
             Our Mission

@@ -21,9 +21,9 @@ const Navbar = () => {
            </li>
            <li><Link href="/technology"><a >Technology</a></Link></li>
            <li>
-          <label htmlFor="btn-1" className="show">About</label>
+          <label htmlFor="btn-2" className="show">About</label>
           <Link href="/about/our_story"><a >About</a></Link>
-          <input type="checkbox" id="btn-1"></input>
+          <input type="checkbox" id="btn-2"></input>
           <ul>
             <li><Link href="/about/our_story"><a >Our Story</a></Link></li>
             <li><Link href="/about/leadership"><a >Leadership</a></Link></li>

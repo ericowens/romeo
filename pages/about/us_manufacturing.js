@@ -61,14 +61,14 @@ all modules and packs are tested according to stringent Romeo Power standards.</
 
 
           <section className="flex justify-center bg-white py-16">
-          <div className="flex max-w-screen-lg  flex-wrap flex-1">
+          <div className="flex max-w-screen-lg px-4  flex-wrap flex-1">
             <div className="flex-1">
              
-              <div className="flex gap-8 py-12">
+              <div className="flex gap-8 py-12 md:flex-row sm:flex-col">
 
               
 
-                <div className="w-1/2">
+                <div className=" w-full md:w-1/2">
                   
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8 mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
                 ISO 9001 Certified Battery Pack Assembly</h2>
@@ -87,7 +87,7 @@ ensure long-term reliability.
                 </div>
 
 
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2">
                 <img src="/Images/Manufacturing images/IS0_9001.jpg"></img>
                 </div>
 
@@ -101,13 +101,13 @@ ensure long-term reliability.
 
 
 
-              <div className="flex gap-8 py-12">
+              <div className="flex gap-8 py-12 md:flex-row sm:flex-col">
 
-              <div className="w-1/2">
+              <div className="w-full md:w-1/2 sm:order-last md:order-first">
                   <img src="/Images/Manufacturing images/safety-standards.jpg"></img>
                 </div>
 
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2 ">
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
                 Designed For Manufacturing With The Highest Safety Standards</h2>
               
@@ -134,11 +134,11 @@ development and production process.
 
 
 
-              <div className="flex gap-8 py-12">
+              <div className="flex gap-8 py-12 md:flex-row sm:flex-col">
 
               
 
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2">
                   
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8 mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
                 Cost Effective,  <br/>U.S. Based Production</h2>
@@ -157,7 +157,7 @@ consistency.
                 </div>
 
 
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2">
                   <img src="/Images/Manufacturing images/cost-effective.jpg"></img>
                 </div>
 
@@ -167,13 +167,13 @@ consistency.
 
 
 
-              <div className="flex gap-8 py-12">
+              <div className="flex gap-8 py-12 md:flex-row sm:flex-col">
 
-<div className="w-1/2">
+<div className="w-full md:w-1/2 sm:order-last md:order-first">
     <img src="/Images/Manufacturing images/micro laser.jpg"></img>
   </div>
 
-  <div className="w-1/2">
+  <div className="w-full md:w-1/2">
   <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
   High Throughput Micro
 Laser Welding</h2>
