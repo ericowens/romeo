@@ -169,10 +169,10 @@ invite you to explore current opportunities.</p>
               <div >
                 
                 <ul className="list-disc list-outside pt-4">
-                <li className="font-P22Underground-thin">Know quality candidates that you’d
+                <li className="font-P22Underground-book text-lg">Know quality candidates that you’d
                 love to have join us on our mission? Romeo Power has a referral program.</li>
-                <li className="font-P22Underground-thin">Romeo Power’s kitchen is stocked with unlimited snacks.</li>
-                <li className="font-P22Underground-thin">Eligible employees can participate in our Patent Reward Program that seeks to support creativity
+                <li className="font-P22Underground-book text-lg">Romeo Power’s kitchen is stocked with unlimited snacks.</li>
+                <li className="font-P22Underground-book text-lg">Eligible employees can participate in our Patent Reward Program that seeks to support creativity
  and inspire continual innovation.</li>
                 
               </ul>
