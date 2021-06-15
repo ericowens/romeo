@@ -69,12 +69,12 @@ export default function Home() {
               Nuvve and Romeo Power Announce Collaboration
               </h2>
             <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4"></p>
-            <a target="_blank" href="/NR1.pdf">
-              <div className="flex gap-2   justify-end align-center content-center items-center">
+            <Link  href="/media/NuvveandRomeoPower">
+              <div className="cursor-pointer flex gap-2   justify-end align-center content-center items-center">
                 <span className="font-P22Underground-thp font-bold">Read More</span>
                 <span><img className="flex-grow-0" src="/arrow.png" ></img></span>
               </div>
-            </a>
+            </Link>
           </div>
 
           <div className="w-full md:w-1/2 bg-medium p-10 flex flex-col justify-around">
