@@ -42,6 +42,10 @@
   background-color: #042F31;
 }
 
+.pp strong{
+  font-weight: bold;
+}
+
 h3,p{
   font-family: 'P22Underground-light';
   color:#3D3D3D;

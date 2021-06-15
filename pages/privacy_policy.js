@@ -17,7 +17,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Romeo</title>
-        <link rel="icon" href="/favicon.ico" />
+        <li className=" text-left  font-P22Underground-book  p-2"nk rel="icon" href="/favicon.ico" />
         
         
       </Head>
@@ -40,7 +40,7 @@ export default function Home() {
 
 
       
-      <section className="flex justify-center bg-white py-16">
+      <section className="pp flex justify-center bg-white py-16">
           <div className="flex max-w-screen-lg  flex-wrap flex-1">
             <div className="flex-1">
               <div className=" pb-8 ">
@@ -55,15 +55,16 @@ export default function Home() {
 <p className=" text-left  font-P22Underground-book  p-2"><strong>How We May Collect and Use Your Personal Information</strong></p>
 <p className=" text-left  font-P22Underground-book  p-2"><u><em>Personal Information We May Collect:</em></u></p>
 <p className=" text-left  font-P22Underground-book  p-2">&#8220;Personal Information” is information that identifies an individual or relates to an identifiable person.  We may collect the following Personal Information from you when you interact with us, such as when you use our Services (including when you visit our Website), purchase any Romeo products, or submit a job application through our application portal. We may also collect some types of Personal Information through website cookies, which refer to small amounts of data that are sent to your browser from a website and stored on your device, and which may include a unique identifier.</p>
-<table border="1">
+<table className="table-auto border-collapse border" >
 <tr>
-<td className=" text-left  font-P22Underground-book  p-2" width="25%" >Categories of Personal Information</td>
-<td className=" text-left  font-P22Underground-book  p-2" width="45%" >Specific Personal Information</td>
-<td className=" text-left  font-P22Underground-book  p-2" width="30%" >Sources of Personal Information</td>
+<td className="border text-left  font-P22Underground-book  p-2"  >Categories of Personal Information</td>
+<td className="border text-left  font-P22Underground-book  p-2"  >Specific Personal Information</td>
+<td className="border text-left  font-P22Underground-book  p-2"  >Sources of Personal Information</td>
 </tr>
 <tr>
-<td className=" text-left  font-P22Underground-book  p-2">Identifiers</td>
-<td className=" text-left  font-P22Underground-book  p-2"><p className=" text-left  font-P22Underground-book  p-2">Name (including former and maiden names)</p>
+<td className="border text-left  font-P22Underground-book  p-2">Identifiers</td>
+<td className="border text-left  font-P22Underground-book  p-2">
+  <p className=" text-left  font-P22Underground-book  p-2">Name (including former and maiden names)</p>
 <p className=" text-left  font-P22Underground-book  p-2">Title</p>
 <p className=" text-left  font-P22Underground-book  p-2">Mailing Address</p>
 <p className=" text-left  font-P22Underground-book  p-2">Phone Number</p>
@@ -73,7 +74,7 @@ export default function Home() {
 <p className=" text-left  font-P22Underground-book  p-2">Employee Identification Number</p>
 <p className=" text-left  font-P22Underground-book  p-2">IP Address</p>
 </td>
-<td className=" text-left  font-P22Underground-book  p-2"><p className=" text-left  font-P22Underground-book  p-2">Contacting Us (via Website, Email, Phone, or by Mail)</p>
+<td className="border text-left  font-P22Underground-book  p-2"><p className=" text-left  font-P22Underground-book  p-2">Contacting Us (via Website, Email, Phone, or by Mail)</p>
 <p className=" text-left  font-P22Underground-book  p-2">Employment Applications</p>
 <p className=" text-left  font-P22Underground-book  p-2">Account Registrations/ Applications</p>
 <p className=" text-left  font-P22Underground-book  p-2">Downloading Information from Our Website</p>
@@ -81,39 +82,39 @@ export default function Home() {
 </td>
 </tr>
 <tr>
-<td className=" text-left  font-P22Underground-book  p-2">Legally Protected Characteristics</td>
-<td className=" text-left  font-P22Underground-book  p-2"><p className=" text-left  font-P22Underground-book  p-2">Gender</p>
+<td className="border text-left  font-P22Underground-book  p-2">Legally Protected Characteristics</td>
+<td className="border text-left  font-P22Underground-book  p-2"><p className=" text-left  font-P22Underground-book  p-2">Gender</p>
 <p className=" text-left  font-P22Underground-book  p-2">Disability Status </p>
 <p className=" text-left  font-P22Underground-book  p-2">Ethnicity </p>
 <p className=" text-left  font-P22Underground-book  p-2">Veteran status</p>
 </td>
-<td className=" text-left  font-P22Underground-book  p-2"><p className=" text-left  font-P22Underground-book  p-2">Contacting Us (via Website, Email, Phone, or by Mail)</p>
+<td className="border text-left  font-P22Underground-book  p-2"><p className=" text-left  font-P22Underground-book  p-2">Contacting Us (via Website, Email, Phone, or by Mail)</p>
 <p className=" text-left  font-P22Underground-book  p-2">Employment Applications</p>
 </td>
 </tr>
 <tr>
-<td className=" text-left  font-P22Underground-book  p-2">Commercial Purchasing Information</td>
-<td className=" text-left  font-P22Underground-book  p-2">Products or services purchased, obtained, or considered</td>
-<td className=" text-left  font-P22Underground-book  p-2"><p className=" text-left  font-P22Underground-book  p-2">Contacting Us (via Website, Email, Phone, or by Mail)</p>
+<td className="border text-left  font-P22Underground-book  p-2">Commercial Purchasing Information</td>
+<td className="border text-left  font-P22Underground-book  p-2">Products or services purchased, obtained, or considered</td>
+<td className="border text-left  font-P22Underground-book  p-2"><p className=" text-left  font-P22Underground-book  p-2">Contacting Us (via Website, Email, Phone, or by Mail)</p>
 <p className=" text-left  font-P22Underground-book  p-2">Downloading Information from Our Website</p>
 <p className=" text-left  font-P22Underground-book  p-2">Purchases Made on Our Website</p>
 </td>
 </tr>
 <tr>
-<td className=" text-left  font-P22Underground-book  p-2">Internet Network Activity</td>
-<td className=" text-left  font-P22Underground-book  p-2"><p className=" text-left  font-P22Underground-book  p-2">Device Identification Number/Type</p>
+<td className="border text-left  font-P22Underground-book  p-2">Internet Network Activity</td>
+<td className="border text-left  font-P22Underground-book  p-2"><p className=" text-left  font-P22Underground-book  p-2">Device Identification Number/Type</p>
 <p className=" text-left  font-P22Underground-book  p-2">Webpage Views </p>
 <p className=" text-left  font-P22Underground-book  p-2">Websites or Applications You Navigate To or From Our Site</p>
 <p className=" text-left  font-P22Underground-book  p-2">Referral URL, Browsing History</p>
 </td>
-<td className=" text-left  font-P22Underground-book  p-2"><p className=" text-left  font-P22Underground-book  p-2">Mobile Device Interactions</p>
+<td className="border text-left  font-P22Underground-book  p-2"><p className=" text-left  font-P22Underground-book  p-2">Mobile Device Interactions</p>
 <p className=" text-left  font-P22Underground-book  p-2">Website Cookies</p>
 </td>
 </tr>
 <tr>
-<td className=" text-left  font-P22Underground-book  p-2">Education Related Information </td>
-<td className=" text-left  font-P22Underground-book  p-2">Your resume, and Information about  the schools you attended, your degree, and discipline</td>
-<td className=" text-left  font-P22Underground-book  p-2"><p className=" text-left  font-P22Underground-book  p-2">Contacting Us (via Website, Email, Phone, or by Mail)</p>
+<td className="border text-left  font-P22Underground-book  p-2">Education Related Information </td>
+<td className="border text-left  font-P22Underground-book  p-2">Your resume, and Information about  the schools you attended, your degree, and discipline</td>
+<td className="border text-left  font-P22Underground-book  p-2"><p className=" text-left  font-P22Underground-book  p-2">Contacting Us (via Website, Email, Phone, or by Mail)</p>
 <p className=" text-left  font-P22Underground-book  p-2">Employment Applications</p>
 </td>
 </tr>
@@ -124,21 +125,21 @@ export default function Home() {
 <p className=" text-left  font-P22Underground-book  p-2">For customer due diligence purposes, and as permitted by applicable laws, Romeo may also enhance the Personal Information we collect from you with information we obtain from third parties that are entitled to share that information (e.g., information from credit agencies, search information providers, or public sources).</p>
 <p className=" text-left  font-P22Underground-book  p-2"><u><em>We May Use Personal Information: </em></u></p>
 <ul>
-<li>To complete and fulfill your purchase, including verifying you identity, provide you with customer service, and respond to your inquiries. </li>
-<li>To recognize your device: We may use cookies to recognize your device and provide you with a personalized experience on our websites, or otherwise through our Services. </li>
-<li>To personalize your experience and to allow us to deliver the type of content and product offerings in which you are most interested.</li>
-<li>For our business purposes, audits, fraud monitoring and prevention, enhancing, improving, or modifying our Services, identifying usage trends, and operating and expanding our business activities.</li>
-<li>As we believe to be necessary or appropriate: (a) under applicable law; (b) to comply with legal process and to prevent, detect, or suppress abuse, fraud, or criminal activity; (c) to respond to requests from public and government authorities; (d) to enforce our terms and conditions; (e) to protect our operations, assets, or interests or those of any of our affiliates; (f) to protect our rights, privacy, safety, or property, or that of our affiliates, you, or others; (g) to allow us to pursue available remedies or limit the damages that we may sustain; and (h) in order to comply with our business partner’s brand standards and contractual obligations.</li>
+<li className=" text-left  font-P22Underground-book  p-2">To complete and fulfill your purchase, including verifying you identity, provide you with customer service, and respond to your inquiries. </li>
+<li className=" text-left  font-P22Underground-book  p-2">To recognize your device: We may use cookies to recognize your device and provide you with a personalized experience on our websites, or otherwise through our Services. </li>
+<li className=" text-left  font-P22Underground-book  p-2">To personalize your experience and to allow us to deliver the type of content and product offerings in which you are most interested.</li>
+<li className=" text-left  font-P22Underground-book  p-2">For our business purposes, audits, fraud monitoring and prevention, enhancing, improving, or modifying our Services, identifying usage trends, and operating and expanding our business activities.</li>
+<li className=" text-left  font-P22Underground-book  p-2">As we believe to be necessary or appropriate: (a) under applicable law; (b) to comply with legal process and to prevent, detect, or suppress abuse, fraud, or criminal activity; (c) to respond to requests from public and government authorities; (d) to enforce our terms and conditions; (e) to protect our operations, assets, or interests or those of any of our affiliates; (f) to protect our rights, privacy, safety, or property, or that of our affiliates, you, or others; (g) to allow us to pursue available remedies or limit the damages that we may sustain; and (h) in order to comply with our business partner’s brand standards and contractual obligations.</li>
 </ul>
 <p className=" text-left  font-P22Underground-book  p-2"><strong>How Personal Information May Be Disclosed</strong></p>
 <p className=" text-left  font-P22Underground-book  p-2">We do not sell your Personal Information to anyone for any purpose. Romeo will always ask for your consent before sharing your Personal Information with third parties for purposes other than those disclosed in this Privacy Policy.</p>
 <p className=" text-left  font-P22Underground-book  p-2"><u><em>We May Share Your Information for the Following Reasons:</em></u></p>
 <ul>
-<li>To prevent, investigate, or take action regarding activity that we may consider to be illegal, unethical, or legally actionable, including suspected fraud; situations involving potential threats to the physical safety of any person; or violations of any other agreement related to our products or Services, or as otherwise required by law.</li>
-<li>With our service providers, business partners, or our affiliates when necessary to perform services on our or your behalf, including, for example:
+<li className=" text-left  font-P22Underground-book  p-2">To prevent, investigate, or take action regarding activity that we may consider to be illegal, unethical, or legally actionable, including suspected fraud; situations involving potential threats to the physical safety of any person; or violations of any other agreement related to our products or Services, or as otherwise required by law.</li>
+<li className=" text-left  font-P22Underground-book  p-2">With our service providers, business partners, or our affiliates when necessary to perform services on our or your behalf, including, for example:
 <p className=" text-left  font-P22Underground-book  p-2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8211; With our third party service providers, to provide services such as website hosting, data analysis, payment processing, order fulfillment, information technology and related infrastructure, employment application processing, and other similar services.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8211; With other third party business partners to the extent that they are involved in your purchase of our products or your interactions with our Services.</p></li>
-<li>In the event of a merger, reorganization, dissolution or similar corporate event, or the sale of all or substantially all of our assets, we expect that the information that we have collected, including personal data, would be transferred to the surviving entity in a merger or the acquiring entity.  All such transfers shall be subject to our commitments with respect to the privacy and confidentiality of such personal data as set forth in our Privacy Policy.</li>
-<li>When required by law or other circumstances, including to respond to lawful court orders, subpoenas, warrants, or other requests by public authorities; to meet national security or law enforcement requirements; when we believe in good faith that the law requires it; or to verify or enforce our policies and procedures.</li>
+<li className=" text-left  font-P22Underground-book  p-2">In the event of a merger, reorganization, dissolution or similar corporate event, or the sale of all or substantially all of our assets, we expect that the information that we have collected, including personal data, would be transferred to the surviving entity in a merger or the acquiring entity.  All such transfers shall be subject to our commitments with respect to the privacy and confidentiality of such personal data as set forth in our Privacy Policy.</li>
+<li className=" text-left  font-P22Underground-book  p-2">When required by law or other circumstances, including to respond to lawful court orders, subpoenas, warrants, or other requests by public authorities; to meet national security or law enforcement requirements; when we believe in good faith that the law requires it; or to verify or enforce our policies and procedures.</li>
 </ul>
 <p className=" text-left  font-P22Underground-book  p-2"><strong>How We May Collect and Use Other Information</strong></p>
 <p className=" text-left  font-P22Underground-book  p-2"><u><em>Other Information We May Collect:</em></u></p>
@@ -146,9 +147,9 @@ export default function Home() {
 <p className=" text-left  font-P22Underground-book  p-2"><u><em>How We May Use Non-Personal Information:</em></u></p>
 <p className=" text-left  font-P22Underground-book  p-2">We may collect, use, transfer, and disclose Non-Personal information for any purpose, such as:</p>
 <ul>
-<li>To improve our products and Services.</li>
-<li>To aggregate data for marketing, research, and analytical purposes by ourselves or our third party partners.</li>
-<li>To assist us in administering the website and our Services.</li>
+<li className=" text-left  font-P22Underground-book  p-2">To improve our products and Services.</li>
+<li className=" text-left  font-P22Underground-book  p-2">To aggregate data for marketing, research, and analytical purposes by ourselves or our third party partners.</li>
+<li className=" text-left  font-P22Underground-book  p-2">To assist us in administering the website and our Services.</li>
 </ul>
 <p className=" text-left  font-P22Underground-book  p-2">Please note that because there is no consistent industry understanding of how to respond to “Do Not Track” signals, we do not alter our data collection and usage practices when we detect such a signal from your browser.</p>
 <p className=" text-left  font-P22Underground-book  p-2"><strong>How Long Do We Retain Your Personal Information?</strong></p>
@@ -158,23 +159,23 @@ export default function Home() {
 <p className=" text-left  font-P22Underground-book  p-2"><strong>Additional Privacy Rights for Residents of California</strong></p>
 <p className=" text-left  font-P22Underground-book  p-2">The California Consumer Protection Act of 2018 (“CCPA”), provides residents of California with certain privacy rights regarding their Personal Information, including:</p>
 <ul>
-<li>The right to request information about how we collect, use, and disclose your personal information</li>
-<li>The right to access your information.</li>
-<li>The right to request that we delete information about you, subject to some exceptions.</li>
+<li className=" text-left  font-P22Underground-book  p-2">The right to request information about how we collect, use, and disclose your personal information</li>
+<li className=" text-left  font-P22Underground-book  p-2">The right to access your information.</li>
+<li className=" text-left  font-P22Underground-book  p-2">The right to request that we delete information about you, subject to some exceptions.</li>
 </ul>
 <p className=" text-left  font-P22Underground-book  p-2">If you choose to exercise your CCPA privacy rights, you will not receive discriminatory treatment or a lesser degree of service from us.</p>
 <p className=" text-left  font-P22Underground-book  p-2"><u><em>Exercising Your Rights </em></u></p>
 <p className=" text-left  font-P22Underground-book  p-2">Residents of California may exercise their respective privacy rights by submitting a request to Romeo by:</p>
 <ul>
-<li>Calling us at +1-833-467-2237.</li>
-<li>Visiting https://romeopower.com/company/ (for access requests only).</li>
-<li>Email us at info@romeopower.com</li>
+<li className=" text-left  font-P22Underground-book  p-2">Calling us at +1-833-467-2237.</li>
+<li className=" text-left  font-P22Underground-book  p-2">Visiting https://romeopower.com/company/ (for access requests only).</li>
+<li className=" text-left  font-P22Underground-book  p-2">Email us at info@romeopower.com</li>
 </ul>
 <p className=" text-left  font-P22Underground-book  p-2">Only you, or a person that you have appropriately designated by law to act on your behalf, may make a verifiable consumer request related to your Personal Information. You may also make a verifiable consumer request on behalf of your minor child.</p>
 <p className=" text-left  font-P22Underground-book  p-2">In order for us to properly verify your request, it must:</p>
 <ul>
-<li>Provide sufficient information to allow us to reasonably verify that you are the person about whom we collected Personal Information, or a person authorized to act on your behalf; and </li>
-<li>Describe your request with sufficient detail to properly understand and respond to it.</li>
+<li className=" text-left  font-P22Underground-book  p-2">Provide sufficient information to allow us to reasonably verify that you are the person about whom we collected Personal Information, or a person authorized to act on your behalf; and </li>
+<li className=" text-left  font-P22Underground-book  p-2">Describe your request with sufficient detail to properly understand and respond to it.</li>
 </ul>
 <p className=" text-left  font-P22Underground-book  p-2">Making a verifiable consumer request does not require you to create an account with us; however, we consider a request made through your password-protected account sufficiently verified when the request relates to Personal Information associated with that specific account. You may only make a verifiable consumer request for access twice within a 12-month period. </p>
 <p className=" text-left  font-P22Underground-book  p-2">We will only use the Personal Information that you have provided in a verifiable consumer request in order to verify your request. We cannot respond to your request or provide you with Personal Information if we cannot verify your identity or authority.</p>
