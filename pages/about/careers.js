@@ -43,7 +43,7 @@ export default function Home() {
 
 
       <section className="flex justify-center bg-medium py-16">
-        <div className="flex max-w-screen-lg  flex-wrap flex-1">
+        <div className="flex max-w-screen-lg px-4 flex-wrap flex-1">
           <div className="flex-1">
 
             <p className=" text-center flex-1 font-P22Underground-book text-2xl uppercase leading-loose py-4">

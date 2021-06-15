@@ -90,11 +90,11 @@ export default function Home() {
 
 
 
-            <div className="flex sm:flex-col md:flex-row gap-8 px-4 py-12">
+            <div className="flex flex-col md:flex-row gap-8 px-4 py-12">
 
 
 
-              <div className="sm:flex-1 md:w-1/2">
+              <div className="flex-1 md:w-1/2">
 
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8 mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
                   BUILT-IN BATTERY MANAGEMENT SYSTEM</h2>
@@ -130,7 +130,7 @@ export default function Home() {
               </div>
 
 
-              <div className="sm:flex-1 md:w-1/2">
+              <div className="flex-1 md:w-1/2">
                 <img src="/Image11.jpg"></img>
               </div>
 
@@ -145,13 +145,13 @@ export default function Home() {
 
 
 
-            <div className="flex sm:flex-col md:flex-row gap-8 px-4 py-12">
+            <div className="flex flex-col md:flex-row gap-8 px-4 py-12">
 
-              <div className="sm:flex-1 md:w-1/2">
+              <div className="flex-1 md:w-1/2">
                 <img src="/image2.jpg"></img>
               </div>
 
-              <div className="sm:flex-1 md:w-1/2">
+              <div className="flex-1 md:w-1/2">
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
                   INNOVATIVE THERMAL MANAGEMENT</h2>
 
@@ -184,11 +184,11 @@ export default function Home() {
 
 
 
-            <div className="flex sm:flex-col md:flex-row gap-8 px-4 py-12">
+            <div className="flex flex-col md:flex-row gap-8 px-4 py-12">
 
 
 
-              <div className="sm:flex-1 md:w-1/2">
+              <div className="flex-1 md:w-1/2">
 
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8 mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
                   CELL SCIENCE + ENGINEERING</h2>
@@ -212,7 +212,7 @@ lithium plating aging mechanisms as indicated by test data</li>
               </div>
 
 
-              <div className="sm:flex-1 md:w-1/2">
+              <div className="flex-1 md:w-1/2">
                 <img src="/Image33.jpg"></img>
               </div>
 
@@ -222,13 +222,13 @@ lithium plating aging mechanisms as indicated by test data</li>
 
 
 
-            <div className="flex sm:flex-col md:flex-row gap-8 px-4 py-12">
+            <div className="flex flex-col md:flex-row gap-8 px-4 py-12">
 
-              <div className="sm:flex-1 md:w-1/2">
+              <div className="flex-1 md:w-1/2">
                 <img src="/Images/Manufacturing images/functional-testing.jpg"></img>
               </div>
 
-              <div className="sm:flex-1 md:w-1/2">
+              <div className="flex-1 md:w-1/2">
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
                   Functional Testing</h2>
 
@@ -253,11 +253,11 @@ lithium plating aging mechanisms as indicated by test data</li>
 
 
 
-            <div className="flex sm:flex-col md:flex-row gap-8 px-4 py-12">
+            <div className="flex flex-col md:flex-row gap-8 px-4 py-12">
 
 
 
-              <div className="sm:flex-1 md:w-1/2">
+              <div className="flex-1 md:w-1/2">
 
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8 mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
                   Reliability Testing + Validation</h2>
@@ -277,7 +277,7 @@ teardowns, and failure analysis reports</li>
               </div>
 
 
-              <div className="sm:flex-1 md:w-1/2">
+              <div className="flex-1 md:w-1/2">
                 <img src="/Images/Manufacturing images/Reliability.jpg"></img>
               </div>
 

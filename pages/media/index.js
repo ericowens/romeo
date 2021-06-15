@@ -43,9 +43,9 @@ export default function Home() {
 
 
 
-      <section className="flex bg-white justify-center py-16">
+      <section className="flex  bg-white justify-center py-16">
 
-          <div className="flex-1 flex justify-center align-center content-center  flex-col max-w-screen-lg   ">
+          <div className="flex-1 flex justify-center align-center content-center px-4 flex-col max-w-screen-lg   ">
   
             <p className=" text-left  flex-1 font-P22Underground-thin  text-lg ">We’ve curated some of Romeo Power’s key brand assets and we invite you to use them in
 accordance with our brand guidelines. To request a copy of our brand guidelines, or for
@@ -59,11 +59,11 @@ of the intended use and reach out to media@romeopower.com.
 
 
 
-      <section className="flex bg-white justify-center py-4">
+      <section className="flex  bg-white justify-center py-4">
 
-          <div className="flex-1 flex justify-center align-center content-center gap-8 max-w-screen-lg   ">
+          <div className="flex-1 flex justify-center align-center content-center gap-8 max-w-screen-lg flex-col md:flex-row  ">
   
-            <div className="w-1/2 bg-medium p-10">
+            <div className="w-full md:w-1/2 bg-medium p-10">
             <p className=" border-b text-left inline-block font-bold font-P22Underground-thp text-lg">Press Release</p>
               <h2 className="  text-left  inline-block     font-P22Underground-thp text-4xl font-bold pt-8 ">
               Nuvve and Romeo Power Announce Collaboration
@@ -77,7 +77,7 @@ of the intended use and reach out to media@romeopower.com.
               </a>
             </div>
 
-            <div className="w-1/2 bg-medium p-10">
+            <div className="w-full md:w-1/2 bg-medium p-10">
             <p className=" border-b text-left inline-block font-bold font-P22Underground-thp text-lg">Press Release</p>
               <h2 className="  text-left  inline-block     font-P22Underground-thp text-4xl font-bold pt-8 ">
               Romeo Power Announces First Quarter 2021 Financial Results
@@ -95,11 +95,11 @@ of the intended use and reach out to media@romeopower.com.
 
       </section>
 
-      <section className="flex bg-white justify-center py-4">
+      <section className="flex  bg-white justify-center py-4">
 
-<div className="flex-1 flex justify-center align-center content-center gap-8 max-w-screen-lg   ">
+<div className="flex-1 flex justify-center align-center content-center gap-8 max-w-screen-lg flex-col md:flex-row   ">
 
-<div className="w-1/2 bg-medium p-10">
+<div className="w-full md:w-1/2 bg-medium p-10">
             <p className=" border-b text-left inline-block font-bold font-P22Underground-thp text-lg">Press Release</p>
               <h2 className="  text-left  inline-block     font-P22Underground-thp text-4xl font-bold pt-8 ">
               Romeo Power Appoints New VP of Cell Engineering
@@ -113,7 +113,7 @@ of the intended use and reach out to media@romeopower.com.
               </a>
             </div>
 
-            <div className="w-1/2 bg-medium p-10">
+            <div className="w-full md:w-1/2 bg-medium p-10">
             <p className=" border-b text-left inline-block font-bold font-P22Underground-thp text-lg">Press Release</p>
               <h2 className="  text-left  inline-block     font-P22Underground-thp text-4xl font-bold pt-8 ">
               Romeo Power Announces Timing of First Quarter 2021 Financial Results and Webcast
@@ -137,11 +137,11 @@ of the intended use and reach out to media@romeopower.com.
 
 
 
-<section className="flex bg-white justify-center py-4">
+<section className="flex  bg-white justify-center py-4">
 
-  <div className=" border-t-2 flex-1 flex justify-center align-center content-center gap-8 max-w-screen-lg   ">
+  <div className=" border-t-2 flex-1 flex justify-center align-center content-center gap-8 max-w-screen-lg  flex-col md:flex-row  ">
 
-    <div className="w-1/3 bg-white p-10">
+    <div className="w-full md:w-1/3 bg-white p-10">
     <img src="/ROMEO POWER VERT LOGO_GREEN-GREYRGB.svg"></img>
         <h2 className="  text-left  inline-block     font-P22Underground-thp text-2xl font-bold pt-4 ">
         LOGOS</h2> 
@@ -168,7 +168,7 @@ upon by the company.
         </Link></p>
     </div>
 
-    <div className="w-1/3 bg-white p-10"> 
+    <div className="w-full md:w-1/3 bg-white p-10"> 
     <img src="/LEADERSHIP.jpg"></img>
     <h2 className="  text-left  inline-block     font-P22Underground-thp text-2xl font-bold pt-4 ">
     LEADERSHIP</h2> 
@@ -194,7 +194,7 @@ inspiration.
         </Link></p>
     </div>
 
-    <div className="w-1/3 bg-white p-10"> 
+    <div className="w-full md:w-1/3 bg-white p-10"> 
     <img src="/GALLERY.jpg"></img>
     <h2 className="  text-left  inline-block     font-P22Underground-thp text-2xl font-bold pt-4 ">
     GALLERY</h2> 

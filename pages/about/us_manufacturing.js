@@ -24,11 +24,16 @@ export default function Home() {
 
       <Navbar/>
 
-      <section id="hero" className="hero-about-manu flex justify-center items-end" >
+      
+
+
+      <section id="hero" className="hero-about-manu  flex justify-center items-end block " >
       <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
-              <h1 className="  font-P22Underground-thp text-7xl font-bold">U.S. Manufacturing</h1>
+          <h1 className=" text-left font-P22Underground-thp text-5xl lg:text-7xl font-bold">U.S. Manufacturing</h1>
+            
+              
               
             </div>
         </div>
