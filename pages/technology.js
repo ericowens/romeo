@@ -67,7 +67,7 @@ export default function Home() {
               </h2>
           <p className=" text-left text-white flex-1 font-P22Underground-thin text-lg py-4">
             Romeo Power delivers balanced, modular and integrated design with superior capacity and power, while lowering the total cost of ownership.
-            With battery technology, the greater the energy density and power density, the longer the range and the be er the acceleration. Our battery systems
+            With battery technology, the greater the energy density and power density, the longer the range and the better the acceleration. Our battery systems
             provide both, resulting in eﬀicient packs without sacrificing space.
                 </p>
 

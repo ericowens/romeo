@@ -47,32 +47,8 @@ export default function Home() {
 
           <div className=" flex-1  max-w-screen-lg px-4 ">
   
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-16">
-            <div className="hidden">
-              <img src="/galImage1.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-16">
+            
             <div>
               <img src="/hermesgal/Image2.jpg"></img>
               <section className="flex gap-4 py-4">
@@ -98,81 +74,9 @@ export default function Home() {
                 </div>
               </section>
             </div>
-            <div className="hidden">
-            <img src="/hermesgal/Image3.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-            <div className="hidden">
-            <img src="/hermesgal/Image4.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-            <div className="hidden">
-            <img src="/hermesgal/Image5.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
+            
+           
+           
 
 
 
@@ -202,31 +106,7 @@ export default function Home() {
                 </div>
               </section>
             </div>
-            <div className="hidden">
-              <img src="/Image7.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
+            
             <div>
               <img src="/Image8.jpg"></img>
               <section className="flex gap-4 py-4">
@@ -252,14 +132,18 @@ export default function Home() {
                 </div>
               </section>
             </div>
-            <div className="hidden">
-              <img src="/Image9.jpg"></img>
+
+
+
+
+            <div>
+              <img src="/hermesgal/hermes module with cells4.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
+                  <a target="_blank" href="/zips/Hermes 4.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
+                  <p className="uppercase text-center">Romeo Power Hermes Module View 4</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="md:border-r">
                       <p className="text-center">RGB</p>
@@ -277,123 +161,8 @@ export default function Home() {
                 </div>
               </section>
             </div>
-            <div className="hidden">
-              <img src="/Image10.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-            <div className="hidden">
-              <img src="/galImage11.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-
-
-
-
-
-
-            <div className="hidden">
-              <img src="/Image12.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-
-
-
-
-
-            <div className="hidden">
-              <img src="/oriongal/1.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-
-
-
-
-
-
+            
+            
 
 
 
@@ -432,276 +201,12 @@ export default function Home() {
 
 
 
-            <div>
-              <img src="/oriongal/3.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href="/zips/Orion Pac 2.zip"><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase text-center">Romeo Power Orion Pack - 5 modules</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
+            
 
 
 
 
 
-
-
-
-
-
-            <div className="hidden">
-              <img src="/oriongal/4.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-
-
-
-
-
-
-
-
-
-
-            <div className="hidden">
-              <img src="/oriongal/5.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-
-
-
-
-
-
-
-
-
-
-            <div className="hidden">
-              <img src="/oriongal/6.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-
-
-
-
-
-
-
-
-
-
-            <div className="hidden">
-              <img src="/oriongal/7.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-
-
-
-
-
-
-
-
-
-
-            <div className="hidden">
-              <img src="/oriongal/8.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-
-
-
-
-
-
-
-
-
-
-            <div className="hidden">
-              <img src="/oriongal/9.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-
-
-
-
-
-
-
-
-
-
-            <div className="hidden">
-              <img src="/oriongal/10.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
 
 
 
@@ -741,20 +246,46 @@ export default function Home() {
 
 
 
-
-
-
-
-
-
-            <div className="hidden">
-              <img src="/oriongal/12.jpg"></img>
+            <div>
+              <img src="/oriongal/3.jpg"></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
+                  <a target="_blank" href="/zips/Orion Pac 2.zip"><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
+                  <p className="uppercase text-center">Romeo Power Orion Pack - 5 modules</p>
+                  <div className="grid gap-4 grid-cols-2 justify-center">
+                    <div className="md:border-r">
+                      <p className="text-center">RGB</p>
+                    </div>
+                    <div>
+                      <p className="text-center">JPG</p>
+                      </div>
+                    <div className="md:border-r">
+                      <p className="text-center">CMYK</p>
+                      </div>
+                    <div>
+                      <p className="text-center">TIFF</p>
+                      </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+
+
+
+
+
+
+            <div>
+              <img src="/hermesgal/Orion pack L_view 4.jpg"></img>
+              <section className="flex gap-4 py-4">
+                <div className="w-1/3">
+                  <a target="_blank" href="/zips/Orion Pac 4.zip"><img src="/DOWNLOAD ICON.png"></img></a>
+                </div>
+                <div className="w-2/3">
+                  <p className="uppercase text-center">Romeo Power Orion Pack - 7-8 modules</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="md:border-r">
                       <p className="text-center">RGB</p>
@@ -781,146 +312,6 @@ export default function Home() {
 
 
 
-
-            <div className="hidden">
-              <img src="/oriongal/13.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-
-
-
-
-
-
-
-
-
-
-            <div className="hidden">
-              <img src="/oriongal/14.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-
-
-
-
-
-
-
-
-
-
-            <div className="hidden">
-              <img src="/oriongal/15.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-
-
-
-
-
-
-
-
-
-
-            <div className="hidden">
-              <img src="/oriongal/16.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href=""><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase">Photo title</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-
-
-
-
-
-
-
-
-            
 
 
 
