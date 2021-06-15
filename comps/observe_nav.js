@@ -49,10 +49,10 @@ const observe_nav = () => {
           btn.classList.remove('active');
         });
       });
-      if(manual > 0){
-        myVideo.pause(); 
-      }else{
+      if(manual == 1){
         myVideo.play(); 
+      }else{
+        myVideo.pause(); 
       }
 
       slides[manual].classList.add('active');

@@ -63,33 +63,38 @@ export default function Home() {
 
 
 
-<section>
+      <section>
 
-<div className="img-slider">
-      <div className="slide active">
-        <div className="info">
-            <video id="myVid" className="video-container video-container-overlay" autoPlay="autoplay">
-                    <source src="/vid/FINAL ROMEO POWER BF MASTER 360.mp4" type="video/mp4" />
-                </video>
-        </div>
-      </div>
-      <div className="slide">
-        <img src="2.jpg" alt=""></img>
-        <div className="info">
-          <h2>Slide 02</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </div>
-      
-      
-      
-      <div className="navigation">
-        <div className="btn active"></div>
-        <div className="btn"></div>
-      </div>
-    </div>
+        <div className="img-slider">
 
-</section>
+
+          <div className="slide active">
+            <img src="2.jpg" alt=""></img>
+            <div className="info">
+              <h2>Slide 02</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+
+
+          <div className="slide ">
+            <div className="info">
+              <video id="myVid" className="video-container video-container-overlay" >
+                <source src="/vid/FINAL ROMEO POWER BF MASTER 360.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+
+
+
+
+          <div className="navigation">
+            <div className="btn active"></div>
+            <div className="btn"></div>
+          </div>
+        </div>
+
+      </section>
 
 
 
@@ -137,7 +142,7 @@ universal energy a thing of the future.</p>
           <div className="flex justify-center  flex-1">
             <img className="md:float-right "
               src="/hermes-hero01.jpg"
-              
+
               alt=""
             />
           </div>
@@ -151,7 +156,7 @@ universal energy a thing of the future.</p>
           <div className="flex justify-center flex-1 order-last lg:order-first">
             <img className="text-center md:float-left "
               src="/TechnologyHome.jpg"
-              
+
               alt=""
             />
           </div>
@@ -189,7 +194,7 @@ tolerate thermal event faults at a single cell level.</p>
           <div className=" flex justify-center">
             <img className="md:float-right "
               src="/USManufacturing.jpg"
-              
+
               alt=""
             />
           </div>
