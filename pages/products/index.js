@@ -46,7 +46,7 @@ export default function Home() {
               </h2>
               <p className=" text-center text-white flex-1 font-P22Underground-thin text-lg py-4">Our customers are becoming environmentally responsible and reducing operating costs in a variety of markets.</p>
             
-              <ul className=" table flex-1 py-4 ">
+              <ul className="hidden md:table  flex-1 py-4 ">
               <li className="table-cell " ><img className="align-bottom" src="/Group 72.svg"></img></li>
                 <li className="table-cell" ><img className="align-bottom" src="/Group 68.svg"></img></li>
                 <li className="table-cell" ><img className="align-bottom" src="/Group 71.svg"></img></li>
@@ -118,8 +118,8 @@ largest, long-haul Class 8 vehicles.
 
               
               
-              <div className="flex gap-8 justify-around py-8">
-                <div className="w-1/3 flex gap-4 flex-col items-start">
+              <div className="flex flex-col md:flex-row gap-8 justify-around py-8">
+                <div className="w-full md:w-1/3 flex gap-4 flex-col items-start">
                   <div className="w-full flex items-center justify-center content-center">
                     <img src="/icon-battery-100.png"></img>
                     </div> 
@@ -132,7 +132,7 @@ largest, long-haul Class 8 vehicles.
                 </div>
 
 
-                <div className="w-1/3 flex gap-4 flex-col items-start">
+                <div className="w-full md:w-1/3 flex gap-4 flex-col items-start">
                 <div className="w-full flex items-center justify-center content-center">
                   <img src="/icon-bms-100.png"></img> </div> 
                   <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">Battery Management System</h4>
@@ -148,7 +148,7 @@ largest, long-haul Class 8 vehicles.
                   are at their safe operating conditions.</p>          
                 </div>
 
-                <div className="w-1/3 flex gap-4 flex-col items-start">
+                <div className="w-full md:w-1/3 flex gap-4 flex-col items-start">
                 <div className="w-full flex items-center justify-center content-center">
                   <img src="/icon-sensor-100.png"></img> </div> 
                   <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">Sensing</h4>
