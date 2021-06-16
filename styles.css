@@ -854,3 +854,20 @@ body{
   }
 }
        */
+
+#quote::before{
+  content:open-quote;
+  font-size: 3em;
+  position: absolute;
+  opacity: 0.5;
+  top:-0.75em;
+  left: 50%;
+}
+/* #quote::after{
+  content:close-quote;
+  font-size: 3em;
+  position: absolute;
+  opacity: 0.5;
+  bottom:-.25em;
+  left: 50%;
+} */
