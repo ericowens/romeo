@@ -225,7 +225,7 @@ lithium plating aging mechanisms as indicated by test data</li>
             <div className="flex flex-col md:flex-row gap-8 px-4 py-12">
 
               <div className="flex-1 md:w-1/2">
-                <img src="/Images/Manufacturing images/functional-testing.jpg"></img>
+              <img src="/Images/Manufacturing images/Reliability.jpg"></img>
               </div>
 
               <div className="flex-1 md:w-1/2">
@@ -278,7 +278,8 @@ teardowns, and failure analysis reports</li>
 
 
               <div className="flex-1 md:w-1/2">
-                <img src="/Images/Manufacturing images/Reliability.jpg"></img>
+              <img src="/Images/Manufacturing images/functional-testing.jpg"></img>
+               
               </div>
 
 
