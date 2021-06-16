@@ -28,7 +28,7 @@ export default function Home() {
         <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
           <div className=" max-w-screen-lg pl-4 ">
             <div className="">
-              <h1 className="  font-P22Underground-thp text-7xl font-bold">Leadership</h1>
+              <h1 className="  font-P22Underground-thp text-6xl md:text-7xl font-bold">Leadership</h1>
 
             </div>
           </div>
