@@ -107,7 +107,7 @@ universal energy a thing of the future.</p>
 
           </div>
           <div className="flex justify-center  flex-1">
-            <img className="md:float-right w-4/5 md:w-full "
+            <img className="float-left md:float-right w-4/5 md:w-full px-0 md:px-4 "
               src="/hermes-hero01.jpg"
 
               alt=""
@@ -118,15 +118,20 @@ universal energy a thing of the future.</p>
 
 
 
-      <section className="flex justify-center bg-light  pb-4">
-        <div className="flex max-w-screen-lg flex-col flex-wrap flex-1 lg:flex-row m-3 space-x-4 ">
-          <div className="flex justify-center flex-1 order-last lg:order-first">
-            <img className="text-center md:float-left w-4/5 md:w-full "
+
+
+
+      <section className="flex justify-center bg-light pb-12">
+        <div className="flex max-w-screen-lg flex-col md:flex-wrap flex-wrap-reverse flex-1 lg:flex-row m-3 space-x-0 md:space-x-4 ">
+          
+        <div className=" flex justify-center flex-1 order-last lg:order-first">
+            <img className="float-left md:float-right w-4/5 md:w-full px-0 md:px-4 "
               src="/TechnologyHome.jpg"
 
               alt=""
             />
           </div>
+
           <div className="flex-1 flex justify-center align-center flex-col ">
             <h3 className="text-left text-darkcolor  font-P22Underground-thp text-4xl font-bold my-4 py-4">Technology</h3>
             <p>Romeo Power oﬀers custom electrification solutions for the
@@ -136,12 +141,15 @@ universal energy a thing of the future.</p>
             integrated cooling system, Romeo Power’s modular battery
             systems have multiple safety features and are designed to
 tolerate thermal event faults at a single cell level.</p>
-            <div className="flex"><Link href="/technology"><button className="bg-accent  float-left py-4 px-14 my-10 text-white">Learn More</button></Link> </div>
+            <div className="flex"><Link href="/technology"><button className="bg-accent  float-left py-4 px-14 my-10 text-white">Learn More</button></Link>  </div>
 
           </div>
-
+          
         </div>
       </section>
+
+
+
 
 
       <section className="flex justify-center bg-light pb-12">
@@ -159,7 +167,7 @@ tolerate thermal event faults at a single cell level.</p>
 
           </div>
           <div className=" flex justify-center flex-1">
-            <img className="md:float-right w-4/5 md:w-full "
+            <img className="float-left md:float-right w-4/5 md:w-full px-0 md:px-4 "
               src="/USManufacturing.jpg"
 
               alt=""
