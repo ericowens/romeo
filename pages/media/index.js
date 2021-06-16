@@ -17,7 +17,7 @@ export async function getServerSideProps(context) {
       news.LinkToDetailPage = `https://investors.romeopower.com${news.LinkToDetailPage}`
       return news
   })
-  console.log(data)
+  // console.log(data)
   // console.log(data.jobs[0].location)
 
   // Pass data to the page via props
@@ -82,12 +82,12 @@ export default function Home({ data }) {
 
 
 
-        <div className="grid grid-cols-2 md:grid-cols-2 gap-16">
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-2 md:gap-16">
 
         {data.map((news, index) => (  
           <div className=" bg-medium p-10 flex flex-col justify-around">
             <p className=" border-b text-left inline-block font-bold font-P22Underground-thp text-lg">Press Release</p>
-            <h2 className="  text-left  inline-block     font-P22Underground-thp text-4xl font-bold pt-8 ">
+            <h2 className="newhead  text-left  inline-block     font-P22Underground-thp  text-2xl font-bold pt-8 ">
             {news.Headline}
               </h2>
             <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4"></p>

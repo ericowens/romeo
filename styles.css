@@ -199,6 +199,11 @@ nav .show,nav .icon,nav input{
 }
 @media all and (max-width: 968px) {
 
+  .newhead {
+    font-size: 1rem !important;
+    line-height: 1.25rem;
+  }
+
   .mobilelink{
     display: inline-block;
   }
