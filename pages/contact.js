@@ -90,7 +90,7 @@ export default function Home() {
 Vernon, CA 90058
                 </p>
                 <p className=" text-left  flex-1 font-P22Underground-thin text-md py-2">
-                <img className="float-left" src="phone.jpg" width="25"></img>+1.833.467.2237
+                <img className="float-left" src="phone.jpg" width="25"></img>+1 833.467.2237
                 </p>
               </div>
               <div className=" flex-1 w-full">
