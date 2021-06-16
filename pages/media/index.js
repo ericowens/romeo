@@ -8,7 +8,24 @@ import observe_nav from '../../comps/observe_nav'
 import React, { useState, useEffect } from 'react'
 
 
-export default function Home() {
+export async function getServerSideProps(context) {
+  // Fetch data from external API
+  const uri = "https://investors.romeopower.com/feed/PressRelease.svc/GetPressReleaseList?LanguageId=1&bodyType=0&pressReleaseDateFilter=3&categoryId=1cb807d2-208f-4bc3-9133-6a9ad45ac3b0&pageSize=-1&pageNumber=0&tagList=&includeTags=true&year=2021&excludeSelection=1"
+  const res = await fetch(uri)
+  let data = await res.json()
+  data = data.GetPressReleaseListResult.filter(news => news.PressReleaseId > 1347).map(function(news) {
+      news.LinkToDetailPage = `https://investors.romeopower.com${news.LinkToDetailPage}`
+      return news
+  })
+  console.log(data)
+  // console.log(data.jobs[0].location)
+
+  // Pass data to the page via props
+  return { props: { data } }
+}
+
+
+export default function Home({ data }) {
   useEffect(() => {
     observe_nav()
   })
@@ -60,35 +77,32 @@ export default function Home() {
 
       <section className="flex  bg-white justify-center py-4">
 
-        <div className="flex-1 flex justify-center align-center content-center gap-8 max-w-screen-lg flex-col md:flex-row  ">
+        <div className="flex-1 flex justify-center align-center content-center  max-w-screen-lg   ">
 
-          <div className="w-full md:w-1/2 bg-medium p-10 flex flex-col justify-around">
+
+
+
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-16">
+
+        {data.map((news, index) => (  
+          <div className=" bg-medium p-10 flex flex-col justify-around">
             <p className=" border-b text-left inline-block font-bold font-P22Underground-thp text-lg">Press Release</p>
             <h2 className="  text-left  inline-block     font-P22Underground-thp text-4xl font-bold pt-8 ">
-            Romeo Power Announces Expansion of Executive Leadership Team 
+            {news.Headline}
               </h2>
             <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4"></p>
-            <a target="_blank" href="https://investors.romeopower.com/news/news-details/2021/Romeo-Power-Announces-Expansion-of-Executive-Leadership-Team-With-Chief-Financial-Officer-and-Chief-Accounting-Officer-Appointments/default.aspx">
+            <a target="_blank" href={news.LinkToDetailPage}>
               <div className="cursor-pointer flex gap-2   justify-end align-center content-center items-center">
                 <span className="font-P22Underground-thp font-bold">Read More</span>
                 <span><img className="flex-grow-0" src="/arrow.png" ></img></span>
               </div>
             </a>
           </div>
+        ))}
 
-          <div className="w-full md:w-1/2 bg-medium p-10 flex flex-col justify-around">
-            <p className=" border-b text-left inline-block font-bold font-P22Underground-thp text-lg">Press Release</p>
-            <h2 className="  text-left  inline-block     font-P22Underground-thp text-4xl font-bold pt-8 ">
-            Romeo Power Announces Rebranding
-              </h2>
-            <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4"></p>
-            <a target="_blank" href="https://investors.romeopower.com/news/news-details/2021/Romeo-Power-Announces-Rebranding-Reinforcing-Investment-in-Innovation-and-Commitment-to-Long-Term-Vision/default.aspx">
-              <div className="flex gap-2   justify-end align-center content-center items-center">
-                <span className="font-P22Underground-thp font-bold">Read More</span>
-                <span><img className="flex-grow-0" src="/arrow.png" ></img></span>
-              </div>
-            </a>
-          </div>
+        </div>
+
+         
 
         </div>
 
@@ -96,79 +110,9 @@ export default function Home() {
 
 
 
-      <section className="flex  bg-white justify-center py-4">
+     
 
-        <div className="flex-1 flex justify-center align-center content-center gap-8 max-w-screen-lg flex-col md:flex-row  ">
-
-          <div className="w-full md:w-1/2 bg-medium p-10 flex flex-col justify-around">
-            <p className=" border-b text-left inline-block font-bold font-P22Underground-thp text-lg">Press Release</p>
-            <h2 className="  text-left  inline-block     font-P22Underground-thp text-4xl font-bold pt-8 ">
-              Nuvve and Romeo Power Announce Collaboration
-              </h2>
-            <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4"></p>
-            <Link  href="/media/NuvveandRomeoPower">
-              <div className="cursor-pointer flex gap-2   justify-end align-center content-center items-center">
-                <span className="font-P22Underground-thp font-bold">Read More</span>
-                <span><img className="flex-grow-0" src="/arrow.png" ></img></span>
-              </div>
-            </Link>
-          </div>
-
-          <div className="w-full md:w-1/2 bg-medium p-10 flex flex-col justify-around">
-            <p className=" border-b text-left inline-block font-bold font-P22Underground-thp text-lg">Press Release</p>
-            <h2 className="  text-left  inline-block     font-P22Underground-thp text-4xl font-bold pt-8 ">
-              Romeo Power Announces First Quarter 2021 Financial Results
-              </h2>
-            <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4"></p>
-            <a target="_blank" href="https://investors.romeopower.com/news/news-details/2021/Romeo-Power-Announces-First-Quarter-2021-Financial-Results/default.aspx">
-              <div className="flex gap-2   justify-end align-center content-center items-center">
-                <span className="font-P22Underground-thp font-bold">Read More</span>
-                <span><img className="flex-grow-0" src="/arrow.png" ></img></span>
-              </div>
-            </a>
-          </div>
-
-        </div>
-
-      </section>
-
-      <section className="flex  bg-white justify-center py-4">
-
-        <div className="flex-1 flex justify-center align-center content-center gap-8 max-w-screen-lg flex-col md:flex-row   ">
-
-          <div className="w-full md:w-1/2 bg-medium p-10 flex flex-col justify-around">
-            <p className=" border-b text-left inline-block font-bold font-P22Underground-thp text-lg">Press Release</p>
-            <h2 className="  text-left  inline-block     font-P22Underground-thp text-4xl font-bold pt-8 ">
-              Romeo Power Appoints New VP of Cell Engineering
-              </h2>
-            <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4"></p>
-            <a target="_blank" href="https://investors.romeopower.com/news/news-details/2021/Romeo-Power-Appoints-New-VP-of-Cell-Engineering/default.aspx">
-              <div className="flex gap-2   justify-end align-center content-center items-center">
-                <span className="font-P22Underground-thp font-bold">Read More</span>
-                <span><img className="flex-grow-0" src="/arrow.png" ></img></span>
-              </div>
-            </a>
-          </div>
-
-          <div className="w-full md:w-1/2 bg-medium p-10 flex flex-col justify-around">
-            <p className=" border-b text-left inline-block font-bold font-P22Underground-thp text-lg">Press Release</p>
-            <h2 className="  text-left  inline-block     font-P22Underground-thp text-4xl font-bold pt-8 ">
-              Romeo Power Announces Timing of First Quarter 2021 Financial Results and Webcast
-              </h2>
-            <p className="   flex-1 font-P22Underground-thin text-lg py-4"></p>
-
-            <a target="_blank" href="https://investors.romeopower.com/news/news-details/2021/Romeo-Power-Announces-Timing-of-First-Quarter-2021-Financial-Results-and-Webcast/default.aspx">
-              <div className="flex gap-2   justify-end align-center content-center items-center">
-                <span className="font-P22Underground-thp font-bold">Read More</span>
-                <span><img className="flex-grow-0" src="/arrow.png" ></img></span>
-              </div>
-            </a>
-          </div>
-
-        </div>
-
-      </section>
-
+      
 
 
 
