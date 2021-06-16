@@ -6,7 +6,7 @@ const Footer = () => {
 
       <section id="footer" className=" flex justify-center bg-darkaccent ">
        <div className="flex flex-col md:flex-row max-w-screen-lg pb-4  md:pb-0  px-4 gap-0 md: gap-4 flex-1 ">
-        <div className="flex-1 text-white  text-xs lg:leading-10 p-2  ">
+        <div className="flex-1 text-white  text-xs lg:leading-10 pt-2 pl-0 ">
           <img className="" src="/logos/footer.svg" ></img>
         </div> 
         <div className=" text-white  text-xs  lg:leading-10">
