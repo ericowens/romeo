@@ -42,6 +42,10 @@
   background-color: #042F31;
 }
 
+#footer img{
+  width:75px;
+}
+
 .pp strong{
   font-weight: bold;
 }
@@ -177,11 +181,19 @@ nav .show,nav .icon,nav input{
 }
 
 @media all and (max-width: 750px) {
+  #footer{
+    /* padding:25px 0; */
+  }
+
+  #footer img{
+    width:120px;
+    padding-top: 15px;
+  }
 
   #footer span, #footer a, #footer p{
     font-family: 'P22Underground-light';
-    line-height: 20px;
-    font-size: 0.85rem;
+    line-height: .7rem;
+    font-size: 0.75rem;
     background-color: #042F31;
   }
 }

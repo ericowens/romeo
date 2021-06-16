@@ -31,7 +31,7 @@ export default function Home() {
 
           <div className="img-slider flex-1 flex">
 
-            <div id="slide0" className="slide active flex-1 flex flex-col justify-center align-center content-center items-start pl-16">
+            <div id="slide0" className="slide active flex-1 flex flex-col justify-center align-center content-center items-start pl-8 md:pl-16 pr-2">
               <h1 className=" text-left font-P22Underground-thp text-4xl md:text-6xl font-bold">Powering The World’s<br />
               Transition To Electrification</h1>
               <Link href="/contact">
