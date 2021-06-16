@@ -883,7 +883,10 @@ body{
 }
        */
 
+       
+
 #quote::before{
+  quotes: "“" "”" "‘" "’";
   content:open-quote;
   font-size: 3em;
   position: absolute;

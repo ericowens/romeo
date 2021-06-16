@@ -46,7 +46,7 @@ export default function Home() {
         <div className="flex max-w-screen-lg px-4 flex-wrap flex-1">
           <div className="flex-1 relative">
 
-            <p id="quote" className=" text-center flex-1 font-P22Underground-book text-2xl uppercase leading-loose py-4">
+            <p id="quote" lang="us" className=" text-center flex-1 font-P22Underground-book text-2xl uppercase leading-loose py-4">
               Romeo Power’s goal is to ensure that green energy is accessible to all eight billion people across 
               the globe. It’s our True North; the multi-generational endeavor that drives us on a daily basis 
               and we are unwavering in our commitment to achieving it, together.
@@ -151,9 +151,8 @@ invite you to explore current opportunities.</p>
                 <p className="font-bold text-white pl-4">Our Benefits</p>
               </summary>
               <div >
-                <p className="font-P22Underground-book text-lg p-4">Medical, Dental and
-                Vision Romeo Power oﬀers rich benefits packages, many of which we cover
-                at 100% for you and your eligible dependents.</p>
+                <p className="font-P22Underground-book text-lg p-4">Romeo Power oﬀers rich Medical, Dental and Vision benefits packages - 
+                many of which we cover at 100% for you and your eligible dependents.</p>
               </div>
             </details>
 
