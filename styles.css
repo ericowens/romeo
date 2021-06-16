@@ -590,96 +590,112 @@ details[open] summary ~ * {
   background: url('/Images/Plus_50pix.png'), url(/class34.jpg) ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-position-x: 98%;
 }
 
  .careers details[open] summary {
   background: url('/Images/Minus_50pix.png') , url(/class34.jpg) ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-position-x: 98%;
 }
 
 .careers details summary.c1 {
   background: url('/Images/Plus_50pix.png') , url('/Images/Career images/career1.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-position-x: 98%;
 }
 
 .careers details[open] summary.c1 {
   background: url('/Images/Minus_50pix.png') , url('/Images/Career images/career1.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-position-x: 98%;
 }
 
 .careers details summary.c2 {
   background: url('/Images/Plus_50pix.png') , url('/Images/Career images/career2.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-position-x: 98%;
 }
 
 .careers details[open] summary.c2 {
   background: url('/Images/Minus_50pix.png') , url('/Images/Career images/career2.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-position-x: 98%;
 }
 
 .careers details summary.c3 {
   background: url('/Images/Plus_50pix.png') , url('/Images/Career images/career3.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-position-x: 98%;
 }
 
 .careers details[open] summary.c3 {
   background: url('/Images/Minus_50pix.png') , url('/Images/Career images/career3.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-position-x: 98%;
 }
 
 .careers details summary.c4 {
   background: url('/Images/Plus_50pix.png') , url('/Images/Career images/career7.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-position-x: 98%;
 }
 
 .careers details[open] summary.c4 {
   background: url('/Images/Minus_50pix.png') , url('/Images/Career images/career7.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-position-x: 98%;
 }
 
 .careers details summary.c5 {
   background: url('/Images/Plus_50pix.png') , url('/Images/Career images/career5.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-position-x: 98%;
 }
 
 .careers details[open] summary.c5 {
   background: url('/Images/Minus_50pix.png') , url('/Images/Career images/career5.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-position-x: 98%;
 }
 
 .careers details summary.c6 {
   background: url('/Images/Plus_50pix.png') , url('/Images/Career images/career6.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-position-x: 98%;
 }
 
 .careers details[open] summary.c6 {
   background: url('/Images/Minus_50pix.png') , url('/Images/Career images/career6.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-position-x: 98%;
 }
 
 .careers details summary.c7 {
   background: url('/Images/Plus_50pix.png') , url('/Images/Career images/career4.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-position-x: 98%;
 }
 
 .careers details[open] summary.c7 {
   background: url('/Images/Minus_50pix.png') , url('/Images/Career images/career4.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-position-x: 98%;
 }
 
 .hermespad{
