@@ -58,6 +58,43 @@ export default function Home() {
       </section>
 
 
+      <section className="flex  bg-white justify-center py-4">
+
+        <div className="flex-1 flex justify-center align-center content-center gap-8 max-w-screen-lg flex-col md:flex-row  ">
+
+          <div className="w-full md:w-1/2 bg-medium p-10 flex flex-col justify-around">
+            <p className=" border-b text-left inline-block font-bold font-P22Underground-thp text-lg">Press Release</p>
+            <h2 className="  text-left  inline-block     font-P22Underground-thp text-4xl font-bold pt-8 ">
+            Romeo Power Announces Expansion of Executive Leadership Team 
+              </h2>
+            <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4"></p>
+            <a target="_blank" href="https://investors.romeopower.com/news/news-details/2021/Romeo-Power-Announces-Expansion-of-Executive-Leadership-Team-With-Chief-Financial-Officer-and-Chief-Accounting-Officer-Appointments/default.aspx">
+              <div className="cursor-pointer flex gap-2   justify-end align-center content-center items-center">
+                <span className="font-P22Underground-thp font-bold">Read More</span>
+                <span><img className="flex-grow-0" src="/arrow.png" ></img></span>
+              </div>
+            </a>
+          </div>
+
+          <div className="w-full md:w-1/2 bg-medium p-10 flex flex-col justify-around">
+            <p className=" border-b text-left inline-block font-bold font-P22Underground-thp text-lg">Press Release</p>
+            <h2 className="  text-left  inline-block     font-P22Underground-thp text-4xl font-bold pt-8 ">
+            Romeo Power Announces Rebranding
+              </h2>
+            <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4"></p>
+            <a target="_blank" href="https://investors.romeopower.com/news/news-details/2021/Romeo-Power-Announces-Rebranding-Reinforcing-Investment-in-Innovation-and-Commitment-to-Long-Term-Vision/default.aspx">
+              <div className="flex gap-2   justify-end align-center content-center items-center">
+                <span className="font-P22Underground-thp font-bold">Read More</span>
+                <span><img className="flex-grow-0" src="/arrow.png" ></img></span>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+      </section>
+
+
 
       <section className="flex  bg-white justify-center py-4">
 
