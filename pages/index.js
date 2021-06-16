@@ -42,8 +42,8 @@ export default function Home() {
 
             <div className="slide flex-1 flex bg-accent ">
               <video id="myVid" className="video-container video-container-overlay w-full" controls >
-                  <source src="/vid/FINAL ROMEO POWER BF MASTER 360.mp4" type="video/mp4" />
-                </video>
+                <source src="/vid/FINAL ROMEO POWER BF MASTER 360.mp4" type="video/mp4" />
+              </video>
             </div>
 
 
@@ -90,9 +90,9 @@ universal energy a thing of the future.</p>
 
 
 
-      <section className="flex justify-center bg-light pt-16 pb-4">
-        <div className="flex max-w-screen-lg flex-col flex-wrap flex-1 lg:flex-row m-3 space-x-4 ">
-          <div className="flex-1 flex justify-center align-center flex-col">
+      <section className="flex justify-center bg-light pt-8 pb-4">
+        <div className="flex max-w-screen-lg flex-col flex-wrap flex-1 lg:flex-row m-3 space-x-4  ">
+          <div className="flex-1 flex justify-center align-center flex-col ">
             <h3 className="text-left text-darkcolor  font-P22Underground-thp text-4xl font-bold my-4  py-4 ">Products</h3>
             <p>Romeo Power oﬀers custom electrification solutions for the
             commercial vehicle industry spanning from Class 3 delivery
@@ -107,7 +107,7 @@ universal energy a thing of the future.</p>
 
           </div>
           <div className="flex justify-center  flex-1">
-            <img className="md:float-right "
+            <img className="md:float-right w-4/5 md:w-full "
               src="/hermes-hero01.jpg"
 
               alt=""
@@ -121,7 +121,7 @@ universal energy a thing of the future.</p>
       <section className="flex justify-center bg-light  pb-4">
         <div className="flex max-w-screen-lg flex-col flex-wrap flex-1 lg:flex-row m-3 space-x-4 ">
           <div className="flex justify-center flex-1 order-last lg:order-first">
-            <img className="text-center md:float-left "
+            <img className="text-center md:float-left w-4/5 md:w-full "
               src="/TechnologyHome.jpg"
 
               alt=""
@@ -144,7 +144,7 @@ tolerate thermal event faults at a single cell level.</p>
       </section>
 
 
-      <section className="flex justify-center bg-light pb-16">
+      <section className="flex justify-center bg-light pb-12">
         <div className="flex max-w-screen-lg flex-col md:flex-wrap flex-wrap-reverse flex-1 lg:flex-row m-3 space-x-4 ">
           <div className="flex-1 flex justify-center align-center flex-col">
             <h3 className="text-left text-darkcolor  font-P22Underground-thp text-4xl font-bold my-4 py-4">U.S. Manufacturing</h3>
@@ -159,7 +159,7 @@ tolerate thermal event faults at a single cell level.</p>
 
           </div>
           <div className=" flex justify-center flex-1">
-            <img className="md:float-right "
+            <img className="md:float-right w-4/5 md:w-full "
               src="/USManufacturing.jpg"
 
               alt=""

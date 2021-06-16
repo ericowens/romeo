@@ -39,7 +39,7 @@ export default function Home() {
 
       <section className="flex bg-accent justify-center py-16">
 
-        <div className=" flex justify-center align-center content-center  flex-col max-w-screen-lg   ">
+        <div className=" flex justify-center align-center content-center p-4  flex-col max-w-screen-lg   ">
           
             <h2 className=" text-center   flex-1 text-white  font-P22Underground-thp text-5xl font-bold ">
               Moving People and Things Emission Free
@@ -64,7 +64,7 @@ export default function Home() {
 
 
       <section  className="small-hero small-hero-hermes flex justify-center items-center" >
-      <section className="flex flex-1  max-w-screen-lg justify-center items-center align-center px-4 py-40 ">
+      <section className="flex flex-1  max-w-screen-lg justify-center items-center align-center p-4 py-40 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
               <h2 className="font-P22Underground-thp text-5xl font-bold">Hermes Module</h2>
@@ -87,7 +87,7 @@ cooling system makes it an ideal battery system for many automotive powertrain a
 
 
       <section  className="small-hero small-hero-orion flex justify-center items-center" >
-      <section className="flex flex-1  max-w-screen-lg justify-center  align-center py-40 ">
+      <section className="flex flex-1  max-w-screen-lg justify-center  align-center p-4 py-40 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
               <h2 className="font-P22Underground-thp text-5xl font-bold">Orion BEV Pack Family</h2>
