@@ -47,8 +47,8 @@ export default function Home() {
           </div>
           <div className="w-full lg:w-3/5 ">
 
-            <details id="q1" className="  pb-4 mb-8 " >
-              <summary className="font-P22Underground-book mb-8 py-2 border-darkcolor border-b border-t flex flex-col align-center  justify-center text-lg ">
+            <details id="q1" className="faq    " >
+              <summary className="font-P22Underground-book  border-darkcolor  border-t flex flex-col align-center  justify-center text-lg ">
                 <p className="font-bold">What is Romeo Power’s mission and how does it influence the business on a day-to-day basis?</p>
               </summary>
               <div >
@@ -74,9 +74,10 @@ export default function Home() {
 switch to battery-electric solutions.</p>
               </div>
             </details>
+            
 
-            <details id="q2" className="  pb-4 mb-8">
-              <summary className="font-P22Underground-book mb-8 py-2 border-darkcolor border-b border-t flex flex-col align-center justify-center text-lg ">
+            <details id="q2" className="faq   ">
+              <summary className="font-P22Underground-book  border-darkcolor  border-t flex flex-col align-center justify-center text-lg ">
                 <p className="font-bold">What do we mean when we talk about energy
                 poverty? How does Romeo Power address
 energy poverty today?</p>
@@ -101,8 +102,8 @@ commercial vehicles.</p>
 
 
 
-            <details id="q3" className="  pb-4 mb-8">
-              <summary className="font-P22Underground-book mb-8 py-2 border-darkcolor border-b border-t flex flex-col align-center justify-center text-lg ">
+            <details id="q3" className="faq   ">
+              <summary className="font-P22Underground-book  border-darkcolor  border-t flex flex-col align-center justify-center text-lg ">
                 <p className="font-bold ">What does Romeo Power manufacture?</p>
               </summary>
               <div >
@@ -127,8 +128,8 @@ space.</p>
 
 
 
-            <details id="q4" className="  pb-4 mb-8">
-              <summary className="font-P22Underground-book mb-8 py-2 border-darkcolor border-b border-t flex flex-col align-center  justify-center text-lg ">
+            <details id="q4" className="faq   ">
+              <summary className="font-P22Underground-book  border-darkcolor  border-t flex flex-col align-center  justify-center text-lg ">
                 <p className="font-bold">Where does Romeo Power fit within the
                 battery market and commercial EV value
 chain overall?</p>
@@ -151,8 +152,8 @@ America and Europe.</p>
 
 
 
-            <details id="q5" className="  pb-4 mb-8">
-              <summary className="font-P22Underground-book mb-8 py-2 border-darkcolor border-b border-t flex flex-col align-center  justify-center text-lg ">
+            <details id="q5" className="faq   ">
+              <summary className="font-P22Underground-book  border-darkcolor  border-t flex flex-col align-center  justify-center text-lg ">
                 <p className="font-bold">What types of companies does Romeo Power
                 look to partner and work with? Does Romeo
                 Power look to partner with companies outside
@@ -184,8 +185,8 @@ marine and aerospace industries.</p>
 
 
 
-            <details id="q6" className="  pb-4 mb-8">
-              <summary className="font-P22Underground-book mb-8 py-2 border-darkcolor border-b border-t flex flex-col align-center  justify-center text-lg ">
+            <details id="q6" className="faq  ">
+              <summary className="font-P22Underground-book  border-darkcolor  border-t flex flex-col align-center  justify-center text-lg ">
                 <p className="font-bold">What does Romeo Power’s logo represent?</p>
               </summary>
               <div >

@@ -892,6 +892,7 @@ body{
 
 #quote::before{
   quotes: "“" "”" "‘" "’";
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   content:open-quote;
   font-size: 3em;
   position: absolute;
@@ -907,3 +908,21 @@ body{
   bottom:-.25em;
   left: 50%;
 } */
+
+button:focus {
+  outline: none !important;
+}
+
+
+details.faq[open]{
+  padding-bottom: 4rem;
+ 
+}
+
+details.faq[open] summary{
+  border-bottom: 1px solid #3D3D3D;
+}
+
+details.faq[open] summary ~ div{
+  padding-top: 2rem;
+}
