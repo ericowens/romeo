@@ -162,7 +162,7 @@ export default function Home({ data }) {
               sponsorship, unless agreed
               upon by the company.
       </p>
-            <p className=" text-left  flex-1 font-P22Underground-book text-lg py-4 uppercase flex flex-col align-end justify-end items-end">
+            <p className=" text-left  flex-1 font-P22Underground-book text-lg py-4 uppercase flex flex-col align-start justify-end items-starts">
 
               <Link href="/media/logos">
                 <div className="flex  w-3/5 gap-8 justify-between align-center content-center cursor-pointer">
@@ -189,7 +189,7 @@ export default function Home({ data }) {
               opportunities or for general
               inspiration.
       </p>
-            <p className=" text-left  flex-1 font-P22Underground-book text-lg py-4 uppercase flex flex-col align-end justify-end items-end">
+            <p className=" text-left  flex-1 font-P22Underground-book text-lg py-4 uppercase flex flex-col align-start justify-end items-start">
               <Link href="/media/leadership">
                 <div className="flex w-3/5 gap-8 justify-between align-center content-center cursor-pointer">
                   <span className="flex-1">View All</span>
@@ -214,7 +214,8 @@ export default function Home({ data }) {
               with our corporate identity
               and vision for the future.
       </p>
-            <p className=" text-left  flex-1 font-P22Underground-book text-lg py-4 uppercase flex flex-col align-end justify-end items-end"><Link href="/media/gallery">
+            <p className=" text-left  flex-1 font-P22Underground-book text-lg py-4 uppercase flex flex-col align-start justify-end items-start">
+              <Link href="/media/gallery">
               <div className="flex w-3/5 gap-8 justify-between align-center content-center cursor-pointer">
                 <span className="flex-1">View All</span>
                 <span><img className="flex-grow-0" src="/arrow.jpg" ></img></span>
