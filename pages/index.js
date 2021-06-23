@@ -107,7 +107,7 @@ universal energy a thing of the future.</p>
 
           </div>
           <div className="flex justify-start md:justify-end  flex-1">
-            <img className="float-left  md:float-right w-4/5 md:w-full px-0 md:pl-4 "
+            <img className="float-left  md:float-right w-4/5 md:w-full px-0 object-cover "
               src="/hermes-hero01.jpg"
 
               alt=""
@@ -125,7 +125,7 @@ universal energy a thing of the future.</p>
         <div className="flex max-w-screen-lg flex-col md:flex-wrap flex-wrap-reverse flex-1 lg:flex-row m-3 space-x-0 md:space-x-4 ">
           
         <div className=" flex justify-start  md:justify-start  flex-1 order-last lg:order-first">
-            <img className="float-left  md:float-right w-4/5 md:w-full px-0 md:pr-4 "
+            <img className="float-left  md:float-right w-4/5 md:w-full px-0 object-cover "
               src="/TechnologyHome.jpg"
 
               alt=""
@@ -167,7 +167,7 @@ tolerate thermal event faults at a single cell level.</p>
 
           </div>
           <div className=" flex justify-start md:justify-end  justify-center flex-1">
-            <img className="float-left  md:float-right w-4/5 md:w-full px-0 md:pl-4 "
+            <img className="float-left  md:float-right w-4/5 md:w-full px-0 object-cover "
               src="/USManufacturing.jpg"
 
               alt=""
