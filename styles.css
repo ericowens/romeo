@@ -544,15 +544,17 @@ summary {
   cursor: pointer;
   position: relative;
   padding-right: 100px;
-  background: url('/imgs/plus.svg') ;  
+  background: url('/imgs/plus_45px.svg') ;  
   background-position: right center;
   background-repeat: no-repeat;
+  background-size: 45px;
 }
 
 details[open] summary  {
-  background: url('/imgs/minus.svg') ;  
+  background: url('/imgs/minis_45px.svg') ;  
   background-position: right center;
   background-repeat: no-repeat;
+  background-size: 45px;
   
 }
 
