@@ -26,6 +26,8 @@ export default function Home() {
           fname: event.target.fname.value ?? '-',
           lname: event.target.lname.value ?? '-',
           email: event.target.email.value ?? '-',
+          company: event.target.company.value ?? '-',
+          message: event.target.message.value ?? '-',
          
         }),
         headers: {
@@ -111,7 +113,9 @@ Vernon, CA 90058
             <div className="flex space-x-20">
               <div className="flex-1 w-full">
                 <input  name="email" className="sm:w-full my-2 p-4"   type="text" placeholder="Email" required></input>
-                
+                <input  name="company" className="sm:w-full my-2 p-4"   type="text" placeholder="Company" required></input>
+                <textarea  name="message" className="sm:w-full my-2 px-2 p-4 form-textarea  block" rows="3"  placeholder="Message"></textarea>
+                      
                 <button type="submit" className="bg-accent sm:w-full   py-4 px-14  text-white">Submit</button>
               </div>
             </div>

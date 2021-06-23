@@ -521,9 +521,15 @@ nav .show,nav .icon,nav input{
   margin:0.25rem 0;
 }
 
-#contact input{
+#contact input {
   border:1px solid #3D3D3D;
   padding:0.25rem 0.25rem;
+  margin:0.25rem 0;
+}
+
+ #contact textarea{
+  border:1px solid #3D3D3D;
+  padding:0.55rem 0.75rem;
   margin:0.25rem 0;
 }
 
@@ -584,7 +590,7 @@ details[open] summary ~ * {
 }
 
 .careers summary{
-  background: url('/Images/Minus_50pix.png') ;  
+  background: url('/Images/minis_45px.svg') ;  
   background-position: right center;
   background-repeat: no-repeat;
 }
@@ -595,114 +601,130 @@ details[open] summary ~ * {
   cursor: pointer;
   position: relative;
   padding-right: 100px;
-  background: url('/Images/Plus_50pix.png'), url(/class34.jpg) ;  
+  background: url('/Images/plus_45px.svg'), url(/class34.jpg) ;  
   background-position: right center, center center;
+  background-size: 45px, 100%;
   background-repeat: no-repeat;
   background-position-x: 98%;
 }
 
  .careers details[open] summary {
-  background: url('/Images/Minus_50pix.png') , url(/class34.jpg) ;  
+  background: url('/Images/minis_45px.svg') , url(/class34.jpg) ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-size: 45px, 100%;
   background-position-x: 98%;
 }
 
 .careers details summary.c1 {
-  background: url('/Images/Plus_50pix.png') , url('/Images/Career images/career1.jpg') ;  
+  background: url('/Images/plus_45px.svg') , url('/Images/Career images/career1.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-size: 45px, 100%;
   background-position-x: 98%;
 }
 
 .careers details[open] summary.c1 {
-  background: url('/Images/Minus_50pix.png') , url('/Images/Career images/career1.jpg') ;  
+  background: url('/Images/minis_45px.svg') , url('/Images/Career images/career1.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-size: 45px, 100%;
   background-position-x: 98%;
 }
 
 .careers details summary.c2 {
-  background: url('/Images/Plus_50pix.png') , url('/Images/Career images/career2.jpg') ;  
+  background: url('/Images/plus_45px.svg') , url('/Images/Career images/career2.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-size: 45px, 100%;
   background-position-x: 98%;
 }
 
 .careers details[open] summary.c2 {
-  background: url('/Images/Minus_50pix.png') , url('/Images/Career images/career2.jpg') ;  
+  background: url('/Images/minis_45px.svg') , url('/Images/Career images/career2.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-size: 45px, 100%;
   background-position-x: 98%;
 }
 
 .careers details summary.c3 {
-  background: url('/Images/Plus_50pix.png') , url('/Images/Career images/career3.jpg') ;  
+  background: url('/Images/plus_45px.svg') , url('/Images/Career images/career3.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-size: 45px, 100%;
   background-position-x: 98%;
 }
 
 .careers details[open] summary.c3 {
-  background: url('/Images/Minus_50pix.png') , url('/Images/Career images/career3.jpg') ;  
+  background: url('/Images/minis_45px.svg') , url('/Images/Career images/career3.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-size: 45px, 100%;
   background-position-x: 98%;
 }
 
 .careers details summary.c4 {
-  background: url('/Images/Plus_50pix.png') , url('/Images/Career images/career7.jpg') ;  
+  background: url('/Images/plus_45px.svg') , url('/Images/Career images/career7.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-size: 45px, 100%;
   background-position-x: 98%;
 }
 
 .careers details[open] summary.c4 {
-  background: url('/Images/Minus_50pix.png') , url('/Images/Career images/career7.jpg') ;  
+  background: url('/Images/minis_45px.svg') , url('/Images/Career images/career7.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-size: 45px, 100%;
   background-position-x: 98%;
 }
 
 .careers details summary.c5 {
-  background: url('/Images/Plus_50pix.png') , url('/Images/Career images/career5.jpg') ;  
+  background: url('/Images/plus_45px.svg') , url('/Images/Career images/career5.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-size: 45px, 100%;
   background-position-x: 98%;
 }
 
 .careers details[open] summary.c5 {
-  background: url('/Images/Minus_50pix.png') , url('/Images/Career images/career5.jpg') ;  
+  background: url('/Images/minis_45px.svg') , url('/Images/Career images/career5.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-size: 45px, 100%;
   background-position-x: 98%;
 }
 
 .careers details summary.c6 {
-  background: url('/Images/Plus_50pix.png') , url('/Images/Career images/career6.jpg') ;  
+  background: url('/Images/plus_45px.svg') , url('/Images/Career images/career6.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-size: 45px, 100%;
   background-position-x: 98%;
 }
 
 .careers details[open] summary.c6 {
-  background: url('/Images/Minus_50pix.png') , url('/Images/Career images/career6.jpg') ;  
+  background: url('/Images/minis_45px.svg') , url('/Images/Career images/career6.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-size: 45px, 100%;
   background-position-x: 98%;
 }
 
 .careers details summary.c7 {
-  background: url('/Images/Plus_50pix.png') , url('/Images/Career images/career4.jpg') ;  
+  background: url('/Images/plus_45px.svg') , url('/Images/Career images/career4.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-size: 45px, 100%;
   background-position-x: 98%;
 }
 
 .careers details[open] summary.c7 {
-  background: url('/Images/Minus_50pix.png') , url('/Images/Career images/career4.jpg') ;  
+  background: url('/Images/minis_45px.svg') , url('/Images/Career images/career4.jpg') ;  
   background-position: right center, center center;
   background-repeat: no-repeat;
+  background-size: 45px, 100%;
   background-position-x: 98%;
 }
 
