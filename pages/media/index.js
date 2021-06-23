@@ -146,7 +146,7 @@ export default function Home({ data }) {
         <div className=" border-t-2 flex-1 flex justify-center align-center content-center gap-8 max-w-screen-lg  flex-col md:flex-row  ">
 
           <div className="w-full md:w-1/3 bg-white p-10 flex flex-col justify-evenly">
-            <img src="/ROMEO POWER VERT LOGO_GREEN-GREYRGB.svg"></img>
+            <img src="/imgs/320x240_logo.svg"></img>
             <h2 className="  text-left  inline-block     font-P22Underground-thp text-2xl font-bold pt-4 ">
               LOGOS</h2>
 
