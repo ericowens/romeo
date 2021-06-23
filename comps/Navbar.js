@@ -3,7 +3,7 @@ import Link from 'next/link'
 const Navbar = () => {
     return (
         <nav>
-             <div className="logo"><Link href="/"><img className="sm:w-full md:w-1/2" src="/imgs/320x240_logo.svg" ></img></Link></div>
+             <div className="logo"><Link href="/"><img className="sm:w-full md:w-1/2" src="/logo.png" ></img></Link></div>
              <label htmlFor="btn" className="icon">
                 <p className="text-white text-lg leading-loose pt-6">Menu</p>
             </label>
