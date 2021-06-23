@@ -398,8 +398,9 @@ nav .show,nav .icon,nav input{
 }
 
 #hero.hero-media-leadership {
-  background-image:url('/imgs/Leadership_Media_Header.jpg'
-  );
+  
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)),url('/imgs/Leadership_Media_Header.jpg');
   
 }
 
