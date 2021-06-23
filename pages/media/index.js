@@ -95,7 +95,7 @@ export default function Home({ data }) {
             <a target="_blank" href={news.LinkToDetailPage}>
               <div className="cursor-pointer flex gap-2   justify-end align-center content-center items-center">
                 <span className="font-P22Underground-thp font-bold">Read More</span>
-                <span><img className="flex-grow-0" src="/arrow.png" ></img></span>
+                <span><img className="flex-grow-0" src="/imgs/arrow.svg" width="18" ></img></span>
               </div>
             </a>
           </div>
@@ -121,7 +121,7 @@ export default function Home({ data }) {
         <a target="_blank" href='https://investors.romeopower.com/news/default.aspx'>
               <div className="cursor-pointer flex gap-2   justify-end align-center content-center items-center">
                 <span className="font-P22Underground-thp font-bold">View All</span>
-                <span><img className="flex-grow-0" src="/arrow.png" ></img></span>
+                <span><img className="flex-grow-0" src="/imgs/arrow.svg" width="18" ></img></span>
               </div>
             </a>
 
@@ -167,7 +167,7 @@ export default function Home({ data }) {
               <Link href="/media/logos">
                 <div className="flex  w-3/5 gap-8 justify-between align-center content-center cursor-pointer">
                   <span className="flex-1">View All</span>
-                  <span><img className="flex-grow-0" src="/arrow.jpg" ></img></span>
+                  <span><img className="flex-grow-0"src="/imgs/arrow.svg" width="18" ></img></span>
                 </div>
               </Link></p>
           </div>
@@ -193,7 +193,7 @@ export default function Home({ data }) {
               <Link href="/media/leadership">
                 <div className="flex w-3/5 gap-8 justify-between align-center content-center cursor-pointer">
                   <span className="flex-1">View All</span>
-                  <span><img className="flex-grow-0" src="/arrow.jpg" ></img></span>
+                  <span><img className="flex-grow-0"src="/imgs/arrow.svg" width="18" ></img></span>
                 </div>
               </Link></p>
           </div>
@@ -218,7 +218,7 @@ export default function Home({ data }) {
               <Link href="/media/gallery">
               <div className="flex w-3/5 gap-8 justify-between align-center content-center cursor-pointer">
                 <span className="flex-1">View All</span>
-                <span><img className="flex-grow-0" src="/arrow.jpg" ></img></span>
+                <span><img className="flex-grow-0"src="/imgs/arrow.svg" width="18" ></img></span>
               </div>
             </Link></p>
           </div>

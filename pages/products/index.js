@@ -108,7 +108,7 @@ largest, long-haul Class 8 vehicles.
       </section>
 
 
-      <section className="flex justify-center bg-medium py-16">
+      {/* <section className="flex justify-center bg-medium py-16">
           <div className="flex max-w-screen-lg  flex-wrap flex-1 px-4">
             <div className="flex-1">
               <div className=" pb-8 ">
@@ -163,7 +163,7 @@ largest, long-haul Class 8 vehicles.
              
             </div>
           </div>
-          </section>
+          </section> */}
 
 
 
