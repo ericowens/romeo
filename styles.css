@@ -398,7 +398,7 @@ nav .show,nav .icon,nav input{
 }
 
 #hero.hero-media-leadership {
-  background-image:url('/leadership/LEADERSHIP MEDIA Header.jpg'
+  background-image:url('/imgs/Leadership_Media_Header.jpg'
   );
   
 }
@@ -543,13 +543,13 @@ summary {
   cursor: pointer;
   position: relative;
   padding-right: 100px;
-  background: url('/Plus_75pix.png') ;  
+  background: url('/imgs/plus.svg') ;  
   background-position: right center;
   background-repeat: no-repeat;
 }
 
 details[open] summary  {
-  background: url('/Minus_75pix.png') ;  
+  background: url('/imgs/minus.svg') ;  
   background-position: right center;
   background-repeat: no-repeat;
   

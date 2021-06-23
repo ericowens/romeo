@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
+  <g id="Badge" transform="translate(0 -0.325)">
+    <rect id="Area" width="58" height="58" rx="29" transform="translate(0 0.325)" fill="#3c3c3c"/>
+    <text id="label" transform="translate(28 37.325)" fill="#fcfcfc" font-size="26" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="-4.186" y="0">-</tspan></text>
+  </g>
+</svg>
