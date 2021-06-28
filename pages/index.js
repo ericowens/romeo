@@ -134,13 +134,10 @@ universal energy a thing of the future.</p>
 
           <div className="flex-1 flex justify-center align-center flex-col ">
             <h3 className="text-left text-darkcolor  font-P22Underground-thp text-4xl font-bold my-4 py-4">Technology</h3>
-            <p>Romeo Power oﬀers custom electrification solutions for the
-            commercial vehicle industry spanning from Class 3 delivery
-            vehicles to the largest, long-haul Class 8 vehicles. With high
-            packaging eﬀiciency, high energy density and a structurally
-            integrated cooling system, Romeo Power’s modular battery
-            systems have multiple safety features and are designed to
-tolerate thermal event faults at a single cell level.</p>
+            <p>Romeo Power delivers balanced, modular and integrated design with superior capacity and power, while 
+              lowering the total cost of ownership. When it comes to battery technology, the greater the energy 
+              density and power density, the longer the range and the better the acceleration. Our battery systems 
+              provide both, resulting in efficient packs without sacrificing space.</p>
             <div className="flex"><Link href="/technology"><button className="bg-accent  float-left py-4 px-14 my-10 text-white">Learn More</button></Link>  </div>
 
           </div>
@@ -156,13 +153,8 @@ tolerate thermal event faults at a single cell level.</p>
         <div className="flex max-w-screen-lg flex-col md:flex-wrap flex-wrap-reverse flex-1 lg:flex-row m-3 space-x-0 md:space-x-4 ">
           <div className="flex-1 flex justify-center align-center flex-col">
             <h3 className="text-left text-darkcolor  font-P22Underground-thp text-4xl font-bold my-4 py-4">U.S. Manufacturing</h3>
-            <p>Romeo Power oﬀers custom electrification solutions for the
-            commercial vehicle industry spanning from Class 3 delivery
-            vehicles to the largest, long-haul Class 8 vehicles. With high
-            packaging eﬀiciency, high energy density and a structurally
-            integrated cooling system, Romeo Power’s modular battery
-            systems have multiple safety features and are designed to
-tolerate thermal event faults at a single cell level.</p>
+            <p>Romeo Power’s Southern California manufacturing facility is located close to port and intermodal transport networks for 
+              rapid delivery to your factory. Before               leaving our facility, all modules and packs are tested according to stringent Romeo Power standards.</p>
             <div className="flex"><Link href="/about/us_manufacturing"><button className="bg-accent  float-left py-4 px-14 my-10 text-white">Learn More</button></Link>  </div>
 
           </div>
