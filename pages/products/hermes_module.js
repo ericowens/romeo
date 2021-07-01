@@ -8,7 +8,21 @@ import observe_nav from '../../comps/observe_nav'
 import React, { useState, useEffect } from 'react'
 import Formarea from '../../comps/Formarea'
 
-export default function Home() {
+export async function getServerSideProps(context) {
+  // Fetch data from external API
+  const uri = "http://18.218.2.107:1337/pages/11"
+  const res = await fetch(uri)
+  let data = await res.json()
+  
+  
+  console.log(data)
+  // console.log(data.jobs[0].location)
+
+  // Pass data to the page via props
+  return { props: { data } }
+}
+
+export default function Home({data}) {
   useEffect(() => {
     observe_nav()
   })
@@ -28,7 +42,7 @@ export default function Home() {
       <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
         <div className=" max-w-screen-lg pl-4 ">
           <div className="">
-              <h1 className="  font-P22Underground-thp text-7xl font-bold">Hermes Module</h1>
+              <h1 className="  font-P22Underground-thp text-7xl font-bold" dangerouslySetInnerHTML={{ __html: data.contentSections[0].text}}></h1>
               
             </div>
         </div>
@@ -47,15 +61,9 @@ export default function Home() {
             <div className="flex-1 pl-16 pr-16">
               <div className=" pb-8 ">
               <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold py-4 ">
-              Hermes Module</h2>
+              {data.contentSections[1].SectionTitle}</h2>
               </div>
-              <p>The ideal electrification solution for the commercial vehicle industry,
-              Hermes is a modular building block consisting of lithium-ion cells in a
-              21700 format that are connected in series and parallel to achieve the
-              desired voltage, energy and power capability. Its high packaging
-              eﬀiciency, high energy density and structurally integrated cooling
-              system makes it an ideal battery system for many automotive
-              powertrain applications.</p>
+              <p dangerouslySetInnerHTML={{ __html: data.contentSections[1].SectionBody}}></p>
               <img className="pt-8 md:pt-2" src="/Images/HermesModual2.jpg" ></img>  
             </div>
 
@@ -106,17 +114,10 @@ export default function Home() {
             <div className="flex-1">
               <div className=" pb-8 ">
               <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold pt-4 ">
-                Features</h2>
+              {data.contentSections[2].SectionTitle}</h2>
               </div>
-              <ul className="list-disc list-outside ">
-                <li className="font-P22Underground-thin">Modular design with a 21700 cell format</li>
-                <li className="font-P22Underground-thin">High packaging eﬀiciency</li>
-                <li className="font-P22Underground-thin">Designed according to SAE J2380, SAE J2464, and UN 38.3 requirements</li>
-                <li className="font-P22Underground-thin">Scalable and configurable design</li>
-                <li className="font-P22Underground-thin">Cell voltage and temperature monitoring through an in-built battery monitoring device</li>
-                <li className="font-P22Underground-thin">Automated cell balancing to maximize the usable capacity</li>
-                <li className="font-P22Underground-thin">Isolated communication between stack of modules and the central control device</li>
-                <li className="font-P22Underground-thin">Structurally integrated cooling system with superior thermal performance</li>
+              <ul className="list-disc list-outside " dangerouslySetInnerHTML={{ __html: data.contentSections[2].SectionBody}}>
+                
               </ul>
               <div className="flex flex-col md:flex-row gap-16 md:gap-2 justify-around py-8">
                 <div className=" flex gap-4 flex-col items-center">
@@ -138,9 +139,11 @@ than 30 minutes</p>
                                
 
               </div>
-              <p className="text-center md:text-left  font-P22Underground-thin text-lg pt-8"><a target="_blank" href="/HERMES MODULE DATA SHEET.pdf">
+
+              
+              <p className="text-center md:text-left  font-P22Underground-thin text-lg pt-8"><a target="_blank" href={`${data.contentSections[3].url}`}>
                
-                <button className="bg-accent text-white font-P22Underground-book md:float-left py-4 px-10 my-10">Download Hermes Data Sheet</button>
+                <button className="bg-accent text-white font-P22Underground-book md:float-left py-4 px-10 my-10">{data.contentSections[3].text}</button>
                 </a>
                 </p>
              
