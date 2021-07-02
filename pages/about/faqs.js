@@ -8,7 +8,22 @@ import observe_nav from '../../comps/observe_nav'
 import React, { useState, useEffect } from 'react'
 
 
-export default function Home() {
+export async function getServerSideProps(context) {
+  // Fetch data from external API
+  const uri = "http://18.218.2.107:1337/pages/17"
+  const res = await fetch(uri)
+  let data = await res.json()
+  
+  
+  console.log(data)
+  // console.log(data.jobs[0].location)
+
+  // Pass data to the page via props
+  return { props: { data } }
+}
+
+
+export default function Home({data}) {
   useEffect(() => {
     observe_nav()
   })
@@ -28,7 +43,8 @@ export default function Home() {
         <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
           <div className=" max-w-screen-lg pl-4  ">
             <div className="">
-              <h1 className="  font-P22Underground-thp text-6xl md:text-7xl font-bold">Frequently Asked Questions</h1>
+              <h1 className="  font-P22Underground-thp text-6xl md:text-7xl font-bold" dangerouslySetInnerHTML={{ __html: data.contentSections[0].text}}>
+                </h1>
 
             </div>
           </div>

@@ -9,6 +9,7 @@ import React, { useState, useEffect } from 'react'
 import { Remarkable } from 'remarkable';
 
 
+
 export async function getServerSideProps(context) {
   // Fetch data from external API
   const uri = "http://18.218.2.107:1337/pages/9"
@@ -109,8 +110,9 @@ export default function Home({data}) {
 
           </div>
           <div className="flex justify-start md:justify-end  flex-1">
+         
             <img className="float-left  md:float-right w-4/5 md:w-full px-0 object-cover "
-              src="/hermes-hero01.jpg"
+              src={`${process.env.NEXT_PUBLIC_ENV_URL}${data.contentSections[3].image.url}`}
 
               alt=""
             />
@@ -128,7 +130,7 @@ export default function Home({data}) {
           
         <div className=" flex justify-start  md:justify-start  flex-1 order-last lg:order-first">
             <img className="float-left  md:float-right w-4/5 md:w-full px-0 object-cover "
-              src="/TechnologyHome.jpg"
+              src={`${process.env.NEXT_PUBLIC_ENV_URL}${data.contentSections[5].image.url}`}
 
               alt=""
             />
@@ -162,7 +164,7 @@ export default function Home({data}) {
           </div>
           <div className=" flex justify-start md:justify-end  justify-center flex-1">
             <img className="float-left  md:float-right w-4/5 md:w-full px-0 object-cover "
-              src="/USManufacturing.jpg"
+             src={`${process.env.NEXT_PUBLIC_ENV_URL}${data.contentSections[7].image.url}`}
 
               alt=""
             />

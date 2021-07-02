@@ -7,8 +7,22 @@ import Banner from '../../comps/Banner'
 import observe_nav from '../../comps/observe_nav'
 import React, { useState, useEffect } from 'react'
 
+export async function getServerSideProps(context) {
+  // Fetch data from external API
+  const uri = "http://18.218.2.107:1337/pages/16"
+  const res = await fetch(uri)
+  let data = await res.json()
+  
+  
+  console.log(data)
+  // console.log(data.jobs[0].location)
 
-export default function Home() {
+  // Pass data to the page via props
+  return { props: { data } }
+}
+
+
+export default function Home({data}) {
   useEffect(() => {
     observe_nav()
   })
@@ -31,7 +45,7 @@ export default function Home() {
       <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
         <div className=" max-w-screen-lg pl-4 ">
           <div className="">
-          <h1 className=" text-left font-P22Underground-thp text-5xl lg:text-7xl font-bold">U.S. Manufacturing</h1>
+          <h1 className=" text-left font-P22Underground-thp text-5xl lg:text-7xl font-bold" dangerouslySetInnerHTML={{ __html: data.contentSections[0].text}}></h1>
             
               
               
@@ -55,9 +69,7 @@ export default function Home() {
             <div className="flex-1">
               
               
-              <p className="text-center">Romeo Power’s Southern California manufacturing facility is located close to port and
-intermodal transport networks for rapid delivery to your factory. Before leaving our facility,
-all modules and packs are tested according to stringent Romeo Power standards.</p>
+              <p className="text-center" dangerouslySetInnerHTML={{ __html: data.contentSections[1].List}}></p>
              
             </div>
           </div>
@@ -76,16 +88,9 @@ all modules and packs are tested according to stringent Romeo Power standards.</
                 <div className=" w-full md:w-1/2">
                   
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8 mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
-                ISO 9001 Certified Battery Pack Assembly</h2>
-                    <p className=" text-left  font-P22Underground-thin text-lg">
-                    Romeo Power’s trained technicians provide
-optimized drop-in solutions for your vehicle
-application by assembling our modules into
-custom, high-capacity battery pack
-configurations. ISO 9001 certification guarantees
-that our packs are built to meet your specific
-power needs with strict quality assurance to
-ensure long-term reliability.
+                {data.contentSections[2].SectionTitle}</h2>
+                    <p className=" text-left  font-P22Underground-thin text-lg" dangerouslySetInnerHTML={{ __html: data.contentSections[2].SectionBody}}>
+                    
                     </p>
                     
                       
@@ -93,7 +98,7 @@ ensure long-term reliability.
 
 
                 <div className="w-full md:w-1/2">
-                <img src="/Images/Manufacturing images/IS0_9001.jpg"></img>
+                <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data.contentSections[2].image.url}`}></img>
                 </div>
 
                 
@@ -109,25 +114,15 @@ ensure long-term reliability.
               <div className="flex gap-8 py-12 md:flex-row flex-col">
 
               <div className="w-full md:w-1/2 order-last md:order-first">
-                  <img src="/Images/Manufacturing images/safety-standards.jpg"></img>
+                  <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data.contentSections[3].image.url}`}></img>
                 </div>
 
                 <div className="w-full md:w-1/2 ">
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
-                Designed For Manufacturing With The Highest Safety Standards</h2>
+                {data.contentSections[3].SectionTitle}</h2>
               
-                    <p className=" text-left  font-P22Underground-thin text-lg">
-                    Romeo Power designs are inherently
-configurable for high-rate manufacturing
-on the same automated production lines.
-Multiple shift capacity easily scales to meet
-the quality and delivery requirements our
-customers’ demand. Designing safe,
-reliable and robust systems with in-depth
-battery research results in ensuring our
-customers’ standards are met or exceeded
-throughout the entire product maturity,
-development and production process.
+                    <p className=" text-left  font-P22Underground-thin text-lg" dangerouslySetInnerHTML={{ __html: data.contentSections[3].SectionBody}}>
+                   
                     </p>
                     
                       
@@ -146,16 +141,9 @@ development and production process.
                 <div className="w-full md:w-1/2">
                   
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8 mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
-                Cost Effective,  <br/>U.S. Based Production</h2>
-                    <p className=" text-left  font-P22Underground-thin text-lg">
-                    Automation of critical assembly steps, coupled
-with patented component designs enables our
-module production process to be economical,
-reliable and timely. Robotic work cells can run
-24/7 with the utmost speed and accuracy,
-allowing Romeo Power to manufacture battery
-modules with low cost and predictable
-consistency.
+                {data.contentSections[4].SectionTitle}</h2>
+                    <p className=" text-left  font-P22Underground-thin text-lg" dangerouslySetInnerHTML={{ __html: data.contentSections[4].SectionBody}}>
+                    
                     </p>
                     
                       
@@ -163,7 +151,7 @@ consistency.
 
 
                 <div className="w-full md:w-1/2">
-                  <img src="/Images/Manufacturing images/cost-effective.jpg"></img>
+                  <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data.contentSections[4].image.url}`}></img>
                 </div>
 
                 
@@ -175,26 +163,15 @@ consistency.
               <div className="flex gap-8 py-12 md:flex-row flex-col">
 
 <div className="w-full md:w-1/2 order-last md:order-first">
-    <img src="/Images/Manufacturing images/micro laser.jpg"></img>
+    <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data.contentSections[5].image.url}`}></img>
   </div>
 
   <div className="w-full md:w-1/2">
   <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
-  High Throughput Micro
-Laser Welding</h2>
+  {data.contentSections[5].SectionTitle}</h2>
 
-      <p className=" text-left  font-P22Underground-thin text-lg">
-      Speed is critical to our battery module
-manufacturing process, though it could
-not be achieved without a focus on
-accuracy. Our state-of-the-art laser
-welder combines vision-based guidance
-and precision fixturing to pinpoint an
-exact weld location on each battery cell.
-The welds connecting the cells are
-made at light speed, creating a
-repeatable, reliable and vibration-
-resistant interconnection.
+      <p className=" text-left  font-P22Underground-thin text-lg" dangerouslySetInnerHTML={{ __html: data.contentSections[5].SectionBody}}>
+      
       </p>
       
         

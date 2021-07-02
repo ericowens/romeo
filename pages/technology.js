@@ -120,7 +120,7 @@ export default function Home({data}) {
 
 
               <div className="flex-1 md:w-1/2">
-                <img src="/Image11.jpg"></img>
+                <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data.contentSections[3].image.url}`}></img>
               </div>
 
 
@@ -137,7 +137,7 @@ export default function Home({data}) {
             <div className="flex flex-col md:flex-row gap-8 px-4 py-12">
 
               <div className="flex-1 md:w-1/2">
-                <img src="/image2.jpg"></img>
+                <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data.contentSections[7].image.url}`}></img>
               </div>
 
               <div className="flex-1 md:w-1/2">
@@ -181,7 +181,7 @@ export default function Home({data}) {
 
 
               <div className="flex-1 md:w-1/2">
-                <img src="/Image33.jpg"></img>
+                <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data.contentSections[10].image.url}`}></img>
               </div>
 
 
@@ -193,7 +193,7 @@ export default function Home({data}) {
             <div className="flex flex-col md:flex-row gap-8 px-4 py-12">
 
               <div className="flex-1 md:w-1/2">
-              <img src="/Images/Manufacturing images/Reliability.jpg"></img>
+              <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data.contentSections[13].image.url}`}></img>
               </div>
 
               <div className="flex-1 md:w-1/2">
@@ -231,7 +231,7 @@ export default function Home({data}) {
 
 
               <div className="flex-1 md:w-1/2">
-              <img src="/Images/Manufacturing images/functional-testing.jpg"></img>
+              <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data.contentSections[14].image.url}`}></img>
                
               </div>
 
@@ -267,21 +267,17 @@ export default function Home({data}) {
               {data.contentSections[3].SectionTitle}</h2>
             </div>
 
-            <p className=" text-left flex-1 font-P22Underground-thin text-lg py-4">
-              At Romeo Power, we develop electromechanical architectures for maximum packaging eﬀiciency, light weighting and
-              safety from conceptualization to production.
+            <p className=" text-left flex-1 font-P22Underground-thin text-lg py-4"
+            dangerouslySetInnerHTML={{ __html: data.contentSections[16].SectionBody}}>
+             
                 </p>
 
             <p className=" text-left flex-1 font-P22Underground-book font-bold text-lg py-4">
-              Romeo Power’s Approach:
+            {data.contentSections[17].text}
                 </p>
 
-            <ul className="list-disc list-outside ">
-              <li className="font-P22Underground-thin">Proprietary electro-mechanical, thermal and structural architectures specific for diverse applications</li>
-              <li className="font-P22Underground-thin">Comprehensive material compatibility studies, including corrosion and fatigue testing</li>
-              <li className="font-P22Underground-thin">Utilization of the latest Finite Element Analysis (FEA) tools to analyze structural load path development, optimum
-material selection and joining technologies</li>
-              <li className="font-P22Underground-thin">Design engineering in a 3D environment using Catia V6 for rapid turnaround</li>
+            <ul className="list-disc list-outside " dangerouslySetInnerHTML={{ __html: data.contentSections[18].List}}>
+             
 
             </ul>
 
@@ -297,15 +293,11 @@ material selection and joining technologies</li>
           <div className="flex-1">
             <div className=" pb-4 border-accent border-b-2 ">
               <h2 className=" text-left inline-block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold pt-4 ">
-              {data.contentSections[3].SectionTitle}</h2>
+              {data.contentSections[19].SectionTitle}</h2>
             </div>
 
-            <p className=" text-left flex-1 font-P22Underground-thin text-lg py-4">
-              Romeo Power’s battery safety design is rooted in extensive research. Through rigorous testing, we gain valuable data and an in-depth
-understanding of critical battery safety designs.</p>
-            <p className=" text-left flex-1 font-P22Underground-thin text-lg py-4">
-              The result is a focused approach to management and mitigation of critical battery system failures, including thermal event mitigation through
-              intelligent venting strategies and a single cell fault tolerant system design.
+            <p className=" text-left flex-1 font-P22Underground-thin text-lg py-4" dangerouslySetInnerHTML={{ __html: data.contentSections[19].SectionBody}}>
+              
                 </p>
 
 
