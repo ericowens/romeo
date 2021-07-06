@@ -7,8 +7,26 @@ import Banner from '../../comps/Banner'
 import observe_nav from '../../comps/observe_nav'
 import React, { useState, useEffect } from 'react'
 
+export async function getServerSideProps(context) {
+  // Fetch data from external API
+  const uri = "http://18.218.2.107:1337/pages/22"
+  const res = await fetch(uri)
+  let data = await res.json()
 
-export default function Home() {
+  const uri2 = "http://18.218.2.107:1337/galleries"
+  const res2 = await fetch(uri2)
+  let data2 = await res2.json()
+  
+  
+  console.log(data2)
+  // console.log(data.jobs[0].location)
+
+  // Pass data to the page via props
+  return { props: { data, data2 } }
+}
+
+
+export default function Home({data, data2}) {
   useEffect(() => {
     observe_nav()
   })
@@ -28,7 +46,7 @@ export default function Home() {
       <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
         <div className=" max-w-screen-lg pl-4 ">
           <div className="">
-              <h1 className="  font-P22Underground-thp text-7xl font-bold">Gallery</h1>
+              <h1 className="  font-P22Underground-thp text-7xl font-bold" dangerouslySetInnerHTML={{ __html: data.contentSections[0].text}}></h1>
               
               
             </div>
@@ -48,15 +66,19 @@ export default function Home() {
           <div className=" flex-1  max-w-screen-lg px-4 ">
   
           <div className="grid grid-cols-2 md:grid-cols-4 gap-16">
-            
-            <div>
-              <img src="/hermesgal/Image2.jpg"></img>
+
+
+          {data2.map((item, index) => (  
+
+
+<div>
+<img src={`${process.env.NEXT_PUBLIC_ENV_URL}${item.image.url}`}></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
-                  <a target="_blank" href="/zips/Hermes 1.zip"><img src="/DOWNLOAD ICON.png"></img></a>
+                <a target="_blank" href={`${item.file}`}><img src="/DOWNLOAD ICON.png"></img></a>
                 </div>
                 <div className="w-2/3">
-                  <p className="uppercase text-center">Romeo Power Hermes Module View 1</p>
+                  <p className="uppercase text-center">{item.title}</p>
                   <div className="grid gap-4 grid-cols-2 justify-center">
                     <div className="md:border-r">
                       <p className="text-center">RGB</p>
@@ -74,244 +96,19 @@ export default function Home() {
                 </div>
               </section>
             </div>
+
+
+
+     
+))}
+
+
+
+
+            
+            
             
            
-           
-
-
-
-
-            <div>
-            <img src="/hermesgal/Image6.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href="/zips/Hermes 2.zip"><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase text-center">Romeo Power Hermes Module View 2</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-            
-            <div>
-              <img src="/Image8.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href="/zips/Hermes 3.zip"><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase text-center">Romeo Power Hermes Module View 3</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-
-
-
-
-            <div>
-              <img src="/hermesgal/hermes module with cells4.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href="/zips/Hermes 4.zip"><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase text-center">Romeo Power Hermes Module View 4</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-            
-            
-
-
-
-            <div>
-              <img src="/oriongal/2.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href="/zips/Orion Pac 1.zip"><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase text-center">Romeo Power Orion BEV Pack Family</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-
-
-
-
-
-
-
-
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <div>
-              <img src="/oriongal/11.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href="/zips/Orion Pac 3.zip"><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase text-center">Romeo Power Orion Pack - 3 modules</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-
-
-
-
-            <div>
-              <img src="/oriongal/3.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href="/zips/Orion Pac 2.zip"><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase text-center">Romeo Power Orion Pack - 5 modules</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-
-
-
-
-
-
-
-            <div>
-              <img src="/hermesgal/Orion pack L_view 4.jpg"></img>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href="/zips/Orion Pac 4.zip"><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase text-center">Romeo Power Orion Pack - 7-8 modules</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-
-
-
-
-
-
-
-
-
 
 
 
