@@ -91,7 +91,7 @@ universal energy a thing of the future.</p>
 
 
       <section className="flex justify-center bg-light pt-8 pb-4">
-        <div className="flex max-w-screen-lg flex-col flex-wrap flex-1 lg:flex-row m-3 space-x-0 md:space-x-4  ">
+        <div className="flex max-w-screen-lg flex-col flex-wrap flex-1 lg:flex-row m-3 space-x-0 md:space-x-4 gap-8 px-4 ">
           <div className="flex-1 flex justify-center align-center flex-col ">
             <h3 className="text-left text-darkcolor  font-P22Underground-thp text-4xl font-bold my-4  py-4 ">Products</h3>
             <p>Romeo Power oﬀers custom electrification solutions for the
@@ -122,7 +122,7 @@ universal energy a thing of the future.</p>
 
 
       <section className="flex justify-center bg-light pb-12">
-        <div className="flex max-w-screen-lg flex-col md:flex-wrap flex-wrap-reverse flex-1 lg:flex-row m-3 space-x-0 md:space-x-4 ">
+        <div className="flex max-w-screen-lg flex-col md:flex-wrap flex-wrap-reverse flex-1 lg:flex-row m-3 space-x-0 md:space-x-4 gap-8 px-4 ">
           
         <div className=" flex justify-start  md:justify-start  flex-1 order-last lg:order-first">
             <img className="float-left  md:float-right w-4/5 md:w-full px-0 object-cover "
@@ -150,7 +150,7 @@ universal energy a thing of the future.</p>
 
 
       <section className="flex justify-center bg-light pb-12">
-        <div className="flex max-w-screen-lg flex-col md:flex-wrap flex-wrap-reverse flex-1 lg:flex-row m-3 space-x-0 md:space-x-4 ">
+        <div className="flex max-w-screen-lg flex-col md:flex-wrap flex-wrap-reverse flex-1 lg:flex-row m-3 space-x-0 md:space-x-4 gap-8 px-4">
           <div className="flex-1 flex justify-center align-center flex-col">
             <h3 className="text-left text-darkcolor  font-P22Underground-thp text-4xl font-bold my-4 py-4">U.S. Manufacturing</h3>
             <p>Romeo Power’s Southern California manufacturing facility is located close to port and intermodal transport networks for 
