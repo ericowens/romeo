@@ -13,17 +13,21 @@ export async function getServerSideProps(context) {
   const uri = "http://18.218.2.107:1337/pages/17"
   const res = await fetch(uri)
   let data = await res.json()
+
+  const uri2 = "http://18.218.2.107:1337/faqs"
+  const res2 = await fetch(uri2)
+  let data2 = await res2.json()
   
   
-  console.log(data)
+  console.log(data2)
   // console.log(data.jobs[0].location)
 
   // Pass data to the page via props
-  return { props: { data } }
+  return { props: { data, data2 } }
 }
 
 
-export default function Home({data}) {
+export default function Home({data, data2}) {
   useEffect(() => {
     observe_nav()
   })
@@ -63,170 +67,21 @@ export default function Home({data}) {
           </div>
           <div className="w-full lg:w-3/5 ">
 
-            <details id="q1" className="faq    " >
-              <summary className="font-P22Underground-book  border-darkcolor  border-t flex flex-col align-center  justify-center text-lg ">
-                <p className="font-bold">What is Romeo Power’s mission and how does it influence the business on a day-to-day basis?</p>
-              </summary>
-              <div >
-                <p className="font-P22Underground-book">We are a Southern California energy technology
-                company dedicated to enabling large-scale, sustainable
-                transportation with our suite of energy-dense battery
-                packs and modules. We are motivated by a bold vision to
-                create a world where energy poverty no longer exists –
-                where all eight billion global citizens have access to
-                sustainable and aﬀordable clean energy.
-                We believe that to secure a livable, sustainable future for
-                our world, we must transition from polluting combustion
-                engines to clean battery-electric energy fast and at scale.
-                At Romeo Power, we are developing the world’s highest
-                energy dense batteries, with a focus on safety, extended
-                range and durability, for heavy-duty commercial vehicles.
-                Our team of elite engineers has made crucial
-                breakthroughs in safety standards, energy density,
-                battery management and cost-eﬀective manufacturing,
-                and we aren’t slowing down anytime soon. We are laser-
-                focused on addressing our customers’ specific pain
-                points to enable more commercial fleet managers to
-switch to battery-electric solutions.</p>
-              </div>
-            </details>
+          {data2.map((faq, index) => (  
+                <details id="q1" className="faq    " >
+                <summary className="font-P22Underground-book  border-darkcolor  border-t flex flex-col align-center  justify-center text-lg ">
+                  <p className="font-bold" dangerouslySetInnerHTML={{ __html: faq.question}}></p>
+                </summary>
+                <div >
+                  <p className="font-P22Underground-book" dangerouslySetInnerHTML={{ __html: faq.answer}}></p>
+                </div>
+                </details>
+          ))}
+
+           
             
 
-            <details id="q2" className="faq   ">
-              <summary className="font-P22Underground-book  border-darkcolor  border-t flex flex-col align-center justify-center text-lg ">
-                <p className="font-bold">What do we mean when we talk about energy
-                poverty? How does Romeo Power address
-energy poverty today?</p>
-              </summary>
-              <div >
-                <p className="font-P22Underground-book">When we talk about creating a world where energy
-                poverty no longer exists, we are referring to the global
-                imperative to transition to cleaner, more sustainable
-                energy sources in a way that is safe and aﬀordable for all.
-                Where it was once prohibitively expensive to make the
-                switch to electric alternatives, innovators like Romeo
-                Power are laser-focused on overcoming these barriers at
-scale.</p>
-                <p className="font-P22Underground-book">Today, Romeo Power is building the world’s highest
-                energy dense battery systems, with a focus on safety,
-                extended range and durability, for heavy-duty
-commercial vehicles.</p>
-              </div>
-            </details>
-
-
-
-
-
-            <details id="q3" className="faq   ">
-              <summary className="font-P22Underground-book  border-darkcolor  border-t flex flex-col align-center justify-center text-lg ">
-                <p className="font-bold ">What does Romeo Power manufacture?</p>
-              </summary>
-              <div >
-                <p className="font-P22Underground-book">We manufacture battery modules, packs and battery
-                management systems (BMS) for the commercial EV
-                market and other high-performance EVs that require the
-                highest energy dense solutions. Our end-to-end
-                engineering capabilities include cell science, mechanical,
-                thermal, electrical, firmware systems and stress.
-                Our balanced, modular and integrated design provides
-                superior range and power, at an eﬀective cost. When it
-                comes to battery technology, the greater the energy
-                density and power density, the longer the range and the
-                better the acceleration. Our battery systems provide
-                both, resulting in eﬀicient packs without sacrificing
-space.</p>
-              </div>
-            </details>
-
-
-
-
-
-
-            <details id="q4" className="faq   ">
-              <summary className="font-P22Underground-book  border-darkcolor  border-t flex flex-col align-center  justify-center text-lg ">
-                <p className="font-bold">Where does Romeo Power fit within the
-                battery market and commercial EV value
-chain overall?</p>
-              </summary>
-              <div >
-                <p className="font-P22Underground-book">Romeo Power is at the heart of the EV battery market.
-                Our industry-leading energy density and cell agnostic
-                approach enable us to collaborate with the other leading
-                industry players and vehicle manufacturers to drive
-                innovation at a rapid pace. After our technology
-                undergoes rigorous safety and reliability testing, we
-                manufacture the battery packs and battery management
-                systems that directly power vehicles for OEMs in North
-America and Europe.</p>
-              </div>
-            </details>
-
-
-
-
-
-
-            <details id="q5" className="faq   ">
-              <summary className="font-P22Underground-book  border-darkcolor  border-t flex flex-col align-center  justify-center text-lg ">
-                <p className="font-bold">What types of companies does Romeo Power
-                look to partner and work with? Does Romeo
-                Power look to partner with companies outside
-of the EV industry?</p>
-              </summary>
-              <div >
-                <p className="font-P22Underground-book">Romeo Power focuses on two key markets in mobility
-                energy technology. First, the North American commercial
-                vehicle market. Second, European high-performance
-                vehicles in addition to light-, medium- and heavy-duty
-commercial vehicles.</p>
-                <p className="font-P22Underground-book">As we continue to collaborate and expand our ability to
-                serve our customers, we are committed to partnering
-                with organizations that share our vision and goal of an
-                electrified future and an end to energy poverty. We will
-                also look to work with organizations that prioritize safety,
-                durability and responsible recycling in alignment with
-our corporate mission.</p>
-                <p className="font-P22Underground-book">Romeo Power’s technology also naturally lends itself to
-                numerous applications in industries with increasingly
-                diﬀicult applications, including the mining, agriculture,
-marine and aerospace industries.</p>
-
-              </div>
-            </details>
-
-
-
-
-
-
-            <details id="q6" className="faq  ">
-              <summary className="font-P22Underground-book  border-darkcolor  border-t flex flex-col align-center  justify-center text-lg ">
-                <p className="font-bold">What does Romeo Power’s logo represent?</p>
-              </summary>
-              <div >
-                <p className="font-P22Underground-book">Romeo Power’s logo is a celebration of a current as it
-                flows towards the possibility of a be er future for all.
-                Romeo Power is moving in one direction - forward. We
-                direct our energy towards achieving our objectives as one
-                strong, cohesive unit. And this includes our customers.
-                Just as the current flows in a continuous circle, the circle
-                in our logo mirrors the unceasing flow of our passion and
-                determination to create a zero-emissions future, in a
-                world in which access to energy is universal.
-                The Romeo Power logo is inspired by the center of a
-                tree’s wood core, called Heartwood. It is the
-                fundamental supporting pillar of the tree and it never
-                decays or loses strength. In many ways, it’s as strong as
-                steel and this feat of nature aligns perfectly with Romeo
-                Power’s internal values. Not only does the Romeo Power
-                logo visually represent the natural pattern of Heartwood,
-                itself akin to the design of a battery cell, but it represents
-Romeo Power’s positioning as the core of electrification.</p>
-              </div>
-            </details>
-
+            
 
 
 
