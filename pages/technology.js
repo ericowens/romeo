@@ -264,7 +264,7 @@ export default function Home({data}) {
           <div className="flex-1">
             <div className=" pb-4 border-accent border-b-2 ">
               <h2 className="text-left inline-block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold pt-4 ">
-              {data.contentSections[3].SectionTitle}</h2>
+              {data.contentSections[16].SectionTitle}</h2>
             </div>
 
             <p className=" text-left flex-1 font-P22Underground-thin text-lg py-4"

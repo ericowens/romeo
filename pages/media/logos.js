@@ -79,7 +79,7 @@ export default function Home({data, data2}) {
                    </div>
                    <div className="w-2/3">
                      <p className="uppercase text-center">{item.title}</p>
-                     <div className="grid gap-4 grid-cols-2 justify-center">
+                     {/* <div className="grid gap-4 grid-cols-2 justify-center">
                        <div className="md:border-r">
                          <p className="text-center">RGB</p>
                        </div>
@@ -92,7 +92,7 @@ export default function Home({data, data2}) {
                        <div>
                          <p className="text-center">TIFF</p>
                          </div>
-                     </div>
+                     </div> */}
                    </div>
                  </section>
                </div>
