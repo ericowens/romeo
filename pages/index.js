@@ -12,12 +12,12 @@ import { Remarkable } from 'remarkable';
 
 export async function getServerSideProps(context) {
   // Fetch data from external API
-  const uri = `${process.env.NEXT_PUBLIC_ENV_URL}/pages/9`
+  const uri = `http://52.9.244.203:1337/pages/9`
   const res = await fetch(uri)
   let data = await res.json()
   
   
-  // console.log(data)
+  console.log(data)
   // console.log(data.jobs[0].location)
 
   // Pass data to the page via props
