@@ -10,12 +10,12 @@ import React, { useState, useEffect } from 'react'
 
 export async function getServerSideProps(context) {
   // Fetch data from external API
-  const uri = "http://18.218.2.107:1337/pages/14"
+  const uri = `${process.env.NEXT_PUBLIC_ENV_URL}/pages/14`
   const res = await fetch(uri)
   let data = await res.json()
   
   
-  console.log(data)
+  // console.log(data)
   // console.log(data.jobs[0].location)
 
   // Pass data to the page via props

@@ -10,12 +10,12 @@ import React, { useState, useEffect } from 'react'
 
 export async function getServerSideProps(context) {
   // Fetch data from external API
-  const uri = "http://18.218.2.107:1337/pages/13"
+  const uri = `${process.env.NEXT_PUBLIC_ENV_URL}/pages/13`
   const res = await fetch(uri)
   let data = await res.json()
   
   
-  console.log(data)
+  // console.log(data)
   // console.log(data.jobs[0].location)
 
   // Pass data to the page via props
@@ -120,7 +120,7 @@ export default function Home({data}) {
 
 
               <div className="flex-1 md:w-1/2">
-                <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data.contentSections[3].image.url}`}></img>
+                <img src={`${data.contentSections[3].image.url}`}></img>
               </div>
 
 
@@ -137,7 +137,7 @@ export default function Home({data}) {
             <div className="flex flex-col md:flex-row gap-8 px-4 py-12">
 
               <div className="flex-1 md:w-1/2">
-                <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data.contentSections[7].image.url}`}></img>
+                <img src={`${data.contentSections[7].image.url}`}></img>
               </div>
 
               <div className="flex-1 md:w-1/2">
@@ -181,7 +181,7 @@ export default function Home({data}) {
 
 
               <div className="flex-1 md:w-1/2">
-                <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data.contentSections[10].image.url}`}></img>
+                <img src={`${data.contentSections[10].image.url}`}></img>
               </div>
 
 
@@ -193,7 +193,7 @@ export default function Home({data}) {
             <div className="flex flex-col md:flex-row gap-8 px-4 py-12">
 
               <div className="flex-1 md:w-1/2">
-              <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data.contentSections[13].image.url}`}></img>
+              <img src={`${data.contentSections[13].image.url}`}></img>
               </div>
 
               <div className="flex-1 md:w-1/2">
@@ -231,7 +231,7 @@ export default function Home({data}) {
 
 
               <div className="flex-1 md:w-1/2">
-              <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data.contentSections[14].image.url}`}></img>
+              <img src={`${data.contentSections[14].image.url}`}></img>
                
               </div>
 

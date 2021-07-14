@@ -10,16 +10,16 @@ import React, { useState, useEffect } from 'react'
 
 export async function getServerSideProps(context) {
   // Fetch data from external API
-  const uri = "http://18.218.2.107:1337/pages/15"
+  const uri = `${process.env.NEXT_PUBLIC_ENV_URL}/pages/15`
   const res = await fetch(uri)
   let data = await res.json()
 
-  const uri2 = "http://18.218.2.107:1337/leaders"
+  const uri2 = `${process.env.NEXT_PUBLIC_ENV_URL}/leaders`
   const res2 = await fetch(uri2)
   let data2 = await res2.json()
   
   
-  console.log(data2)
+  // console.log(data2)
   // console.log(data.jobs[0].location)
 
   // Pass data to the page via props
@@ -87,7 +87,7 @@ export default function Home({data, data2}) {
         <div className="flex md:flex-row sm:flex-col max-w-screen-xl justify-evenly  px-4 flex-wrap flex-1">
 
           <div className=" flex items-end justify-end md:w-2/5 w-full order-last md:order-first">
-            <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data2[0].pic.url}`}></img>
+            <img src={`${data2[0].pic.url}`}></img>
           </div>
 
           <div className="flex flex-col w-full md:w-3/5 pb-8">
@@ -137,7 +137,7 @@ export default function Home({data, data2}) {
           </div>
 
           <div className=" flex items-end justify-end md:w-2/5 w-full">
-          <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data2[1].pic.url}`}></img>
+          <img src={`${data2[1].pic.url}`}></img>
           </div>
 
         </div>
@@ -149,7 +149,7 @@ export default function Home({data, data2}) {
         <div className="flex max-w-screen-lg justify-evenly   px-4 flex-wrap flex-1 md:flex-row sm:flex-col">
 
           <div className=" flex items-end justify-end md:w-2/5 w-full order-last md:order-first">
-          <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data2[2].pic.url}`}></img>
+          <img src={`${data2[2].pic.url}`}></img>
           </div>
 
           <div className="flex flex-col w-full md:w-3/5 pb-8">
@@ -199,7 +199,7 @@ export default function Home({data, data2}) {
           </div>
 
           <div className=" flex items-end justify-end md:w-2/5 w-full">
-          <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data2[3].pic.url}`}></img>
+          <img src={`${data2[3].pic.url}`}></img>
           </div>
 
         </div>

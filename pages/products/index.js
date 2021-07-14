@@ -11,7 +11,7 @@ import React, { useState, useEffect } from 'react'
 
 export async function getServerSideProps(context) {
   // Fetch data from external API
-  const uri = "http://18.218.2.107:1337/pages/10"
+  const uri = `${process.env.NEXT_PUBLIC_ENV_URL}/pages/10"
   const res = await fetch(uri)
   let data = await res.json()
   

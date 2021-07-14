@@ -9,12 +9,12 @@ import React, { useState, useEffect } from 'react'
 
 export async function getServerSideProps(context) {
   // Fetch data from external API
-  const uri = "http://18.218.2.107:1337/pages/16"
+  const uri = `${process.env.NEXT_PUBLIC_ENV_URL}/pages/16`
   const res = await fetch(uri)
   let data = await res.json()
   
   
-  console.log(data)
+  // console.log(data)
   // console.log(data.jobs[0].location)
 
   // Pass data to the page via props
@@ -98,7 +98,7 @@ export default function Home({data}) {
 
 
                 <div className="w-full md:w-1/2">
-                <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data.contentSections[2].image.url}`}></img>
+                <img src={`${data.contentSections[2].image.url}`}></img>
                 </div>
 
                 
@@ -114,7 +114,7 @@ export default function Home({data}) {
               <div className="flex gap-8 py-12 md:flex-row flex-col">
 
               <div className="w-full md:w-1/2 order-last md:order-first">
-                  <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data.contentSections[3].image.url}`}></img>
+                  <img src={`${data.contentSections[3].image.url}`}></img>
                 </div>
 
                 <div className="w-full md:w-1/2 ">
@@ -151,7 +151,7 @@ export default function Home({data}) {
 
 
                 <div className="w-full md:w-1/2">
-                  <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data.contentSections[4].image.url}`}></img>
+                  <img src={`${data.contentSections[4].image.url}`}></img>
                 </div>
 
                 
@@ -163,7 +163,7 @@ export default function Home({data}) {
               <div className="flex gap-8 py-12 md:flex-row flex-col">
 
 <div className="w-full md:w-1/2 order-last md:order-first">
-    <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data.contentSections[5].image.url}`}></img>
+    <img src={`${data.contentSections[5].image.url}`}></img>
   </div>
 
   <div className="w-full md:w-1/2">

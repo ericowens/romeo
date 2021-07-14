@@ -22,7 +22,7 @@ export async function getServerSideProps(context) {
   // console.log(data.jobs[0].location)
 
    // Fetch data from external API
-   const uri2 = "http://18.218.2.107:1337/pages/19"
+   const uri2 = `${process.env.NEXT_PUBLIC_ENV_URL}/pages/19`
    const res2 = await fetch(uri2)
    let data2 = await res2.json()
 
@@ -147,7 +147,7 @@ export async function getServerSideProps(context) {
         <div className=" border-t-2 flex-1 flex justify-center align-center content-center gap-8 max-w-screen-lg  flex-col md:flex-row  ">
 
           <div className="w-full md:w-1/3 bg-white p-10 flex flex-col justify-evenly">
-            <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data2.contentSections[2].image.url}`}></img>
+            <img src={`${data2.contentSections[2].image.url}`}></img>
             <h2 className="  text-left  inline-block     font-P22Underground-thp text-2xl font-bold pt-4 ">
             {data2.contentSections[2].SectionTitle}</h2>
 
@@ -166,7 +166,7 @@ export async function getServerSideProps(context) {
           </div>
 
           <div className="w-full md:w-1/3 bg-white p-10 flex flex-col justify-evenly content-end ">
-          <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data2.contentSections[3].image.url}`}></img>
+          <img src={`${data2.contentSections[3].image.url}`}></img>
             <h2 className="  text-left  inline-block     font-P22Underground-thp text-2xl font-bold pt-4 ">
             {data2.contentSections[3].SectionTitle}</h2>
 
@@ -184,7 +184,7 @@ export async function getServerSideProps(context) {
           </div>
 
           <div className="w-full md:w-1/3 bg-white p-10 flex flex-col justify-evenly">
-          <img src={`${process.env.NEXT_PUBLIC_ENV_URL}${data2.contentSections[4].image.url}`}></img>
+          <img src={`${data2.contentSections[4].image.url}`}></img>
             <h2 className="  text-left  inline-block     font-P22Underground-thp text-2xl font-bold pt-4 ">
             {data2.contentSections[4].SectionTitle}</h2>
 

@@ -9,16 +9,16 @@ import React, { useState, useEffect } from 'react'
 
 export async function getServerSideProps(context) {
   // Fetch data from external API
-  const uri = "http://18.218.2.107:1337/pages/22"
+  const uri = `${process.env.NEXT_PUBLIC_ENV_URL}/pages/22`
   const res = await fetch(uri)
   let data = await res.json()
 
-  const uri2 = "http://18.218.2.107:1337/galleries"
+  const uri2 = `${process.env.NEXT_PUBLIC_ENV_URL}/galleries`
   const res2 = await fetch(uri2)
   let data2 = await res2.json()
   
   
-  console.log(data2)
+  // console.log(data2)
   // console.log(data.jobs[0].location)
 
   // Pass data to the page via props
@@ -72,7 +72,7 @@ export default function Home({data, data2}) {
 
 
 <div>
-<img src={`${process.env.NEXT_PUBLIC_ENV_URL}${item.image.url}`}></img>
+<img src={`${item.image.url}`}></img>
               <section className="flex gap-4 py-4">
                 <div className="w-1/3">
                 <a target="_blank" href={`${item.file}`}><img src="/DOWNLOAD ICON.png"></img></a>
