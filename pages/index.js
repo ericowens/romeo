@@ -17,7 +17,7 @@ export async function getServerSideProps(context) {
   let data = await res.json()
 
 
-  console.log(data)
+  // console.log(data)
   // console.log(data.jobs[0].location)
 
   // Pass data to the page via props
@@ -115,7 +115,7 @@ export default function Home({ data }) {
                 {data.contentSections[3].SectionTitle}</h2>
                 <p dangerouslySetInnerHTML={{ __html: data.contentSections[3].SectionBody }}></p>
                 <div className="flex"><Link href={`${data.contentSections[4].url}`} >
-                  <button className="bg-accent  float-left py-4 px-14 my-10 text-white">{data.contentSections[4].text}</button>
+                  <button className="bg-accent  float-left py-4 px-14 mt-4 text-white">{data.contentSections[4].text}</button>
                 </Link> </div>
               </div>
 
@@ -146,7 +146,7 @@ export default function Home({ data }) {
                 {data.contentSections[5].SectionTitle}</h2>
                 <p dangerouslySetInnerHTML={{ __html: data.contentSections[5].SectionBody }}></p>
                 <div className="flex"><Link href={`${data.contentSections[6].url}`} >
-                  <button className="bg-accent  float-left py-4 px-14 my-10 text-white">{data.contentSections[6].text}</button>
+                  <button className="bg-accent  float-left py-4 px-14 mt-4 text-white">{data.contentSections[6].text}</button>
                 </Link>  </div>
               </div>
 
@@ -167,7 +167,7 @@ export default function Home({ data }) {
                 {data.contentSections[7].SectionTitle}</h2>
             <p dangerouslySetInnerHTML={{ __html: data.contentSections[7].SectionBody }}></p>
             <div className="flex"><Link href={`${data.contentSections[8].url}`} >
-              <button className="bg-accent  float-left py-4 px-14 my-10 text-white">{data.contentSections[8].text}</button>
+              <button className="bg-accent  float-left py-4 px-14 mt-4 text-white">{data.contentSections[8].text}</button>
             </Link>  </div>
               </div>
 
