@@ -18,6 +18,9 @@ export async function getServerSideProps(context) {
   const res2 = await fetch(uri2)
   let data2 = await res2.json()
   
+  data2.sort(function(a, b) {
+    return a.order - b.order;
+  });
   
   // console.log(data2)
   // console.log(data.jobs[0].location)
