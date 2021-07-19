@@ -48,14 +48,14 @@ const Formarea = () => {
             
                   <div className="flex space-x-20">
                     <div className="w-1/2">
-                      <input  name="fname" className="sm:w-full my-4 p-4 "   type="text" placeholder="First Name"  required></input>
-                      <input  name="email" className="sm:w-full my-4 p-4"   type="email" placeholder="Email"   required></input>
-                      <input  name="company" className="sm:w-full my-4 p-4"   type="text" placeholder="Company" required ></input>
+                      <input  name="fname" className="sm:w-full my-4 p-4 "   type="text" placeholder="First Name *"  required></input>
+                      <input  name="email" className="sm:w-full my-4 p-4"   type="email" placeholder="Email *"   required></input>
+                      <input  name="company" className="sm:w-full my-4 p-4"   type="text" placeholder="Company *" required ></input>
                       </div>
                       <div className="w-1/2">
-                      <input  name="lname" className="sm:w-full my-4 p-4"   type="text" placeholder="Last Name" required></input>
+                      <input  name="lname" className="sm:w-full my-4 p-4"   type="text" placeholder="Last Name *" required></input>
                       <input  name="phone" className="sm:w-full my-4 p-4"   type="text" placeholder="Phone"></input>
-                      <input  name="title" className="sm:w-full my-4 p-4"   type="text" placeholder="Title" required></input>
+                      <input  name="title" className="sm:w-full my-4 p-4"   type="text" placeholder="Title *" required></input>
                       </div>
                   </div>
                   <div className="flex space-x-20">

@@ -82,7 +82,7 @@ export default function Home({data}) {
       </section>
 
 
-      <section className="flex justify-center bg-white py-16">
+      <section className="flex justify-center bg-white py-2">
         <div className="flex max-w-screen-lg  flex-wrap flex-1">
           <div className="flex-1">
 
