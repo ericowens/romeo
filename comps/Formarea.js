@@ -60,8 +60,8 @@ const Formarea = () => {
                   </div>
                   <div className="flex space-x-20">
                     <div className="flex-1 w-full">
-                    <textarea  name="comment" className="my-4 p-4 form-textarea mt-1 block w-full" rows="3" 
-                    placeholder="Please tell us about the types of applications, projected volume over time, and any other details about how you're looking to use our innovative packs."></textarea>
+                    <textarea  name="comment" className="my-4 p-4 form-textarea mt-1 block w-full" rows="3" required
+                    placeholder="Please tell us about the types of applications, projected volume over time, and any other details about how you're looking to use our innovative packs. *"></textarea>
                       </div>
                   </div>
                 

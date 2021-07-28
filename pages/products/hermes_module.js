@@ -121,17 +121,17 @@ export default function Home({data}) {
               </ul>
               <div className="flex flex-col md:flex-row gap-16 md:gap-2 justify-around py-8">
                 <div className=" flex gap-4 flex-col items-center">
-                  <div><img src="/batteryicon.png"></img> </div> 
+                  <div><img src="/svg/Battery.svg"></img> </div> 
                   <h2 className="text-4xl font-P22Underground-book">10kWh</h2>
                   <p>Total Energy Capacity</p>          
                 </div>
                 <div className="flex gap-4 flex-col items-center">
-                <div><img src="/batteryicon.png"></img> </div> 
+                <div><img src="/svg/Battery.svg"></img> </div> 
                   <h2 className="text-4xl font-P22Underground-book">208 Wh/kg</h2>
                   <p>Energy Density</p>           
                 </div>
                 <div className="flex gap-4 flex-col items-center">
-                <div><img src="/batteryicon.png"></img> </div> 
+                <div><img src="/svg/Battery.svg"></img> </div> 
                   <h2 className="text-4xl font-P22Underground-book">60%</h2>
                   <p className="text-center">Charge capacity in less<br></br>
 than 30 minutes</p>             

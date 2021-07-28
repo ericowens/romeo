@@ -143,7 +143,7 @@ export default function Home({data, data2}) {
                   <p className="font-bold text-white pl-4" dangerouslySetInnerHTML={{ __html: career.section}}></p>
                 </summary>
                 <div >
-                  <p className="font-P22Underground-book text-lg p-4" dangerouslySetInnerHTML={{ __html: career.description}}></p>
+                  <div className="font-P22Underground-book text-lg p-4" dangerouslySetInnerHTML={{ __html: career.description}}></div>
                 </div>
                 </details>
           ))}

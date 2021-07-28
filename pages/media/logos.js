@@ -77,7 +77,7 @@ export default function Home({data, data2}) {
                  </div>
                  <section className="flex gap-4 py-4">
                    <div className="w-1/3">
-                      <a target="_blank" href={`${item.file}`}><img src="/DOWNLOAD ICON.png"></img></a>
+                      <a target="_blank" href={`${item.file}`}><img src="/svg/Download.svg"></img></a>
                    </div>
                    <div className="w-2/3">
                      <p className="uppercase text-center">{item.title}</p>
