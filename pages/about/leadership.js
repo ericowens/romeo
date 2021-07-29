@@ -188,7 +188,7 @@ export default function Home({data, data2}) {
             <p className="text-left text-sm pt-8 leading-normal" dangerouslySetInnerHTML={{ __html: data2[4].bio}}></p>
 
             <ul className="flex-1 flex justify-start content-start items-end social gap-4 pt-6">
-            <li className=""><a target="_blank" href={`${data2[3].linkedin}`}>
+            <li className=""><a target="_blank" href={`${data2[4].linkedin}`}>
                 <img src="/social/Linkedin.svg"></img></a></li>
 
               <li className="hidden"><img src="/twitter.png"></img></li>
