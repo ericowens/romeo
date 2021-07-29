@@ -8,7 +8,22 @@ import observe_nav from '../../comps/observe_nav'
 import React, { useState, useEffect } from 'react'
 
 
-export default function Home() {
+export async function getServerSideProps(context) {
+  // Fetch data from external API
+  const uri = `${process.env.NEXT_PUBLIC_ENV_URL}/pages/14`
+  const res = await fetch(uri)
+  let data = await res.json()
+  
+  
+  // console.log(data)
+  // console.log(data.jobs[0].location)
+
+  // Pass data to the page via props
+  return { props: { data } }
+}
+
+
+export default function Home({data}) {
   useEffect(() => {
     observe_nav()
   })
@@ -28,7 +43,7 @@ export default function Home() {
       <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
         <div className=" max-w-screen-lg  pl-4">
           <div className="">
-              <h1 className="  font-P22Underground-thp text-7xl font-bold">Our Story</h1>
+              <h1 className="  font-P22Underground-thp text-7xl font-bold" dangerouslySetInnerHTML={{ __html: data.contentSections[0].text}}></h1>
               
             </div>
         </div>
@@ -52,15 +67,7 @@ export default function Home() {
               
               
 
-<p className="text-left pb-4">Romeo Power is on a mission to power the world’s transition to electrification.
-</p>
-<p className="text-left pb-4">Romeo Power was founded in 2016 by a team of former Tesla and SpaceX engineers with a vision to create an electrified world where all have access to clean energy. Since then, we’ve laser-focused our collective engineering, entrepreneurial and networking skills to push high-density battery technology to its peak, to serve a market with a need for cleaner energy solutions now, and at scale: heavy-duty commercial vehicle fleets.
-</p>
-<p className="text-left pb-4">We’ve come a long way in understanding our customers’ exact pain points and identifying the best approach to solve them.
-</p>
-<p className="text-left pb-4">As a pioneer in battery-powered energy, we’re delivering advanced electrification solutions to some of the most complex commercial vehicle applications. Our suite of advanced hardware, combined with our innovative battery management systems, delivers the safety, performance, reliability and configurability our customers demand for success. We’re determined to create real change in energy sourcing and electrification, enabling access to clean energy for all.
-</p>
-<p className="text-left pb-4">Together, we are Romeo Power. This is our bold vision to create an electrically powered world.
+<p className="text-left pb-4" dangerouslySetInnerHTML={{ __html: data.contentSections[1].List}}>
 </p>
              
             </div>
@@ -73,7 +80,7 @@ export default function Home() {
         <div className=" flex-1 flex justify-center align-center content-center  px-4 flex-col max-w-screen-lg   ">
           
             <h2 className=" text-left   flex-1   font-P22Underground-thp text-4xl font-bold pb-8 ">
-            Timeline
+            {data.contentSections[2].text}
               </h2>
               
 

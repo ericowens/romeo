@@ -60,11 +60,11 @@ const Banner = () => {
         <form className="flex-1  flex-grow flex flex-col" id="subscribe" onSubmit={formsubmit}>
           
           <input  name="fname" required
-          className=" "   type="text" placeholder="First Name"></input>
+          className=" "   type="text" placeholder="First Name *"></input>
            <input  name="lname" required
-          className=" "   type="text" placeholder="Last Name"></input>
+          className=" "   type="text" placeholder="Last Name *"></input>
           <input  name="email" required
-          className=" "   type="email" placeholder="Email"></input>
+          className=" "   type="email" placeholder="Email *"></input>
 
         <div className="flex"><button type="submit" className="bg-accent  float-left py-4 px-14 my-2 text-white">Submit</button>  </div>
         </form>

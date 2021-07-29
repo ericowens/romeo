@@ -6,11 +6,29 @@ import Footer from '../comps/Footer'
 import Banner from '../comps/Banner'
 import observe_nav from '../comps/observe_nav'
 import React, { useState, useEffect } from 'react'
+import { Remarkable } from 'remarkable';
 
-export default function Home() {
+
+
+export async function getServerSideProps(context) {
+  // Fetch data from external API
+  const uri = `${process.env.NEXT_PUBLIC_ENV_URL}/pages/9`
+  const res = await fetch(uri)
+  let data = await res.json()
+
+
+  // console.log(data)
+  // console.log(data.jobs[0].location)
+
+  // Pass data to the page via props
+  return { props: { data } }
+}
+
+export default function Home({ data }) {
   useEffect(() => {
     observe_nav()
   })
+  var md = new Remarkable();
 
   return (
     <div>
@@ -32,10 +50,9 @@ export default function Home() {
           <div className="img-slider flex-1 flex">
 
             <div id="slide0" className="slide active flex-1 flex flex-col justify-center align-center content-center items-start pl-8 md:pl-16 pr-2">
-              <h1 className=" text-left font-P22Underground-thp text-4xl md:text-6xl font-bold">Powering The World’s<br />
-              Transition To Electrification</h1>
-              <Link href="/contact">
-                <button className="bg-accent  float-left py-4 px-10 my-10">Contact</button>
+              <h1 className=" text-left font-P22Underground-thp text-4xl md:text-6xl font-bold" dangerouslySetInnerHTML={{ __html: data.contentSections[0].text }}></h1>
+              <Link href={`${data.contentSections[1].url}`} >
+                <button className="bg-accent  float-left py-4 px-10 my-10">{data.contentSections[1].text}</button>
               </Link>
             </div>
 
@@ -71,18 +88,100 @@ export default function Home() {
             <div className="text-left text-darkcolor inline-block border-darkcolor border-b-2">
               <h2 className="border-darkcolor border-b text-left inline-block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold py-4 ">
 
-                Power inspired by nature</h2>
+                {data.contentSections[2].SectionTitle} </h2>
             </div>
-            <p className="text-lg leading-normal my-4">For far too long, we’ve taken from nature without replenishing. Now, here we are. We see
-and feel the eﬀects and it’s time for real change.</p>
-            <p className="text-lg leading-normal my-4">At Romeo Power, we’re not just in the business of delivering electrification solutions for
-            complex commercial vehicle applications. We want to change the way people live. We
-have a bold vision to create a world where energy poverty no longer exists.</p>
-            <p className="text-lg leading-normal my-4">Curiosity is key to achieving our goal. It spurs innovation. It empowers us to find new
-            ways to approach seemingly unyielding challenges. We embrace the tough questions
-            because they’re necessary to drive transformation. We have an opportunity to make
-universal energy a thing of the future.</p>
-            <p className="text-lg leading-normal my-4 font-bold"> And the future is now.</p>
+            <p className="text-lg leading-normal my-4" dangerouslySetInnerHTML={{ __html: data.contentSections[2].SectionBody }}></p>
+
+          </div>
+        </div>
+      </section>
+
+
+
+      <section className="flex justify-center bg-white py-2">
+        <div className="flex max-w-screen-lg  flex-wrap flex-1">
+          <div className="flex-1">
+
+
+
+
+            <div className="flex flex-col md:flex-row gap-8 px-4 py-12">
+
+
+
+              <div className="flex-1 md:w-1/2">
+
+              <h2 className="border-accent border-b-2 text-left block  text-darkcolor pr-8  mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
+                {data.contentSections[3].SectionTitle}</h2>
+                <p dangerouslySetInnerHTML={{ __html: data.contentSections[3].SectionBody }}></p>
+                <div className="flex"><Link href={`${data.contentSections[4].url}`} >
+                  <button className="bg-accent  float-left py-4 px-14 mt-4 text-white">{data.contentSections[4].text}</button>
+                </Link> </div>
+              </div>
+
+
+              <div className="flex-1 md:w-1/2">
+                <img src={`${data.contentSections[3].image.url}`}></img>
+              </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+            <div className="flex flex-col md:flex-row gap-8 px-4 py-12">
+
+              <div className="flex-1 md:w-1/2">
+                <img src={`${data.contentSections[5].image.url}`}></img>
+              </div>
+
+              <div className="flex-1 md:w-1/2">
+              <h2 className="border-accent border-b-2 text-left block text-darkcolor pr-8  mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
+                {data.contentSections[5].SectionTitle}</h2>
+                <p dangerouslySetInnerHTML={{ __html: data.contentSections[5].SectionBody }}></p>
+                <div className="flex"><Link href={`${data.contentSections[6].url}`} >
+                  <button className="bg-accent  float-left py-4 px-14 mt-4 text-white">{data.contentSections[6].text}</button>
+                </Link>  </div>
+              </div>
+
+
+
+            </div>
+
+
+
+
+            <div className="flex flex-col md:flex-row gap-8 px-4 py-12">
+
+
+
+              <div className="flex-1 md:w-1/2">
+
+              <h2 className="border-accent border-b-2 text-left block text-darkcolor pr-8  mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
+                {data.contentSections[7].SectionTitle}</h2>
+            <p dangerouslySetInnerHTML={{ __html: data.contentSections[7].SectionBody }}></p>
+            <div className="flex"><Link href={`${data.contentSections[8].url}`} >
+              <button className="bg-accent  float-left py-4 px-14 mt-4 text-white">{data.contentSections[8].text}</button>
+            </Link>  </div>
+              </div>
+
+
+              <div className="flex-1 md:w-1/2">
+                <img src={`${data.contentSections[7].image.url}`}></img>
+              </div>
+
+
+
+            </div>
+
+
+
           </div>
         </div>
       </section>
@@ -90,83 +189,13 @@ universal energy a thing of the future.</p>
 
 
 
-      <section className="flex justify-center bg-light pt-8 pb-4">
-        <div className="flex max-w-screen-lg flex-col flex-wrap flex-1 lg:flex-row m-3 space-x-0 md:space-x-4 gap-8 px-4 ">
-          <div className="flex-1 flex justify-center align-center flex-col ">
-            <h3 className="text-left text-darkcolor  font-P22Underground-thp text-4xl font-bold my-4  py-4 ">Products</h3>
-            <p>Romeo Power oﬀers custom electrification solutions for the
-            commercial vehicle industry spanning from Class 3 delivery
-            vehicles to the largest, long-haul Class 8 vehicles. With high
-            packaging eﬀiciency, high energy density and a structurally
-            integrated cooling system, Romeo Power’s modular battery
-            systems have multiple safety features and are designed to
-              tolerate thermal event faults at a single cell level.</p>
-            <div className="flex"><Link href="/products">
-              <button className="bg-accent  float-left py-4 px-14 my-10 text-white">Learn More</button>
-            </Link> </div>
-
-          </div>
-          <div className="flex justify-start md:justify-end  flex-1">
-            <img className="float-left  md:float-right w-4/5 md:w-full px-0 object-cover "
-              src="/hermes-hero01.jpg"
-
-              alt=""
-            />
-          </div>
-        </div>
-      </section>
 
 
 
 
 
 
-      <section className="flex justify-center bg-light pb-12">
-        <div className="flex max-w-screen-lg flex-col md:flex-wrap flex-wrap-reverse flex-1 lg:flex-row m-3 space-x-0 md:space-x-4 gap-8 px-4 ">
-          
-        <div className=" flex justify-start  md:justify-start  flex-1 order-last lg:order-first">
-            <img className="float-left  md:float-right w-4/5 md:w-full px-0 object-cover "
-              src="/TechnologyHome.jpg"
 
-              alt=""
-            />
-          </div>
-
-          <div className="flex-1 flex justify-center align-center flex-col ">
-            <h3 className="text-left text-darkcolor  font-P22Underground-thp text-4xl font-bold my-4 py-4">Technology</h3>
-            <p>Romeo Power delivers balanced, modular and integrated design with superior capacity and power, while 
-              lowering the total cost of ownership. When it comes to battery technology, the greater the energy 
-              density and power density, the longer the range and the better the acceleration. Our battery systems 
-              provide both, resulting in efficient packs without sacrificing space.</p>
-            <div className="flex"><Link href="/technology"><button className="bg-accent  float-left py-4 px-14 my-10 text-white">Learn More</button></Link>  </div>
-
-          </div>
-          
-        </div>
-      </section>
-
-
-
-
-
-      <section className="flex justify-center bg-light pb-12">
-        <div className="flex max-w-screen-lg flex-col md:flex-wrap flex-wrap-reverse flex-1 lg:flex-row m-3 space-x-0 md:space-x-4 gap-8 px-4">
-          <div className="flex-1 flex justify-center align-center flex-col">
-            <h3 className="text-left text-darkcolor  font-P22Underground-thp text-4xl font-bold my-4 py-4">U.S. Manufacturing</h3>
-            <p>Romeo Power’s Southern California manufacturing facility is located close to port and intermodal transport networks for 
-              rapid delivery to your factory. Before               leaving our facility, all modules and packs are tested according to stringent Romeo Power standards.</p>
-            <div className="flex"><Link href="/about/us_manufacturing"><button className="bg-accent  float-left py-4 px-14 my-10 text-white">Learn More</button></Link>  </div>
-
-          </div>
-          <div className=" flex justify-start md:justify-end  justify-center flex-1">
-            <img className="float-left  md:float-right w-4/5 md:w-full px-0 object-cover "
-              src="/USManufacturing.jpg"
-
-              alt=""
-            />
-          </div>
-        </div>
-      </section>
 
 
 

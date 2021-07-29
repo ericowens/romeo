@@ -7,8 +7,28 @@ import Banner from '../../comps/Banner'
 import observe_nav from '../../comps/observe_nav'
 import React, { useState, useEffect } from 'react'
 
+export async function getServerSideProps(context) {
+  // Fetch data from external API
+  const uri = `${process.env.NEXT_PUBLIC_ENV_URL}/pages/21`
+  const res = await fetch(uri)
+  let data = await res.json()
 
-export default function Home() {
+  const uri2 = `${process.env.NEXT_PUBLIC_ENV_URL}/media-leaders`
+  const res2 = await fetch(uri2)
+  let data2 = await res2.json()
+  
+  data2.sort(function(a, b) {
+    return a.order - b.order;
+  });
+  // console.log(data2)
+  // console.log(data.jobs[0].location)
+
+  // Pass data to the page via props
+  return { props: { data, data2 } }
+}
+
+
+export default function Home({data, data2}) {
   useEffect(() => {
     observe_nav()
   })
@@ -28,7 +48,7 @@ export default function Home() {
       <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
         <div className=" max-w-screen-lg pl-4 ">
           <div className="">
-              <h1 className="  font-P22Underground-thp text-7xl font-bold">Leadership</h1>
+              <h1 className="  font-P22Underground-thp text-7xl font-bold" dangerouslySetInnerHTML={{ __html: data.contentSections[0].text}}></h1>
               
               
             </div>
@@ -48,117 +68,49 @@ export default function Home() {
           <div className=" flex-1  max-w-screen-lg px-4 ">
   
           <div className="grid grid-cols-2 gap-16">
-            <div>
-            <div className="flex justify-center items-center ">
-              <img src="/leadership/Lionel.jpg"></img>
-              </div>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                  <a target="_blank" href="/zips/LIONEL SELWOOD, JR.zip"><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase text-center">Lionel Selwood, Jr.</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
+
+
+
+          {data2.map((item, index) => (  
+
+          <div>
+          <div className="flex justify-center items-center ">
+          <img src={`${item.image.url}`}></img>
             </div>
-            <div>
-            <div className="flex justify-center items-center ">
-              <img src="/leadership/AK Srouji, PhD .jpg"></img>
+            <section className="flex gap-4 py-4">
+              <div className="w-1/3">
+              <a target="_blank" href={`${item.file}`}><img src="/svg/Download.svg"></img></a>
               </div>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                <a target="_blank" href="/zips/AK SROUJI_PHD.zip"><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase text-center">AK Srouji, PhD</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
+              <div className="w-2/3">
+                <p className="uppercase text-center">{item.title}</p>
+                {/* <div className="grid gap-4 grid-cols-2 justify-center">
+                  <div className="md:border-r">
+                    <p className="text-center">RGB</p>
                   </div>
-                </div>
-              </section>
-            </div>
-            <div>
-            <div className="flex justify-center items-center">
-              <img src="/leadership/Lauren Webb.jpg"></img>
+                  <div>
+                    <p className="text-center">JPG</p>
+                    </div>
+                  <div className="md:border-r">
+                    <p className="text-center">CMYK</p>
+                    </div>
+                  <div>
+                    <p className="text-center">TIFF</p>
+                    </div>
+                </div> */}
               </div>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                <a target="_blank" href="/zips/LAUREN WEBB.zip"><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase text-center">Lauren Webb</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-            <div>
-            <div className="flex justify-center items-center">
-              <img src="/leadership/Criswell Choi.jpg"></img>
-              </div>
-              <section className="flex gap-4 py-4">
-                <div className="w-1/3">
-                <a target="_blank" href="/zips/CRISWELL CHOI.zip"><img src="/DOWNLOAD ICON.png"></img></a>
-                </div>
-                <div className="w-2/3">
-                  <p className="uppercase text-center">Criswell Choi</p>
-                  <div className="grid gap-4 grid-cols-2 justify-center">
-                    <div className="md:border-r">
-                      <p className="text-center">RGB</p>
-                    </div>
-                    <div>
-                      <p className="text-center">JPG</p>
-                      </div>
-                    <div className="md:border-r">
-                      <p className="text-center">CMYK</p>
-                      </div>
-                    <div>
-                      <p className="text-center">TIFF</p>
-                      </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-         
-            
-            
+            </section>
+          </div>
+
+
+
+
+
+               
+          ))}
+
+
+           
+           
             
             
 

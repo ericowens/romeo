@@ -8,7 +8,22 @@ import observe_nav from '../../comps/observe_nav'
 import React, { useState, useEffect } from 'react'
 import Formarea from '../../comps/Formarea'
 
-export default function Home() {
+
+export async function getServerSideProps(context) {
+  // Fetch data from external API
+  const uri = `${process.env.NEXT_PUBLIC_ENV_URL}/pages/12`
+  const res = await fetch(uri)
+  let data = await res.json()
+  
+  
+  // console.log(data)
+  // console.log(data.jobs[0].location)
+
+  // Pass data to the page via props
+  return { props: { data } }
+}
+
+export default function Home({data}) {
   useEffect(() => {
     observe_nav()
   })
@@ -28,7 +43,7 @@ export default function Home() {
       <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
         <div className=" max-w-screen-lg pl-4 ">
           <div className="">
-              <h1 className="font-P22Underground-thp text-7xl font-bold text-left">Orion BEV Pack Family</h1>
+              <h1 className="font-P22Underground-thp text-7xl font-bold text-left"dangerouslySetInnerHTML={{ __html: data.contentSections[0].text}}></h1>
              
             </div>
         </div>
@@ -46,7 +61,7 @@ export default function Home() {
       <section className="flex justify-evenly bg-white  gap-4 py-8">
           <div>
           <h2 className=" block text-center  text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold pt-4 pb-16 ">
-            Powering the world’s largest commercial vehicles with the first BEV pack family.</h2>
+          {data.contentSections[1].text}</h2>
               
             <img src="/Images/Orion-pack_family_Group.png"></img>
             </div>
@@ -59,27 +74,20 @@ export default function Home() {
             <div className="flex-1">
               <div className=" pb-8 ">
               <h2 className=" block text-center  text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold py-4 ">
-              Orion BEV Pack Family</h2>
+              {data.contentSections[2].SectionTitle}</h2>
               </div>
-              <p className="text-center font-P22Underground-thin py-4">Romeo Power’s proprietary pack family exhibits application flexibility and is capable of powering a range of commercial vehicles spanning
-from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
+              <p className="text-center font-P22Underground-thin py-4"
+              dangerouslySetInnerHTML={{ __html: data.contentSections[2].SectionBody}}></p>
 
-<p className="text-left font-P22Underground-thin py-4">What Sets the Orion BEV Pack Family Apart?</p>
+<p className="text-left font-P22Underground-thin py-4"> {data.contentSections[3].text}</p>
 
-            <ul className="list-disc list-outside py-4 ">
-                <li className="font-P22Underground-thin p-1.5">Modular design with a 21700 cell format</li>
-                <li className="font-P22Underground-thin p-1.5">High packaging eﬀiciency</li>
-                <li className="font-P22Underground-thin p-1.5">Designed according to SAE J2380, SAE J2464, and UN 38.3 requirements</li>
-                <li className="font-P22Underground-thin p-1.5">Scalable and configurable design</li>
-                <li className="font-P22Underground-thin p-1.5">Cell voltage and temperature monitoring through an in-built battery monitoring device</li>
-                <li className="font-P22Underground-thin p-1.5">Automated cell balancing to maximize the usable capacity</li>
-                <li className="font-P22Underground-thin p-1.5">Isolated communication between stack of modules and the central control device</li>
-                <li className="font-P22Underground-thin p-1.5">Structurally integrated cooling system with superior thermal performance</li>
+            <ul className="list-disc list-outside py-4 " dangerouslySetInnerHTML={{ __html: data.contentSections[4].List}}>
+               
               </ul>
 
               <p className=" text-center md:text-left   font-P22Underground-thin text-lg pt-8">
-              <a href="/ORION BEV PACK FAMILY DATA SHEET.pdf" target="_blank">
-                <button className="bg-accent text-white font-P22Underground-book  md:float-left py-4 px-10 my-10">Download Orion Data Sheet</button>
+              <a href={`${data.contentSections[5].url}`} target="_blank">
+                <button className="bg-accent text-white font-P22Underground-book  md:float-left py-4 px-10 my-10">{data.contentSections[5].text}</button>
                 </a>
                 </p>
               
@@ -96,7 +104,7 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
       <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start px-4 py-40 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
-              <h2 className="font-P22Underground-thp text-5xl font-bold">Class 3/4 Vehicles</h2>
+              <h2 className="font-P22Underground-thp text-5xl font-bold">{data.contentSections[6].text}</h2>
               {/* <p className=" text-left text-white flex-1 font-P22Underground-thin text-lg pt-32">
               [Download Orion Data Sheet]
                 </p> */}
@@ -113,7 +121,7 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
       <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start px-4 py-40 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
-              <h2 className="font-P22Underground-thp text-5xl font-bold">Class 5/6 Vehicles</h2>
+              <h2 className="font-P22Underground-thp text-5xl font-bold">{data.contentSections[7].text}</h2>
               {/* <p className=" text-left text-white flex-1 font-P22Underground-thin text-lg pt-32">
               [Download Orion Data Sheet]
                 </p> */}
@@ -128,7 +136,7 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
       <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start px-4 py-40 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
-              <h2 className="font-P22Underground-thp text-5xl font-bold">Class 7/8 Vehicles</h2>
+              <h2 className="font-P22Underground-thp text-5xl font-bold">{data.contentSections[8].text}</h2>
               {/* <p className=" text-left text-white flex-1 font-P22Underground-thin text-lg pt-32">
               [Download Orion Data Sheet]
                 </p> */}
@@ -147,7 +155,7 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
             <div className="flex-1">
               <div className=" pb-8 ">
               <h2 className=" text-center block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold pt-4 ">
-              Designed for Safety</h2>
+              {data.contentSections[9].text}</h2>
               </div>
 
               
@@ -155,40 +163,25 @@ from Class 3 delivery vehicles to the largest, long-haul Class 8 vehicles.</p>
               <div className="flex gap-8 justify-around py-8 flex-col md:flex-row">
                 <div className="w-full md:w-1/3 flex gap-4 flex-col items-start">
                   <div className="w-full flex items-center justify-center content-center">
-                    <img src="/icon-battery-100.png"></img>
+                    <img width="190" src="/svg/icon-battery.svg"></img>
                     </div> 
-                  <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">Single Cell Fault Tolerance</h4>
-                  <p>Through robust cell validation and
-                  safety testing, Romeo Power selects
-                  optimal cells and incorporates design
-                  features to mitigate thermal
-                  propagation.</p>          
+                  <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">{data.contentSections[10].SectionTitle}</h4>
+                  <p dangerouslySetInnerHTML={{ __html: data.contentSections[10].SectionBody}}></p>          
                 </div>
 
 
                 <div className="w-full md:w-1/3 flex gap-4 flex-col items-start">
                 <div className="w-full flex items-center justify-center content-center">
-                  <img src="/icon-bms-100.png"></img> </div> 
-                  <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">Battery Management System</h4>
-                  <p>Functional safety algorithms rapidly
-                  detect faults to maintain safe
-                  operating conditions for the battery,
-                  overall system and most importantly,
-                  end users. Redundant hardware and
-                  software measurements and
-                  protection mechanisms constantly
-                  monitor critical parameters of the
-                  battery pack and ensure that all cells
-                  are at their safe operating conditions.</p>          
+                  <img width="190" src="/svg/icon-bms.svg"></img> </div> 
+                  <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">{data.contentSections[11].SectionTitle}</h4>
+                  <p dangerouslySetInnerHTML={{ __html: data.contentSections[11].SectionBody}}></p>            
                 </div>
 
                 <div className="w-full md:w-1/3 flex gap-4 flex-col items-start">
                 <div className="w-full flex items-center justify-center content-center">
-                  <img src="/icon-sensor-100.png"></img> </div> 
-                  <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">Sensing</h4>
-                  <p>Accurate monitoring devices at cell-level, module-level and pack-level
-                  constantly measure voltages, temperatures, and current to ensure
-                  safe operation.</p>          
+                  <img width="190" src="/svg/icon-sensor.svg"></img> </div> 
+                  <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">{data.contentSections[12].SectionTitle}</h4>
+                  <p dangerouslySetInnerHTML={{ __html: data.contentSections[12].SectionBody}}></p>       
                 </div>
                                
 

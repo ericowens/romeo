@@ -8,7 +8,22 @@ import Formarea from '../../comps/Formarea'
 import observe_nav from '../../comps/observe_nav'
 import React, { useState, useEffect } from 'react'
 
-export default function Home() {
+
+export async function getServerSideProps(context) {
+  // Fetch data from external API
+  const uri = `${process.env.NEXT_PUBLIC_ENV_URL}/pages/10`
+  const res = await fetch(uri)
+  let data = await res.json()
+  
+  
+  console.log(data)
+  // console.log(data.jobs[0].location)
+
+  // Pass data to the page via props
+  return { props: { data } }
+}
+
+export default function Home({data}) {
   useEffect(() => {
     observe_nav()
   })
@@ -28,7 +43,7 @@ export default function Home() {
       <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start py-40 ">
         <div className=" max-w-screen-lg pl-4 ">
           <div className="">
-              <h1 className="font-P22Underground-thp text-7xl font-bold">Products</h1>
+              <h1 className="font-P22Underground-thp text-7xl font-bold" dangerouslySetInnerHTML={{ __html: data.contentSections[0].text}}></h1>
               
             </div>
         </div>
@@ -42,9 +57,10 @@ export default function Home() {
         <div className=" flex justify-center align-center content-center p-4  flex-col max-w-screen-lg   ">
           
             <h2 className=" text-center   flex-1 text-white  font-P22Underground-thp text-5xl font-bold ">
-              Moving People and Things Emission Free
+            {data.contentSections[1].SectionTitle}
               </h2>
-              <p className=" text-center text-white flex-1 font-P22Underground-thin text-lg py-4">Our customers are becoming environmentally responsible and reducing operating costs in a variety of markets.</p>
+              <p className=" text-center text-white flex-1 font-P22Underground-thin text-lg py-4" dangerouslySetInnerHTML={{ __html: data.contentSections[1].SectionBody}}>
+                </p>
             
               <ul className="hidden md:table  flex-1 py-4 ">
               <li className="table-cell " ><img className="align-bottom" src="/Group 72.svg"></img></li>
@@ -67,15 +83,11 @@ export default function Home() {
       <section className="flex flex-1  max-w-screen-lg justify-center items-center align-center p-4 py-40 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
-              <h2 className="font-P22Underground-thp text-5xl font-bold">Hermes Module</h2>
-              <p className=" text-center text-white flex-1 font-P22Underground-thin text-lg py-4">
-              The ideal electrification solution for the commercial vehicle industry, Hermes is a modular building block
-consisting of lithium-ion cells in a 21700 format that are connected in series and parallel to achieve the desired
-voltage, energy and power capability. Its high packaging eﬀiciency, high energy density and structurally integrated
-cooling system makes it an ideal battery system for many automotive powertrain applications.
+              <h2 className="font-P22Underground-thp text-5xl font-bold">{data.contentSections[2].SectionTitle}</h2>
+              <p className=" text-center text-white flex-1 font-P22Underground-thin text-lg py-4" dangerouslySetInnerHTML={{ __html: data.contentSections[2].SectionBody}}>
                 </p>
-                <Link href="/products/hermes_module">
-              <button className="bg-accent   py-4 px-14 my-14">Learn More</button> 
+                <Link href={`${data.contentSections[3].url}`} >
+              <button className="bg-accent   py-4 px-14 my-14">{data.contentSections[3].text}</button> 
               </Link>
 
               
@@ -90,14 +102,11 @@ cooling system makes it an ideal battery system for many automotive powertrain a
       <section className="flex flex-1  max-w-screen-lg justify-center  align-center p-4 py-40 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
-              <h2 className="font-P22Underground-thp text-5xl font-bold">Orion BEV Pack Family</h2>
-              <p className=" text-center text-white flex-1 font-P22Underground-thin text-lg py-4">
-              Romeo Power’s proprietary pack family exhibits application flexibility and is capable of
-powering a range of commercial vehicles spanning from Class 3 delivery vehicles to the
-largest, long-haul Class 8 vehicles.
+              <h2 className="font-P22Underground-thp text-5xl font-bold">{data.contentSections[4].SectionTitle}</h2>
+              <p className=" text-center text-white flex-1 font-P22Underground-thin text-lg py-4"dangerouslySetInnerHTML={{ __html: data.contentSections[4].SectionBody}}>
                 </p>
-                <Link href="/products/orion_pack">
-              <button className="bg-accent   py-4 px-14 my-14">Learn More</button> 
+                <Link href={`${data.contentSections[5].url}`} >
+              <button className="bg-accent   py-4 px-14 my-14">{data.contentSections[5].text}</button> 
               </Link>
 
               
