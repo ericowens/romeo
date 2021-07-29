@@ -224,7 +224,8 @@ export default function Home({data, data2}) {
             {data2[3].position}</h4>
             <p className="text-left text-sm pt-8 leading-normal" dangerouslySetInnerHTML={{ __html: data2[3].bio}}></p>
 
-            <ul className="flex-1 flex justify-start content-start items-end social gap-4 pt-6">
+           
+            <ul className="flex-1 flex justify-end content-end items-end social gap-4 pt-6">
             <li className=""><a target="_blank" href={`${data2[3].linkedin}`}>
                 <img src="/social/Linkedin.svg"></img></a></li>
 
