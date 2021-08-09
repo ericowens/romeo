@@ -212,7 +212,7 @@ export default function Home({data, data2}) {
         <div className="flex max-w-screen-lg justify-evenly  px-4 flex-wrap flex-1 md:flex-row sm:flex-col">
 
 
-        <div className=" flex items-end justify-end md:w-2/5 w-full">
+        <div className=" flex items-end justify-end md:w-2/5 w-full order-last md:order-first">
           <img src={`${data2[3].pic.url}`}></img>
           </div>
 
