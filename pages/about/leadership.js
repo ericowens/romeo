@@ -87,18 +87,18 @@ export default function Home({data, data2}) {
         <div className="flex md:flex-row sm:flex-col max-w-screen-xl justify-evenly  px-4 flex-wrap flex-1">
 
           <div className=" flex items-end justify-end md:w-2/5 w-full order-last md:order-first">
-            <img src={`${data2[0].pic.url}`}></img>
+            <img src={`${data2[6].pic.url}`}></img>
           </div>
 
           <div className="flex flex-col w-full md:w-3/5 pb-8">
             <h2 className="text-left text-darkcolor   font-P22Underground-thp text-2xl font-bold pt-16 ">
-            {data2[0].name}</h2>
+            {data2[6].name}</h2>
             <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
-            {data2[0].position}</h4>
-              <p className="text-left text-sm pt-8 leading-normal" dangerouslySetInnerHTML={{ __html: data2[0].bio}}></p>
+            {data2[6].position}</h4>
+              <p className="text-left text-sm pt-8 leading-normal" dangerouslySetInnerHTML={{ __html: data2[6].bio}}></p>
 
             <ul className="flex-1 flex justify-end content-end items-end social gap-4 pt-6">
-              <li className=""><a target="_blank" href={`${data2[0].linkedin}`}>
+              <li className=""><a target="_blank" href={`${data2[6].linkedin}`}>
                 <img src="/social/Linkedin.svg"></img></a></li>
 
               <li className="hidden"><img src="/twitter.png"></img></li>
@@ -237,6 +237,40 @@ export default function Home({data, data2}) {
           </div>
 
           
+
+        </div>
+
+      </section>
+
+
+
+
+      <section className="small-leader-4 flex justify-center  " >
+        <div className="flex max-w-screen-xl justify-evenly  px-4 flex-wrap flex-1 md:flex-row sm:flex-col">
+
+
+
+          <div className="flex flex-col w-full md:w-3/5 pb-8">
+            <h2 className="text-left text-darkcolor   font-P22Underground-thp text-2xl font-bold pt-16 ">
+            {data2[5].name}</h2>
+            <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
+            {data2[5].position}</h4>
+            <p className="text-left text-sm pt-8 leading-normal" dangerouslySetInnerHTML={{ __html: data2[5].bio}}></p>
+
+            <ul className="flex-1 flex justify-start content-start items-end social gap-4 pt-6">
+            <li className=""><a target="_blank" href={`${data2[5].linkedin}`}>
+                <img src="/social/Linkedin.svg"></img></a></li>
+
+              <li className="hidden"><img src="/twitter.png"></img></li>
+              <li className="hidden"><img src="/Facebook.png"></img></li>
+
+            </ul>
+
+          </div>
+
+          <div className=" flex items-end justify-end md:w-2/5 w-full">
+          <img src={`${data2[5].pic.url}`}></img>
+          </div>
 
         </div>
 
