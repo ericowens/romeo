@@ -163,7 +163,7 @@ export default function Home({data}) {
               <div className="flex gap-8 justify-around py-8 flex-col md:flex-row">
                 <div className="w-full md:w-1/3 flex gap-4 flex-col items-start">
                   <div className="w-full flex items-center justify-center content-center">
-                    <img width="190" src="/svg/icon-battery.svg"></img>
+                    <img width="190" src="/svg/icon-battery-02.svg"></img>
                     </div> 
                   <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">{data.contentSections[10].SectionTitle}</h4>
                   <p dangerouslySetInnerHTML={{ __html: data.contentSections[10].SectionBody}}></p>          
