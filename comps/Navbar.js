@@ -30,6 +30,7 @@ const Navbar = () => {
             <li><Link href="/about/leadership"><a >Leadership</a></Link></li>
             <li><Link href="/about/us_manufacturing"><a >U.S. Manufacturing</a></Link></li>
             <li><Link href="/about/faqs"><a >FAQs</a></Link></li>
+            <li><a target="_blank" href="/RomeoPower_Brochure01.pdf">Product Brochure</a></li>
             {/* <li><Link href="/about/resources"><a >Resources</a></Link></li> */}
           </ul>
            </li>

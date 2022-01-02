@@ -21,6 +21,9 @@ const Footer = () => {
         <div className=" text-white  text-xs  lg:leading-10">
         <a target="_blank" href="/Romeo Power_Social Media Community Standards 2021.pdf">Social Media Community Standards</a>
         </div>
+        <div className=" text-white  text-xs  lg:leading-10">
+        <a target="_blank" href="/RomeoPower_Brochure01.pdf">Product Brochure</a>
+        </div>
      
       </div>
       </section>
