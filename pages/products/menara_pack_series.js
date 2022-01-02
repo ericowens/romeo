@@ -187,7 +187,12 @@ export default function Home({data}) {
 
               </div>
               
-             
+              <p className="text-center md:text-left  font-P22Underground-thin text-lg pt-8"><a target="_blank" href={`${data.contentSections[12].url}`}>
+               
+               <button className="bg-accent text-white font-P22Underground-book md:float-left py-4 px-10 my-10">{data.contentSections[12].text}</button>
+               </a>
+               </p>
+
             </div>
           </div>
           </section>
