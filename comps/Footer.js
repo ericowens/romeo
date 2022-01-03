@@ -10,7 +10,7 @@ const Footer = () => {
           <img className="" src="/logos/footer.svg" ></img>
         </div> 
         <div className=" text-white  text-xs  lg:leading-10">
-        <span>© 2021 Romeo Power, Inc. All Rights Reserved.</span>
+        <span>© 2022 Romeo Power, Inc. All Rights Reserved.</span>
         </div>
         <div className=" text-white  text-xs  lg:leading-10">
         <Link href="/privacy_policy">Privacy Policy</Link>
