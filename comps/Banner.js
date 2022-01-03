@@ -51,6 +51,7 @@ const Banner = () => {
             <li className="text-darkcolor w-1/2 text-bold  "><a target="_blank" href="https://investors.romeopower.com/overview/default.aspx">Investors</a></li>
             <li className="text-darkcolor w-1/2 text-bold  "><Link href="/about/careers">Careers</Link></li>
             <li className="text-darkcolor w-1/2 text-bold  "><Link href="/contact">Contact</Link></li>
+            <li className="text-darkcolor  text-bold  "><a target="_blank" href="/RomeoPower_Brochure01.pdf">Product Brochure</a></li>
           </ul>
         </div> 
         <div className="flex-1  flex-grow flex flex-col">
