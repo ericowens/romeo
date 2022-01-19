@@ -277,6 +277,41 @@ export default function Home({data, data2}) {
       </section>
 
 
+      <section className="small-leader-5 flex justify-center  " >
+        <div className="flex max-w-screen-lg justify-evenly  px-4 flex-wrap flex-1 md:flex-row sm:flex-col">
+
+
+        <div className=" flex items-end justify-end md:w-2/5 w-full order-last md:order-first">
+          <img src={`${data2[7].pic.url}`}></img>
+          </div>
+
+
+          <div className="flex flex-col w-full md:w-3/5 pb-8">
+            <h2 className="text-left text-darkcolor   font-P22Underground-thp text-2xl font-bold pt-16 ">
+            {data2[7].name}</h2>
+            <h4 className="text-left text-darkcolor  font-P22Underground-thp text-l font-bold py-2 ">
+            {data2[7].position}</h4>
+            <p className="text-left text-sm pt-8 leading-normal" dangerouslySetInnerHTML={{ __html: data2[7].bio}}></p>
+
+           
+            <ul className="flex-1 flex justify-end content-end items-end social gap-4 pt-6">
+            <li className=""><a target="_blank" href={`${data2[7].linkedin}`}>
+                <img src="/social/Linkedin.svg"></img></a></li>
+
+              <li className="hidden"><img src="/twitter.png"></img></li>
+              <li className="hidden"><img src="/Facebook.png"></img></li>
+
+            </ul>
+
+          </div>
+
+          
+
+        </div>
+
+      </section>
+
+
 
 
 
