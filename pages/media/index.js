@@ -10,7 +10,7 @@ import React, { useState, useEffect } from 'react'
 
 export async function getServerSideProps(context) {
   // Fetch data from external API
-  const uri = "https://investors.romeopower.com/feed/PressRelease.svc/GetPressReleaseList?LanguageId=1&bodyType=0&pressReleaseDateFilter=3&categoryId=1cb807d2-208f-4bc3-9133-6a9ad45ac3b0&pageSize=-1&pageNumber=0&tagList=&includeTags=true&year=2021&excludeSelection=1"
+  const uri = "https://investors.romeopower.com/feed/PressRelease.svc/GetPressReleaseList?LanguageId=1&bodyType=0&pressReleaseDateFilter=3&categoryId=1cb807d2-208f-4bc3-9133-6a9ad45ac3b0&pageSize=-1&pageNumber=0&tagList=&includeTags=true&excludeSelection=1"
   const res = await fetch(uri)
   let data = await res.json()
   
