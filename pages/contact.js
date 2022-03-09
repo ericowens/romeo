@@ -13,6 +13,36 @@ export default function Home() {
     observe_nav()
   })
   
+
+  const formsubmitsub = async event => {
+    const thanks = document.querySelector("#thankssub");
+    const form = document.querySelector("#subscribe");
+    event.preventDefault()
+    // console.log('here', event.target.name.value)
+
+    const res = await fetch(
+      '/api/subscribe',
+      {
+        body: JSON.stringify({
+          fname: event.target.fname.value ?? '-',
+          lname: event.target.lname.value ?? '-',
+          email: event.target.email.value ?? '-',
+        }),
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        method: 'POST'
+      }
+    )
+
+    thanks.classList.remove("hidden");
+    form.classList.add("hidden");
+
+    const result = await res.json()
+    console.log('here', result)
+    // result.user => 'Ada Lovelace'
+  }
+
   const formsubmit = async event => {
     const thanks = document.querySelector("#thankscontact");
     const form = document.querySelector("#contact");
@@ -77,70 +107,173 @@ export default function Home() {
 
       <section className="flex bg-white justify-center py-16">
 
-          <div className="flex-1 gap-8  border-2 border-black p-8 flex justify-center align-center content-center  max-w-screen-lg flex-col md:flex-row  ">
-  
-            <div className="w-full md:w-1/2 flex flex-col  ">
-              <div className=" gap-4 flex-1 w-full">
-                <h2 className=" text-left inline-block text-darkcolor   font-P22Underground-thp text-xl font-bold pt-8  ">
-                Get In Touch</h2>
-              
-              </div>
-              <div className=" flex-1 w-full">
-                <p className=" text-left  flex-1 font-P22Underground-thin text-md py-2">
-                  <img className="float-left" src="map.jpg" width="25"></img>
-                  4380 Ayers Ave.<br/>
-Vernon, CA 90058
-                </p>
-                <p className=" text-left  flex-1 font-P22Underground-thin text-md py-2">
-                <img className="float-left" src="phone.jpg" width="25"></img>+1 833.467.2237
-                </p>
-              </div>
-              <div className=" flex-1 w-full">
-                
-              <p id="thankscontact" className="hidden text-darkcolor  text-base  ">Thank You</p>
 
 
-              <form id="contact" onSubmit={formsubmit}>
-            
-            <div className="flex md:space-x-5">
-              <div className="w-1/2">
-                <input  name="fname" className="sm:w-full my-2 p-4 "   type="text" placeholder="First Name *"  required></input>
-              </div>
-              <div className="w-1/2">
-                <input  name="lname" className="sm:w-full my-2 p-4"   type="text" placeholder="Last Name *" required></input>
-               </div>
-            </div>
-            <div className="flex space-x-20">
-              <div className="flex-1 w-full">
-                <input  name="email" className="sm:w-full my-2 p-4"   type="text" placeholder="Email *" required></input>
-                <input  name="company" className="sm:w-full my-2 p-4"   type="text" placeholder="Company *" required></input>
-                <textarea  name="message" className="sm:w-full my-2 px-2 p-4 form-textarea  block" rows="3"  placeholder="Message *" required></textarea>
-                      
-                <button type="submit" className="bg-accent sm:w-full   py-4 px-14  text-white">Submit</button>
-              </div>
-            </div>
-          
-                         
-       
-     
-      </form>
+        <p id="thankscontact" className="hidden text-darkcolor  text-base  ">Thank You</p>
 
 
+        <div className="flex gap-2	">
+
+          <div className="w-1/3 bg-light p-4">
 
 
+            <h2 class="text-left inline-block text-darkcolor pr-8   font-P22Underground-thp text-4xl font-bold py-4 ">
+              Our Office
+            </h2>
+            <p className="text-darkcolor  text-base leading-7 text-bold " >ROMEO POWER, INC.</p>
+            <p className="address text-darkcolor font-P22Underground-thin text-base  " >4380 Ayers Ave, Vernon, CA 90058<br></br>
+              sales@romeopower.com<br></br>
+              +1 833.467.2237</p>
+            <ul className="flex social pt-8 pb-8">
+              <li className="flex-1"><a target="_blank" href="https://www.facebook.com/RomeoPowerInc"><img src="/social/facebook.svg"></img></a></li>
+              <li className="flex-1"><a target="_blank" href="https://twitter.com/romeopowerinc"><img src="/social/Twitter.svg"></img></a></li>
+              <li className="flex-1"><a target="_blank" href="https://www.linkedin.com/company/romeopowerinc/"><img src="/social/Linkedin.svg"></img></a></li>
+              <li className="flex-1"><a target="_blank" href="https://www.youtube.com/channel/UCBLrQ658VqC1XQTGajV3xlQ"><img src="/social/Youtube.svg"></img></a></li>
+              <li className="flex-1"><a target="_blank" href="https://www.instagram.com/romeopowerinc/"><img src="/social/instagram.svg"></img></a></li>
+            </ul>
 
+            <p class="text-left inline-block text-darkcolor  font-P22Underground-thp text-xl font-bold  ">
+            Subscribe
+            </p>
+            <p id="thankssub" className="hidden text-darkcolor  text-base  ">Thank You</p>
 
+            <form className="flex-1  flex-grow flex flex-col" id="subscribe" onSubmit={formsubmitsub}>
 
+              <input name="fname" required
+                className=" " type="text" placeholder="First Name *"></input>
+              <input name="lname" required
+                className=" " type="text" placeholder="Last Name *"></input>
+              <input name="email" required
+                className=" " type="email" placeholder="Email *"></input>
 
-              </div>
-            </div>
-            
-
-            <div className="w-full md:w-1/2 ">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.7478672747925!2d-118.1863346845222!3d33.999009427980475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2a4d2cfed148d%3A0xf5ac45541220129e!2sRomeo%20Power%2C%20Inc.!5e0!3m2!1sen!2sus!4v1623458417896!5m2!1sen!2sus" width="100%" height="650"   loading="lazy"></iframe>
-            </div>
-           
+              <div className="flex"><button type="submit" className="bg-accent  float-left py-4 px-14 my-2 text-white">Submit</button>  </div>
+            </form>
           </div>
+
+          <div className="w-2/3">
+
+            <form id="contact" onSubmit={formsubmit}>
+
+              <div className="flex gap-4	">
+                <div className="w-1/2">
+
+                  <div className="flex gap-4	 flex-col">
+
+                    <div className="flex-1">
+                      <label>First Name <span className="text-required  text-base font-light text-sm">(Required)</span></label>
+                      <input name="fname" className="sm:w-full my-2 p-4 " type="text" required></input>
+                    </div>
+
+
+                    <div className="flex-1">
+                      <label>Email Address <span className="text-required  text-base font-light text-sm">(Required)</span></label>
+                      <input name="email" className="sm:w-full my-2 p-4 " type="text" required></input>
+                    </div>
+
+                    <div className="flex-1">
+                      <label>Title </label>
+                      <input name="title" className="sm:w-full my-2 p-4 " type="text" ></input>
+                    </div>
+
+                    <div className="flex-1">
+                      <label>Type of Business <span className="text-required  text-base font-light text-sm">(Required)</span></label>
+                      <select name="tob" className="sm:w-full my-2 p-4 " type="text" required>
+                        <option value="">--None--</option>
+                        <option value="Public Transit Agency">Public Transit Agency</option>
+                        <option value="Commercial Transit Operator">Commercial Transit Operator</option>
+                        <option value="Government Agency">Government Agency</option>
+                        <option value="College / University">College / University</option>
+                        <option value="School">School</option>
+                        <option value="Vehicle Manufacturer">Vehicle Manufacturer</option>
+                        <option value="Supplier / Vendor">Supplier / Vendor</option>
+                        <option value="Utility / Energy Company">Utility / Energy Company</option>
+                        <option value="Media">Media</option>
+                        <option value="Student">Student</option>
+                        <option value="Other">Other</option>
+                      </select>
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+                <div className="w-1/2">
+
+                  <div className="flex gap-4	 flex-col">
+
+
+
+
+                    <div className="flex-1">
+                      <label>Last Name <span className="text-required  text-base font-light text-sm">(Required)</span></label>
+                      <input name="lname" className="sm:w-full my-2 p-4 " type="text" required></input>
+                    </div>
+
+
+
+                    <div className="flex-1">
+                      <label>Phone Number </label>
+                      <input name="phone" className="sm:w-full my-2 p-4 " type="text" ></input>
+                    </div>
+
+
+
+
+                    <div className="flex-1">
+                      <label>Company <span className="text-required  text-base font-light text-sm">(Required)</span></label>
+                      <input name="company" className="sm:w-full my-2 p-4 " type="text" required></input>
+                    </div>
+
+
+
+
+                    <div className="flex-1">
+                      <label>Region <span className="text-required  text-base font-light text-sm">(Required)</span></label>
+                      <select name="region" className="sm:w-full my-2 p-4 " type="text" required>
+                        <option value="">--None--</option>
+                        <option value="US or Canada">US or Canada</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Central America / Caribbean">Central America / Caribbean</option>
+                        <option value="South America">South America</option>
+                        <option value="Europe">Europe</option>
+                        <option value="Middle East">Middle East</option>
+                        <option value="Asia / Pacific">Asia / Pacific</option>
+                        <option value="Africa">Africa</option>
+                      </select>
+                    </div>
+
+                  </div>
+
+
+
+
+                </div>
+
+              </div>
+
+              <div className="flex gap-4 flex-col	">
+                <div className="flex-1 w-full">
+                  <label>Message <span className="text-required  text-base font-light text-sm">(Required)</span></label>
+                  <textarea name="message" className="sm:w-full my-2 px-2 p-4 form-textarea  block" rows="3" placeholder="Message *" required></textarea>
+
+             
+                </div>
+                <div className="flex-none w-1/5">
+                 
+                  <button type="submit" className="bg-accent   py-4 px-14  text-white">Submit</button>
+                </div>
+              </div>
+
+
+
+
+            </form>
+          </div>
+
+          
+        </div>
+
 
       </section>
 

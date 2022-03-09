@@ -21,6 +21,7 @@ module.exports = {
         'light': '#f4f4f4',
         'medium': '#EBE4D5',
         'darkcolor': '#3D3D3D',
+        'required': '#c02b0a',
         'romeogray': '#8a8b8e',
         'logobg': '#f0f0f0'
        }),
@@ -29,7 +30,8 @@ module.exports = {
         'accent': '#4F7A32',
         'light': '#f4f4f4',
         'medium': '#EBE4D5',
-        'darkcolor': '#3D3D3D'
+        'darkcolor': '#3D3D3D',
+        'required': '#c02b0a'
        }),
       fontFamily: {
         'P22Underground-light': ['"P22Underground-light"'],
