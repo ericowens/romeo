@@ -44,7 +44,10 @@ export default function Home({data}) {
         <div className=" max-w-screen-lg pl-4 ">
           <div className="">
               <h1 className="font-P22Underground-thp text-7xl font-bold text-left"dangerouslySetInnerHTML={{ __html: data.contentSections[0].text}}></h1>
-             
+              <p className="text-center md:text-left  font-P22Underground-thin text-lg pt-8"><a href="#formplease" >               
+                <button className="bg-accent text-white font-P22Underground-book md:float-left py-4 px-10 my-10">Contact</button>
+                </a>
+                </p>
             </div>
         </div>
         </section>
@@ -84,6 +87,11 @@ export default function Home({data}) {
             <ul className="list-disc list-outside py-4 " dangerouslySetInnerHTML={{ __html: data.contentSections[4].List}}>
                
               </ul>
+
+              <p className="text-center md:text-left  font-P22Underground-thin text-lg pt-8"><a href="#formplease" >               
+                <button className="bg-accent text-white font-P22Underground-book md:float-left py-4 px-10 my-10">Contact</button>
+                </a>
+                </p>
 
               {/* <p className=" text-center md:text-left   font-P22Underground-thin text-lg pt-8">
               <a href={`${data.contentSections[4].url}`} target="_blank">

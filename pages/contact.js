@@ -13,26 +13,6 @@ export default function Home() {
     observe_nav()
   })
 
-// Sales@romeopower.com 
-//   Public Transit Agency
-//   Commercial Transit Operator
-//   Government 
-//   Vehicle Manufacturer
-//   Utility/Energy Company 
-//   Other 
-
-// rmo@alpha-ir.com 
-//   Media Representative 
-
-// HR@romeopower.com 
-//   Colleges/universities
-//   Schools 
-//   Student
-
-// Accountspayable@romeopower.com 
-//   Supplier/Vendor
-
-
 
 
   
@@ -41,7 +21,7 @@ export default function Home() {
     const thanks = document.querySelector("#thankssub");
     const form = document.querySelector("#subscribe");
     event.preventDefault()
-    // console.log('here', event.target.name.value)
+    // console.log('here', event)
 
     const res = await fetch(
       '/api/subscribe',
@@ -62,7 +42,7 @@ export default function Home() {
     form.classList.add("hidden");
 
     const result = await res.json()
-    console.log('here', result)
+    // console.log('here', result)
     // result.user => 'Ada Lovelace'
   }
 
@@ -79,7 +59,11 @@ export default function Home() {
           fname: event.target.fname.value ?? '-',
           lname: event.target.lname.value ?? '-',
           email: event.target.email.value ?? '-',
+          phone: event.target.phone.value ?? '-',
+          title: event.target.title.value ?? '-',
           company: event.target.company.value ?? '-',
+          tob: event.target.tob.value ?? '-',
+          region: event.target.region.value ?? '-',
           message: event.target.message.value ?? '-',
          
         }),
@@ -128,19 +112,20 @@ export default function Home() {
 
 
 
-      <section className="flex bg-white justify-center py-16">
+    
+      <section className="flex justify-center bg-white py-16">
 
 
 
-        <p id="thankscontact" className="hidden text-darkcolor  text-base  ">Thank You</p>
+       
 
 
-        <div className="flex gap-2	">
+        <div className="flex max-w-screen-lg flex-1 gap-2	">
 
           <div className="w-1/3 bg-light p-4">
 
 
-            <h2 class="text-left inline-block text-darkcolor pr-8   font-P22Underground-thp text-4xl font-bold py-4 ">
+            <h2 className="text-left inline-block text-darkcolor pr-8   font-P22Underground-thp text-4xl font-bold py-4 ">
               Our Office
             </h2>
             <p className="text-darkcolor  text-base leading-7 text-bold " >ROMEO POWER, INC.</p>
@@ -155,27 +140,28 @@ export default function Home() {
               <li className="flex-1"><a target="_blank" href="https://www.instagram.com/romeopowerinc/"><img src="/social/instagram.svg"></img></a></li>
             </ul>
 
-            <p class="text-left inline-block text-darkcolor  font-P22Underground-thp text-xl font-bold  ">
+            <p className="text-left inline-block text-darkcolor  font-P22Underground-thp text-xl font-bold  ">
             Subscribe
             </p>
             <p id="thankssub" className="hidden text-darkcolor  text-base  ">Thank You</p>
 
-            <form className="flex-1  flex-grow flex flex-col" id="subscribe" onSubmit={formsubmitsub}>
+            <form className="flex-1  gap-4 flex-grow flex flex-col" id="subscribe" onSubmit={formsubmitsub}>
 
               <input name="fname" required
-                className=" " type="text" placeholder="First Name *"></input>
+                className="p-4" type="text" placeholder="First Name *"></input>
               <input name="lname" required
-                className=" " type="text" placeholder="Last Name *"></input>
+                className=" p-4" type="text" placeholder="Last Name *"></input>
               <input name="email" required
-                className=" " type="email" placeholder="Email *"></input>
+                className=" p-4" type="email" placeholder="Email *"></input>
 
               <div className="flex"><button type="submit" className="bg-accent  float-left py-4 px-14 my-2 text-white">Submit</button>  </div>
             </form>
           </div>
 
           <div className="w-2/3">
+          <p id="thankscontact" className=" flex-1 hidden text-darkcolor  text-base  ">Thank You</p>
 
-            <form id="contact" onSubmit={formsubmit}>
+            <form id="contact" className="" onSubmit={formsubmit}>
 
               <div className="flex gap-4	">
                 <div className="w-1/2">

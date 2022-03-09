@@ -34,12 +34,12 @@ const Formarea = () => {
     // result.user => 'Ada Lovelace'
   }
     return (
-      <section  className="formarea text-center bg-darkaccent flex justify-center items-center" >
+      <section   className="formarea text-center bg-darkaccent flex justify-center items-center" >
       <section className="flex flex-1  max-w-screen-lg justify-center items-center px-4 align-center py-16 ">
         <div className=" max-w-screen-lg  ">
           <div className="">
                 
-              <h2 className="font-P22Underground-thp text-5xl font-bold text-white">Romeo Power’s Packs Are Accelerating Change</h2>
+              <h2 id="formplease" className="font-P22Underground-thp text-5xl font-bold text-white">Romeo Power’s Packs Are Accelerating Change</h2>
               <p className=" text-center text-white flex-1 font-P22Underground-thin text-lg py-8">
               Please tell us about your system needs below.
                 </p>

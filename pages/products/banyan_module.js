@@ -43,7 +43,11 @@ export default function Home({data}) {
         <div className=" max-w-screen-lg pl-4 ">
           <div className="">
               <h1 className="  font-P22Underground-thp text-7xl font-bold" dangerouslySetInnerHTML={{ __html: data.contentSections[0].text}}></h1>
-              
+              <p className="text-center md:text-left  font-P22Underground-thin text-lg pt-8"><a href="#formplease" >               
+                <button className="bg-accent text-white font-P22Underground-book md:float-left py-4 px-10 my-10">Contact</button>
+                </a>
+                </p>
+             
             </div>
         </div>
         </section>
@@ -65,6 +69,10 @@ export default function Home({data}) {
               </div>
               <p dangerouslySetInnerHTML={{ __html: data.contentSections[1].SectionBody}}></p>
               <img className="pt-8 md:pt-2" src="/Images/HermesModual2.jpg" ></img>  
+              <p className="text-center md:text-left  font-P22Underground-thin text-lg pt-8"><a href="#formplease" >               
+                <button className="bg-accent text-white font-P22Underground-book md:float-left py-4 px-10 my-10">Contact</button>
+                </a>
+                </p>
             </div>
 
             <div className="w-1/3 hidden md:block">
