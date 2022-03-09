@@ -12,6 +12,29 @@ export default function Home() {
   useEffect(() => {
     observe_nav()
   })
+
+// Sales@romeopower.com 
+//   Public Transit Agency
+//   Commercial Transit Operator
+//   Government 
+//   Vehicle Manufacturer
+//   Utility/Energy Company 
+//   Other 
+
+// rmo@alpha-ir.com 
+//   Media Representative 
+
+// HR@romeopower.com 
+//   Colleges/universities
+//   Schools 
+//   Student
+
+// Accountspayable@romeopower.com 
+//   Supplier/Vendor
+
+
+
+
   
 
   const formsubmitsub = async event => {
