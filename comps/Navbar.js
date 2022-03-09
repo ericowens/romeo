@@ -34,7 +34,7 @@ const Navbar = () => {
             {/* <li><Link href="/about/resources"><a >Resources</a></Link></li> */}
           </ul>
            </li>
-           <li><Link href="/careers"><a >Careers</a></Link></li>
+           {/* <li><Link href="/careers"><a >Careers</a></Link></li> */}
            <li><Link href="/media"><a >Media</a></Link></li>
            <li><a target="_blank" href="https://investors.romeopower.com/overview/default.aspx">Investors</a></li>
             </ul>
