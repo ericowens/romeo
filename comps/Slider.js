@@ -27,7 +27,8 @@ const Slider = () => {
       
       <section id="hero" className="hero-vid" >
 
-        <video id="slider" autoPlay muted loop poster="/thumbnail_HM_Slide1-gradient.png">
+        {/* <video id="slider" autoPlay muted loop poster="/thumbnail_HM_Slide1-gradient.png"></video> */}
+        <video id="slider" autoPlay muted loop >
           <source src="/vid/yt/Production.mp4" type='video/mp4'></source>
         </video>
 
