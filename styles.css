@@ -943,6 +943,16 @@ section.hero-vid video{
 }
 
 
+section.hero-vid #unmute{
+  z-index: 3;
+  position: absolute;
+  display: flex;
+  bottom: 30px;
+  left: 90%;
+  transform: translateX(-90%);
+}
+
+
 
 section.hero-vid .navigation{
   z-index: 2;

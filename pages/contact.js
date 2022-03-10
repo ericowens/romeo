@@ -169,13 +169,13 @@ export default function Home() {
                   <div className="flex gap-4	 flex-col">
 
                     <div className="flex-1">
-                      <label>First Name <span className="text-required  text-base font-light text-sm">(Required)</span></label>
+                      <label>First Name*</label>
                       <input name="fname" className="sm:w-full my-2 p-4 " type="text" required></input>
                     </div>
 
 
                     <div className="flex-1">
-                      <label>Email Address <span className="text-required  text-base font-light text-sm">(Required)</span></label>
+                      <label>Email Address*</label>
                       <input name="email" className="sm:w-full my-2 p-4 " type="text" required></input>
                     </div>
 
@@ -185,7 +185,7 @@ export default function Home() {
                     </div>
 
                     <div className="flex-1">
-                      <label>Type of Business <span className="text-required  text-base font-light text-sm">(Required)</span></label>
+                      <label>Type of Business*</label>
                       <select name="tob" className="sm:w-full my-2 p-4 " type="text" required>
                         <option value="">--None--</option>
                         <option value="Public Transit Agency">Public Transit Agency</option>
@@ -215,7 +215,7 @@ export default function Home() {
 
 
                     <div className="flex-1">
-                      <label>Last Name <span className="text-required  text-base font-light text-sm">(Required)</span></label>
+                      <label>Last Name*</label>
                       <input name="lname" className="sm:w-full my-2 p-4 " type="text" required></input>
                     </div>
 
@@ -230,7 +230,7 @@ export default function Home() {
 
 
                     <div className="flex-1">
-                      <label>Company <span className="text-required  text-base font-light text-sm">(Required)</span></label>
+                      <label>Company*</label>
                       <input name="company" className="sm:w-full my-2 p-4 " type="text" required></input>
                     </div>
 
@@ -238,7 +238,7 @@ export default function Home() {
 
 
                     <div className="flex-1">
-                      <label>Region <span className="text-required  text-base font-light text-sm">(Required)</span></label>
+                      <label>Region*</label>
                       <select name="region" className="sm:w-full my-2 p-4 " type="text" required>
                         <option value="">--None--</option>
                         <option value="US or Canada">US or Canada</option>
@@ -263,7 +263,7 @@ export default function Home() {
 
               <div className="flex gap-4 flex-col	">
                 <div className="flex-1 w-full">
-                  <label>Message <span className="text-required  text-base font-light text-sm">(Required)</span></label>
+                  <label>Message*</label>
                   <textarea name="message" className="sm:w-full my-2 px-2 p-4 form-textarea  block" rows="3" placeholder="Message *" required></textarea>
 
              

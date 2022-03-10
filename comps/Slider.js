@@ -11,14 +11,26 @@ const Slider = () => {
     e.target.classList.add("active");
     console.log(navs)
   }
+
+  function unmute(src,e) {
+    document.getElementById("slider").muted = false
+  }
   
     return (
       
       <section id="hero" className="hero-vid" >
 
-        <video id="slider" autoPlay muted loop>
+        <video id="slider" autoPlay muted loop poster="/thumbnail_HM_Slide1-gradient.png">
           <source src="/vid/yt/Production.mp4" type='video/mp4'></source>
         </video>
+
+        <div id='unmute'>
+          <button  
+          onClick={(e) => unmute(e)} 
+          className="bg-accent  float-left py-4 px-14 my-2 text-white">
+            Sound (Icon?)
+            </button> 
+        </div>
 
 
         <div className="navigation">
