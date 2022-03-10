@@ -59,7 +59,7 @@ export default function handler(req, res) {
     const msg = {
       to: mailto, // Change to your recipient
       from: 'eric@owens.fyi', // Change to your verified sender
-      subject: 'Contact Test',
+      subject: 'Contact',
       // text: `Name:${req.body.fname} ${req.body.lname}`,
       html: `Name:${req.body.fname} ${req.body.lname}
       <br/>Email:${req.body.email}
