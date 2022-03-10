@@ -29,7 +29,7 @@ const Slider = () => {
 
         {/* <video id="slider" autoPlay muted loop poster="/thumbnail_HM_Slide1-gradient.png"></video> */}
         <video id="slider" autoPlay muted loop >
-          <source src="/vid/yt/Production.mp4" type='video/mp4'></source>
+          <source src="/vid/yt/Production-720p.mp4" type='video/mp4'></source>
         </video>
 
         <div id='unmute'>
@@ -39,7 +39,7 @@ const Slider = () => {
 
 
         <div className="navigation">
-          <div  onClick={(e) => vidurl("/vid/yt/Production.mp4",e)}  className="btn active"></div>
+          <div  onClick={(e) => vidurl("/vid/yt/Production-720p.mp4",e)}  className="btn active"></div>
           <div  onClick={(e) => vidurl("/vid/yt/Brand-720p.mp4",e)} className="btn"></div>
         </div>
 
