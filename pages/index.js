@@ -4,7 +4,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Footer from '../comps/Footer'
 import Banner from '../comps/Banner'
+import Slider from '../comps/Slider'
 import observe_nav from '../comps/observe_nav'
+import slide from '../comps/slide'
 import React, { useState, useEffect } from 'react'
 import { Remarkable } from 'remarkable';
 
@@ -26,7 +28,8 @@ export async function getServerSideProps(context) {
 
 export default function Home({ data }) {
   useEffect(() => {
-    observe_nav()
+    observe_nav(),
+    slide()
   })
   var md = new Remarkable();
 
@@ -41,40 +44,8 @@ export default function Home({ data }) {
 
       <Navbar />
 
+      <Slider />
 
-
-      <section id="hero" className="hero-home flex " >
-        <section className="flex flex-1  justify-start align-center content-center items-center    ">
-
-
-          <div className="img-slider flex-1 flex">
-
-            <div id="slide0" className="slide active flex-1 flex flex-col justify-center align-center content-center items-start pl-8 md:pl-16 pr-2">
-              <h1 className=" text-left font-P22Underground-thp text-4xl md:text-6xl font-bold" dangerouslySetInnerHTML={{ __html: data.contentSections[0].text }}></h1>
-              <Link href={`${data.contentSections[1].url}`} >
-                <button className="bg-accent  float-left py-4 px-10 my-10">{data.contentSections[1].text}</button>
-              </Link>
-            </div>
-
-
-            <div className="slide flex-1 flex bg-accent ">
-              <video id="myVid" className="video-container video-container-overlay w-full" controls >
-                <source src="/vid/FINAL ROMEO POWER BF MASTER 360.mp4" type="video/mp4" />
-              </video>
-            </div>
-
-
-
-            <div className="navigation">
-              <div className="btn active"></div>
-              <div className="btn"></div>
-            </div>
-          </div>
-
-
-        </section>
-
-      </section>
 
 
 
