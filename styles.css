@@ -950,6 +950,7 @@ section.hero-vid #unmute{
   bottom: 30px;
   left: 90%;
   transform: translateX(-90%);
+  cursor: pointer;
 }
 
 

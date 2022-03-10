@@ -15,9 +15,9 @@ const Slider = () => {
   function unmute(e) {
      let vid = document.getElementById("slider")
      if(vid.muted){
-      e.target.innerText = 'Mute'
+      e.target.src = '/mute.svg'
      }else {
-      e.target.innerText = 'Unmute'
+      e.target.src = '/high audio.svg'
      }
       vid.muted = !vid.muted
     
@@ -32,11 +32,8 @@ const Slider = () => {
         </video>
 
         <div id='unmute'>
-          <button  
-          onClick={(e) => unmute(e)} 
-          className="bg-accent  float-left py-4 px-14 my-2 text-white">
-            Unmute
-            </button> 
+         
+            <img onClick={(e) => unmute(e)} width="25" src='/high audio.svg'/>
         </div>
 
 
