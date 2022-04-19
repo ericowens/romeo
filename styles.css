@@ -77,7 +77,8 @@ body{
 }
 
 nav{
-  background: transparent;
+  
+  background-color: rgba(79, 122, 50, 0.6);
   position: fixed;
   top: 0;
   left: 0;
@@ -88,7 +89,8 @@ nav{
 }
 
 nav.nav-scrolled{
-  background: #4F7A32;
+
+  background-color: rgba(79, 122, 50, 1.0);
 }
 
 
