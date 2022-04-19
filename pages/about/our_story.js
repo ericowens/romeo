@@ -120,9 +120,9 @@ export default function Home({data}) {
                     <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Romeo Power announces award for first phase of last-mile delivery program </p>
 
 
-                    <h2 className=" text-left font-P22Underground-thp text-4xl font-bold ">February 2022</h2>
-                    <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Romeo Power Completes Acquisition of Joint 
-                    Venture Interest From BorgWarner</p>
+                    <h2 className=" text-left font-P22Underground-thp text-4xl font-bold pt-8 ">February 2022</h2>
+                    <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Romeo Power completes acquisition of joint 
+                    venture interest from BorgWarner</p>
 
 
                    
@@ -147,29 +147,29 @@ export default function Home({data}) {
                   <div className="py-8">
 
                   <h2 className=" text-left font-P22Underground-thp text-4xl font-bold pt-8 ">October 2021</h2>
-                    <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Romeo Power Signs Lease for 215,000 Square Foot 
-                    State-of-the-Art Facility in Southern California</p>
+                    <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Romeo Power signs lease for 215,000 square foot 
+                    state-of-the-art facility in Southern California</p>
 
                     <h2 className=" text-left font-P22Underground-thp text-4xl font-bold pt-8 ">August 2021</h2>
                     <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Romeo Power announces Susan Brennan as CEO</p>
 
                     <h2 className=" text-left font-P22Underground-thp text-4xl font-bold pt-8 ">July 2021</h2>
-                    <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Romeo Power Announces Appointment of Matthew 
+                    <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Romeo Power announces appointment of Matthew 
                     Sant as General Counsel</p>
 
 
                     <h2 className=" text-left font-P22Underground-thp text-4xl font-bold pt-8 ">June 2021</h2>
-                    <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Expansion of Executive Leadership Team With Chief Financial Officer, 
+                    <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Expansion of executive leadership team with Chief Financial Officer, 
                     Kerry Shiba and Chief Accounting Officer, Yun Han</p>
 
                     <h2 className=" text-left font-P22Underground-thp text-4xl font-bold pt-8 ">August 2021</h2>
-                    <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Romeo Power Announces Susan Brennan as New President and Chief 
+                    <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Romeo Power announces Susan Brennan as new President and Chief 
                     Executive Officer</p>
 
                     <h2 className=" text-left font-P22Underground-thp text-4xl font-bold pt-8 ">May 2021</h2>
                     <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Romeo Power appoints VP of Cell Engineering</p>
 
-                    <h2 className=" text-left font-P22Underground-thp text-4xl font-bold ">April 2021</h2>
+                    <h2 className=" text-left font-P22Underground-thp text-4xl font-bold pt-8">April 2021</h2>
                     <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Romeo Power announces long-term supply agreement
                     with PACCAR for Peterbilt EVs</p>
 
@@ -199,7 +199,7 @@ export default function Home({data}) {
 
 
 
-                    <h2 className=" text-left font-P22Underground-thp text-4xl font-bold ">October 2020</h2>
+                    <h2 className=" text-left font-P22Underground-thp text-4xl font-bold pt-8">October 2020</h2>
                     <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Romeo Power announces SPAC merger agreement with
 RMG Acquisition Corp.</p>
 
@@ -219,7 +219,7 @@ RMG Acquisition Corp.</p>
                     <span className="border-r-2 border-black flex-grow-0 h-full w-1"></span>
                   </div>
                   <div className="py-8">
-                                    <h2 className=" text-left font-P22Underground-thp text-4xl font-bold  ">August 2019</h2>
+                                    <h2 className=" text-left font-P22Underground-thp text-4xl font-bold pt-8 ">August 2019</h2>
                     <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Heritage makes a $4M investment in Romeo Power
 through their HG Ventures arm and forms a strategic
 partnership for responsible environmental controls</p>
@@ -251,8 +251,8 @@ packs on the West Coast</p>
 up battery pack production for commercial EVs
 and stationary storage</p>
 
-                    \
-                    <h2 className=" text-left font-P22Underground-thp text-4xl font-bold ">February 2017</h2>
+                    
+                    <h2 className=" text-left font-P22Underground-thp text-4xl font-bold pt-8 ">February 2017</h2>
                     <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Romeo Power expands to new manufacturing
 facility in Southern California</p>
 
@@ -273,7 +273,7 @@ facility in Southern California</p>
                     <span className="border-r-2 border-black flex-grow-0 h-full w-1"></span>
                   </div>
                   <div className="py-8">
-                    <h2 className=" text-left font-P22Underground-thp text-4xl font-bold ">August 2016</h2>
+                    <h2 className=" text-left font-P22Underground-thp text-4xl font-bold pt-8 ">August 2016</h2>
                     <p className=" text-left  flex-1 font-P22Underground-thin text-lg py-4">Romeo Power was founded</p>
                   </div>
                 </div>
