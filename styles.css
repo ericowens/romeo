@@ -88,9 +88,23 @@ nav{
   
 }
 
+nav #subnav{
+ 
+  clear: both;
+  display: flex;
+  justify-content: center;
+  cursor:pointer;
+}
+
+nav #subnav img{
+  width:auto;
+  height: 50px;
+  margin: 10px
+}
+
 nav.nav-scrolled{
 
-  background-color: rgba(79, 122, 50, 1.0);
+  background-color: rgba(79, 122, 50, 1.0)!important;
 }
 
 

@@ -4,6 +4,7 @@ const Navbar = () => {
     return (
         <nav>
              <div className="logo"><Link href="/"><img className="sm:w-full md:w-1/2" src="/logo.png" ></img></Link></div>
+
              <label htmlFor="btn" className="icon">
                 <p className="text-white text-lg leading-loose pt-6">Menu</p>
             </label>
@@ -38,6 +39,19 @@ const Navbar = () => {
            <li><Link href="/media"><a >Media</a></Link></li>
            <li><a target="_blank" href="https://investors.romeopower.com/overview/default.aspx">Investors</a></li>
             </ul>
+            
+            <section id="subnav">
+              
+       
+            <a target="_blank"  href="https://calendly.com/romeopoweract2022/act-meeting?mc_cid=58df7788a8&mc_eid=UNIQID&month=2022-05">
+              <img className="" src="/act.png" ></img>
+              </a>
+            <a target="_blank"  href="https://calendly.com/romeopoweract2022/act-meeting?mc_cid=58df7788a8&mc_eid=UNIQID&month=2022-05"><div>
+                <div className=" text-white  font-P22Underground-thp text-2xl font-bold ">Visit Us! May 9-11</div>
+                <div className="text-white font-P22Underground-thp text-2xl font-bold ">Long Beach, CA | Booth 1632</div>
+              </div>
+             </a>
+            </section>
         </nav>
     );
 }
