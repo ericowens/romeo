@@ -135,14 +135,14 @@ export default function Home({data}) {
                 </div>
                 <div className="flex gap-4 flex-col items-center">
                 <div><img src="/svg/Battery.svg"></img> </div> 
-                  <h2 className="text-4xl font-P22Underground-book">208 Wh/kg</h2>
+                  <h2 className="text-4xl font-P22Underground-book">196 Wh/kg</h2>
                   <p>Energy Density</p>           
                 </div>
                 <div className="flex gap-4 flex-col items-center">
                 <div><img src="/svg/Battery.svg"></img> </div> 
-                  <h2 className="text-4xl font-P22Underground-book">60%</h2>
-                  <p className="text-center">Charge capacity in less<br></br>
-than 30 minutes</p>             
+                  <h2 className="text-4xl font-P22Underground-book">0.5C</h2>
+                  <p className="text-center">Fast Charging<br></br>
+Capacity</p>             
                 </div>
                                
 
