@@ -88,17 +88,18 @@ nav{
   
 }
 
-nav #subnav{
+nav #in_nav{
  
-  clear: both;
+ float: left;
   display: flex;
   justify-content: center;
   cursor:pointer;
+  padding: 8px;
 }
 
-nav #subnav img{
+nav #in_nav img{
   width:auto;
-  height: 50px;
+  height: 40px;
   margin: 10px
 }
 
@@ -121,6 +122,11 @@ nav .logo{
   line-height: 70px;
   padding-left: 60px;
   cursor: pointer;
+
+}
+nav .logo img {
+  height:60px;
+  width: auto;
 }
 nav ul{
   float: right;
