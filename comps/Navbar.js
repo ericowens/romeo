@@ -49,6 +49,7 @@ const Navbar = () => {
             <a target="_blank"  href="https://calendly.com/romeopoweract2022/act-meeting?mc_cid=58df7788a8&mc_eid=UNIQID&month=2022-05"><div>
                 <div className=" text-white  font-P22Underground-thp text-2xl font-bold ">Visit Us! May 9-11</div>
                 <div className="text-white font-P22Underground-thp text-2xl font-bold ">Long Beach, CA | Booth 1631</div>
+                <div className="text-white font-P22Underground-thp text-2xl font-bold ">Schedule a Meeting</div>
               </div>
              </a>
             </section>
