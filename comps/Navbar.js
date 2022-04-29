@@ -43,7 +43,7 @@ const Navbar = () => {
             <section className="flex justify-center flex-col items-center md:flex-row" id="subnav">
               
        
-            <a classtarget="_blank"  href="https://calendly.com/romeopoweract2022/act-meeting?mc_cid=58df7788a8&mc_eid=UNIQID&month=2022-05">
+            <a target="_blank"  href="https://calendly.com/romeopoweract2022/act-meeting?mc_cid=58df7788a8&mc_eid=UNIQID&month=2022-05">
               <img className="" src="/act.png" ></img>
               </a>
             <a target="_blank"  href="https://calendly.com/romeopoweract2022/act-meeting?mc_cid=58df7788a8&mc_eid=UNIQID&month=2022-05"><div>
