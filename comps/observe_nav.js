@@ -6,7 +6,7 @@ const observe_nav = () => {
 
 
     window.addEventListener("scroll", function(e){
-      // console.table(e.target.defaultView.pageYOffset)
+      console.table(e.target.defaultView.pageYOffset)
       if(e.target.defaultView.pageYOffset > 200){
         header.classList.add("nav-scrolled");
       } else {
