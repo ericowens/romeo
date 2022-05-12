@@ -40,7 +40,7 @@ const Navbar = () => {
            <li><a target="_blank" href="https://investors.romeopower.com/overview/default.aspx">Investors</a></li>
             </ul>
             
-            <section className="flex justify-center flex-col items-center md:flex-row" id="subnav">
+            {/* <section className="flex justify-center flex-col items-center md:flex-row" id="subnav">
               
        
             <a target="_blank"  href="https://calendly.com/romeopoweract2022/act-meeting?mc_cid=58df7788a8&mc_eid=UNIQID&month=2022-05">
@@ -52,7 +52,7 @@ const Navbar = () => {
                 <div className="text-white font-P22Underground-thp text-2xl font-bold ">Schedule a Meeting</div>
               </div>
              </a>
-            </section>
+            </section> */}
         </nav>
     );
 }
