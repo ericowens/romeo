@@ -40,19 +40,11 @@ const Navbar = () => {
            <li><a target="_blank" href="https://investors.romeopower.com/overview/default.aspx">Investors</a></li>
             </ul>
             
-            {/* <section className="flex justify-center flex-col items-center md:flex-row" id="subnav">
+           <section style={{backgroundColor: '#033131'}}  className="flex  gap-4 justify-center items-center " id="subnav">
+              <p className="text-lg text-white">Important information about Romeo Power’s Annual Shareholder Meeting.</p>
+              <button href="#" className="bg-accent text-white font-P22Underground-book md:float-left py-4 px-10 my-10">Learn More</button>
               
-       
-            <a target="_blank"  href="https://calendly.com/romeopoweract2022/act-meeting?mc_cid=58df7788a8&mc_eid=UNIQID&month=2022-05">
-              <img className="" src="/act.png" ></img>
-              </a>
-            <a target="_blank"  href="https://calendly.com/romeopoweract2022/act-meeting?mc_cid=58df7788a8&mc_eid=UNIQID&month=2022-05"><div>
-                <div className=" text-white  font-P22Underground-thp text-2xl font-bold ">Visit Us! May 9-11</div>
-                <div className="text-white font-P22Underground-thp text-2xl font-bold ">Long Beach, CA | Booth 1631</div>
-                <div className="text-white font-P22Underground-thp text-2xl font-bold ">Schedule a Meeting</div>
-              </div>
-             </a>
-            </section> */}
+            </section> 
         </nav>
     );
 }
