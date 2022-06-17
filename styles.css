@@ -55,6 +55,12 @@ h3,p{
   color:#3D3D3D;
 }
 
+#subnav p{
+  font-family: 'P22Underground-light' !important;
+  font-weight: normal;
+}
+
+
 h3{
   border-bottom: 2px solid #4F7A32;
 }
