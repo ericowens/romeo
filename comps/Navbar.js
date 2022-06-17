@@ -42,7 +42,7 @@ const Navbar = () => {
             
            <section style={{backgroundColor: '#033131'}}  className="flex  gap-4 justify-center items-center " id="subnav">
               <p className="font-light text-lg text-white">Important information about Romeo Power’s Annual Shareholder Meeting.</p>
-              <button href="#" className="bg-accent text-white font-P22Underground-book md:float-left py-4 px-10 my-10">Learn More</button>
+              <button href="https://investors.romeopower.com/overview/default.aspx" className="bg-accent text-white font-P22Underground-book md:float-left py-4 px-10 my-10">Learn More</button>
               
             </section> 
         </nav>
