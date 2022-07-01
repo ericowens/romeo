@@ -40,14 +40,14 @@ const Navbar = () => {
            <li><a target="_blank" href="https://investors.romeopower.com/overview/default.aspx">Investors</a></li>
             </ul>
             
-           <section style={{backgroundColor: '#033131'}}  className="flex  gap-8 justify-center items-center " id="subnav">
+           {/* <section style={{backgroundColor: '#033131'}}  className="flex  gap-8 justify-center items-center " id="subnav">
               <p className="text-2xl text-white">Important information about Romeo Power’s Annual Shareholder Meeting.</p>
               <a href="http://investors.romeopower.com/Letter" target="_blank" >
               <button style={{backgroundColor: '#033131', border: '2px solid #4F7A32'}} 
               className="uppercase text-xl   text-white font-P22Underground-book md:float-left  p-4 my-10">Learn More</button>
               </a>
               
-            </section> 
+            </section>  */}
         </nav>
     );
 }
