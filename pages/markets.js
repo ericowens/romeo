@@ -81,7 +81,7 @@ export default function Home({data}) {
 
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8 mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
                 {data.contentSections[1].SectionTitle}</h2>
-                <p className=" text-left  font-P22Underground-thin text-lg"
+                <p className=" text-left  font-P22Underground-thin leading-tight"
                 dangerouslySetInnerHTML={{ __html: data.contentSections[1].SectionBody}}>
                   
                     </p>
@@ -113,7 +113,7 @@ export default function Home({data}) {
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
                 {data.contentSections[2].SectionTitle}</h2>
 
-                <p className=" text-left  font-P22Underground-thin text-lg"
+                <p className=" text-left  font-P22Underground-thin leading-tight "
                 dangerouslySetInnerHTML={{ __html: data.contentSections[2].SectionBody}}>
                   
                     </p>
@@ -138,7 +138,7 @@ export default function Home({data}) {
 
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8 mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
                 {data.contentSections[3].SectionTitle}</h2>
-                <p className=" text-left  font-P22Underground-thin text-lg"  dangerouslySetInnerHTML={{ __html: data.contentSections[3].SectionBody}}>
+                <p className=" text-left  font-P22Underground-thin leading-tight"  dangerouslySetInnerHTML={{ __html: data.contentSections[3].SectionBody}}>
                   
                     </p>
 

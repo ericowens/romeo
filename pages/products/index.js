@@ -54,7 +54,7 @@ export default function Home({data}) {
 
       <section className="flex bg-accent justify-center py-16">
 
-        <div className=" flex justify-center align-center content-center p-4  flex-col max-w-screen-lg   ">
+        <div className=" flex justify-center align-center content-center p-4  flex-col max-w-screen-xl w-full   ">
           
             <h2 className=" text-center   flex-1 text-white  font-P22Underground-thp text-5xl font-bold ">
             {data.contentSections[1].SectionTitle}
@@ -68,6 +68,10 @@ export default function Home({data}) {
                 <li className="table-cell" ><img className="align-bottom" src="/Group 71.svg"></img></li>
                 <li className="table-cell" ><img className="align-bottom" src="/Group 70.svg"></img></li>
                 <li className="table-cell" ><img className="align-bottom" src="/Group 69.svg"></img></li>
+                
+                <li className="table-cell" ><img className="align-bottom w-16" src="/72022/ICONS/tractor.png"></img></li>
+                <li className="table-cell" ><img className="align-bottom  w-28" src="/72022/ICONS/boat_icon.png"></img></li>
+                <li className="table-cell" ><img className="align-bottom  w-24" src="/72022/ICONS/jetski.png"></img></li>
                
                 
                
