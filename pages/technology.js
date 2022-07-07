@@ -104,7 +104,7 @@ export default function Home({data}) {
 
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8 mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
                 {data.contentSections[3].SectionTitle}</h2>
-                <p className=" text-left  font-P22Underground-thin text-lg"
+                <p className=" text-left  font-P22Underground-thin   leading-tight"
                 dangerouslySetInnerHTML={{ __html: data.contentSections[3].SectionBody}}>
                   
                     </p>
@@ -112,7 +112,7 @@ export default function Home({data}) {
 
                  
                 </ul>
-                <p className=" text-left  font-P22Underground-book text-lg text-bold py-4"> {data.contentSections[5].text}</p>
+                <p className=" text-left  font-P22Underground-book leading-tight text-bold py-4"> {data.contentSections[5].text}</p>
                 <ul className="list-disc list-outside  py-2 " dangerouslySetInnerHTML={{ __html: data.contentSections[6].List}}>
                  
                 </ul>
@@ -144,12 +144,12 @@ export default function Home({data}) {
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
                 {data.contentSections[7].SectionTitle}</h2>
 
-                <p className=" text-left  font-P22Underground-thin text-lg"
+                <p className=" text-left  font-P22Underground-thin leading-tight"
                 dangerouslySetInnerHTML={{ __html: data.contentSections[7].SectionBody}}>
                   
                     </p>
 
-                <p className=" text-left  font-P22Underground-book text-lg text-bold py-4">{data.contentSections[8].text}</p>
+                <p className=" text-left  font-P22Underground-book leading-tight text-bold py-4">{data.contentSections[8].text}</p>
                 <ul className="list-disc list-outside  py-2 " dangerouslySetInnerHTML={{ __html: data.contentSections[9].List}}>
                   
                 </ul>
@@ -169,11 +169,11 @@ export default function Home({data}) {
 
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8 mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
                 {data.contentSections[10].SectionTitle}</h2>
-                <p className=" text-left  font-P22Underground-thin text-lg"  dangerouslySetInnerHTML={{ __html: data.contentSections[10].SectionBody}}>
+                <p className=" text-left  font-P22Underground-thin leading-tight"  dangerouslySetInnerHTML={{ __html: data.contentSections[10].SectionBody}}>
                   
                     </p>
 
-                <p className=" text-left  font-P22Underground-book text-lg text-bold py-4">{data.contentSections[11].text}</p>
+                <p className=" text-left  font-P22Underground-book leading-tight text-bold py-4">{data.contentSections[11].text}</p>
                 <ul className="list-disc list-outside  py-2 " dangerouslySetInnerHTML={{ __html: data.contentSections[12].List}}>
                  
                 </ul>
@@ -200,7 +200,7 @@ export default function Home({data}) {
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8  mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
                 {data.contentSections[13].SectionTitle}</h2>
 
-                <p className=" text-left  font-P22Underground-thin text-lg" dangerouslySetInnerHTML={{ __html: data.contentSections[13].SectionBody}}></p>
+                <p className=" text-left  font-P22Underground-thin leading-tight" dangerouslySetInnerHTML={{ __html: data.contentSections[13].SectionBody}}></p>
                   
 
 
@@ -220,9 +220,9 @@ export default function Home({data}) {
 
                 <h2 className="border-accent border-b-2 text-left inline-block text-darkcolor pr-8 mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
                 {data.contentSections[14].SectionTitle}</h2>
-                <p className="text-left font-P22Underground-thin text-lg"
+                <p className="text-left font-P22Underground-thin leading-tight"
                 dangerouslySetInnerHTML={{ __html: data.contentSections[14].SectionBody}}></p>
-                <ul className="list-disc list-outside " dangerouslySetInnerHTML={{ __html: data.contentSections[15].List}}>
+                <ul className="list-disc list-outside leading-tight " dangerouslySetInnerHTML={{ __html: data.contentSections[15].List}}>
                   
                 </ul>
 
