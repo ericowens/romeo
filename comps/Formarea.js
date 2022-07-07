@@ -73,15 +73,15 @@ const Formarea = () => {
                   <div className="flex space-x-20">
                     <ul className="flex w-full justify-center gap-16">
                       <li className="flex justify-center items-center  align-center">
-                        <input className="w-auto" type="checkbox" id="market1" name="market1" value="Transportation"/>
+                        <input style={{width:'auto'}} type="checkbox" id="market1" name="market1" value="Transportation"/>
                       <label className="text-white pl-4" htmlFor="market1"> Transportation</label>
                       </li>
                       <li className="flex justify-center items-center  align-center">
-                        <input className="w-auto" type="checkbox" id="market2" name="market2" value="Industrial"/>
+                        <input style={{width:'auto'}} type="checkbox" id="market2" name="market2" value="Industrial"/>
                       <label className="text-white pl-4" htmlFor="market2"> Industrial</label>
                       </li>
                       <li className="flex justify-center items-center  align-center">
-                        <input className="w-auto" type="checkbox" id="market3" name="market3" value="Marine"/>
+                        <input style={{width:'auto'}} type="checkbox" id="market3" name="market3" value="Marine"/>
                       <label className="text-white pl-4" htmlFor="market3"> Marine</label>
                       </li>
                    
