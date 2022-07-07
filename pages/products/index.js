@@ -66,7 +66,7 @@ export default function Home({data}) {
               <li className="table-cell " ><img className="align-bottom" src="/Group 72.svg"></img></li>
                 <li className="table-cell" ><img className="align-bottom" src="/Group 68.svg"></img></li>
                 <li className="table-cell" ><img className="align-bottom" src="/Group 71.svg"></img></li>
-                <li className="table-cell" ><img className="align-bottom" src="/Group 70.svg"></img></li>
+                {/* <li className="table-cell" ><img className="align-bottom" src="/Group 70.svg"></img></li> */}
                 <li className="table-cell" ><img className="align-bottom" src="/Group 69.svg"></img></li>
                 
                 <li className="table-cell" ><img className="align-bottom w-16" src="/72022/ICONS/tractor.png"></img></li>
