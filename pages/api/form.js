@@ -16,8 +16,10 @@ export default function handler(req, res) {
       <br/>Phone:${req.body.phone}
       <br/>Company:${req.body.company}
       <br/>Title:${req.body.title}
-      <br/>Comment:${req.body.comment}`,
+      <br/>Comment:${req.body.comment},
+      <br/>Markets:${req.body.markets}`,
     }
+    // console.log({msg})
     sgMail
     .send(msg)
     .then(() => {

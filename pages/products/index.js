@@ -16,7 +16,7 @@ export async function getServerSideProps(context) {
   let data = await res.json()
   
   
-  console.log(data)
+  // console.log(data)
   // console.log(data.jobs[0].location)
 
   // Pass data to the page via props

@@ -18,6 +18,7 @@ const Formarea = () => {
           phone: event.target.phone.value ?? '-',
           title: event.target.title.value ?? '-',
           comment: event.target.comment.value ?? '-',
+          markets: [event.target.market1.checked ? event.target.market1.value : '',event.target.market2.checked ? event.target.market2.value : '', event.target.market3.checked ? event.target.market3.value : ''],
         }),
         headers: {
           'Content-Type': 'application/json'
@@ -63,6 +64,28 @@ const Formarea = () => {
                     <textarea  name="comment" className="my-4 p-4 form-textarea mt-1 block w-full" rows="3" required
                     placeholder="Please tell us about the types of applications, projected volume over time, and any other details about how you're looking to use our innovative packs. *"></textarea>
                       </div>
+                  </div>
+
+                  <div className="flex space-x-20">
+                    <p className="text-center w-full py-8 text-white">Please check all Markets of interest</p>
+                  </div>
+
+                  <div className="flex space-x-20">
+                    <ul className="flex w-full justify-center gap-16">
+                      <li className="flex justify-center items-center  align-center">
+                        <input className="w-auto" type="checkbox" id="market1" name="market1" value="Transportation"/>
+                      <label className="text-white pl-4" htmlFor="market1"> Transportation</label>
+                      </li>
+                      <li className="flex justify-center items-center  align-center">
+                        <input className="w-auto" type="checkbox" id="market2" name="market2" value="Industrial"/>
+                      <label className="text-white pl-4" htmlFor="market2"> Industrial</label>
+                      </li>
+                      <li className="flex justify-center items-center  align-center">
+                        <input className="w-auto" type="checkbox" id="market3" name="market3" value="Marine"/>
+                      <label className="text-white pl-4" htmlFor="market3"> Marine</label>
+                      </li>
+                   
+                      </ul>
                   </div>
                 
                 <button type="submit" className="bg-accent   py-4 px-14 my-14 text-white">Submit</button>               
