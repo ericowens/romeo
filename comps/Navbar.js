@@ -10,6 +10,7 @@ const Navbar = () => {
             </label>
             <input type="checkbox" id="btn"></input>
             <ul>
+            <li><Link href="/markets"><a >Markets</a></Link></li>
             <li>
           <label htmlFor="btn-1" className="show">Products</label>
           <Link href="/products"><a >Products</a></Link>

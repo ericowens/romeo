@@ -19,7 +19,7 @@ export async function getServerSideProps(context) {
   let data = await res.json()
 
 
-  // console.log(data)
+  console.log(data)
   // console.log(data.jobs[0].location)
 
   // Pass data to the page via props
@@ -72,6 +72,31 @@ export default function Home({ data }) {
       <section className="flex justify-center bg-white py-2">
         <div className="flex max-w-screen-lg  flex-wrap flex-1">
           <div className="flex-1">
+
+
+
+
+
+
+          <div className="flex flex-col md:flex-row gap-8 px-4 py-12">
+
+            <div className="flex-1 md:w-1/2">
+              <img src={`${data.contentSections[9].image.url}`}></img>
+            </div>
+
+            <div className="flex-1 md:w-1/2">
+            <h2 className="border-accent border-b-2 text-left block text-darkcolor pr-8  mb-8  font-P22Underground-thp text-4xl font-bold py-4 ">
+              {data.contentSections[9].SectionTitle}</h2>
+              <p dangerouslySetInnerHTML={{ __html: data.contentSections[9].SectionBody }}></p>
+              <div className="flex"><Link href={`${data.contentSections[10].url}`} >
+                <button className="bg-accent  float-left py-4 px-14 mt-4 text-white">{data.contentSections[10].text}</button>
+              </Link>  </div>
+            </div>
+
+
+
+            </div>
+
 
 
 

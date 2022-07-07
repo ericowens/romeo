@@ -11,7 +11,7 @@ import Formarea from '../../comps/Formarea'
 
 export async function getServerSideProps(context) {
   // Fetch data from external API
-  const uri = `${process.env.NEXT_PUBLIC_ENV_URL}/pages/12`
+  const uri = `${process.env.NEXT_PUBLIC_ENV_URL}/pages/24`
   const res = await fetch(uri)
   let data = await res.json()
   
@@ -108,52 +108,36 @@ export default function Home({data}) {
 
 
 
-          <section  className="small-hero small-hero-orion-1 flex justify-center items-center mt-4" >
-      <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start px-4 py-40 ">
-        <div className=" max-w-screen-lg  ">
-          <div className="">
-              <h2 className="font-P22Underground-thp text-5xl font-bold">{data.contentSections[5].text}</h2>
-              {/* <p className=" text-left text-white flex-1 font-P22Underground-thin text-lg pt-32">
-              [Download Orion Data Sheet]
-                </p> */}
-                             
-            </div>
-        </div>
+         
+      <section className="flex flex-col md:flex-row flex-1 w-full">
+       <div class="w-full md:w-1/2 relative">
+            <img class="filter brightness-50" src="/72022/Menara Packs/Truck3.jpg"></img>
+            <span class="absolute  top-20 right-10 font-P22Underground-thp text-5xl text-white font-bold">Transportation</span>
+       </div>
+       <div class="w-full md:w-1/2"><img class="filter brightness-50" src="/72022/Menara Packs/Van.jpg"></img></div>
+        </section>
+
+        <section className="flex flex-col md:flex-row flex-1 w-full">
+       <div class="w-full md:w-1/2"><img class="filter brightness-50" src="/72022/Menara Packs/Tractor.jpg"></img></div>
+       <div class="w-full md:w-1/2 relative">
+         <img class="filter brightness-50" src="/72022/Menara Packs/dozer.jpg"></img> 
+         <span class=" absolute top-32 left-12  font-P22Underground-thp text-5xl text-white font-bold">Industrial</span>
+         </div>
+        </section>
+
+        <section className="flex flex-col md:flex-row flex-1 w-full">
+       <div class="w-full md:w-1/2 relative">
+         <img class="filter brightness-50" src="/72022/Menara Packs/Boat.jpg"></img>
+         <span class="absolute  top-72 right-10 font-P22Underground-thp text-white text-5xl font-bold">Marine</span>
+         </div>
+       <div class="w-full md:w-1/2"><img class="filter brightness-50" src="/72022/Menara Packs/jetski.jpg"></img></div>
         </section>
         
-      </section>
 
 
 
-      <section  className="small-hero small-hero-orion-2 flex justify-center items-center mt-4" >
-      <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start px-4 py-40 ">
-        <div className=" max-w-screen-lg  ">
-          <div className="">
-              <h2 className="font-P22Underground-thp text-5xl font-bold">{data.contentSections[6].text}</h2>
-              {/* <p className=" text-left text-white flex-1 font-P22Underground-thin text-lg pt-32">
-              [Download Orion Data Sheet]
-                </p> */}
-                             
-            </div>
-        </div>
-        </section>
-        
-      </section>
 
-      <section  className="small-hero small-hero-orion-3 flex justify-center items-center mt-4" >
-      <section className="flex flex-1  max-w-screen-lg justify-start items-start align-start px-4 py-40 ">
-        <div className=" max-w-screen-lg  ">
-          <div className="">
-              <h2 className="font-P22Underground-thp text-5xl font-bold">{data.contentSections[7].text}</h2>
-              {/* <p className=" text-left text-white flex-1 font-P22Underground-thin text-lg pt-32">
-              [Download Orion Data Sheet]
-                </p> */}
-                             
-            </div>
-        </div>
-        </section>
-        
-      </section>
+     
       
 
 
@@ -163,7 +147,7 @@ export default function Home({data}) {
             <div className="flex-1">
               <div className=" pb-8 ">
               <h2 className=" text-center block text-darkcolor pr-8  font-P22Underground-thp text-4xl font-bold pt-4 ">
-              {data.contentSections[8].text}</h2>
+              {data.contentSections[5].text}</h2>
               </div>
 
               
@@ -173,31 +157,31 @@ export default function Home({data}) {
                   <div className="w-full flex items-center justify-center content-center">
                     <img width="190" src="/svg/icon-battery-02.svg"></img>
                     </div> 
-                  <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">{data.contentSections[9].SectionTitle}</h4>
-                  <p dangerouslySetInnerHTML={{ __html: data.contentSections[9].SectionBody}}></p>          
+                  <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">{data.contentSections[6].SectionTitle}</h4>
+                  <p dangerouslySetInnerHTML={{ __html: data.contentSections[6].SectionBody}}></p>          
                 </div>
 
 
                 <div className="w-full md:w-1/3 flex gap-4 flex-col items-start">
                 <div className="w-full flex items-center justify-center content-center">
                   <img width="190" src="/svg/icon-bms.svg"></img> </div> 
-                  <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">{data.contentSections[10].SectionTitle}</h4>
-                  <p dangerouslySetInnerHTML={{ __html: data.contentSections[10].SectionBody}}></p>            
+                  <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">{data.contentSections[7].SectionTitle}</h4>
+                  <p dangerouslySetInnerHTML={{ __html: data.contentSections[7].SectionBody}}></p>            
                 </div>
 
                 <div className="w-full md:w-1/3 flex gap-4 flex-col items-start">
                 <div className="w-full flex items-center justify-center content-center">
                   <img width="190" src="/svg/icon-sensor.svg"></img> </div> 
-                  <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">{data.contentSections[11].SectionTitle}</h4>
-                  <p dangerouslySetInnerHTML={{ __html: data.contentSections[11].SectionBody}}></p>       
+                  <h4 className="text-xl font-P22Underground-book text-gray-500 text-left">{data.contentSections[8].SectionTitle}</h4>
+                  <p dangerouslySetInnerHTML={{ __html: data.contentSections[8].SectionBody}}></p>       
                 </div>
                                
 
               </div>
               
-              <p className="text-center md:text-left  font-P22Underground-thin text-lg pt-8"><a target="_blank" href={`${data.contentSections[12].url}`}>
+              <p className="text-center md:text-left  font-P22Underground-thin text-lg pt-8"><a target="_blank" href={`${data.contentSections[9].url}`}>
                
-               <button className="bg-accent text-white font-P22Underground-book md:float-left py-4 px-10 my-10">{data.contentSections[12].text}</button>
+               <button className="bg-accent text-white font-P22Underground-book md:float-left py-4 px-10 my-10">{data.contentSections[9].text}</button>
                </a>
                </p>
 

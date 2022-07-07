@@ -198,6 +198,9 @@ nav .show,nav .icon,nav input{
   margin-left: 40px;
 }
 
+
+
+
 @media all and (max-width: 750px) {
   #footer{
     /* padding:25px 0; */
@@ -357,6 +360,11 @@ nav .show,nav .icon,nav input{
 #hero.hero-about-leadership{ 
   background-image:linear-gradient(rgba(0, 0, 0, 0.5),
   rgba(0, 0, 0, 0.5)),url(/new-Leadership.jpg);
+  
+}
+
+#hero.hero-markets {
+  background-image:url(/72022/Markets/Markets_Header.jpg);
   
 }
 
