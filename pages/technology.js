@@ -58,7 +58,7 @@ export default function Home({data}) {
         <div className="flex max-w-screen-lg  flex-wrap flex-1">
           <div className="flex-1">
 
-            <p className="font-P22Underground-thp text-2xl font-bold  text-left p-4" dangerouslySetInnerHTML={{ __html: data.contentSections[1].List}}>
+            <p className="font-P22Underground-thp text-xl font-bold  text-left p-4" dangerouslySetInnerHTML={{ __html: data.contentSections[1].List}}>
               </p>
 
           </div>
