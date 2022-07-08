@@ -62,20 +62,26 @@ export default function Home({data}) {
               <p className=" text-center text-white flex-1 font-P22Underground-thin text-lg py-4" dangerouslySetInnerHTML={{ __html: data.contentSections[1].SectionBody}}>
                 </p>
             
-              <ul className="hidden md:table  flex-1 py-4 ">
-              <li className="table-cell " ><img className="align-bottom" src="/Group 72.svg"></img></li>
+              {/* <ul className="hidden md:table  flex-1 py-4 ">
+                <li className="table-cell " ><img className="align-bottom" src="/Group 72.svg"></img></li>
                 <li className="table-cell" ><img className="align-bottom" src="/Group 68.svg"></img></li>
                 <li className="table-cell" ><img className="align-bottom" src="/Group 71.svg"></img></li>
-                {/* <li className="table-cell" ><img className="align-bottom" src="/Group 70.svg"></img></li> */}
                 <li className="table-cell" ><img className="align-bottom" src="/Group 69.svg"></img></li>
                 
                 <li className="table-cell" ><img className="align-bottom w-16" src="/72022/ICONS/tractor.png"></img></li>
                 <li className="table-cell" ><img className="align-bottom  w-28" src="/72022/ICONS/boat_icon.png"></img></li>
-                <li className="table-cell" ><img className="align-bottom  w-24" src="/72022/ICONS/jetski.png"></img></li>
-               
-                
-               
-                </ul>
+                <li className="table-cell" ><img className="align-bottom  w-24" src="/72022/ICONS/jetski.png"></img></li>         
+               </ul> */}
+
+              <ul className="hidden md:flex  justify-between flex-1 py-4 ">
+                <li className=" " ><img className="align-bottom" src="/Group 72.svg"></img></li>
+                <li className="" ><img className="align-bottom" src="/Group 68.svg"></img></li>
+                <li className="" ><img className="align-bottom" src="/Group 71.svg"></img></li>
+                <li className="" ><img className="align-bottom" src="/Group 69.svg"></img></li>
+                <li className="" ><img className="align-bottom w-16" src="/72022/ICONS/tractor.png"></img></li>
+                <li className="" ><img className="align-bottom  w-28" src="/72022/ICONS/boat_icon.png"></img></li>
+                <li className="" ><img className="align-bottom  w-24" src="/72022/ICONS/jetski.png"></img></li>
+              </ul>
             
                       
         </div>
