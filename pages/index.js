@@ -101,7 +101,7 @@ export default function Home({ data }) {
 
 
 
-            <div className="flex flex-col md:flex-row gap-8 px-4 py-12">
+            <div className="flex  flex-col-reverse md md:flex-row gap-8 px-4 py-12">
 
 
 
@@ -153,7 +153,7 @@ export default function Home({ data }) {
 
 
 
-            <div className="flex flex-col md:flex-row gap-8 px-4 py-12">
+            <div className="flex flex-col-reverse md:flex-row gap-8 px-4 py-12">
 
 
 
