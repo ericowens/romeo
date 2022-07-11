@@ -73,13 +73,13 @@ export default function Home({data}) {
                 <li className="table-cell" ><img className="align-bottom  w-24" src="/72022/ICONS/jetski.png"></img></li>         
                </ul> */}
 
-              <ul className="hidden md:flex  justify-between flex-1 py-4 ">
+              <ul className="hidden md:flex  justify-between flex-1 py-4 px-8 ">
                 <li className="flex" ><img className="align-bottom" src="/Group 72.svg"></img></li>
-                <li className="flex" ><img className="align-bottom  h-auto w-24" src="/72022/ICONS/box.svg"></img></li>
+                <li className="flex" ><img className="align-bottom  h-auto w-32" src="/72022/ICONS/box.svg"></img></li>
                 {/* <li className="flex" ><img className="align-bottom" src="/Group 68.svg"></img></li> */}
                 <li className="flex" ><img className="align-bottom" src="/Group 71.svg"></img></li>
                 <li className="flex" ><img className="align-bottom" src="/Group 69.svg"></img></li>
-                <li className="flex" ><img className="align-bottom h-auto w-16" src="/72022/ICONS/tractor.png"></img></li>
+                <li className="flex" ><img className="align-bottom h-auto w-20" src="/72022/ICONS/tractor.png"></img></li>
                 <li className="flex" ><img className="align-bottom  h-auto w-28" src="/72022/ICONS/boat_icon.png"></img></li>
                 <li className="flex" ><img className="align-bottom  h-auto w-24" src="/72022/ICONS/jetski.png"></img></li>
                

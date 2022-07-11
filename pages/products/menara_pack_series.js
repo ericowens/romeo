@@ -112,7 +112,7 @@ export default function Home({data}) {
       <section className="flex flex-col md:flex-row flex-1 w-full">
        <div class="w-full md:w-1/2 relative">
             <img class="filter brightness-60" src="/72022/Menara Packs/Truck3.jpg"></img>
-            <span style={{'text-shadow': '0 0 2px #000, 0 0 2px #000'}} class="absolute top-1/2 pl-8 md:pl-0 	  md:top-20 md:right-10 font-P22Underground-thp text-5xl text-white font-bold">Transportation</span>
+            <span  class="absolute top-1/2 pl-8 md:pl-0 	  md:top-10 md:left-10 font-P22Underground-thp text-5xl text-white font-bold">Transportation</span>
        </div>
        <div class="w-full md:w-1/2  hidden md:block"><img class="filter brightness-60" src="/72022/Menara Packs/Van.jpg"></img></div>
         </section>
@@ -121,14 +121,14 @@ export default function Home({data}) {
        <div class="w-full md:w-1/2  hidden md:block"><img class="filter brightness-60" src="/72022/Menara Packs/Tractor.jpg"></img></div>
        <div class="w-full md:w-1/2 relative">
          <img class="filter brightness-60" src="/72022/Menara Packs/dozer.jpg"></img> 
-         <span style={{'text-shadow': '0 0 2px #000, 0 0 2px #000'}} class=" absolute top-1/2 pl-8 md:pl-0 md:top-32 md:left-12  font-P22Underground-thp text-5xl text-white font-bold">Industrial</span>
+         <span  class=" absolute top-1/2 pl-8 md:pl-0 md:top-12 md:right-12  font-P22Underground-thp text-5xl text-white font-bold">Industrial</span>
          </div>
         </section>
 
         <section className="flex flex-col md:flex-row flex-1 w-full">
        <div class="w-full md:w-1/2 relative">
          <img class="filter brightness-60" src="/72022/Menara Packs/Boat.jpg"></img>
-         <span style={{'text-shadow': '0 0 2px #000, 0 0 2px #000'}} class="absolute top-1/2 pl-8 md:pl-0  md:top-72 md:right-10 font-P22Underground-thp text-white text-5xl font-bold">Marine</span>
+         <span  class="absolute top-1/2 pl-8 md:pl-0  md:top-10 md:left-10 font-P22Underground-thp text-white text-5xl font-bold">Marine</span>
          </div>
        <div class="w-full md:w-1/2 hidden md:block"><img class="filter brightness-60" src="/72022/Menara Packs/jetski.jpg"></img></div>
         </section>
