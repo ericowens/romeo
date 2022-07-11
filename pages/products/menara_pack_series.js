@@ -128,7 +128,7 @@ export default function Home({data}) {
         <section className="flex flex-col md:flex-row flex-1 w-full">
        <div class="w-full md:w-1/2 relative">
          <img class="filter brightness-60" src="/72022/Menara Packs/Boat.jpg"></img>
-         <span  class="absolute top-1/2 pl-8 md:pl-0  md:top-10 md:left-10 font-P22Underground-thp text-white text-5xl font-bold">Marine</span>
+         <span  class="absolute top-3/4 pl-8 md:pl-0  md:top-10 md:left-10 font-P22Underground-thp text-white text-5xl font-bold">Marine</span>
          </div>
        <div class="w-full md:w-1/2 hidden md:block"><img class="filter brightness-60" src="/72022/Menara Packs/jetski.jpg"></img></div>
         </section>
